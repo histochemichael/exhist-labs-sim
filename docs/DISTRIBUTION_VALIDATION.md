@@ -21,6 +21,7 @@ This is a new run, not the author's earlier restored-final-state report. Machine
 - **8/8** `test_lab_rail_loop` integration guards passed against the fresh report.
 - **12/12** equipment-access failure guards, Nori posture and machine-glazing tests passed in the separate MuJoCo 3.12.0 environment. The nominal six full access cycles were not rerun as part of this packaging pass.
 - Main XMLs and controller startup compile/run in the portable copy.
+- A clean local Git clone of commit `091cfd7` restored all three compressed files, compiled all three main models and initialized the live controller successfully. No author-specific mesh path was needed. This checks clone portability, not a fresh operating-system dependency installation.
 - All non-path XML parameters, referenced resource bytes and 420 numerical model arrays per scene are compared with the author copy. Resource path buffers and derived convex-hull representations are excluded from bitwise array comparisons and recorded explicitly.
 - CAD/trace gzip archives are decompressed and SHA-256 checked.
 - README image/file links are checked locally; actual rendered station/asset images are visually reviewed.
