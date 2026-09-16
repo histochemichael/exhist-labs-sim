@@ -1,0 +1,63 @@
+{
+  "targeted_tests_passed": 10,
+  "baseline_comparison": [
+    {
+      "lift_m": 0.25,
+      "measurements": {
+        "bench_top_m": 0.8,
+        "shoulder_height_m": 0.7659107,
+        "shoulder_above_bench_m": -0.03408929999999999,
+        "lift_m": 0.25
+      },
+      "existing_proxy_contacts": {
+        "routine_a_EST_DRAWER_SLIDER_pull_left / routine_a_workstation_envelope": -0.012284991999999995,
+        "routine_a_EST_DRAWER_SLIDER_pull_right / routine_a_workstation_envelope": -0.012284991999999995,
+        "routine_a_TS5025_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_TS5025_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_UNLOAD_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_UNLOAD_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_LOAD_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_LOAD_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_b_EST_DRAWER_SLIDER_pull_left / routine_b_workstation_envelope": -0.012284991999999995,
+        "routine_b_EST_DRAWER_SLIDER_pull_right / routine_b_workstation_envelope": -0.012284991999999995,
+        "routine_b_TS5025_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_TS5025_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_UNLOAD_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_UNLOAD_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_LOAD_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_LOAD_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983
+      }
+    },
+    {
+      "lift_m": 0.55,
+      "measurements": {
+        "bench_top_m": 0.8,
+        "shoulder_height_m": 1.0659107,
+        "shoulder_above_bench_m": 0.26591070000000006,
+        "lift_m": 0.55
+      },
+      "existing_proxy_contacts": {
+        "routine_a_EST_DRAWER_SLIDER_pull_left / routine_a_workstation_envelope": -0.012284991999999995,
+        "routine_a_EST_DRAWER_SLIDER_pull_right / routine_a_workstation_envelope": -0.012284991999999995,
+        "routine_a_TS5025_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_TS5025_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_UNLOAD_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_UNLOAD_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_LOAD_DRAWER_OPEN_mm_pull_left / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_a_LOAD_DRAWER_OPEN_mm_pull_right / routine_a_workstation_envelope": -0.004284999999999983,
+        "routine_b_EST_DRAWER_SLIDER_pull_left / routine_b_workstation_envelope": -0.012284991999999995,
+        "routine_b_EST_DRAWER_SLIDER_pull_right / routine_b_workstation_envelope": -0.012284991999999995,
+        "routine_b_TS5025_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_TS5025_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_UNLOAD_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_UNLOAD_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_LOAD_DRAWER_OPEN_mm_pull_left / routine_b_workstation_envelope": -0.004284999999999983,
+        "routine_b_LOAD_DRAWER_OPEN_mm_pull_right / routine_b_workstation_envelope": -0.004284999999999983
+      }
+    }
+  ],
+  "legacy_collision_sweep_passed": false,
+  "all_flagged_pairs_identical_at_old_and_new_height": true,
+  "new_robot_environment_collision_pairs": [],
+  "scope": "Height geometry/startup regression only. Legacy broad collision sweep still fails on unchanged Leica pull-versus-solid-machine-envelope contacts. No collider masks weakened."
+}

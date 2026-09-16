@@ -1,0 +1,761 @@
+{
+  "minimum_rail_clearance_m": 0.050973475287984196,
+  "max_rail_contact_N": 0.0,
+  "passed": true,
+  "failure": null,
+  "phase": "VERIFY",
+  "requested_hops": 11,
+  "completed_transfers": [
+    {
+      "source": 1,
+      "destination": 2,
+      "time_s": 28.364000000011682,
+      "rack_xyz": [
+        -0.26990251653877984,
+        0.012674725627871855,
+        -0.06540556626196962
+      ],
+      "support_force_N": 1.422449999953369,
+      "lateral_error_m": 0.000425342649563071
+    },
+    {
+      "source": 2,
+      "destination": 3,
+      "time_s": 55.73299999996081,
+      "rack_xyz": [
+        -0.26990291371233194,
+        0.1026762869562433,
+        -0.0654055664256197
+      ],
+      "support_force_N": 1.4224499999487925,
+      "lateral_error_m": 0.0004395145128829031
+    },
+    {
+      "source": 3,
+      "destination": 4,
+      "time_s": 83.09600000003272,
+      "rack_xyz": [
+        -0.26990211325470315,
+        0.1926751036648053,
+        -0.06540556655565657
+      ],
+      "support_force_N": 1.4224499999486278,
+      "lateral_error_m": 0.00044687267427772
+    },
+    {
+      "source": 4,
+      "destination": 5,
+      "time_s": 126.20600000023856,
+      "rack_xyz": [
+        0.26970023761499345,
+        0.21296890222052003,
+        -0.06540557172109232
+      ],
+      "support_force_N": 1.422449999458002,
+      "lateral_error_m": 0.0005144474732924071
+    },
+    {
+      "source": 5,
+      "destination": 6,
+      "time_s": 153.5660000003692,
+      "rack_xyz": [
+        0.26969874025056123,
+        0.12297371151959413,
+        -0.06540557206787719
+      ],
+      "support_force_N": 1.4224499994339952,
+      "lateral_error_m": 0.0005220245379384337
+    },
+    {
+      "source": 6,
+      "destination": 7,
+      "time_s": 180.92600000049984,
+      "rack_xyz": [
+        0.2696994027539618,
+        0.032969327023749696,
+        -0.06540557160892453
+      ],
+      "support_force_N": 1.422449999474797,
+      "lateral_error_m": 0.000518383220532776
+    },
+    {
+      "source": 7,
+      "destination": 8,
+      "time_s": 208.28600000063048,
+      "rack_xyz": [
+        0.2696994152735913,
+        -0.05702876905481215,
+        -0.06540557182215169
+      ],
+      "support_force_N": 1.422449999454723,
+      "lateral_error_m": 0.0005187511604873
+    },
+    {
+      "source": 8,
+      "destination": 9,
+      "time_s": 234.52100000075575,
+      "rack_xyz": [
+        0.1978964849746702,
+        -0.2508123489746715,
+        -0.06540557046647381
+      ],
+      "support_force_N": 1.4224499995806905,
+      "lateral_error_m": 0.0005133059465173046
+    },
+    {
+      "source": 9,
+      "destination": 10,
+      "time_s": 260.75900000074574,
+      "rack_xyz": [
+        0.010040146420833056,
+        -0.3370668878685921,
+        -0.06540556746397083
+      ],
+      "support_force_N": 1.4224499998558968,
+      "lateral_error_m": 0.0004747510300823128
+    },
+    {
+      "source": 10,
+      "destination": 11,
+      "time_s": 287.00400000012513,
+      "rack_xyz": [
+        -0.18374980790179493,
+        -0.26516396054927505,
+        -0.06540556642155863
+      ],
+      "support_force_N": 1.4224499999555291,
+      "lateral_error_m": 0.0004297283187056219
+    },
+    {
+      "source": 11,
+      "destination": 1,
+      "time_s": 313.2489999995045,
+      "rack_xyz": [
+        -0.2698604016285818,
+        -0.07732340116039924,
+        -0.06540556605334363
+      ],
+      "support_force_N": 1.4224499999535607,
+      "lateral_error_m": 0.00040976261588287404
+    }
+  ],
+  "max_slip_m": 0.0017713392293203349,
+  "max_rack_container_force_N": 0.0,
+  "max_jaw_container_force_N": 0.0,
+  "max_arm_container_force_N": 0.0,
+  "max_penetration_m": 0.00017999526676176932,
+  "minimum_transfer_clearance_m": 0.04106741088334213,
+  "dt": 0.001,
+  "events": [
+    {
+      "phase": "SETTLE",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 1.0010000000000006
+    },
+    {
+      "phase": "APPROACH",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 4.0029999999996715
+    },
+    {
+      "phase": "CLOSE",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 6.00400000000034
+    },
+    {
+      "phase": "PROBE",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 7.505000000000841
+    },
+    {
+      "phase": "LIFT",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 11.006999999999339
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 17.75899999999872
+    },
+    {
+      "phase": "HOVER",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 18.759999999999945
+    },
+    {
+      "phase": "LOWER",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 23.561000000005812
+    },
+    {
+      "phase": "RELEASE",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 25.062000000007647
+    },
+    {
+      "phase": "RETREAT",
+      "source": 1,
+      "destination": 2,
+      "end_time_s": 27.563000000010703
+    },
+    {
+      "phase": "APPROACH",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 31.36500000001535
+    },
+    {
+      "phase": "CLOSE",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 33.367000000012936
+    },
+    {
+      "phase": "PROBE",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 34.869000000009436
+    },
+    {
+      "phase": "LIFT",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 38.371000000001274
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 45.12299999998554
+    },
+    {
+      "phase": "HOVER",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 46.1249999999832
+    },
+    {
+      "phase": "LOWER",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 50.92699999997201
+    },
+    {
+      "phase": "RELEASE",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 52.42899999996851
+    },
+    {
+      "phase": "RETREAT",
+      "source": 2,
+      "destination": 3,
+      "end_time_s": 54.93099999996268
+    },
+    {
+      "phase": "APPROACH",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 58.734999999953814
+    },
+    {
+      "phase": "CLOSE",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 60.73699999994915
+    },
+    {
+      "phase": "PROBE",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 62.23899999994565
+    },
+    {
+      "phase": "LIFT",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 65.73999999994984
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 72.49099999998208
+    },
+    {
+      "phase": "HOVER",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 73.49199999998686
+    },
+    {
+      "phase": "LOWER",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 78.29300000000978
+    },
+    {
+      "phase": "RELEASE",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 79.79400000001695
+    },
+    {
+      "phase": "RETREAT",
+      "source": 3,
+      "destination": 4,
+      "end_time_s": 82.29500000002889
+    },
+    {
+      "phase": "APPROACH",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 86.09700000004705
+    },
+    {
+      "phase": "CLOSE",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 88.0980000000566
+    },
+    {
+      "phase": "PROBE",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 89.59900000006377
+    },
+    {
+      "phase": "LIFT",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 93.10000000008048
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 115.60100000018792
+    },
+    {
+      "phase": "HOVER",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 116.6020000001927
+    },
+    {
+      "phase": "LOWER",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 121.40300000021563
+    },
+    {
+      "phase": "RELEASE",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 122.9040000002228
+    },
+    {
+      "phase": "RETREAT",
+      "source": 4,
+      "destination": 5,
+      "end_time_s": 125.40500000023474
+    },
+    {
+      "phase": "APPROACH",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 129.2070000002529
+    },
+    {
+      "phase": "CLOSE",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 131.20800000026244
+    },
+    {
+      "phase": "PROBE",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 132.7090000002696
+    },
+    {
+      "phase": "LIFT",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 136.21000000028633
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 142.96100000031856
+    },
+    {
+      "phase": "HOVER",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 143.96200000032334
+    },
+    {
+      "phase": "LOWER",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 148.76300000034627
+    },
+    {
+      "phase": "RELEASE",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 150.26400000035343
+    },
+    {
+      "phase": "RETREAT",
+      "source": 5,
+      "destination": 6,
+      "end_time_s": 152.76500000036538
+    },
+    {
+      "phase": "APPROACH",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 156.56700000038353
+    },
+    {
+      "phase": "CLOSE",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 158.56800000039308
+    },
+    {
+      "phase": "PROBE",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 160.06900000040025
+    },
+    {
+      "phase": "LIFT",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 163.57000000041697
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 170.3210000004492
+    },
+    {
+      "phase": "HOVER",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 171.32200000045398
+    },
+    {
+      "phase": "LOWER",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 176.1230000004769
+    },
+    {
+      "phase": "RELEASE",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 177.62400000048407
+    },
+    {
+      "phase": "RETREAT",
+      "source": 6,
+      "destination": 7,
+      "end_time_s": 180.12500000049602
+    },
+    {
+      "phase": "APPROACH",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 183.92700000051417
+    },
+    {
+      "phase": "CLOSE",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 185.92800000052372
+    },
+    {
+      "phase": "PROBE",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 187.4290000005309
+    },
+    {
+      "phase": "LIFT",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 190.9300000005476
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 197.68100000057984
+    },
+    {
+      "phase": "HOVER",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 198.68200000058462
+    },
+    {
+      "phase": "LOWER",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 203.48300000060755
+    },
+    {
+      "phase": "RELEASE",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 204.9840000006147
+    },
+    {
+      "phase": "RETREAT",
+      "source": 7,
+      "destination": 8,
+      "end_time_s": 207.48500000062666
+    },
+    {
+      "phase": "APPROACH",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 211.2870000006448
+    },
+    {
+      "phase": "CLOSE",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 213.28800000065436
+    },
+    {
+      "phase": "PROBE",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 214.78900000066153
+    },
+    {
+      "phase": "LIFT",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 218.29000000067825
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 223.9160000007051
+    },
+    {
+      "phase": "HOVER",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 224.9170000007099
+    },
+    {
+      "phase": "LOWER",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 229.71800000073281
+    },
+    {
+      "phase": "RELEASE",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 231.21900000073998
+    },
+    {
+      "phase": "RETREAT",
+      "source": 8,
+      "destination": 9,
+      "end_time_s": 233.72000000075192
+    },
+    {
+      "phase": "APPROACH",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 237.52200000077008
+    },
+    {
+      "phase": "CLOSE",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 239.52300000077963
+    },
+    {
+      "phase": "PROBE",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 241.0240000007868
+    },
+    {
+      "phase": "LIFT",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 244.52500000080352
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 250.15100000083038
+    },
+    {
+      "phase": "HOVER",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 251.15200000083516
+    },
+    {
+      "phase": "LOWER",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 255.95300000085808
+    },
+    {
+      "phase": "RELEASE",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 257.4550000008239
+    },
+    {
+      "phase": "RETREAT",
+      "source": 9,
+      "destination": 10,
+      "end_time_s": 259.9570000007647
+    },
+    {
+      "phase": "APPROACH",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 263.76100000067476
+    },
+    {
+      "phase": "CLOSE",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 265.7630000006274
+    },
+    {
+      "phase": "PROBE",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 267.2650000005919
+    },
+    {
+      "phase": "LIFT",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 270.7670000005091
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 276.394000000376
+    },
+    {
+      "phase": "HOVER",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 277.39600000035233
+    },
+    {
+      "phase": "LOWER",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 282.1980000002388
+    },
+    {
+      "phase": "RELEASE",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 283.70000000020326
+    },
+    {
+      "phase": "RETREAT",
+      "source": 10,
+      "destination": 11,
+      "end_time_s": 286.2020000001441
+    },
+    {
+      "phase": "APPROACH",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 290.00600000005414
+    },
+    {
+      "phase": "CLOSE",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 292.0080000000068
+    },
+    {
+      "phase": "PROBE",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 293.5099999999713
+    },
+    {
+      "phase": "LIFT",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 297.0119999998885
+    },
+    {
+      "phase": "TRANSFER",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 302.6389999997554
+    },
+    {
+      "phase": "HOVER",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 303.6409999997317
+    },
+    {
+      "phase": "LOWER",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 308.44299999961817
+    },
+    {
+      "phase": "RELEASE",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 309.94499999958265
+    },
+    {
+      "phase": "RETREAT",
+      "source": 11,
+      "destination": 1,
+      "end_time_s": 312.4469999995235
+    }
+  ],
+  "simulated_seconds": 313.2489999995045,
+  "scope": "Full 270mm MODELED stroke, not the full extrusion length. Far-side crossover passes above the rail, not a continuous 360deg orbit around its physical ends. Existing hardware limits unchanged.",
+  "joint_limit_violations": [],
+  "rail_actual_range_m": [
+    -0.060000191937701744,
+    0.21000106412333105
+  ],
+  "rail_start_m": -0.059999951225180086,
+  "rail_end_m": -0.059984940142374966,
+  "rail_peak_speed_m_s": 0.01963279406427188
+}

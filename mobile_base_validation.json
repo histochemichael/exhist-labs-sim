@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "phase": "COMPLETE",
+  "seconds": 22.31799999999851,
+  "pose": [
+    0.4495523345915528,
+    0.3380719045396244,
+    -0.00017214338602393123
+  ],
+  "yaw_rad": 1.5458832045798117,
+  "max_tilt_deg": 0.05259860733896222,
+  "max_lateral_velocity_mps": 0.002447226379671845,
+  "actuator_peak_effort": {
+    "lehisto_grip": {
+      "value": 0.20705023264647987,
+      "unit": "N"
+    },
+    "left_wheel_motor": {
+      "value": 1.5,
+      "unit": "Nm"
+    },
+    "right_wheel_motor": {
+      "value": 1.5,
+      "unit": "Nm"
+    },
+    "hold_left_shoulder_pitch_joint": {
+      "value": 0.0031886142977529076,
+      "unit": "Nm"
+    },
+    "hold_left_shoulder_roll_joint": {
+      "value": 3.876196132188077,
+      "unit": "Nm"
+    },
+    "hold_left_bicep_yaw_joint": {
+      "value": 0.0031732791722045746,
+      "unit": "Nm"
+    },
+    "hold_left_elbow_pitch_joint": {
+      "value": 0.46725511416676124,
+      "unit": "Nm"
+    },
+    "hold_left_forearm_yaw_joint": {
+      "value": 0.0025335090659325933,
+      "unit": "Nm"
+    },
+    "hold_left_wrist_pitch_joint": {
+      "value": 0.10439229103956534,
+      "unit": "Nm"
+    },
+    "hold_left_wrist_roll_joint": {
+      "value": 0.07084015376434076,
+      "unit": "Nm"
+    },
+    "hold_right_shoulder_pitch_joint": {
+      "value": 0.2551602299247444,
+      "unit": "Nm"
+    },
+    "hold_right_shoulder_roll_joint": {
+      "value": 4.0,
+      "unit": "Nm"
+    },
+    "hold_right_bicep_yaw_joint": {
+      "value": 0.2550908575771548,
+      "unit": "Nm"
+    },
+    "hold_right_elbow_pitch_joint": {
+      "value": 0.5698339490434098,
+      "unit": "Nm"
+    },
+    "hold_right_forearm_yaw_joint": {
+      "value": 0.2550182079682752,
+      "unit": "Nm"
+    },
+    "hold_right_wrist_pitch_joint": {
+      "value": 0.13870285146201028,
+      "unit": "Nm"
+    },
+    "hold_right_wrist_roll_joint": {
+      "value": 0.02989543961022647,
+      "unit": "Nm"
+    },
+    "hold_left_gripper": {
+      "value": 0.10107944478581564,
+      "unit": "Nm"
+    }
+  },
+  "motors_enabled": true,
+  "final_linear_speed_mps": 2.8297294261405713e-08,
+  "final_yaw_speed_radps": 6.086471545937067e-07,
+  "events": [
+    {
+      "t": 16.88400000000152,
+      "target": 0,
+      "position": [
+        0.4388215968142181,
+        -0.0030414641406820483,
+        -0.0001721452421864317
+      ],
+      "yaw": 1.5458606040899467
+    },
+    {
+      "t": 21.313999999999066,
+      "target": 1,
+      "position": [
+        0.44954824635147894,
+        0.3380355634277451,
+        -0.00017043719300849036
+      ],
+      "yaw": 1.5458076237159495
+    }
+  ],
+  "base_pose_commands_after_initialization": 0,
+  "limitations": [
+    "Isolated mobility test, not lab navigation or a carrier transfer.",
+    "Lift held by explicit test brake; brake capability unverified.",
+    "10 kg chassis inertia, ball-caster dynamics and 1.5 Nm wheel limits are assumptions.",
+    "Arm servos retain imported 4 Nm caps; collision/actuator calibration is incomplete."
+  ]
+}

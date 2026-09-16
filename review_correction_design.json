@@ -1,0 +1,22 @@
+{
+  "jars": {
+    "count": 11,
+    "pitch_m": 0.062,
+    "y_m": 0.34,
+    "yaw_deg": 90,
+    "reach_verified": false,
+    "riser_height_m": 0.0254,
+    "rack_seat_world_z_m": 0.8294
+  },
+  "support_top_m": 0.8,
+  "grasp_evidence": [
+    "assets/rack24.json T-bar bounds",
+    "assets/leica_rack_handled.json snap handle bounds",
+    "C:/Users/Owner/lerobot/data/so101_handle_segmentation_work/images/so101_rack_lift_place_aruco_2cam__ep000__f0620.jpg",
+    "C:/Users/Owner/lerobot/data/so101_rack_approach_centered_15hz_20260913/diagnostics/training_audit/episodes_00_04.jpg"
+  ],
+  "limits": [
+    "Left carrier grasp is a provisional frame on existing jaws; no new gripper installed.",
+    "Door sites are CAD-derived; contact forces and loaded extraction remain unvalidated."
+  ]
+}

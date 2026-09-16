@@ -1,0 +1,18 @@
+{
+  "document": "ExHist Quincy stand-off pull - CONCEPT v01",
+  "solids": 1,
+  "volume_cm3": 18.268583470577035,
+  "bounds_cm": [
+    [
+      -0.5,
+      -4.0,
+      -5.0
+    ],
+    [
+      0.5,
+      2.0999999999999996,
+      5.0
+    ]
+  ],
+  "status": "CONCEPT; not fabrication-ready"
+}

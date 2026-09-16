@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="ExHist contact regression / test fixture">
+  <compiler angle="radian" />
+  <option timestep=".001" integrator="implicitfast" cone="elliptic" iterations="100" gravity="0 0 -9.81" />
+  <visual>
+    <global offwidth="1280" offheight="960" />
+    <headlight ambient=".5 .5 .5" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <mesh name="lehisto_part_00" file="source/nori/lehisto_meshes/lehisto_part_00.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_01" file="source/nori/lehisto_meshes/lehisto_part_01.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_02" file="source/nori/lehisto_meshes/lehisto_part_02.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_03" file="source/nori/lehisto_meshes/lehisto_part_03.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_04" file="source/nori/lehisto_meshes/lehisto_part_04.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_05" file="source/nori/lehisto_meshes/lehisto_part_05.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_06" file="source/nori/lehisto_meshes/lehisto_part_06.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_07" file="source/nori/lehisto_meshes/lehisto_part_07.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_08" file="source/nori/lehisto_meshes/lehisto_part_08.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_09" file="source/nori/lehisto_meshes/lehisto_part_09.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_10" file="source/nori/lehisto_meshes/lehisto_part_10.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_11" file="source/nori/lehisto_meshes/lehisto_part_11.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_12" file="source/nori/lehisto_meshes/lehisto_part_12.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_13" file="source/nori/lehisto_meshes/lehisto_part_13.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_14" file="source/nori/lehisto_meshes/lehisto_part_14.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_15" file="source/nori/lehisto_meshes/lehisto_part_15.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_16" file="source/nori/lehisto_meshes/lehisto_part_16.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_17" file="source/nori/lehisto_meshes/lehisto_part_17.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_18" file="source/nori/lehisto_meshes/lehisto_part_18.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_19" file="source/nori/lehisto_meshes/lehisto_part_19.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_20" file="source/nori/lehisto_meshes/lehisto_part_20.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_21" file="source/nori/lehisto_meshes/lehisto_part_21.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_22" file="source/nori/lehisto_meshes/lehisto_part_22.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_23" file="source/nori/lehisto_meshes/lehisto_part_23.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_24" file="source/nori/lehisto_meshes/lehisto_part_24.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_25" file="source/nori/lehisto_meshes/lehisto_part_25.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_26" file="source/nori/lehisto_meshes/lehisto_part_26.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_27" file="source/nori/lehisto_meshes/lehisto_part_27.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_28" file="source/nori/lehisto_meshes/lehisto_part_28.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_29" file="source/nori/lehisto_meshes/lehisto_part_29.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_30" file="source/nori/lehisto_meshes/lehisto_part_30.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_31" file="source/nori/lehisto_meshes/lehisto_part_31.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_32" file="source/nori/lehisto_meshes/lehisto_part_32.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_33" file="source/nori/lehisto_meshes/lehisto_part_33.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_34" file="source/nori/lehisto_meshes/lehisto_part_34.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_35" file="source/nori/lehisto_meshes/lehisto_part_35.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_36" file="source/nori/lehisto_meshes/lehisto_part_36.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_37" file="source/nori/lehisto_meshes/lehisto_part_37.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_38" file="source/nori/lehisto_meshes/lehisto_part_38.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_39" file="source/nori/lehisto_meshes/lehisto_part_39.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_40" file="source/nori/lehisto_meshes/lehisto_part_40.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_41" file="source/nori/lehisto_meshes/lehisto_part_41.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_42" file="source/nori/lehisto_meshes/lehisto_part_42.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_43" file="source/nori/lehisto_meshes/lehisto_part_43.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_44" file="source/nori/lehisto_meshes/lehisto_part_44.stl" smoothnormal="true" />
+  </asset>
+  <worldbody>
+    <geom name="floor" type="plane" size="1 1 .01" rgba=".65 .73 .75 1" />
+    <geom name="support" type="box" pos="0 0 0.0125" size="0.1 0.1 0.0125" rgba="0.78 0.82 0.84 1" />
+    <body name="actuated_test_fixture" pos="0 .0933 .1982" quat=".707106781  .707106781 0 0">
+      <joint name="fixture_lift" type="slide" axis="0 1 0" range="0 .10" damping="20" />
+      <inertial mass=".6" pos="0 0 0" diaginertia=".003 .003 .003" />
+      <body name="lehisto_mount">
+        <body name="lehisto_jaw_a">
+          <joint name="lehisto_jaw_a_slide" type="slide" axis="1 0 0" range="-0.0355 0" damping="4" armature="0.01" />
+          <geom name="lehisto_part_00" type="mesh" mesh="lehisto_part_00" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+          <geom name="lehisto_part_14" type="mesh" mesh="lehisto_part_14" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+          <geom name="lehisto_part_14_contact" type="mesh" mesh="lehisto_part_14" rgba="0 0 0 0" contype="2" conaffinity="1" density="0" group="3" friction="0.6 .005 .0001" condim="4" solref=".004 1" solimp=".95 .99 .001" />
+          <inertial mass="0.2210393379192859" pos="0.04783081432 -0.02109008266 0.08657941709" fullinertia="0.0002364778479 3.929192108e-05 0.000225296358 2.800500494e-06 -6.197221784e-06 2.821113206e-05" />
+          <geom name="pad_a" type="box" pos="0.0405 -0.1111885 0.0933" size=".0015 .009 .0025" mass=".002" rgba=".12 .65 .56 1" friction="0.6 .005 .0001" contype="2" conaffinity="1" condim="4" solref=".004 1" solimp=".95 .99 .001" />
+        </body>
+        <body name="lehisto_jaw_b">
+          <joint name="lehisto_jaw_b_slide" type="slide" axis="-1 0 0" range="-0.0355 0" damping="4" armature="0.01" />
+          <geom name="lehisto_part_15" type="mesh" mesh="lehisto_part_15" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+          <geom name="lehisto_part_15_contact" type="mesh" mesh="lehisto_part_15" rgba="0 0 0 0" contype="2" conaffinity="1" density="0" group="3" friction="0.6 .005 .0001" condim="4" solref=".004 1" solimp=".95 .99 .001" />
+          <geom name="lehisto_part_17" type="mesh" mesh="lehisto_part_17" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+          <inertial mass="0.22104126141650862" pos="-0.04783076605 -0.01956989775 0.08657947258" fullinertia="0.0002501479579 3.929212716e-05 0.0002389663838 -6.474478158e-06 6.197153921e-06 3.498759828e-05" />
+          <geom name="pad_b" type="box" pos="-0.0405 -0.1111885 0.0933" size=".0015 .009 .0025" mass=".002" rgba=".12 .65 .56 1" friction="0.6 .005 .0001" contype="2" conaffinity="1" condim="4" solref=".004 1" solimp=".95 .99 .001" />
+        </body>
+        <body name="lehisto_pinion">
+          <joint name="lehisto_pinion_joint" axis="0 0 1" pos="0 0 0.065" damping="0.002" armature="0.00001" />
+          <geom name="lehisto_part_31" type="mesh" mesh="lehisto_part_31" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+          <inertial mass="0.010076704072318938" pos="4.568464709e-13 -1.010793243e-15 0.06439539325" fullinertia="2.630405838e-07 2.631203456e-07 4.088460077e-07 -5.793290207e-12 1.269121742e-17 8.013117261e-23" />
+        </body>
+        <geom name="lehisto_part_01" type="mesh" mesh="lehisto_part_01" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_02" type="mesh" mesh="lehisto_part_02" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_03" type="mesh" mesh="lehisto_part_03" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_04" type="mesh" mesh="lehisto_part_04" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_05" type="mesh" mesh="lehisto_part_05" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_06" type="mesh" mesh="lehisto_part_06" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_07" type="mesh" mesh="lehisto_part_07" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_08" type="mesh" mesh="lehisto_part_08" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_09" type="mesh" mesh="lehisto_part_09" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_10" type="mesh" mesh="lehisto_part_10" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_11" type="mesh" mesh="lehisto_part_11" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_12" type="mesh" mesh="lehisto_part_12" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_13" type="mesh" mesh="lehisto_part_13" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_16" type="mesh" mesh="lehisto_part_16" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_18" type="mesh" mesh="lehisto_part_18" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_19" type="mesh" mesh="lehisto_part_19" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_20" type="mesh" mesh="lehisto_part_20" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_21" type="mesh" mesh="lehisto_part_21" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_22" type="mesh" mesh="lehisto_part_22" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_23" type="mesh" mesh="lehisto_part_23" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_24" type="mesh" mesh="lehisto_part_24" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_25" type="mesh" mesh="lehisto_part_25" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_26" type="mesh" mesh="lehisto_part_26" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_27" type="mesh" mesh="lehisto_part_27" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_28" type="mesh" mesh="lehisto_part_28" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_29" type="mesh" mesh="lehisto_part_29" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_30" type="mesh" mesh="lehisto_part_30" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_32" type="mesh" mesh="lehisto_part_32" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_33" type="mesh" mesh="lehisto_part_33" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_34" type="mesh" mesh="lehisto_part_34" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_35" type="mesh" mesh="lehisto_part_35" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_36" type="mesh" mesh="lehisto_part_36" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_37" type="mesh" mesh="lehisto_part_37" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_38" type="mesh" mesh="lehisto_part_38" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_39" type="mesh" mesh="lehisto_part_39" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_40" type="mesh" mesh="lehisto_part_40" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_41" type="mesh" mesh="lehisto_part_41" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_42" type="mesh" mesh="lehisto_part_42" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_43" type="mesh" mesh="lehisto_part_43" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+        <geom name="lehisto_part_44" type="mesh" mesh="lehisto_part_44" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+      </body>
+    </body>
+    <body name="payload" pos="0 0 0.0625">
+      <freejoint name="payload_free" />
+      <geom name="payload_contact" type="box" size="0.0125 0.0005 0.0375" mass="0.0046875" rgba=".65 .9 .96 .9" friction="0.6 .005 .0001" condim="4" solref=".004 1" solimp=".95 .99 .001" />
+    </body>
+  </worldbody>
+  <equality>
+    <joint name="lehisto_jaw_sync" joint1="lehisto_jaw_b_slide" joint2="lehisto_jaw_a_slide" polycoef="0 1 0 0 0" />
+    <joint name="lehisto_rack_pinion" joint1="lehisto_pinion_joint" joint2="lehisto_jaw_a_slide" polycoef="0 138.888888889 0 0 0" />
+  </equality>
+  <actuator>
+    <position name="fixture_servo" joint="fixture_lift" kp="3000" kv="80" ctrlrange="0 .10" forcerange="-80 80" />
+    <position name="jaw_servo" joint="lehisto_jaw_a_slide" kp="1500" kv="10" ctrlrange="-.0355 0" forcerange="-.8 .8" />
+  </actuator>
+</mujoco>

@@ -1,0 +1,19 @@
+{
+  "video": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\09\\13\\01a09cad-d87f-7ad2-82ec-ff5b9e1d79fd\\exhist-mujoco\\ExHist-First-Pass-Three-Minute.mp4",
+  "frames": 2160,
+  "fps": 12,
+  "duration_s": 180,
+  "completed_slides": 36,
+  "physical_success": false,
+  "source_video": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\09\\13\\01a09bd0-bb0b-7e32-bc05-42f089adee39\\Leica_CV5030_Project\\mechanical_qc_v2\\Leica-Workstation-Three-Minute-v3.mp4",
+  "render_seconds": 72.375,
+  "proof_frames": [
+    "first_pass_review_stain.png",
+    "first_pass_review_coverslip.png",
+    "first_pass_review_cure.png"
+  ],
+  "decoded_frames": 2160,
+  "decoded_duration_s": 180.0,
+  "decode_verified": true,
+  "includes_folder_finishing": true
+}

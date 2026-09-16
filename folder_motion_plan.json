@@ -1,0 +1,435 @@
+{
+  "poses": [
+    {
+      "robot": "nori_slide_source",
+      "position_m": 0.00037328833494373295,
+      "rotation_rad": 0.0008861991656085156
+    },
+    {
+      "robot": "nori_slide_source_up",
+      "position_m": 0.00036928149426788574,
+      "rotation_rad": 0.0008766836773043474
+    },
+    {
+      "robot": "nori_slide_place",
+      "position_m": 9.655586159351488e-07,
+      "rotation_rad": 4.4898363465720955e-06
+    },
+    {
+      "robot": "nori_slide_place_up",
+      "position_m": 0.0003293913943436256,
+      "rotation_rad": 0.0007775341520686042
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 0.00039247175600012055,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 0.00012599204179809353,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.2584611074743346e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.8098555479647121e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.813034339453141e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 6.475207672205611e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 9.711266037117333e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.341853564214748e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.7481021240503118e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.177405129965723e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.6169051957278513e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.0538223397537846e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.475888727429417e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.8717303170652376e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.231180245970903e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.545515092249675e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.8076118244918114e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.012029432777233e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.155024187608861e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.234510721282273e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.249982512015233e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.2024050122280365e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.094092960584928e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.928580830674728e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.7104924003706314e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.445412505381054e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 4.139761506784796e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.8006710613308196e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.435858548240805e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.053496982874407e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.662077402965082e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.2702614522887062e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.8867230972236773e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.519979965521186e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 1.1782165361398267e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 8.69103194323876e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 5.996168381990467e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 3.758700687577793e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.029553978534544e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 8.478344645985386e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_L",
+      "position_m": 2.3306617367005856e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.1040665743803e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.5503003307829125e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 8.367214268641034e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.3770819026242386e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.7057487614643476e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 7.730523120051505e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.1337585187731873e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.5395947639143596e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.976402855772583e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.429644509429939e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.885030109598775e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 3.329054619788453e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 3.7494178240369476e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.135322320326879e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.4776556062060336e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.7690715640039225e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.003991548798609e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.1785466081859325e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.290480975383536e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.339033849754838e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.324812523402948e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.249665823883424e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.1165631034318185e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.9294808831362265e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.6932968515743866e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.4136892237598995e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 4.097038414819517e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 3.7503274989268786e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 3.381037911789431e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.9970372521996915e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.6064567703941118e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 2.2175571526902217e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.838582444873504e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.477603327767669e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.1423523495333175e-05,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 8.400549568696756e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 5.772609084154243e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 3.5967991642176116e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.9201871943017582e-06,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 7.777690103882144e-07,
+      "rotation_rad": null
+    },
+    {
+      "robot": "nori_flap_R",
+      "position_m": 1.882867966234679e-07,
+      "rotation_rad": null
+    }
+  ],
+  "scope": "Kinematic IK poses, not contact/force validation"
+}

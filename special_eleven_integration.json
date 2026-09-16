@@ -1,0 +1,19 @@
+{
+  "source_directory": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\08\\07\\019fde06-5766-7fe2-8736-d06324be20d8\\rack_sim",
+  "source_sha256": {
+    "lab_eleven_layout.json": "2cf56b21f8ae4f28c2e2a06a8ceb5b7d84dedccaaf4c81eb3a234341b7e07ba9",
+    "lab_eleven.json": "8d1099a621392152bb688f6ac96b63a0ecb689be97748b274a917bff77d8d837",
+    "lab_eleven_reverse.json": "64a88eab2d53f0064636b2c7332d88c577d2b1613133ffcaf054ef8b4d504743",
+    "lab_eleven_summary.json": "b89634b1eb910f0c23bad3b694d3f524227b569bb3ace1e622190358f0f737b6",
+    "LAB_ELEVEN_RESULTS.md": "10d9b2caacfb8395b14353588ab108b25124d57519a4d09d3ed04c3ed4a54c85"
+  },
+  "active_model": "exhist_operational.xml",
+  "historical_model": "exhist_first_pass.xml",
+  "baths": 11,
+  "rail_parked_m": 0.0,
+  "riser_height_m": 0.0254,
+  "standalone_transfers_passed": 20,
+  "full_lab_collision_certified": false,
+  "reference_video": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\08\\07\\019fde06-5766-7fe2-8736-d06324be20d8\\rack_sim\\lab_eleven_review.mp4",
+  "scope": "Active lab layout updated. Exact physical reference motion is available in the linked evidence video; native full-lab controller adapter and Nori coordination remain guarded."
+}

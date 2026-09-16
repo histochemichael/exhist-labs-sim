@@ -1,0 +1,16 @@
+{
+  "normal": {
+    "passed": true,
+    "slides": 36,
+    "transfers": 21,
+    "parallel_processing": true,
+    "seconds": 339.0
+  },
+  "scanner_fault_recovery": {
+    "passed": true,
+    "slides": 36,
+    "transfers": 21,
+    "parallel_processing": true,
+    "seconds": 332.4
+  }
+}

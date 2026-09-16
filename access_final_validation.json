@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "nominal_types": 6,
+  "source_sha256": {
+    "equipment_access.py": "7267890df8d96e4d09d5f7926d22da219e3b3e63c590fe0dafadb7013c91e664",
+    "left_claw_contacts.py": "859519c71b2d099cbf8fa8867129195b3ea18c163b7992664c13e4d52f62fe04",
+    "quincy_offset_pull.py": "ec62aad8382c5775089025640a1fdec05811b1d75d44e7b30460762d2f592370",
+    "access_planning.py": "97074fc4e0fee417f0f08feb57c0922ebef87f5d8bd09692af9a9a077bcbe464",
+    "access_quincy_plan.json": "776755907eb754d8ab0a89045a6c1e6ab55256d75bd74f3153ddc00c2ec2ea02",
+    "access_s60_plan.json": "6ef1da12b04bc298c2601beba6740dfa28c64655c74b52732e2774322bde0963",
+    "access_st_load_plan.json": "c48a9bf2abdfe1830e99fd33974a7516c6b69db3adbc19b5498735ab9be3dc92",
+    "access_st_unload_plan.json": "f316aee220facbcafd7ea7febd7208351f1d1af506e3b8ed1810ebcd3d803c9d",
+    "access_cv_load_plan.json": "e76ed71e3a6c0f75c2b531449c2d7aef21c5637ea9a6673d05557ba52c7f5feb",
+    "access_ts_drawer_plan.json": "d0dc3a09fd1ecb2c7bfd59f5c4bdb452a1e3f12f5fae336febfb75c71592e76f"
+  },
+  "results": [
+    {
+      "kind": "quincy",
+      "passed": true,
+      "max_open": 1.2251722584729305,
+      "final_q": 7.972213482140289e-07,
+      "max_arm_torque_Nm": 3.0548132136307515,
+      "max_lift_force_N": 86.53714283132535,
+      "relative_slip_m": 0.0015319615892702063,
+      "bilateral_contact_fraction": 0.9998562365221739,
+      "max_joint_limit_violation": 6.971427742728406e-05,
+      "max_left_claw_mimic_error_rad": 0.0025948314569543274,
+      "max_measured_handle_pull_N": 20.3815169624386
+    },
+    {
+      "kind": "s60",
+      "passed": true,
+      "max_open": 0.19983327762692976,
+      "final_q": -0.00044513959506929787,
+      "max_arm_torque_Nm": 2.6665585682252413,
+      "max_lift_force_N": 84.45855166845013,
+      "relative_slip_m": 0.00014086677383409827,
+      "bilateral_contact_fraction": 0.999993787816666,
+      "max_joint_limit_violation": 4.03903602420007e-09,
+      "max_left_claw_mimic_error_rad": 0.002260252958032255,
+      "max_measured_handle_pull_N": 15.07861697369869
+    },
+    {
+      "kind": "st_load",
+      "passed": true,
+      "max_open": 0.17900722847479192,
+      "final_q": -7.990721575622747e-09,
+      "max_arm_torque_Nm": 2.4772888221110634,
+      "max_lift_force_N": 85.25280178107096,
+      "relative_slip_m": 0.0012863833023454645,
+      "bilateral_contact_fraction": 0.999924538743067,
+      "max_joint_limit_violation": 2.929013127872962e-06,
+      "max_left_claw_mimic_error_rad": 0.0024001599267525417,
+      "max_measured_handle_pull_N": 24.926804131189133
+    },
+    {
+      "kind": "st_unload",
+      "passed": true,
+      "max_open": 0.17909918408240152,
+      "final_q": -1.8696249703079675e-08,
+      "max_arm_torque_Nm": 2.361040434566064,
+      "max_lift_force_N": 85.25330613367032,
+      "relative_slip_m": 0.0013339299386942952,
+      "bilateral_contact_fraction": 0.9999182503049893,
+      "max_joint_limit_violation": 2.825782885752649e-06,
+      "max_left_claw_mimic_error_rad": 0.0023987518448724543,
+      "max_measured_handle_pull_N": 20.610224810040304
+    },
+    {
+      "kind": "cv_load",
+      "passed": true,
+      "max_open": 0.17911589901060943,
+      "final_q": -2.0783760008097283e-08,
+      "max_arm_torque_Nm": 2.377333000120302,
+      "max_lift_force_N": 85.25333524947519,
+      "relative_slip_m": 0.0013445937295518881,
+      "bilateral_contact_fraction": 0.9999182503049893,
+      "max_joint_limit_violation": 2.852163651639775e-06,
+      "max_left_claw_mimic_error_rad": 0.002398575907197137,
+      "max_measured_handle_pull_N": 19.869730365412437
+    },
+    {
+      "kind": "ts_drawer",
+      "passed": true,
+      "max_open": 0.17910734879554494,
+      "final_q": -1.9374752667046993e-08,
+      "max_arm_torque_Nm": 2.238265801792693,
+      "max_lift_force_N": 85.25331113102857,
+      "relative_slip_m": 0.001243540510040723,
+      "bilateral_contact_fraction": 0.9999685578096112,
+      "max_joint_limit_violation": 2.9845670641596083e-06,
+      "max_left_claw_mimic_error_rad": 0.002435491443617384,
+      "max_measured_handle_pull_N": 20.25361485957191
+    }
+  ],
+  "jam_max_travel_m": 0.0015335112209241973,
+  "full_lab_transfers_validated": false
+}

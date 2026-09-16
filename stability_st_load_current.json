@@ -1,0 +1,157 @@
+{
+  "kind": "st_load",
+  "tag": "current",
+  "phase": "COMPLETE",
+  "sim_seconds": 70.70750000005596,
+  "wall_seconds": 265.14000000001397,
+  "source_sha256": {
+    "equipment_access.py": "035b9074569a7a58ed583d17d396aba8149acecb8baea01233e1f6afebff1534",
+    "left_claw_contacts.py": "859519c71b2d099cbf8fa8867129195b3ea18c163b7992664c13e4d52f62fe04",
+    "quincy_offset_pull.py": "ec62aad8382c5775089025640a1fdec05811b1d75d44e7b30460762d2f592370",
+    "access_planning.py": "97074fc4e0fee417f0f08feb57c0922ebef87f5d8bd09692af9a9a077bcbe464",
+    "access_quincy_plan.json": "776755907eb754d8ab0a89045a6c1e6ab55256d75bd74f3153ddc00c2ec2ea02",
+    "access_s60_plan.json": "6ef1da12b04bc298c2601beba6740dfa28c64655c74b52732e2774322bde0963",
+    "access_st_load_plan.json": "c48a9bf2abdfe1830e99fd33974a7516c6b69db3adbc19b5498735ab9be3dc92",
+    "access_st_unload_plan.json": "f316aee220facbcafd7ea7febd7208351f1d1af506e3b8ed1810ebcd3d803c9d",
+    "access_cv_load_plan.json": "e76ed71e3a6c0f75c2b531449c2d7aef21c5637ea9a6673d05557ba52c7f5feb",
+    "access_ts_drawer_plan.json": "d0dc3a09fd1ecb2c7bfd59f5c4bdb452a1e3f12f5fae336febfb75c71592e76f"
+  },
+  "source_unchanged": true,
+  "sample_hz": 500,
+  "untouched_equipment_travel": 0.0,
+  "equipment_unit": "m",
+  "max_arm_command_step_rad": 0.005240995653604585,
+  "max_lift_command_step_m": 0.0004989123554275388,
+  "phases": {
+    "SETTLE": {
+      "samples": 4001,
+      "quiet_samples": 3501,
+      "command_span_rad": 0.0,
+      "lift_command_span_m": 0.0,
+      "full_tcp_span_m": 1.021803008547762e-06,
+      "quiet_tcp_span_m": 8.272819111135642e-12,
+      "quiet_right_joint_span_rad": 2.532500866946078e-12,
+      "quiet_equipment_span": 0.0,
+      "quiet_max_equipment_speed": 0.0
+    },
+    "GRIP": {
+      "samples": 475,
+      "quiet_samples": 375,
+      "command_span_rad": 0.0,
+      "lift_command_span_m": 0.0,
+      "full_tcp_span_m": 0.00015974706220152552,
+      "quiet_tcp_span_m": 0.00014704526118776507,
+      "quiet_right_joint_span_rad": 1.600936179688752e-05,
+      "quiet_equipment_span": 5.499096601502139e-07,
+      "quiet_max_equipment_speed": 0.00011000490771038219
+    },
+    "HOLD": {
+      "samples": 2500,
+      "quiet_samples": 2000,
+      "command_span_rad": 0.0,
+      "lift_command_span_m": 0.0,
+      "full_tcp_span_m": 0.00011143592554444782,
+      "quiet_tcp_span_m": 6.19382550389007e-05,
+      "quiet_right_joint_span_rad": 7.709567390266247e-08,
+      "quiet_equipment_span": 3.550533951265922e-05,
+      "quiet_max_equipment_speed": 2.7700595681373377e-05
+    },
+    "RELEASE": {
+      "samples": 750,
+      "quiet_samples": 650,
+      "command_span_rad": 0.0,
+      "lift_command_span_m": 0.0,
+      "full_tcp_span_m": 0.0004490737875856074,
+      "quiet_tcp_span_m": 0.00043744374492543593,
+      "quiet_right_joint_span_rad": 6.643818804101558e-05,
+      "quiet_equipment_span": 5.840433983764982e-07,
+      "quiet_max_equipment_speed": 3.1747707152777666e-05
+    },
+    "COMPLETE": {
+      "samples": 5000,
+      "quiet_samples": 4500,
+      "command_span_rad": 0.0,
+      "lift_command_span_m": 0.0,
+      "full_tcp_span_m": 9.619194248962606e-05,
+      "quiet_tcp_span_m": 2.031319351184783e-09,
+      "quiet_right_joint_span_rad": 1.3079405727555904e-08,
+      "quiet_equipment_span": 7.69856627751344e-10,
+      "quiet_max_equipment_speed": 8.555863834157222e-11
+    }
+  },
+  "access_result": {
+    "kind": "st_load",
+    "phase": "COMPLETE",
+    "passed": true,
+    "max_open": 0.17900247497596286,
+    "open_target": -0.18,
+    "final_q": -1.0340450030408242e-07,
+    "max_arm_torque_Nm": 2.471541580061057,
+    "max_commanded_task_force_N": 2.8386373000678473,
+    "relative_slip_m": 0.001269268621772521,
+    "bilateral_contact_fraction": 0.9999378608308572,
+    "fault_contacts": [],
+    "lift_target_m": 0.5488498853190078,
+    "max_lift_force_N": 85.24057416051255,
+    "grip_torque_limit_Nm": 1.5,
+    "grasp_depth_m": 0.114,
+    "max_joint_limit_violation": 3.1946649637674705e-06,
+    "max_left_claw_mimic_error_rad": 0.002400171403815758,
+    "handle_interface": "v02 proposed drawer pull",
+    "max_measured_handle_pull_N": 26.3961204413431,
+    "measured_pull_stop_N": 12.0,
+    "scope": "Actual seven-joint left arm, fixed dock, passive CAD equipment joint. Provisional dynamics and conservative finger mesh contacts; not mobile/lab transfer or hardware validation."
+  },
+  "transitions": [
+    {
+      "t": 8.00025000000403,
+      "before": "SETTLE",
+      "after": "APPROACH"
+    },
+    {
+      "t": 11.000749999997037,
+      "before": "APPROACH",
+      "after": "GRIP"
+    },
+    {
+      "t": 11.950999999994822,
+      "before": "GRIP",
+      "after": "OPEN"
+    },
+    {
+      "t": 31.95125000006155,
+      "before": "OPEN",
+      "after": "HOLD"
+    },
+    {
+      "t": 36.951500000085424,
+      "before": "HOLD",
+      "after": "CLOSE"
+    },
+    {
+      "t": 56.206750000177365,
+      "before": "CLOSE",
+      "after": "RELEASE"
+    },
+    {
+      "t": 57.70700000018453,
+      "before": "RELEASE",
+      "after": "RETREAT"
+    },
+    {
+      "t": 60.707250000198854,
+      "before": "RETREAT",
+      "after": "COMPLETE"
+    }
+  ],
+  "scope": "Fixed-dock actual arm and passive equipment; 8 s initial idle and 10 s live terminal hold. Not full-lab or hardware certification.",
+  "checks": {
+    "completed": true,
+    "sources_unchanged": true,
+    "stationary_arm_targets": true,
+    "idle_tip_stable": true,
+    "no_untouched_door_motion": true,
+    "command_slew_bounded": true
+  },
+  "passed": true
+}

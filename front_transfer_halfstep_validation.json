@@ -1,0 +1,220 @@
+{
+  "passed": true,
+  "phase": "COMPLETE",
+  "timestep_s": 0.0005,
+  "grip_force_limit_N": 0.8,
+  "slide_offset_m": 0,
+  "events": [
+    {
+      "t": 2.0009999999998356,
+      "phase": "APPROACH"
+    },
+    {
+      "t": 6.001999999999393,
+      "phase": "CLOSE"
+    },
+    {
+      "t": 8.129999999998445,
+      "phase": "LIFT"
+    },
+    {
+      "t": 12.130500000003334,
+      "phase": "CARRY"
+    },
+    {
+      "t": 18.131500000003093,
+      "phase": "LOWER"
+    },
+    {
+      "t": 22.13249999999377,
+      "phase": "SUPPORT"
+    },
+    {
+      "t": 22.55299999999279,
+      "phase": "RELEASE"
+    },
+    {
+      "t": 24.553999999988125,
+      "phase": "RETREAT"
+    },
+    {
+      "t": 28.5549999999788,
+      "phase": "COMPLETE"
+    }
+  ],
+  "plan_errors": [
+    {
+      "position_m": 0.00015858477705719046,
+      "angle_rad": 3.773015602193169e-05,
+      "sampled_table_penetration_m": 0.0
+    },
+    {
+      "position_m": 3.0974659097469584e-07,
+      "angle_rad": 1.91463207652522e-06,
+      "sampled_table_penetration_m": 0.0
+    },
+    {
+      "position_m": 0.0001578604585590297,
+      "angle_rad": 3.765006110288328e-05,
+      "sampled_table_penetration_m": 0.0
+    },
+    {
+      "position_m": 3.575375093775563e-06,
+      "angle_rad": 1.3816024476732555e-05,
+      "sampled_table_penetration_m": 0.0
+    },
+    {
+      "position_m": 2.469916276384718e-06,
+      "angle_rad": 7.219812056948259e-06,
+      "sampled_table_penetration_m": 0.0
+    },
+    {
+      "position_m": 1.3749129971721516e-06,
+      "angle_rad": 6.628885072534309e-06,
+      "sampled_table_penetration_m": 0.0
+    }
+  ],
+  "peak_lift_m": 0.03978433361739664,
+  "relative_slip_m": 0.00025730567201131545,
+  "bilateral_contact_fraction": 0.9999653331484435,
+  "max_arm_torque_Nm": 2.9541149218306373,
+  "final_slide_position_m": [
+    0.20048291156545653,
+    -0.10028223788257766,
+    0.8374653768968643
+  ],
+  "final_position_error_m": 0.0005604110649196087,
+  "fault_contacts": [],
+  "head_camera_samples": [
+    {
+      "t": 2.0009999999998356,
+      "phase": "APPROACH",
+      "slide_pixels": {
+        "nori_head_left": 406,
+        "nori_head_right": 402,
+        "nori_head_wide": 183
+      },
+      "finger_pixels": {
+        "nori_head_left": [
+          1092,
+          22
+        ],
+        "nori_head_right": [
+          910,
+          1124
+        ],
+        "nori_head_wide": [
+          852,
+          746
+        ]
+      },
+      "visible_any": true,
+      "interaction_visible_any": true
+    },
+    {
+      "t": 8.129999999998445,
+      "phase": "LIFT",
+      "slide_pixels": {
+        "nori_head_left": 343,
+        "nori_head_right": 341,
+        "nori_head_wide": 152
+      },
+      "finger_pixels": {
+        "nori_head_left": [
+          1265,
+          771
+        ],
+        "nori_head_right": [
+          1108,
+          788
+        ],
+        "nori_head_wide": [
+          639,
+          376
+        ]
+      },
+      "visible_any": true,
+      "interaction_visible_any": true
+    },
+    {
+      "t": 12.130500000003334,
+      "phase": "CARRY",
+      "slide_pixels": {
+        "nori_head_left": 546,
+        "nori_head_right": 541,
+        "nori_head_wide": 258
+      },
+      "finger_pixels": {
+        "nori_head_left": [
+          1136,
+          606
+        ],
+        "nori_head_right": [
+          999,
+          1000
+        ],
+        "nori_head_wide": [
+          1027,
+          625
+        ]
+      },
+      "visible_any": true,
+      "interaction_visible_any": true
+    },
+    {
+      "t": 22.55299999999279,
+      "phase": "RELEASE",
+      "slide_pixels": {
+        "nori_head_left": 339,
+        "nori_head_right": 336,
+        "nori_head_wide": 149
+      },
+      "finger_pixels": {
+        "nori_head_left": [
+          956,
+          720
+        ],
+        "nori_head_right": [
+          707,
+          618
+        ],
+        "nori_head_wide": [
+          430,
+          303
+        ]
+      },
+      "visible_any": true,
+      "interaction_visible_any": true
+    },
+    {
+      "t": 28.5549999999788,
+      "phase": "COMPLETE",
+      "slide_pixels": {
+        "nori_head_left": 400,
+        "nori_head_right": 395,
+        "nori_head_wide": 176
+      },
+      "finger_pixels": {
+        "nori_head_left": [
+          893,
+          968
+        ],
+        "nori_head_right": [
+          732,
+          810
+        ],
+        "nori_head_wide": [
+          768,
+          518
+        ]
+      },
+      "visible_any": true,
+      "interaction_visible_any": true
+    }
+  ],
+  "front_facing": true,
+  "max_heading_error_deg": 0.04079203141853634,
+  "maximum_provisional_lift_force_N": 99.78758973432673,
+  "scope": "Actual seven-joint Nori arm; passive slide; development guide slots; provisional actuated lift and head cameras; not full lab validation.",
+  "camera_check_passed": true
+}

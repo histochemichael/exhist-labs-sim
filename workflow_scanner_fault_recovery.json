@@ -1,0 +1,1454 @@
+{
+  "simulated_seconds": 332.4,
+  "completed_slides": 36,
+  "total_slides": 36,
+  "jobs": [
+    {
+      "batch": "B01",
+      "protocol": "HE",
+      "slides": 8,
+      "state": "DONE",
+      "trace": [
+        "sort",
+        "bake",
+        "stain",
+        "coverslip",
+        "cure",
+        "qc",
+        "scan",
+        "package"
+      ],
+      "carrier": "slide_folder",
+      "scan_attempts": 2
+    },
+    {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "slides": 6,
+      "state": "DONE",
+      "trace": [
+        "sort",
+        "bake",
+        "special_stain",
+        "coverslip",
+        "cure",
+        "qc",
+        "scan",
+        "package"
+      ],
+      "carrier": "slide_folder",
+      "scan_attempts": 1
+    },
+    {
+      "batch": "B03",
+      "protocol": "HE",
+      "slides": 12,
+      "state": "DONE",
+      "trace": [
+        "sort",
+        "bake",
+        "stain",
+        "coverslip",
+        "cure",
+        "qc",
+        "scan",
+        "package"
+      ],
+      "carrier": "slide_folder",
+      "scan_attempts": 1
+    },
+    {
+      "batch": "B04",
+      "protocol": "HE",
+      "slides": 10,
+      "state": "DONE",
+      "trace": [
+        "sort",
+        "bake",
+        "stain",
+        "coverslip",
+        "cure",
+        "qc",
+        "scan",
+        "package"
+      ],
+      "carrier": "slide_folder",
+      "scan_attempts": 1
+    }
+  ],
+  "slides": {
+    "B01-S01": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S02": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S03": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S04": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S05": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S06": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S07": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B01-S08": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S01": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S02": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S03": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S04": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S05": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B02-S06": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S01": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S02": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S03": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S04": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S05": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S06": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S07": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S08": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S09": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S10": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S11": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B03-S12": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S01": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S02": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S03": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S04": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S05": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S06": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S07": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S08": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S09": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    },
+    "B04-S10": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "package",
+      "location": "sendout"
+    }
+  },
+  "events": [
+    {
+      "t": 0.1,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 0.1,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "rack24"
+    },
+    {
+      "t": 6.2,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 6.2,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 6.2,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "sorting",
+      "target": "baking"
+    },
+    {
+      "t": 8.2,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 8.2,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 13.2,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "bake",
+      "station": "baking",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 13.2,
+      "batch": "B01",
+      "action": "custody_dropoff",
+      "station": "baking"
+    },
+    {
+      "t": 13.2,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "sorting",
+      "target": "baking"
+    },
+    {
+      "t": 14.3,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 18.2,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "rack24"
+    },
+    {
+      "t": 18.2,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 23.1,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "bake",
+      "station": "baking",
+      "carrier": "rack24"
+    },
+    {
+      "t": 23.1,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "baking"
+    },
+    {
+      "t": 23.1,
+      "batch": "B03",
+      "action": "transport_reserved",
+      "source": "sorting",
+      "target": "baking"
+    },
+    {
+      "t": 24.3,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 28.1,
+      "batch": "B03",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 31.2,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "bake"
+    },
+    {
+      "t": 33.0,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "bake",
+      "station": "baking",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 33.0,
+      "batch": "B03",
+      "action": "custody_dropoff",
+      "station": "baking"
+    },
+    {
+      "t": 33.0,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "baking",
+      "target": "routine_a"
+    },
+    {
+      "t": 35.0,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 40.1,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "stain",
+      "station": "routine_a",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 40.1,
+      "batch": "B01",
+      "action": "custody_dropoff",
+      "station": "routine_a"
+    },
+    {
+      "t": 40.1,
+      "batch": "B04",
+      "action": "transport_reserved",
+      "source": "sorting",
+      "target": "baking"
+    },
+    {
+      "t": 41.1,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "bake"
+    },
+    {
+      "t": 48.1,
+      "batch": "B04",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 51.0,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "bake"
+    },
+    {
+      "t": 53.0,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "bake",
+      "station": "baking",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 53.0,
+      "batch": "B04",
+      "action": "custody_dropoff",
+      "station": "baking"
+    },
+    {
+      "t": 53.0,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "baking",
+      "target": "special"
+    },
+    {
+      "t": 55.0,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "rack24"
+    },
+    {
+      "t": 64.0,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "stain"
+    },
+    {
+      "t": 64.0,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "coverslip",
+      "station": "routine_a",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 65.9,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "special_stain",
+      "station": "special",
+      "carrier": "rack24"
+    },
+    {
+      "t": 65.9,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "special"
+    },
+    {
+      "t": 65.9,
+      "batch": "B03",
+      "action": "transport_reserved",
+      "source": "baking",
+      "target": "routine_b"
+    },
+    {
+      "t": 71.0,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "bake"
+    },
+    {
+      "t": 76.1,
+      "batch": "B01",
+      "action": "carrier_conversion",
+      "source": "leica_rack",
+      "target": "output_magazine",
+      "slide_ids": [
+        "B01-S01",
+        "B01-S02",
+        "B01-S03",
+        "B01-S04",
+        "B01-S05",
+        "B01-S06",
+        "B01-S07",
+        "B01-S08"
+      ]
+    },
+    {
+      "t": 76.1,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "coverslip"
+    },
+    {
+      "t": 76.1,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "cure",
+      "station": "routine_a",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 76.8,
+      "batch": "B03",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 85.0,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "stain",
+      "station": "routine_b",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 85.0,
+      "batch": "B03",
+      "action": "custody_dropoff",
+      "station": "routine_b"
+    },
+    {
+      "t": 88.2,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "cure"
+    },
+    {
+      "t": 88.2,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "routine_a",
+      "target": "sendout"
+    },
+    {
+      "t": 89.8,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "special_stain"
+    },
+    {
+      "t": 93.5,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 103.9,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "qc",
+      "station": "sendout",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 103.9,
+      "batch": "B01",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 103.9,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "special",
+      "target": "routine_a"
+    },
+    {
+      "t": 108.6,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "rack24"
+    },
+    {
+      "t": 108.9,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "stain"
+    },
+    {
+      "t": 108.9,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "coverslip",
+      "station": "routine_b",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 111.9,
+      "batch": "B01",
+      "action": "carrier_conversion",
+      "source": "output_magazine",
+      "target": "scanner_cassette",
+      "slide_ids": [
+        "B01-S01",
+        "B01-S02",
+        "B01-S03",
+        "B01-S04",
+        "B01-S05",
+        "B01-S06",
+        "B01-S07",
+        "B01-S08"
+      ]
+    },
+    {
+      "t": 111.9,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "qc"
+    },
+    {
+      "t": 116.4,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "coverslip",
+      "station": "routine_a",
+      "carrier": "rack24"
+    },
+    {
+      "t": 116.4,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "routine_a"
+    },
+    {
+      "t": 116.4,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "sendout",
+      "target": "imaging_a"
+    },
+    {
+      "t": 121.0,
+      "batch": "B03",
+      "action": "carrier_conversion",
+      "source": "leica_rack",
+      "target": "output_magazine",
+      "slide_ids": [
+        "B03-S01",
+        "B03-S02",
+        "B03-S03",
+        "B03-S04",
+        "B03-S05",
+        "B03-S06",
+        "B03-S07",
+        "B03-S08",
+        "B03-S09",
+        "B03-S10",
+        "B03-S11",
+        "B03-S12"
+      ]
+    },
+    {
+      "t": 121.0,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "coverslip"
+    },
+    {
+      "t": 121.0,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "cure",
+      "station": "routine_b",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 126.9,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 128.4,
+      "batch": "B02",
+      "action": "carrier_conversion",
+      "source": "rack24",
+      "target": "output_magazine",
+      "slide_ids": [
+        "B02-S01",
+        "B02-S02",
+        "B02-S03",
+        "B02-S04",
+        "B02-S05",
+        "B02-S06"
+      ]
+    },
+    {
+      "t": 128.4,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "coverslip"
+    },
+    {
+      "t": 128.4,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "cure",
+      "station": "routine_a",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 131.9,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "scan",
+      "station": "imaging_a",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 131.9,
+      "batch": "B01",
+      "action": "custody_dropoff",
+      "station": "imaging_a"
+    },
+    {
+      "t": 133.1,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "cure"
+    },
+    {
+      "t": 133.1,
+      "batch": "B03",
+      "action": "transport_reserved",
+      "source": "routine_b",
+      "target": "sendout"
+    },
+    {
+      "t": 140.5,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "cure"
+    },
+    {
+      "t": 143.4,
+      "batch": "B03",
+      "action": "custody_pickup",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 150.6,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "qc",
+      "station": "sendout",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 150.6,
+      "batch": "B03",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 150.6,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "routine_a",
+      "target": "sendout"
+    },
+    {
+      "t": 151.8,
+      "batch": null,
+      "action": "station_fault",
+      "station": "imaging_a"
+    },
+    {
+      "t": 151.8,
+      "batch": "B01",
+      "action": "scan_failed",
+      "reason": "injected demonstration fault"
+    },
+    {
+      "t": 158.6,
+      "batch": "B03",
+      "action": "carrier_conversion",
+      "source": "output_magazine",
+      "target": "scanner_cassette",
+      "slide_ids": [
+        "B03-S01",
+        "B03-S02",
+        "B03-S03",
+        "B03-S04",
+        "B03-S05",
+        "B03-S06",
+        "B03-S07",
+        "B03-S08",
+        "B03-S09",
+        "B03-S10",
+        "B03-S11",
+        "B03-S12"
+      ]
+    },
+    {
+      "t": 158.6,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "qc"
+    },
+    {
+      "t": 161.1,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 166.9,
+      "batch": null,
+      "action": "station_recovered",
+      "station": "imaging_a"
+    },
+    {
+      "t": 166.9,
+      "batch": "B01",
+      "action": "scan_retry"
+    },
+    {
+      "t": 171.6,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "qc",
+      "station": "sendout",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 171.6,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 171.6,
+      "batch": "B03",
+      "action": "transport_reserved",
+      "source": "sendout",
+      "target": "imaging_b"
+    },
+    {
+      "t": 173.6,
+      "batch": "B03",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 179.6,
+      "batch": "B02",
+      "action": "carrier_conversion",
+      "source": "output_magazine",
+      "target": "scanner_cassette",
+      "slide_ids": [
+        "B02-S01",
+        "B02-S02",
+        "B02-S03",
+        "B02-S04",
+        "B02-S05",
+        "B02-S06"
+      ]
+    },
+    {
+      "t": 179.6,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "qc"
+    },
+    {
+      "t": 181.4,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "scan",
+      "station": "imaging_b",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 181.4,
+      "batch": "B03",
+      "action": "custody_dropoff",
+      "station": "imaging_b"
+    },
+    {
+      "t": 181.4,
+      "batch": "B04",
+      "action": "transport_reserved",
+      "source": "baking",
+      "target": "routine_a"
+    },
+    {
+      "t": 186.9,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "scan"
+    },
+    {
+      "t": 200.7,
+      "batch": "B04",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 201.3,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "scan"
+    },
+    {
+      "t": 205.7,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "stain",
+      "station": "routine_a",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 205.7,
+      "batch": "B04",
+      "action": "custody_dropoff",
+      "station": "routine_a"
+    },
+    {
+      "t": 205.7,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "imaging_a",
+      "target": "sendout"
+    },
+    {
+      "t": 219.2,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 224.2,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "package",
+      "station": "sendout",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 224.2,
+      "batch": "B01",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 224.2,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "sendout",
+      "target": "imaging_a"
+    },
+    {
+      "t": 226.2,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 229.6,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "stain"
+    },
+    {
+      "t": 229.6,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "coverslip",
+      "station": "routine_a",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 231.3,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "scan",
+      "station": "imaging_a",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 231.3,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "imaging_a"
+    },
+    {
+      "t": 231.3,
+      "batch": "B03",
+      "action": "transport_reserved",
+      "source": "imaging_b",
+      "target": "sendout"
+    },
+    {
+      "t": 232.2,
+      "batch": "B01",
+      "action": "carrier_conversion",
+      "source": "scanner_cassette",
+      "target": "slide_folder",
+      "slide_ids": [
+        "B01-S01",
+        "B01-S02",
+        "B01-S03",
+        "B01-S04",
+        "B01-S05",
+        "B01-S06",
+        "B01-S07",
+        "B01-S08"
+      ]
+    },
+    {
+      "t": 232.2,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "package"
+    },
+    {
+      "t": 232.2,
+      "batch": "B01",
+      "action": "batch_completed",
+      "slide_ids": [
+        "B01-S01",
+        "B01-S02",
+        "B01-S03",
+        "B01-S04",
+        "B01-S05",
+        "B01-S06",
+        "B01-S07",
+        "B01-S08"
+      ]
+    },
+    {
+      "t": 236.1,
+      "batch": "B03",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 241.7,
+      "batch": "B04",
+      "action": "carrier_conversion",
+      "source": "leica_rack",
+      "target": "output_magazine",
+      "slide_ids": [
+        "B04-S01",
+        "B04-S02",
+        "B04-S03",
+        "B04-S04",
+        "B04-S05",
+        "B04-S06",
+        "B04-S07",
+        "B04-S08",
+        "B04-S09",
+        "B04-S10"
+      ]
+    },
+    {
+      "t": 241.7,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "coverslip"
+    },
+    {
+      "t": 241.7,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "cure",
+      "station": "routine_a",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 243.9,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "package",
+      "station": "sendout",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 243.9,
+      "batch": "B03",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 251.2,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "scan"
+    },
+    {
+      "t": 251.2,
+      "batch": "B02",
+      "action": "transport_reserved",
+      "source": "imaging_a",
+      "target": "sendout"
+    },
+    {
+      "t": 251.9,
+      "batch": "B03",
+      "action": "carrier_conversion",
+      "source": "scanner_cassette",
+      "target": "slide_folder",
+      "slide_ids": [
+        "B03-S01",
+        "B03-S02",
+        "B03-S03",
+        "B03-S04",
+        "B03-S05",
+        "B03-S06",
+        "B03-S07",
+        "B03-S08",
+        "B03-S09",
+        "B03-S10",
+        "B03-S11",
+        "B03-S12"
+      ]
+    },
+    {
+      "t": 251.9,
+      "batch": "B03",
+      "action": "step_completed",
+      "step": "package"
+    },
+    {
+      "t": 251.9,
+      "batch": "B03",
+      "action": "batch_completed",
+      "slide_ids": [
+        "B03-S01",
+        "B03-S02",
+        "B03-S03",
+        "B03-S04",
+        "B03-S05",
+        "B03-S06",
+        "B03-S07",
+        "B03-S08",
+        "B03-S09",
+        "B03-S10",
+        "B03-S11",
+        "B03-S12"
+      ]
+    },
+    {
+      "t": 253.8,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "cure"
+    },
+    {
+      "t": 256.3,
+      "batch": "B02",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 261.3,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "package",
+      "station": "sendout",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 261.3,
+      "batch": "B02",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 261.3,
+      "batch": "B04",
+      "action": "transport_reserved",
+      "source": "routine_a",
+      "target": "sendout"
+    },
+    {
+      "t": 269.3,
+      "batch": "B02",
+      "action": "carrier_conversion",
+      "source": "scanner_cassette",
+      "target": "slide_folder",
+      "slide_ids": [
+        "B02-S01",
+        "B02-S02",
+        "B02-S03",
+        "B02-S04",
+        "B02-S05",
+        "B02-S06"
+      ]
+    },
+    {
+      "t": 269.3,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "package"
+    },
+    {
+      "t": 269.3,
+      "batch": "B02",
+      "action": "batch_completed",
+      "slide_ids": [
+        "B02-S01",
+        "B02-S02",
+        "B02-S03",
+        "B02-S04",
+        "B02-S05",
+        "B02-S06"
+      ]
+    },
+    {
+      "t": 271.8,
+      "batch": "B04",
+      "action": "custody_pickup",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 282.3,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "qc",
+      "station": "sendout",
+      "carrier": "output_magazine"
+    },
+    {
+      "t": 282.3,
+      "batch": "B04",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 290.3,
+      "batch": "B04",
+      "action": "carrier_conversion",
+      "source": "output_magazine",
+      "target": "scanner_cassette",
+      "slide_ids": [
+        "B04-S01",
+        "B04-S02",
+        "B04-S03",
+        "B04-S04",
+        "B04-S05",
+        "B04-S06",
+        "B04-S07",
+        "B04-S08",
+        "B04-S09",
+        "B04-S10"
+      ]
+    },
+    {
+      "t": 290.3,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "qc"
+    },
+    {
+      "t": 290.3,
+      "batch": "B04",
+      "action": "transport_reserved",
+      "source": "sendout",
+      "target": "imaging_a"
+    },
+    {
+      "t": 292.3,
+      "batch": "B04",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 297.4,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "scan",
+      "station": "imaging_a",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 297.4,
+      "batch": "B04",
+      "action": "custody_dropoff",
+      "station": "imaging_a"
+    },
+    {
+      "t": 317.3,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "scan"
+    },
+    {
+      "t": 317.3,
+      "batch": "B04",
+      "action": "transport_reserved",
+      "source": "imaging_a",
+      "target": "sendout"
+    },
+    {
+      "t": 319.3,
+      "batch": "B04",
+      "action": "custody_pickup",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 324.4,
+      "batch": "B04",
+      "action": "step_started",
+      "step": "package",
+      "station": "sendout",
+      "carrier": "scanner_cassette"
+    },
+    {
+      "t": 324.4,
+      "batch": "B04",
+      "action": "custody_dropoff",
+      "station": "sendout"
+    },
+    {
+      "t": 332.4,
+      "batch": "B04",
+      "action": "carrier_conversion",
+      "source": "scanner_cassette",
+      "target": "slide_folder",
+      "slide_ids": [
+        "B04-S01",
+        "B04-S02",
+        "B04-S03",
+        "B04-S04",
+        "B04-S05",
+        "B04-S06",
+        "B04-S07",
+        "B04-S08",
+        "B04-S09",
+        "B04-S10"
+      ]
+    },
+    {
+      "t": 332.4,
+      "batch": "B04",
+      "action": "step_completed",
+      "step": "package"
+    },
+    {
+      "t": 332.4,
+      "batch": "B04",
+      "action": "batch_completed",
+      "slide_ids": [
+        "B04-S01",
+        "B04-S02",
+        "B04-S03",
+        "B04-S04",
+        "B04-S05",
+        "B04-S06",
+        "B04-S07",
+        "B04-S08",
+        "B04-S09",
+        "B04-S10"
+      ]
+    }
+  ],
+  "limitations": [
+    "Demo cycle times; not throughput estimates.",
+    "Kinematic carrier handoffs; no grasp or insertion physics.",
+    "Slide-to-carrier conversion is logical, not individual-slide manipulation."
+  ]
+}

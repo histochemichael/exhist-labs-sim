@@ -1,0 +1,59 @@
+{
+  "mode": "CAD-joint task-synchronized motion trials; position IK only",
+  "robots": {
+    "sorter_1": {
+      "target_errors_m": [
+        0.00035842133350128083,
+        0.00022808968568705537,
+        1.969699191335021e-06
+      ],
+      "all_targets_reached": true
+    },
+    "sorter_2": {
+      "target_errors_m": [
+        0.00035842133350128083,
+        0.00022808968568719832,
+        1.9696991909379274e-06
+      ],
+      "all_targets_reached": true
+    },
+    "special_lehisto": {
+      "target_errors_m": [
+        0.0003584213335017098,
+        0.0002280896856871972,
+        1.969699190979433e-06
+      ],
+      "all_targets_reached": true
+    },
+    "sendout_lehisto_1": {
+      "target_errors_m": [
+        0.00035842133350216354,
+        0.00022808968568701008,
+        1.969699190885579e-06
+      ],
+      "all_targets_reached": true
+    },
+    "sendout_lehisto_2": {
+      "target_errors_m": [
+        0.00035842133350216354,
+        0.00022808968568722936,
+        1.9696991910426203e-06
+      ],
+      "all_targets_reached": true
+    },
+    "nori": {
+      "reach_error_m": 7.1039668943926324e-06,
+      "carry_error_m": 0.0007468396064440168,
+      "reach_valid": true,
+      "dock_base_y_offset_m": 0.95,
+      "tcp": "provisional parallel-gripper jaw-center point",
+      "sampled_bench_path_penetration_m": 0.012284991999999995,
+      "candidates_tested": 60
+    }
+  },
+  "limits": [
+    "Position-only IK, not orientation/grasp validation.",
+    "LeHisto targets are local motion-trial poses, not certified rack insertion poses.",
+    "Visual LeHisto CAD lacks contact colliders; Nori uses imported coarse colliders."
+  ]
+}

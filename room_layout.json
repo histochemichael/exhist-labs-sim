@@ -1,0 +1,245 @@
+{
+  "room_size_m": [
+    18.4,
+    8.9,
+    3.2
+  ],
+  "style": "Three-sided cutaway clinical laboratory",
+  "counts": {
+    "windows": 4,
+    "doors": 2,
+    "cabinets": 4,
+    "shelving_bays": 5,
+    "extra_tables": 4,
+    "chairs": 4,
+    "additional_pcs": 2
+  },
+  "obstacles": [
+    {
+      "kind": "cabinets",
+      "center": [
+        -3.8,
+        1.72,
+        1.125
+      ],
+      "halfsize": [
+        0.375,
+        0.26,
+        1.125
+      ]
+    },
+    {
+      "kind": "cabinets",
+      "center": [
+        0.2,
+        1.72,
+        1.125
+      ],
+      "halfsize": [
+        0.375,
+        0.26,
+        1.125
+      ]
+    },
+    {
+      "kind": "cabinets",
+      "center": [
+        4.2,
+        1.72,
+        1.125
+      ],
+      "halfsize": [
+        0.375,
+        0.26,
+        1.125
+      ]
+    },
+    {
+      "kind": "cabinets",
+      "center": [
+        8.1,
+        1.72,
+        1.125
+      ],
+      "halfsize": [
+        0.375,
+        0.26,
+        1.125
+      ]
+    },
+    {
+      "kind": "shelving_bays",
+      "center": [
+        -5.8,
+        1.73,
+        0.72
+      ],
+      "halfsize": [
+        0.9,
+        0.22,
+        0.42
+      ]
+    },
+    {
+      "kind": "shelving_bays",
+      "center": [
+        -1.8,
+        1.73,
+        0.72
+      ],
+      "halfsize": [
+        0.9,
+        0.22,
+        0.42
+      ]
+    },
+    {
+      "kind": "shelving_bays",
+      "center": [
+        2.2,
+        1.73,
+        0.72
+      ],
+      "halfsize": [
+        0.9,
+        0.22,
+        0.42
+      ]
+    },
+    {
+      "kind": "shelving_bays",
+      "center": [
+        6.2,
+        1.73,
+        0.72
+      ],
+      "halfsize": [
+        0.9,
+        0.22,
+        0.42
+      ]
+    },
+    {
+      "kind": "extra_tables",
+      "center": [
+        -5.75,
+        -4.05,
+        0.415
+      ],
+      "halfsize": [
+        1.05,
+        0.425,
+        0.415
+      ]
+    },
+    {
+      "kind": "chairs",
+      "center": [
+        -5.75,
+        -4.93,
+        0.5
+      ],
+      "halfsize": [
+        0.34,
+        0.34,
+        0.5
+      ]
+    },
+    {
+      "kind": "extra_tables",
+      "center": [
+        -2.8,
+        -4.05,
+        0.415
+      ],
+      "halfsize": [
+        1.05,
+        0.425,
+        0.415
+      ]
+    },
+    {
+      "kind": "chairs",
+      "center": [
+        -2.8,
+        -4.93,
+        0.5
+      ],
+      "halfsize": [
+        0.34,
+        0.34,
+        0.5
+      ]
+    },
+    {
+      "kind": "extra_tables",
+      "center": [
+        0.25,
+        -4.05,
+        0.415
+      ],
+      "halfsize": [
+        1.05,
+        0.425,
+        0.415
+      ]
+    },
+    {
+      "kind": "chairs",
+      "center": [
+        0.25,
+        -4.93,
+        0.5
+      ],
+      "halfsize": [
+        0.34,
+        0.34,
+        0.5
+      ]
+    },
+    {
+      "kind": "extra_tables",
+      "center": [
+        4.9,
+        -4.25,
+        0.415
+      ],
+      "halfsize": [
+        1.175,
+        0.425,
+        0.415
+      ]
+    },
+    {
+      "kind": "chairs",
+      "center": [
+        4.9,
+        -5.13,
+        0.5
+      ],
+      "halfsize": [
+        0.34,
+        0.34,
+        0.5
+      ]
+    },
+    {
+      "kind": "shelving_bays",
+      "center": [
+        8.3,
+        -2.95,
+        0.95
+      ],
+      "halfsize": [
+        0.5,
+        0.67,
+        0.95
+      ]
+    }
+  ],
+  "travel_lane_clear": true,
+  "limitations": [
+    "Provisional architectural layout, not a code-compliant building or ventilation design.",
+    "New furniture is static; no door swing or chair movement simulation."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "compiled": true,
+  "engine": "3.12.0",
+  "bodies": 64,
+  "joints": 25,
+  "meshes": 108,
+  "geoms": 483,
+  "nori_mimic_constraints": 3,
+  "tables": 8,
+  "cad_instances": 32,
+  "aisle_transit_samples": 80,
+  "aisle_environment_penetrations": [],
+  "scope": "Kinematic straight-aisle geometry check only; no docking, reach, grasp or dynamics validation."
+}

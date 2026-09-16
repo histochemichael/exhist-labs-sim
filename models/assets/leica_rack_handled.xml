@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Handled Leica input rack | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="leica_rack_handled_0" file="meshes/leica_rack_handled_0.obj" inertia="shell" />
+    <mesh name="leica_rack_handled_1" file="meshes/leica_rack_handled_1.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="leica_rack_handled_0" rgba="0.62745098 0.62745098 0.62745098 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_rack_handled_1" rgba="0.603921569 0.733333333 0.768627451 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

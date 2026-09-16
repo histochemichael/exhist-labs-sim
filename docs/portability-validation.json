@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "engine": "3.4.0",
+  "models": [
+    {
+      "file": "exhist.xml",
+      "original_sha256": "a312886231e43e36302eec69e53d8c568e158e5e2d59032885f6b44dc99d59d4",
+      "portable_sha256": "a312886231e43e36302eec69e53d8c568e158e5e2d59032885f6b44dc99d59d4",
+      "identical_numeric_arrays": 420,
+      "excluded_fields": [
+        "hfield_pathadr",
+        "mesh_pathadr",
+        "mesh_polynormal (derived convex hull)",
+        "tex_pathadr"
+      ],
+      "non_path_xml_identical": true,
+      "identical_resource_files": 175
+    },
+    {
+      "file": "exhist_operational.xml",
+      "original_sha256": "9f4e0f36682b818d00b7c2ac862e414710e3c5390fcad6d01e766cd751ed2670",
+      "portable_sha256": "9f4e0f36682b818d00b7c2ac862e414710e3c5390fcad6d01e766cd751ed2670",
+      "identical_numeric_arrays": 420,
+      "excluded_fields": [
+        "hfield_pathadr",
+        "mesh_pathadr",
+        "mesh_polynormal (derived convex hull)",
+        "tex_pathadr"
+      ],
+      "non_path_xml_identical": true,
+      "identical_resource_files": 423
+    },
+    {
+      "file": "exhist_rail_loop.xml",
+      "original_sha256": "cc4a9ca209a790975b38b00bb009b2fb732137650e610e1349deb06606aa5bba",
+      "portable_sha256": "86539e0e41ca4219cbf6ef47d76f7f8d4e57048b6b66da9d31b32428eba2994d",
+      "identical_numeric_arrays": 420,
+      "excluded_fields": [
+        "hfield_pathadr",
+        "mesh_pathadr",
+        "mesh_polyadr (derived convex hull)",
+        "mesh_polymap (derived convex hull)",
+        "mesh_polymapadr (derived convex hull)",
+        "mesh_polymapnum (derived convex hull)",
+        "mesh_polynormal (derived convex hull)",
+        "mesh_polynum (derived convex hull)",
+        "mesh_polyvert (derived convex hull)",
+        "mesh_polyvertadr (derived convex hull)",
+        "mesh_polyvertnum (derived convex hull)",
+        "tex_pathadr"
+      ],
+      "non_path_xml_identical": true,
+      "identical_resource_files": 437
+    },
+    {
+      "file": "rail_loop_reference/station.xml",
+      "original_sha256": "03f1d3c623aee9aa46672511a6985f2d8a7913bbc57d8b7557bda6f895b2c7bf",
+      "portable_sha256": "19c29158261776caaa8f7c91f389669b47b46118fa6dffd8907f9a6e2850642c",
+      "identical_numeric_arrays": 420,
+      "excluded_fields": [
+        "hfield_pathadr",
+        "mesh_pathadr",
+        "mesh_polynormal (derived convex hull)",
+        "tex_pathadr"
+      ],
+      "non_path_xml_identical": true,
+      "identical_resource_files": 14
+    }
+  ],
+  "scope": "Identical non-path XML parameters and numerical dynamics arrays. Resource path buffers and derived convex-hull representations excluded; not full workflow validation."
+}

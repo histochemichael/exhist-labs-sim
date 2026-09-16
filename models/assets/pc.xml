@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="PC workstation | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="0.25 0.028 0.16" pos="-0.1375 0.0725 0.08" quat="1 0 0 0" rgba="0.119999997 0.159999996 0.180000007 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.23 0.003 0.14" pos="-0.1375 0.0405 0.08" quat="1 0 0 0" rgba="0.0599999987 0.239999995 0.319999993 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.18 0.001 0.007" pos="-0.1575 0.0365 0.16" quat="1 0 0 0" rgba="0.270000011 0.649999976 0.699999988 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.18 0.001 0.007" pos="-0.1575 0.0365 0.115" quat="1 0 0 0" rgba="0.270000011 0.649999976 0.699999988 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.18 0.001 0.007" pos="-0.1575 0.0365 0.07" quat="1 0 0 0" rgba="0.270000011 0.649999976 0.699999988 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.18 0.001 0.007" pos="-0.1575 0.0365 0.025" quat="1 0 0 0" rgba="0.270000011 0.649999976 0.699999988 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.018 0.025 0.08" pos="-0.1375 0.0725 -0.13" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.13 0.085 0.01" pos="-0.1375 0.0725 -0.229" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.18 0.065 0.007" pos="-0.1375 -0.1475 -0.23" quat="1 0 0 0" rgba="0.180000007 0.230000004 0.25 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.027 0.04 0.014" pos="0.1025 -0.1475 -0.225" quat="1 0 0 0" rgba="0.180000007 0.230000004 0.25 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.075 0.14 0.16" pos="0.3125 0.0725 -0.08" quat="1 0 0 0" rgba="0.159999996 0.200000003 0.230000004 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

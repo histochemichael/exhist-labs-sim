@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "seconds": 21.639999999998885,
+  "phase": "COMPLETE",
+  "position_m": [
+    0.44955261693654747,
+    0.33807118445083517,
+    -0.00017212736222997304
+  ],
+  "heading_error_deg": 1.3895875294721138,
+  "speed_mps": 1.5430356038587376e-05,
+  "yaw_speed_radps": 0.0003046189671863795,
+  "settled_s": 0.3000000000000002,
+  "maximum_lift_force_N": 98.32442094164571,
+  "base_pose_commands_after_initialization": 0,
+  "lift_brake": false,
+  "scope": "Standalone physical docking with provisional lift/chassis/casters; no payload or full-lab navigation."
+}

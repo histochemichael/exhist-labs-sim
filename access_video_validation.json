@@ -1,0 +1,27 @@
+{
+  "frames": 1497,
+  "fps": 15,
+  "duration_s": 99.8,
+  "physics_playback_speed": 3,
+  "source_sha256": {
+    "equipment_access.py": "7267890df8d96e4d09d5f7926d22da219e3b3e63c590fe0dafadb7013c91e664",
+    "left_claw_contacts.py": "859519c71b2d099cbf8fa8867129195b3ea18c163b7992664c13e4d52f62fe04",
+    "quincy_offset_pull.py": "ec62aad8382c5775089025640a1fdec05811b1d75d44e7b30460762d2f592370",
+    "access_planning.py": "97074fc4e0fee417f0f08feb57c0922ebef87f5d8bd09692af9a9a077bcbe464",
+    "access_quincy_plan.json": "776755907eb754d8ab0a89045a6c1e6ab55256d75bd74f3153ddc00c2ec2ea02",
+    "access_s60_plan.json": "6ef1da12b04bc298c2601beba6740dfa28c64655c74b52732e2774322bde0963",
+    "access_st_load_plan.json": "c48a9bf2abdfe1830e99fd33974a7516c6b69db3adbc19b5498735ab9be3dc92",
+    "access_st_unload_plan.json": "f316aee220facbcafd7ea7febd7208351f1d1af506e3b8ed1810ebcd3d803c9d",
+    "access_cv_load_plan.json": "e76ed71e3a6c0f75c2b531449c2d7aef21c5637ea9a6673d05557ba52c7f5feb",
+    "access_ts_drawer_plan.json": "d0dc3a09fd1ecb2c7bfd59f5c4bdb452a1e3f12f5fae336febfb75c71592e76f"
+  },
+  "recording_interval_sim_s": 0.2,
+  "scope": "Recorded simulation states; no independent kinematic equipment animation.",
+  "decoded_frames": 1497,
+  "decoded_size": [
+    1280,
+    720
+  ],
+  "decode_passed": true,
+  "head_view": "Proposed fixed head-side camera; arm occlusion at some poses; hardware calibration unvalidated"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "cad/step/leica-workstation.stp",
+    "archive": "cad/step/leica-workstation.stp.gz",
+    "sha256": "00f6f4dd891023ddf1880b80c2845fb8d0d5f34569f6c60074ae1dee4837a5b6",
+    "bytes": 105332801,
+    "archive_bytes": 15000245
+  },
+  {
+    "file": "rail_loop_lab_trace.json",
+    "archive": "rail_loop_lab_trace.json.gz",
+    "sha256": "8a9c1a2ae9214b6d1f8b0cd1ea0221f3de308f91c2fd288cfc24bf8f1881d08d",
+    "bytes": 62639017,
+    "archive_bytes": 19522482
+  },
+  {
+    "file": "rail_loop_reference/rail_loop_trace.json",
+    "archive": "rail_loop_reference/rail_loop_trace.json.gz",
+    "sha256": "e1fd4467bd44f05a02d350ff7e9e65c95faa140abe620ee6d95b46049ed4a791",
+    "bytes": 62542553,
+    "archive_bytes": 19503037
+  }
+]

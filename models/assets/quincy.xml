@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Quincy 10GC | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="quincy_0" file="meshes/quincy_0.obj" inertia="shell" />
+    <mesh name="quincy_1" file="meshes/quincy_1.obj" inertia="shell" />
+    <mesh name="quincy_2" file="meshes/quincy_2.obj" inertia="shell" />
+    <mesh name="quincy_3" file="meshes/quincy_3.obj" inertia="shell" />
+    <mesh name="quincy_4" file="meshes/quincy_4.obj" inertia="shell" />
+    <mesh name="quincy_5" file="meshes/quincy_5.obj" inertia="shell" />
+    <mesh name="quincy_6" file="meshes/quincy_6.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="quincy_0" rgba="0.701960784 0.701960784 0.701960784 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_1" rgba="0.0980392157 0.0980392157 0.0980392157 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_2" rgba="0.960784314 0.960784314 0.964705882 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_3" rgba="0.768627451 0.207843137 0.152941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_4" rgba="0.152941176 0.152941176 0.152941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_5" rgba="0.796078431 0.796078431 0.796078431 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="quincy_6" rgba="0.62745098 0.62745098 0.62745098 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

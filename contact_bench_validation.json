@@ -1,0 +1,191 @@
+{
+  "cases": [
+    {
+      "case": "stock",
+      "friction": 0.6,
+      "offset_m": 0,
+      "peak_lift_m": 0.056282861796665105,
+      "settled_final_z_m": 0.025470907574062205,
+      "start_z_m": 0.06247090757470541,
+      "bilateral_hold_fraction": 1.0,
+      "hold_samples": 2000,
+      "relative_hold_slip_m": 0.001099460725627366,
+      "concept_pads": false,
+      "hold_position_std_m": [
+        9.788433982147372e-06,
+        2.2801605748679733e-05,
+        0.00031641055713559725
+      ],
+      "peak_sampled_normal_force_N": 0.3968429046706269,
+      "released": true,
+      "passed_grasp": true,
+      "maximum_fixture_lift_m": 0.05655950561801995,
+      "release_drop_m": 0.09211687542961972,
+      "events": [
+        {
+          "t": 0.5000000000000003,
+          "event": "CLOSE",
+          "reasons": []
+        },
+        {
+          "t": 2.259999999999862,
+          "event": "LIFT"
+        },
+        {
+          "t": 3.46099999999973,
+          "event": "HOLD"
+        },
+        {
+          "t": 5.461000000000158,
+          "event": "RELEASE",
+          "qualified": true,
+          "reasons": []
+        }
+      ],
+      "pose_rejection": [],
+      "payload_has_free_joint": true,
+      "payload_has_actuator": false,
+      "payload_weld": false,
+      "joint_limits_within_fixture_tolerance": true,
+      "effort_limits_ok": true,
+      "unexpected_hold_contact": false
+    },
+    {
+      "case": "padded",
+      "friction": 0.6,
+      "offset_m": 0,
+      "peak_lift_m": 0.05675796471487967,
+      "settled_final_z_m": 0.025470907574062205,
+      "start_z_m": 0.06247090757470541,
+      "bilateral_hold_fraction": 1.0,
+      "hold_samples": 2000,
+      "relative_hold_slip_m": 0.0002575315031842773,
+      "concept_pads": true,
+      "hold_position_std_m": [
+        2.2256888114475267e-12,
+        3.459775511658067e-14,
+        7.434140624201309e-05
+      ],
+      "peak_sampled_normal_force_N": 0.40000000608482905,
+      "released": true,
+      "passed_grasp": true,
+      "maximum_fixture_lift_m": 0.05655950574907408,
+      "release_drop_m": 0.09347552042364209,
+      "events": [
+        {
+          "t": 0.5000000000000003,
+          "event": "CLOSE",
+          "reasons": []
+        },
+        {
+          "t": 2.1739999999998716,
+          "event": "LIFT"
+        },
+        {
+          "t": 3.3749999999997393,
+          "event": "HOLD"
+        },
+        {
+          "t": 5.37500000000013,
+          "event": "RELEASE",
+          "qualified": true,
+          "reasons": []
+        }
+      ],
+      "pose_rejection": [],
+      "payload_has_free_joint": true,
+      "payload_has_actuator": false,
+      "payload_weld": false,
+      "joint_limits_within_fixture_tolerance": true,
+      "effort_limits_ok": true,
+      "unexpected_hold_contact": false
+    },
+    {
+      "case": "missed",
+      "friction": 0.6,
+      "offset_m": 0.065,
+      "peak_lift_m": 0.0,
+      "settled_final_z_m": 0.06247090971746081,
+      "start_z_m": 0.06258181367495512,
+      "bilateral_hold_fraction": 0.0,
+      "hold_samples": 0,
+      "relative_hold_slip_m": 0.0,
+      "concept_pads": true,
+      "hold_position_std_m": null,
+      "peak_sampled_normal_force_N": 0,
+      "released": true,
+      "passed_grasp": false,
+      "maximum_fixture_lift_m": 0.0,
+      "release_drop_m": null,
+      "events": [
+        {
+          "t": 0.5000000000000003,
+          "event": "POSE_REJECTED",
+          "reasons": [
+            "position_misaligned"
+          ]
+        }
+      ],
+      "pose_rejection": [
+        "position_misaligned"
+      ],
+      "payload_has_free_joint": true,
+      "payload_has_actuator": false,
+      "payload_weld": false,
+      "joint_limits_within_fixture_tolerance": true,
+      "effort_limits_ok": true,
+      "unexpected_hold_contact": false
+    },
+    {
+      "case": "slippery",
+      "friction": 0,
+      "offset_m": 0,
+      "peak_lift_m": 9.971466672455132e-06,
+      "settled_final_z_m": 0.06246931299966411,
+      "start_z_m": 0.06247090757470541,
+      "bilateral_hold_fraction": 0.0,
+      "hold_samples": 0,
+      "relative_hold_slip_m": 0.0,
+      "concept_pads": true,
+      "hold_position_std_m": null,
+      "peak_sampled_normal_force_N": 0,
+      "released": false,
+      "passed_grasp": false,
+      "maximum_fixture_lift_m": 0.0036496651566057074,
+      "release_drop_m": null,
+      "events": [
+        {
+          "t": 0.5000000000000003,
+          "event": "CLOSE",
+          "reasons": []
+        },
+        {
+          "t": 2.1739999999998716,
+          "event": "LIFT"
+        },
+        {
+          "t": 2.2919999999998586,
+          "event": "GRASP_LOST",
+          "reasons": [
+            "slip_detected_stop_fixture"
+          ]
+        }
+      ],
+      "pose_rejection": [],
+      "payload_has_free_joint": true,
+      "payload_has_actuator": false,
+      "payload_weld": false,
+      "joint_limits_within_fixture_tolerance": true,
+      "effort_limits_ok": true,
+      "unexpected_hold_contact": false
+    }
+  ],
+  "full_lab_validated": false,
+  "scope": "Actual CAD convex jaw contacts / nominal glass / test fixture only",
+  "limitations": [
+    "3x18x5 mm tip pads are an unbuilt concept, with assumed friction, attachment and compliance.",
+    "Two-second hold only, not extraction from a loaded rack or a moving Nori arm.",
+    "Intentional release/drop tests; not supported placement or glass fracture validation.",
+    "No payload actuator, mocap, attachment weld or position reset after initialization."
+  ]
+}

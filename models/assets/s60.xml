@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Hamamatsu NanoZoomer S60 | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="s60_0" file="meshes/s60_0.obj" inertia="shell" />
+    <mesh name="s60_1" file="meshes/s60_1.obj" inertia="shell" />
+    <mesh name="s60_2" file="meshes/s60_2.obj" inertia="shell" />
+    <mesh name="s60_3" file="meshes/s60_3.obj" inertia="shell" />
+    <mesh name="s60_4" file="meshes/s60_4.obj" inertia="shell" />
+    <mesh name="s60_5" file="meshes/s60_5.obj" inertia="shell" />
+    <mesh name="s60_6" file="meshes/s60_6.obj" inertia="shell" />
+    <mesh name="s60_7" file="meshes/s60_7.obj" inertia="shell" />
+    <mesh name="s60_8" file="meshes/s60_8.obj" inertia="shell" />
+    <mesh name="s60_9" file="meshes/s60_9.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="s60_0" rgba="0.960784314 0.960784314 0.964705882 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_1" rgba="0.0980392157 0.0980392157 0.0980392157 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_2" rgba="1 1 1 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_3" rgba="0.964705882 0.964705882 0.952941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_4" rgba="0.188235294 0.196078431 0.203921569 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_5" rgba="0.137254902 0.823529412 0.470588235 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_6" rgba="0.823529412 0.176470588 0.176470588 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_7" rgba="0.878431373 0.839215686 0.71372549 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_8" rgba="0.870588235 0.184313725 0.254901961 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="s60_9" rgba="0.635294118 0.580392157 0.807843137 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

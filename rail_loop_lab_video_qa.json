@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "decoded_frames": 1205,
+  "fps": 15.0,
+  "duration_s": 80.33333333333333,
+  "content_motion_delta": 7.442619358854653,
+  "sampled_frames": [
+    0,
+    400,
+    850,
+    1174
+  ],
+  "size": [
+    1280,
+    720
+  ]
+}

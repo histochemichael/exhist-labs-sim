@@ -1,0 +1,4522 @@
+{
+  "source": "Leica_ST5020_CV5030_Workstation_Mechanical_QC_v2 v2",
+  "source_joint_count": 84,
+  "rigid_joints": [
+    {
+      "name": "WS_RIGID_DATUMS_TO_CV5030",
+      "context": "root",
+      "one": "WS_MATING_DATUMS:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "WS_RIGID_ST5020_TO_CV5030",
+      "context": "root",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "PHOTO_FIXED_LEFT_FASCIA",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "QC_FIXED_PICKUP_Y",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_index_carriage:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        -0.02,
+        -3.552713678800501e-17,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "QC_TS_REAR_MOUNT_FIXED",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Y_CARRIAGE_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "QC_TS_FORK_TO_Z",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Z_LIFT_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.06799999999999998
+      ],
+      "dofs": []
+    },
+    {
+      "name": "TS5025_FIXED_TO_CV5030",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+01_BASE_FRAME:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "ST_LCD_FIXED_TO_STAINER",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.35000000000000003,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    },
+    {
+      "name": "ST_POWER_SWITCH_FIXED_TO_STAINER",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.35000000000000014,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    },
+    {
+      "name": "CYCLE_HOLD_20_RACK_L33_-_liftable",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.853775,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    }
+  ],
+  "movable_joints_per_workstation": 74,
+  "dofs_per_workstation": 88,
+  "joint_map": [
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_WORKSTATION_PORT_TRAVEL_XZ",
+      "cad_context": "root",
+      "body": "routine_a_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.05,
+            0.0
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.5,
+            0.0
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_INPUT_DOOR",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "body": "routine_a_j1_EST_INPUT_DOOR",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j1_EST_INPUT_DOOR_0",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            1.6580627893946132
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_HOOD_REVOLUTE",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "body": "routine_a_j2_EST_HOOD_REVOLUTE",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j2_EST_HOOD_REVOLUTE_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.3962634015954636,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_DRAWER_SLIDER",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "body": "routine_a_j4_EST_DRAWER_SLIDER",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j4_EST_DRAWER_SLIDER_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 15,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_GRIPPER_LIFT_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_a_j6_EST_GRIPPER_LIFT_Z",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j6_EST_GRIPPER_LIFT_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.28,
+            0.009999999999999995
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_OUTFEED_SIDE_TRAVEL",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "body": "routine_a_j11_EST_OUTFEED_SIDE_TRAVEL",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j11_EST_OUTFEED_SIDE_TRAVEL_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.045,
+            0.23000000000000004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 3,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_DISPENSER_Y_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_a_j13_QC_DISPENSER_Y_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j13_QC_DISPENSER_Y_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.06,
+            0.02
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_PICK_PLACE_Y",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "body": "routine_a_j16_EST_PICK_PLACE_Y",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j16_EST_PICK_PLACE_Y_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.12200000000000001
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_OUTPUT_LIFT_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1",
+      "body": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j23_EST_OUTPUT_LIFT_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.228
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 13,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "TS5025_DRAWER_OPEN_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j27_TS5025_DRAWER_OPEN_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j27_TS5025_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.22,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 6,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "TS5025_COVER_OPEN_deg",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j28_TS5025_COVER_OPEN_deg",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j28_TS5025_COVER_OPEN_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.6580627890001685,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "TS5025_TRANSFER_X_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j29_TS5025_TRANSFER_X_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j29_TS5025_TRANSFER_X_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.04
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 11,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_TS_CRADLE_RETRACT_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j32_QC_TS_CRADLE_RETRACT_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j32_QC_TS_CRADLE_RETRACT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.045
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 3,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "UNLOAD_DRAWER_OPEN_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23495000000000002,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 23,
+      "subtree_visible_parts": 31,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "LOAD_DRAWER_OPEN_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j66_LOAD_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23495000000000002,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 14,
+      "subtree_visible_parts": 76,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "ST_ARM_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j70_ST_ARM_Z_mm",
+      "parent": "routine_a_fixed",
+      "dofs": [
+        {
+          "name": "routine_a_j70_ST_ARM_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.153,
+            0.067
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 24,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_BATH_TRANSPORT_SLIDER",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "body": "routine_a_j5_EST_BATH_TRANSPORT_SLIDER",
+      "parent": "routine_a_j4_EST_DRAWER_SLIDER",
+      "dofs": [
+        {
+          "name": "routine_a_j5_EST_BATH_TRANSPORT_SLIDER_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.3395
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 11,
+      "subtree_visible_parts": 11,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_GRIPPER_TRANSFER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_a_j7_EST_GRIPPER_TRANSFER_X",
+      "parent": "routine_a_j6_EST_GRIPPER_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j7_EST_GRIPPER_TRANSFER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.005,
+            0.045
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_PUSHER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "body": "routine_a_j12_QC_PUSHER_Z_mm",
+      "parent": "routine_a_j11_EST_OUTFEED_SIDE_TRAVEL",
+      "dofs": [
+        {
+          "name": "routine_a_j12_QC_PUSHER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_DISPENSER_X_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_a_j14_QC_DISPENSER_X_mm",
+      "parent": "routine_a_j13_QC_DISPENSER_Y_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j14_QC_DISPENSER_X_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.06,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_PICK_PLACE_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "body": "routine_a_j17_EST_PICK_PLACE_Z",
+      "parent": "routine_a_j16_EST_PICK_PLACE_Y",
+      "dofs": [
+        {
+          "name": "routine_a_j17_EST_PICK_PLACE_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.033,
+            0.01
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 6,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_OUTPUT_30_1",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_a_j18_SIM_TRANSFER_OUTPUT_30_1",
+      "parent": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j18_SIM_TRANSFER_OUTPUT_30_1_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j18_SIM_TRANSFER_OUTPUT_30_1_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j18_SIM_TRANSFER_OUTPUT_30_1_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_OUTPUT_30_2",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_a_j19_SIM_TRANSFER_OUTPUT_30_2",
+      "parent": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j19_SIM_TRANSFER_OUTPUT_30_2_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j19_SIM_TRANSFER_OUTPUT_30_2_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j19_SIM_TRANSFER_OUTPUT_30_2_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_1",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_a_j20_SIM_TRANSFER_OUTPUT_20_1",
+      "parent": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j20_SIM_TRANSFER_OUTPUT_20_1_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j20_SIM_TRANSFER_OUTPUT_20_1_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j20_SIM_TRANSFER_OUTPUT_20_1_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_2",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_a_j21_SIM_TRANSFER_OUTPUT_20_2",
+      "parent": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j21_SIM_TRANSFER_OUTPUT_20_2_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j21_SIM_TRANSFER_OUTPUT_20_2_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j21_SIM_TRANSFER_OUTPUT_20_2_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_3",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_a_j22_SIM_TRANSFER_OUTPUT_20_3",
+      "parent": "routine_a_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_a_j22_SIM_TRANSFER_OUTPUT_20_3_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j22_SIM_TRANSFER_OUTPUT_20_3_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j22_SIM_TRANSFER_OUTPUT_20_3_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_CHUTE_TRAVEL_Y_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "body": "routine_a_j25_QC_CHUTE_TRAVEL_Y_mm",
+      "parent": "routine_a_j27_TS5025_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j25_QC_CHUTE_TRAVEL_Y_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.355,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_TS_Z_HALF_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j30_QC_TS_Z_HALF_mm",
+      "parent": "routine_a_j29_TS5025_TRANSFER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j30_QC_TS_Z_HALF_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.169,
+            0.005999999999999998
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "TS5025_TRANSFER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_a_j31_TS5025_TRANSFER_Z_mm",
+      "parent": "routine_a_j29_TS5025_TRANSFER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j31_TS5025_TRANSFER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.338,
+            0.011999999999999997
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 8,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_01_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j33_CYCLE_FILL_01_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j33_CYCLE_FILL_01_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_02_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j34_CYCLE_FILL_02_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j34_CYCLE_FILL_02_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_03_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j35_CYCLE_FILL_03_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j35_CYCLE_FILL_03_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_04_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j36_CYCLE_FILL_04_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j36_CYCLE_FILL_04_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_05_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j37_CYCLE_FILL_05_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j37_CYCLE_FILL_05_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_06_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j38_CYCLE_FILL_06_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j38_CYCLE_FILL_06_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_07_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j39_CYCLE_FILL_07_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j39_CYCLE_FILL_07_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_08_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j40_CYCLE_FILL_08_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j40_CYCLE_FILL_08_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_09_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j41_CYCLE_FILL_09_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j41_CYCLE_FILL_09_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_10_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j42_CYCLE_FILL_10_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j42_CYCLE_FILL_10_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_11_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j43_CYCLE_FILL_11_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j43_CYCLE_FILL_11_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_12_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j44_CYCLE_FILL_12_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j44_CYCLE_FILL_12_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_13_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j45_CYCLE_FILL_13_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j45_CYCLE_FILL_13_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_14_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j46_CYCLE_FILL_14_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j46_CYCLE_FILL_14_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_17_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j47_CYCLE_FILL_17_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j47_CYCLE_FILL_17_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_18_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j48_CYCLE_FILL_18_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j48_CYCLE_FILL_18_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_19_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j49_CYCLE_FILL_19_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j49_CYCLE_FILL_19_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_20_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j50_CYCLE_FILL_20_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j50_CYCLE_FILL_20_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_21_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j51_CYCLE_FILL_21_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j51_CYCLE_FILL_21_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_22_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j52_CYCLE_FILL_22_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j52_CYCLE_FILL_22_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_23_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j53_CYCLE_FILL_23_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j53_CYCLE_FILL_23_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_24_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j54_CYCLE_FILL_24_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j54_CYCLE_FILL_24_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_25_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j55_CYCLE_FILL_25_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j55_CYCLE_FILL_25_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_26_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j56_CYCLE_FILL_26_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j56_CYCLE_FILL_26_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_27_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j57_CYCLE_FILL_27_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j57_CYCLE_FILL_27_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_28_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j58_CYCLE_FILL_28_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j58_CYCLE_FILL_28_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_29_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j59_CYCLE_FILL_29_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j59_CYCLE_FILL_29_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "CYCLE_FILL_30_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_a_j60_CYCLE_FILL_30_Z_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j60_CYCLE_FILL_30_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "E25_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j62_E25_RACK_LIFT_mm",
+      "parent": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j62_E25_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "E26_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j63_E26_RACK_LIFT_mm",
+      "parent": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j63_E26_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "E27_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j64_E27_RACK_LIFT_mm",
+      "parent": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j64_E27_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "E28_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j65_E28_RACK_LIFT_mm",
+      "parent": "routine_a_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j65_E28_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "L34_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j67_L34_RACK_LIFT_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j67_L34_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "L35_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j68_L35_RACK_LIFT_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j68_L35_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "L36_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j69_L36_RACK_LIFT_mm",
+      "parent": "routine_a_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j69_L36_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "ST_ARM_SHOULDER_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j71_ST_ARM_SHOULDER_deg",
+      "parent": "routine_a_j70_ST_ARM_Z_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j71_ST_ARM_SHOULDER_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.5045137832589828,
+            4.778671523920604
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 21,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "SIM_TRANSFER_INPUT",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "body": "routine_a_j3_SIM_TRANSFER_INPUT",
+      "parent": "routine_a_j5_EST_BATH_TRANSPORT_SLIDER",
+      "dofs": [
+        {
+          "name": "routine_a_j3_SIM_TRANSFER_INPUT_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j3_SIM_TRANSFER_INPUT_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_a_j3_SIM_TRANSFER_INPUT_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_GRIPPER_ROTATION_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_a_j10_EST_GRIPPER_ROTATION_X",
+      "parent": "routine_a_j7_EST_GRIPPER_TRANSFER_X",
+      "dofs": [
+        {
+          "name": "routine_a_j10_EST_GRIPPER_ROTATION_X_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.6580627893946132,
+            1.6580627893946132
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_DISPENSER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_a_j15_QC_DISPENSER_Z_mm",
+      "parent": "routine_a_j14_QC_DISPENSER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j15_QC_DISPENSER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.0030000000000000005,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_CHUTE_TRAVEL_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "body": "routine_a_j26_QC_CHUTE_TRAVEL_Z_mm",
+      "parent": "routine_a_j25_QC_CHUTE_TRAVEL_Y_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j26_QC_CHUTE_TRAVEL_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.047,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "ST_ARM_ELBOW_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j72_ST_ARM_ELBOW_deg",
+      "parent": "routine_a_j71_ST_ARM_SHOULDER_deg",
+      "dofs": [
+        {
+          "name": "routine_a_j72_ST_ARM_ELBOW_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -3.386651715868439,
+            2.8965335913111474
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 14,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_LEFT_FINGER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_a_j8_EST_LEFT_FINGER_X",
+      "parent": "routine_a_j10_EST_GRIPPER_ROTATION_X",
+      "dofs": [
+        {
+          "name": "routine_a_j8_EST_LEFT_FINGER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.004,
+            0.0015000000000000002
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "EST_RIGHT_FINGER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_a_j9_EST_RIGHT_FINGER_X",
+      "parent": "routine_a_j10_EST_GRIPPER_ROTATION_X",
+      "dofs": [
+        {
+          "name": "routine_a_j9_EST_RIGHT_FINGER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.0015000000000000002,
+            0.004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "QC_EMPTY_RACK_SETTLE_deg",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1",
+      "body": "routine_a_j24_QC_EMPTY_RACK_SETTLE_deg",
+      "parent": "routine_a_j26_QC_CHUTE_TRAVEL_Z_mm",
+      "dofs": [
+        {
+          "name": "routine_a_j24_QC_EMPTY_RACK_SETTLE_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.1308996938995747
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_a",
+      "cad_name": "ST_ARM_WRIST_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_a_j73_ST_ARM_WRIST_deg",
+      "parent": "routine_a_j72_ST_ARM_ELBOW_deg",
+      "dofs": [
+        {
+          "name": "routine_a_j73_ST_ARM_WRIST_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.3920198080521646,
+            4.891165499127421
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 7,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_WORKSTATION_PORT_TRAVEL_XZ",
+      "cad_context": "root",
+      "body": "routine_b_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.05,
+            0.0
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.5,
+            0.0
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j0_SIM_WORKSTATION_PORT_TRAVEL_XZ_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_INPUT_DOOR",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "body": "routine_b_j1_EST_INPUT_DOOR",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j1_EST_INPUT_DOOR_0",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            1.6580627893946132
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_HOOD_REVOLUTE",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "body": "routine_b_j2_EST_HOOD_REVOLUTE",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j2_EST_HOOD_REVOLUTE_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.3962634015954636,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_DRAWER_SLIDER",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "body": "routine_b_j4_EST_DRAWER_SLIDER",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j4_EST_DRAWER_SLIDER_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 15,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_GRIPPER_LIFT_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_b_j6_EST_GRIPPER_LIFT_Z",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j6_EST_GRIPPER_LIFT_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.28,
+            0.009999999999999995
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_OUTFEED_SIDE_TRAVEL",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "body": "routine_b_j11_EST_OUTFEED_SIDE_TRAVEL",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j11_EST_OUTFEED_SIDE_TRAVEL_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.045,
+            0.23000000000000004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 3,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_DISPENSER_Y_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_b_j13_QC_DISPENSER_Y_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j13_QC_DISPENSER_Y_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.06,
+            0.02
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_PICK_PLACE_Y",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "body": "routine_b_j16_EST_PICK_PLACE_Y",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j16_EST_PICK_PLACE_Y_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.12200000000000001
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_OUTPUT_LIFT_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1",
+      "body": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j23_EST_OUTPUT_LIFT_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.228
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 13,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "TS5025_DRAWER_OPEN_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j27_TS5025_DRAWER_OPEN_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j27_TS5025_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.22,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 6,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "TS5025_COVER_OPEN_deg",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j28_TS5025_COVER_OPEN_deg",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j28_TS5025_COVER_OPEN_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.6580627890001685,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "TS5025_TRANSFER_X_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j29_TS5025_TRANSFER_X_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j29_TS5025_TRANSFER_X_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.04
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 11,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_TS_CRADLE_RETRACT_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j32_QC_TS_CRADLE_RETRACT_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j32_QC_TS_CRADLE_RETRACT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.045
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 3,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "UNLOAD_DRAWER_OPEN_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23495000000000002,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 23,
+      "subtree_visible_parts": 31,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "LOAD_DRAWER_OPEN_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j66_LOAD_DRAWER_OPEN_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.23495000000000002,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 14,
+      "subtree_visible_parts": 76,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "ST_ARM_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j70_ST_ARM_Z_mm",
+      "parent": "routine_b_fixed",
+      "dofs": [
+        {
+          "name": "routine_b_j70_ST_ARM_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.153,
+            0.067
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 3,
+      "subtree_visible_parts": 24,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_BATH_TRANSPORT_SLIDER",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "body": "routine_b_j5_EST_BATH_TRANSPORT_SLIDER",
+      "parent": "routine_b_j4_EST_DRAWER_SLIDER",
+      "dofs": [
+        {
+          "name": "routine_b_j5_EST_BATH_TRANSPORT_SLIDER_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.3395
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 11,
+      "subtree_visible_parts": 11,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_GRIPPER_TRANSFER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_b_j7_EST_GRIPPER_TRANSFER_X",
+      "parent": "routine_b_j6_EST_GRIPPER_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j7_EST_GRIPPER_TRANSFER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.005,
+            0.045
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_PUSHER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "body": "routine_b_j12_QC_PUSHER_Z_mm",
+      "parent": "routine_b_j11_EST_OUTFEED_SIDE_TRAVEL",
+      "dofs": [
+        {
+          "name": "routine_b_j12_QC_PUSHER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_DISPENSER_X_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_b_j14_QC_DISPENSER_X_mm",
+      "parent": "routine_b_j13_QC_DISPENSER_Y_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j14_QC_DISPENSER_X_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.06,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_PICK_PLACE_Z",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "body": "routine_b_j17_EST_PICK_PLACE_Z",
+      "parent": "routine_b_j16_EST_PICK_PLACE_Y",
+      "dofs": [
+        {
+          "name": "routine_b_j17_EST_PICK_PLACE_Z_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.033,
+            0.01
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 6,
+      "subtree_visible_parts": 6,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_OUTPUT_30_1",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_b_j18_SIM_TRANSFER_OUTPUT_30_1",
+      "parent": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j18_SIM_TRANSFER_OUTPUT_30_1_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j18_SIM_TRANSFER_OUTPUT_30_1_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j18_SIM_TRANSFER_OUTPUT_30_1_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_OUTPUT_30_2",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_b_j19_SIM_TRANSFER_OUTPUT_30_2",
+      "parent": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j19_SIM_TRANSFER_OUTPUT_30_2_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j19_SIM_TRANSFER_OUTPUT_30_2_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j19_SIM_TRANSFER_OUTPUT_30_2_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 5,
+      "subtree_visible_parts": 5,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_1",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_b_j20_SIM_TRANSFER_OUTPUT_20_1",
+      "parent": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j20_SIM_TRANSFER_OUTPUT_20_1_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j20_SIM_TRANSFER_OUTPUT_20_1_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j20_SIM_TRANSFER_OUTPUT_20_1_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_2",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_b_j21_SIM_TRANSFER_OUTPUT_20_2",
+      "parent": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j21_SIM_TRANSFER_OUTPUT_20_2_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j21_SIM_TRANSFER_OUTPUT_20_2_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j21_SIM_TRANSFER_OUTPUT_20_2_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_OUTPUT_20_3",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "body": "routine_b_j22_SIM_TRANSFER_OUTPUT_20_3",
+      "parent": "routine_b_j23_EST_OUTPUT_LIFT_Z",
+      "dofs": [
+        {
+          "name": "routine_b_j22_SIM_TRANSFER_OUTPUT_20_3_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j22_SIM_TRANSFER_OUTPUT_20_3_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j22_SIM_TRANSFER_OUTPUT_20_3_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_CHUTE_TRAVEL_Y_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "body": "routine_b_j25_QC_CHUTE_TRAVEL_Y_mm",
+      "parent": "routine_b_j27_TS5025_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j25_QC_CHUTE_TRAVEL_Y_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.355,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_TS_Z_HALF_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j30_QC_TS_Z_HALF_mm",
+      "parent": "routine_b_j29_TS5025_TRANSFER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j30_QC_TS_Z_HALF_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.169,
+            0.005999999999999998
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "TS5025_TRANSFER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "body": "routine_b_j31_TS5025_TRANSFER_Z_mm",
+      "parent": "routine_b_j29_TS5025_TRANSFER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j31_TS5025_TRANSFER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.338,
+            0.011999999999999997
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 8,
+      "subtree_visible_parts": 8,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_01_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j33_CYCLE_FILL_01_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j33_CYCLE_FILL_01_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_02_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j34_CYCLE_FILL_02_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j34_CYCLE_FILL_02_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_03_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j35_CYCLE_FILL_03_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j35_CYCLE_FILL_03_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_04_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j36_CYCLE_FILL_04_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j36_CYCLE_FILL_04_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_05_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j37_CYCLE_FILL_05_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j37_CYCLE_FILL_05_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_06_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j38_CYCLE_FILL_06_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j38_CYCLE_FILL_06_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_07_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j39_CYCLE_FILL_07_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j39_CYCLE_FILL_07_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_08_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j40_CYCLE_FILL_08_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j40_CYCLE_FILL_08_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_09_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j41_CYCLE_FILL_09_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j41_CYCLE_FILL_09_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_10_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j42_CYCLE_FILL_10_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j42_CYCLE_FILL_10_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_11_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j43_CYCLE_FILL_11_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j43_CYCLE_FILL_11_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_12_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j44_CYCLE_FILL_12_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j44_CYCLE_FILL_12_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_13_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j45_CYCLE_FILL_13_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j45_CYCLE_FILL_13_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_14_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j46_CYCLE_FILL_14_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j46_CYCLE_FILL_14_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_17_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j47_CYCLE_FILL_17_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j47_CYCLE_FILL_17_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_18_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j48_CYCLE_FILL_18_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j48_CYCLE_FILL_18_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_19_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j49_CYCLE_FILL_19_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j49_CYCLE_FILL_19_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_20_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j50_CYCLE_FILL_20_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j50_CYCLE_FILL_20_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_21_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j51_CYCLE_FILL_21_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j51_CYCLE_FILL_21_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_22_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j52_CYCLE_FILL_22_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j52_CYCLE_FILL_22_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_23_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j53_CYCLE_FILL_23_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j53_CYCLE_FILL_23_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_24_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j54_CYCLE_FILL_24_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j54_CYCLE_FILL_24_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_25_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j55_CYCLE_FILL_25_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j55_CYCLE_FILL_25_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_26_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j56_CYCLE_FILL_26_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j56_CYCLE_FILL_26_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_27_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j57_CYCLE_FILL_27_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j57_CYCLE_FILL_27_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_28_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j58_CYCLE_FILL_28_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j58_CYCLE_FILL_28_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_29_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j59_CYCLE_FILL_29_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j59_CYCLE_FILL_29_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "CYCLE_FILL_30_Z_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "body": "routine_b_j60_CYCLE_FILL_30_Z_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j60_CYCLE_FILL_30_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.13
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "E25_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j62_E25_RACK_LIFT_mm",
+      "parent": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j62_E25_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "E26_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j63_E26_RACK_LIFT_mm",
+      "parent": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j63_E26_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "E27_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j64_E27_RACK_LIFT_mm",
+      "parent": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j64_E27_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "E28_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j65_E28_RACK_LIFT_mm",
+      "parent": "routine_b_j61_UNLOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j65_E28_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "L34_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j67_L34_RACK_LIFT_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j67_L34_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "L35_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j68_L35_RACK_LIFT_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j68_L35_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "L36_RACK_LIFT_mm",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j69_L36_RACK_LIFT_mm",
+      "parent": "routine_b_j66_LOAD_DRAWER_OPEN_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j69_L36_RACK_LIFT_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.145
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 2,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "ST_ARM_SHOULDER_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j71_ST_ARM_SHOULDER_deg",
+      "parent": "routine_b_j70_ST_ARM_Z_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j71_ST_ARM_SHOULDER_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.5045137832589828,
+            4.778671523920604
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 21,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "SIM_TRANSFER_INPUT",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "body": "routine_b_j3_SIM_TRANSFER_INPUT",
+      "parent": "routine_b_j5_EST_BATH_TRANSPORT_SLIDER",
+      "dofs": [
+        {
+          "name": "routine_b_j3_SIM_TRANSFER_INPUT_0",
+          "kind": "slide",
+          "limits_delta": [
+            0.0,
+            0.4
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j3_SIM_TRANSFER_INPUT_1",
+          "kind": "slide",
+          "limits_delta": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ],
+          "locked": false
+        },
+        {
+          "name": "routine_b_j3_SIM_TRANSFER_INPUT_2",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.0
+          ],
+          "locked": true
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_GRIPPER_ROTATION_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_b_j10_EST_GRIPPER_ROTATION_X",
+      "parent": "routine_b_j7_EST_GRIPPER_TRANSFER_X",
+      "dofs": [
+        {
+          "name": "routine_b_j10_EST_GRIPPER_ROTATION_X_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.6580627893946132,
+            1.6580627893946132
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 2,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_DISPENSER_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "body": "routine_b_j15_QC_DISPENSER_Z_mm",
+      "parent": "routine_b_j14_QC_DISPENSER_X_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j15_QC_DISPENSER_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.0030000000000000005,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 4,
+      "subtree_visible_parts": 4,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_CHUTE_TRAVEL_Z_mm",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "body": "routine_b_j26_QC_CHUTE_TRAVEL_Z_mm",
+      "parent": "routine_b_j25_QC_CHUTE_TRAVEL_Y_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j26_QC_CHUTE_TRAVEL_Z_mm_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.047,
+            0.0
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "ST_ARM_ELBOW_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j72_ST_ARM_ELBOW_deg",
+      "parent": "routine_b_j71_ST_ARM_SHOULDER_deg",
+      "dofs": [
+        {
+          "name": "routine_b_j72_ST_ARM_ELBOW_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -3.386651715868439,
+            2.8965335913111474
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 14,
+      "hidden_reference": false,
+      "device": "ST5020"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_LEFT_FINGER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_b_j8_EST_LEFT_FINGER_X",
+      "parent": "routine_b_j10_EST_GRIPPER_ROTATION_X",
+      "dofs": [
+        {
+          "name": "routine_b_j8_EST_LEFT_FINGER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.004,
+            0.0015000000000000002
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "EST_RIGHT_FINGER_X",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "body": "routine_b_j9_EST_RIGHT_FINGER_X",
+      "parent": "routine_b_j10_EST_GRIPPER_ROTATION_X",
+      "dofs": [
+        {
+          "name": "routine_b_j9_EST_RIGHT_FINGER_X_0",
+          "kind": "slide",
+          "limits_delta": [
+            -0.0015000000000000002,
+            0.004
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 1,
+      "subtree_visible_parts": 1,
+      "hidden_reference": false,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "QC_EMPTY_RACK_SETTLE_deg",
+      "cad_context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1",
+      "body": "routine_b_j24_QC_EMPTY_RACK_SETTLE_deg",
+      "parent": "routine_b_j26_QC_CHUTE_TRAVEL_Z_mm",
+      "dofs": [
+        {
+          "name": "routine_b_j24_QC_EMPTY_RACK_SETTLE_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            0.0,
+            0.1308996938995747
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 0,
+      "subtree_visible_parts": 0,
+      "hidden_reference": true,
+      "device": "CV5030"
+    },
+    {
+      "station": "routine_b",
+      "cad_name": "ST_ARM_WRIST_deg",
+      "cad_context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "body": "routine_b_j73_ST_ARM_WRIST_deg",
+      "parent": "routine_b_j72_ST_ARM_ELBOW_deg",
+      "dofs": [
+        {
+          "name": "routine_b_j73_ST_ARM_WRIST_deg_0",
+          "kind": "hinge",
+          "limits_delta": [
+            -1.3920198080521646,
+            4.891165499127421
+          ],
+          "locked": false
+        }
+      ],
+      "visible_parts": 7,
+      "subtree_visible_parts": 7,
+      "hidden_reference": false,
+      "device": "ST5020"
+    }
+  ],
+  "parts_by_link": {
+    "fixed": 575,
+    "j1_EST_INPUT_DOOR": 1,
+    "j2_EST_HOOD_REVOLUTE": 4,
+    "j4_EST_DRAWER_SLIDER": 4,
+    "j5_EST_BATH_TRANSPORT_SLIDER": 11,
+    "j6_EST_GRIPPER_LIFT_Z": 2,
+    "j7_EST_GRIPPER_TRANSFER_X": 2,
+    "j10_EST_GRIPPER_ROTATION_X": 2,
+    "j8_EST_LEFT_FINGER_X": 1,
+    "j9_EST_RIGHT_FINGER_X": 1,
+    "j11_EST_OUTFEED_SIDE_TRAVEL": 2,
+    "j12_QC_PUSHER_Z_mm": 1,
+    "j15_QC_DISPENSER_Z_mm": 4,
+    "j13_QC_DISPENSER_Y_mm": 1,
+    "j16_EST_PICK_PLACE_Y": 2,
+    "j17_EST_PICK_PLACE_Z": 6,
+    "j18_SIM_TRANSFER_OUTPUT_30_1": 5,
+    "j19_SIM_TRANSFER_OUTPUT_30_2": 5,
+    "j23_EST_OUTPUT_LIFT_Z": 3,
+    "j27_TS5025_DRAWER_OPEN_mm": 6,
+    "j28_TS5025_COVER_OPEN_deg": 5,
+    "j32_QC_TS_CRADLE_RETRACT_mm": 3,
+    "j31_TS5025_TRANSFER_Z_mm": 8,
+    "j29_TS5025_TRANSFER_X_mm": 2,
+    "j30_QC_TS_Z_HALF_mm": 1,
+    "j61_UNLOAD_DRAWER_OPEN_mm": 23,
+    "j62_E25_RACK_LIFT_mm": 2,
+    "j63_E26_RACK_LIFT_mm": 2,
+    "j64_E27_RACK_LIFT_mm": 2,
+    "j65_E28_RACK_LIFT_mm": 2,
+    "j66_LOAD_DRAWER_OPEN_mm": 14,
+    "j33_CYCLE_FILL_01_Z_mm": 2,
+    "j34_CYCLE_FILL_02_Z_mm": 2,
+    "j35_CYCLE_FILL_03_Z_mm": 2,
+    "j36_CYCLE_FILL_04_Z_mm": 2,
+    "j37_CYCLE_FILL_05_Z_mm": 2,
+    "j38_CYCLE_FILL_06_Z_mm": 2,
+    "j39_CYCLE_FILL_07_Z_mm": 2,
+    "j40_CYCLE_FILL_08_Z_mm": 2,
+    "j41_CYCLE_FILL_09_Z_mm": 2,
+    "j42_CYCLE_FILL_10_Z_mm": 2,
+    "j43_CYCLE_FILL_11_Z_mm": 2,
+    "j44_CYCLE_FILL_12_Z_mm": 2,
+    "j45_CYCLE_FILL_13_Z_mm": 2,
+    "j46_CYCLE_FILL_14_Z_mm": 2,
+    "j47_CYCLE_FILL_17_Z_mm": 2,
+    "j48_CYCLE_FILL_18_Z_mm": 2,
+    "j49_CYCLE_FILL_19_Z_mm": 2,
+    "j50_CYCLE_FILL_20_Z_mm": 2,
+    "j51_CYCLE_FILL_21_Z_mm": 2,
+    "j52_CYCLE_FILL_22_Z_mm": 2,
+    "j53_CYCLE_FILL_23_Z_mm": 2,
+    "j54_CYCLE_FILL_24_Z_mm": 2,
+    "j55_CYCLE_FILL_25_Z_mm": 2,
+    "j56_CYCLE_FILL_26_Z_mm": 2,
+    "j57_CYCLE_FILL_27_Z_mm": 2,
+    "j58_CYCLE_FILL_28_Z_mm": 2,
+    "j59_CYCLE_FILL_29_Z_mm": 2,
+    "j60_CYCLE_FILL_30_Z_mm": 2,
+    "j67_L34_RACK_LIFT_mm": 2,
+    "j68_L35_RACK_LIFT_mm": 2,
+    "j69_L36_RACK_LIFT_mm": 2,
+    "j70_ST_ARM_Z_mm": 3,
+    "j71_ST_ARM_SHOULDER_deg": 7,
+    "j72_ST_ARM_ELBOW_deg": 7,
+    "j73_ST_ARM_WRIST_deg": 7
+  },
+  "part_owners": {
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+01_BASE_FRAME:1/base_plate": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+03_LEVELING_FEET:1/foot_00": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+03_LEVELING_FEET:1/foot_01": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+03_LEVELING_FEET:1/foot_10": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+03_LEVELING_FEET:1/foot_11": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_side_panel:1/left_side_panel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1/right_side_panel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1/PHOTO_right_fastener_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1/PHOTO_right_fastener_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1/PHOTO_right_fastener_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1/PHOTO_right_fastener_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_lower_skin": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_upper_skin": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_housing_left": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_housing_roof": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_hood_hinge_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_hood_hinge_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_left_side_housing": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_exhaust_ring": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_connector_plate": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_IEC_inlet_bezel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_IEC_pin_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_IEC_pin_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_IEC_pin_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_Dsub_shell_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_Dsub_insert_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_Dsub_shell_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_Dsub_insert_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_screw_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_screw_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_screw_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_screw_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_screw_4": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_rear_housing_right": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1/PHOTO_upper_internal_bulkhead": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1/front_base_left": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1/front_base_right": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1/front_bridge": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1/PHOTO_drawer_recessed_pull": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1/PHOTO_blue_center_base": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/service_panel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_power_switch_bezel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_power_switch_rocker": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_power_I": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_power_O": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_Leica": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_Leica (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_Leica (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_Leica (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_Leica (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/PHOTO_left_CV5030 (5)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/LABEL_CV_UPPER_LEICA": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/LABEL_CV_UPPER_LEICA (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1/LABEL_CV_UPPER_LEICA (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+front_control_structure:1/control_fascia": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+input_door:1/input_door_panel": "j1_EST_INPUT_DOOR",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_left": "j2_EST_HOOD_REVOLUTE",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_canopy": "j2_EST_HOOD_REVOLUTE",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_hood_front_edge": "j2_EST_HOOD_REVOLUTE",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_right": "j2_EST_HOOD_REVOLUTE",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1/PHOTO_left_output_ledge": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/membrane_surround": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/LCD_bezel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/LCD_display": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_00": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_01": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_02": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_03": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_04": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_10": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_11": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_12": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_13": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/key_14": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (5)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (6)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_ready (7)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (5)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (6)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (7)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_LCD_bath (8)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_LED_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_0 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_0 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_0 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_0 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_LED_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_1 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_1 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_1 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_LED_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_2 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_2 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_2 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_2 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_LED_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_3 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_3 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_3 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_status_label_3 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_asset_label_text (5)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_0 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_0 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_0 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_0 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_1 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_1 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_1 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_1 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_2 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_2 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_2 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_3 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_3 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_3 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_4": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_4 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_4 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_4 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_label_4 (4)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_0 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_0 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_0 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_1 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_1 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_2 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_2 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_2 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_3 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_3 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_3 (3)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_4": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_4 (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/PHOTO_key_lower_4 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/LABEL_CV_LOWER_LEICA": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/LABEL_CV_LOWER_LEICA (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1/LABEL_CV_LOWER_LEICA (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1+PHOTO_process_head_shroud_EST:1/PHOTO_process_shroud_right": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1+PHOTO_process_head_shroud_EST:1/PHOTO_process_shroud_top": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1+PHOTO_process_head_shroud_EST:1/PHOTO_process_shroud_front": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1+PHOTO_process_head_shroud_EST:1/PHOTO_process_shroud_left": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1/deck_right": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1/deck_left": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+drawer_fixed_guides:1/drawer_rail_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+drawer_fixed_guides:1/drawer_rail_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1/drawer_floor": "j4_EST_DRAWER_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1/drawer_cheek_0": "j4_EST_DRAWER_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1/drawer_cheek_1": "j4_EST_DRAWER_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1/drawer_front": "j4_EST_DRAWER_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_floor": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_long_wall_0": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_long_wall_1": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_end_wall_0": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_end_wall_1": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_lip_0": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1/bath_lip_1": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+bath_insert_USER_RACK_30_EST:1/insert_long_seat_0": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+bath_insert_USER_RACK_30_EST:1/insert_long_seat_1": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+bath_insert_USER_RACK_30_EST:1/insert_support_floor": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1/bath_carrier_floor": "j5_EST_BATH_TRANSPORT_SLIDER",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+transport_chain_path_EST:1/QC_bath_chain_return": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+transport_chain_path_EST:1/QC_bath_chain_working": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1/QC_fixed_vertical_guide (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1/QC_guide_back_mount (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1/QC_guide_standoff": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1/QC_guide_mounting_foot (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_index_carriage:1/QC_fixed_pickup_datum": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_lift:1/QC_Z_runner (2)": "j6_EST_GRIPPER_LIFT_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_lift:1/QC_Z_cantilever (2)": "j6_EST_GRIPPER_LIFT_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_transfer_carriage:1/QC_rotation_mount_left (3)": "j7_EST_GRIPPER_TRANSFER_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_transfer_carriage:1/QC_rotation_mount_right (3)": "j7_EST_GRIPPER_TRANSFER_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1/QC_rotary_slide_gripper_shaft": "j10_EST_GRIPPER_ROTATION_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1/QC_rotary_gripper_crossbar": "j10_EST_GRIPPER_ROTATION_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+left_red_finger:1/QC_left_single_slide_finger": "j8_EST_LEFT_FINGER_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+right_red_finger:1/QC_right_single_slide_finger": "j9_EST_RIGHT_FINGER_X",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1/QC_outfeed_fixed_bed": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1/QC_outfeed_mount_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1/QC_outfeed_mount_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1/QC_outfeed_mount_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1/QC_outfeed_mount_3": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+slide_outfeed_carriage:1/QC_supported_outfeed_table (2)": "j11_EST_OUTFEED_SIDE_TRAVEL",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+slide_outfeed_carriage:1/QC_supported_outfeed_tail (1)": "j11_EST_OUTFEED_SIDE_TRAVEL",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+QC_OUTFEED_RETRACTABLE_PUSHER:1/QC_outfeed_pusher (1)": "j12_QC_PUSHER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1/mountant_200mL_proxy": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1/bottle_cap_red": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1/PHOTO_shaped_mountant_bottle": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1/PHOTO_bottle_restraint": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1/PHOTO_bottle_bracket": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_support:1/QC_dispenser_fixed_support (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1/QC_needle_holder": "j15_QC_DISPENSER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1/QC_dispensing_needle": "j15_QC_DISPENSER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1/QC_dispensing_linear_arm": "j15_QC_DISPENSER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1/QC_mountant_hose_nipple": "j15_QC_DISPENSER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_rest_and_cleaner:1/QC_needle_cleaning_well (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_0_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_0_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_0_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_1_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_1_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_1_2": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_2_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1/PHOTO_tube_2_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_Y_CARRIAGE:1/QC_dispenser_sliding_bearing": "j13_QC_DISPENSER_Y_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_0 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_1 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_2 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_3 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_4 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_5 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_6 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_7 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_8 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_9 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_10 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_11 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_12 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_13 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_14 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_15 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_16 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_17 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_18 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_19 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_20 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_21 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_22 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_23 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_24 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_25 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_26 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_27 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_28 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_29 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_30 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_31 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_32 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_33 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_34 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_35 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_36 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_37 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_38 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_39 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_40 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_41 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_42 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_43 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_44 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_45 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_46 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_47 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_48 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_49 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_50 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_51 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_52 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_53 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_54 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_55 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_56 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_57 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_58 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_59 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_60 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_61 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_62 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1/QC_flexible_hose_63 (2)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1/coverslip_magazine_24_14047839749_base": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1/coverslip_magazine_24_14047839749_left": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1/coverslip_magazine_24_14047839749_right": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1/coverslip_magazine_24_14047839749_rear": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1/QC_coverslip_stack_support": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_guide:1/QC_vacuum_offset_guide (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_guide:1/QC_vacuum_support_post (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_guide:1/QC_vacuum_support_crossbar (1)": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_carriage:1/QC_vacuum_rail_runner (1)": "j16_EST_PICK_PLACE_Y",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_carriage:1/QC_vacuum_cantilever (1)": "j16_EST_PICK_PLACE_Y",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_0_14047839701:1/suction_cup_0": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_1_14047839701:1/suction_cup_1": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+coverslip_sensor:1/QC_coverslip_sensor": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+coverslip_sensor:1/QC_sensor_mount": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1/QC_compact_vacuum_head": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1/QC_vacuum_Z_plunger": "j17_EST_PICK_PLACE_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+12_COVERSLIP_CATCH_TRAY:1/catch_tray_floor": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+13_EXHAUST_SYSTEM:1/filter_housing": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+13_EXHAUST_SYSTEM:1/PHOTO_exhaust_channel_proxy": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+15_SIMPLIFIED_ELECTRONICS_AND_PNEUMATICS:1/electronics_keepout_EST": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+15_SIMPLIFIED_ELECTRONICS_AND_PNEUMATICS:1/pneumatic_manifold_proxy": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_station:1/PHOTO_output_curved_cheek_0": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_station:1/PHOTO_output_curved_cheek_1": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_station:1/PHOTO_output_tower_base": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1/CV5030_Output_Magazine_30_back": "j18_SIM_TRANSFER_OUTPUT_30_1",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1/CV5030_Output_Magazine_30_bottom": "j18_SIM_TRANSFER_OUTPUT_30_1",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1/CV5030_Output_Magazine_30_top": "j18_SIM_TRANSFER_OUTPUT_30_1",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1/CV5030_Output_Magazine_30_left": "j18_SIM_TRANSFER_OUTPUT_30_1",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1/CV5030_Output_Magazine_30_right": "j18_SIM_TRANSFER_OUTPUT_30_1",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2/CV5030_Output_Magazine_30_back": "j19_SIM_TRANSFER_OUTPUT_30_2",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2/CV5030_Output_Magazine_30_bottom": "j19_SIM_TRANSFER_OUTPUT_30_2",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2/CV5030_Output_Magazine_30_top": "j19_SIM_TRANSFER_OUTPUT_30_2",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2/CV5030_Output_Magazine_30_left": "j19_SIM_TRANSFER_OUTPUT_30_2",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2/CV5030_Output_Magazine_30_right": "j19_SIM_TRANSFER_OUTPUT_30_2",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1/mag30_support_spacer": "j23_EST_OUTPUT_LIFT_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1/lift_backplate": "j23_EST_OUTPUT_LIFT_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1/lift_platform": "j23_EST_OUTPUT_LIFT_Z",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_base": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_left_lower_wall": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_right_lower_wall": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_rear_panel": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_frame_214": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_frame_340": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_rear_upright_340": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_drawer_fixed_rail_218": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_drawer_fixed_rail_336": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/TS_rear_upright_214": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/QC_TS_outboard_support_bearing": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/QC_TS_outboard_support_post": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/QC_discharge_hinge_pin": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/QC_hinge_left_mount": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1/QC_hinge_right_mount": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_front_white": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_front_navy": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_empty_rack_chute": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_chute_side_guide_226": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_front_rack_stop": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_chute_side_guide_332": "j27_TS5025_DRAWER_OPEN_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_front_top": "j28_TS5025_COVER_OPEN_deg",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/QC_cover_knuckle_216": "j28_TS5025_COVER_OPEN_deg",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/QC_cover_knuckle_336": "j28_TS5025_COVER_OPEN_deg",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_210": "j28_TS5025_COVER_OPEN_deg",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_348": "j28_TS5025_COVER_OPEN_deg",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_RACK_RECEIVING_CRADLE_EST:1/QC_TS_receiving_support_plate (1)": "j32_QC_TS_CRADLE_RETRACT_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_RACK_RECEIVING_CRADLE_EST:1/QC_TS_receiver_rear_stop (1)": "j32_QC_TS_CRADLE_RETRACT_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_RACK_RECEIVING_CRADLE_EST:1/QC_TS_retracting_support_bridge (1)": "j32_QC_TS_CRADLE_RETRACT_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Y_CARRIAGE_EST:1/QC_TS_fixed_rear_X_guide": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Z_LIFT_EST:1/QC_TS_Z_inner_guide": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_crossbar": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_neck": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_support_pin_-1": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_outer_stem_-1": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_support_pin_1": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_handle_outer_stem_1": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1/QC_TS_rear_cantilever (1)": "j31_TS5025_TRANSFER_Z_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1/QC_TS_Z_outer_guide": "j29_TS5025_TRANSFER_X_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1/QC_TS_X_bearing": "j29_TS5025_TRANSFER_X_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_Z_INTERMEDIATE_EST:1/QC_TS_Z_telescopic_middle": "j30_QC_TS_Z_HALF_mm",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_01:1/CYCLE_cover_01": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_02:1/CYCLE_cover_02": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_03:1/CYCLE_cover_03": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_04:1/CYCLE_cover_04": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_05:1/CYCLE_cover_05": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_06:1/CYCLE_cover_06": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_07:1/CYCLE_cover_07": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_08:1/CYCLE_cover_08": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_09:1/CYCLE_cover_09": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_10:1/CYCLE_cover_10": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_11:1/CYCLE_cover_11": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_12:1/CYCLE_cover_12": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_13:1/CYCLE_cover_13": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_14:1/CYCLE_cover_14": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_17:1/CYCLE_cover_17": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_18:1/CYCLE_cover_18": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_19:1/CYCLE_cover_19": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_20:1/CYCLE_cover_20": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_21:1/CYCLE_cover_21": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_22:1/CYCLE_cover_22": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_23:1/CYCLE_cover_23": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_24:1/CYCLE_cover_24": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_25:1/CYCLE_cover_25": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_26:1/CYCLE_cover_26": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_27:1/CYCLE_cover_27": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_28:1/CYCLE_cover_28": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_29:1/CYCLE_cover_29": "fixed",
+    "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_30:1/CYCLE_cover_30": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/Rear wall": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/UNLOAD left rail housing": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/UNLOAD right rail housing": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/LOAD left rail housing": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/LOAD right rail housing": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/Right gently curved console": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/Shallow console screen bezel": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/Shallow console screen display": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Rear_plinth": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Left_blue_plinth": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Right_blue_plinth": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_apron_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_apron_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_apron_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_fascia_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_fascia_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_Fixed_fascia_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_left_casing_extension": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_right_console_extension": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_rear_wall_extension": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/PHOTO_FLUSH_recessed_base_plate": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/LABEL_ST_LOWER_LEICA": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/LABEL_ST_LOWER_LEICA (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/LABEL_ST_LOWER_LEICA (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1/Left gently curved casing": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Rounded transparent hood": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent right return for gentle trim": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent left return for gentle trim": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD carrier floor": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD left low tray rim": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD right low tray rim": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD rear tray stop": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD left moving slide": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/UNLOAD right moving slide": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/E25 container": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/E26 container": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/E27 container": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/E28 container": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_UNLOAD_blue_front_apron": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_UNLOAD_white_front_fascia": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (1)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (2)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (3)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (4)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (5)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (6)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (7)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (8)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (9)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/LABEL_ST_MODEL (10)": "j61_UNLOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E25 - liftable:1/Slide rack E25": "j62_E25_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E26 - liftable:1/Slide rack E26": "j63_E26_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E27 - liftable:1/Slide rack E27": "j64_E27_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E28 - liftable:1/Slide rack E28": "j65_E28_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD carrier floor": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD left low tray rim": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD right low tray rim": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD rear tray stop": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD left moving slide": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/LOAD right moving slide": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/L33 container": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/L34 container": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/L35 container": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/L36 container": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_LOAD_blue_front_apron": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_LOAD_white_front_fascia": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_01:1/QC_specimen_face_marker": "j33_CYCLE_FILL_01_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_01:1/CYCLE_slide_01 (1)": "j33_CYCLE_FILL_01_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_02:1/QC_specimen_face_marker": "j34_CYCLE_FILL_02_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_02:1/CYCLE_slide_02 (1)": "j34_CYCLE_FILL_02_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_03:1/QC_specimen_face_marker": "j35_CYCLE_FILL_03_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_03:1/CYCLE_slide_03 (1)": "j35_CYCLE_FILL_03_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_04:1/QC_specimen_face_marker": "j36_CYCLE_FILL_04_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_04:1/CYCLE_slide_04 (1)": "j36_CYCLE_FILL_04_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_05:1/QC_specimen_face_marker": "j37_CYCLE_FILL_05_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_05:1/CYCLE_slide_05 (1)": "j37_CYCLE_FILL_05_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_06:1/QC_specimen_face_marker": "j38_CYCLE_FILL_06_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_06:1/CYCLE_slide_06 (1)": "j38_CYCLE_FILL_06_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_07:1/QC_specimen_face_marker": "j39_CYCLE_FILL_07_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_07:1/CYCLE_slide_07 (1)": "j39_CYCLE_FILL_07_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_08:1/QC_specimen_face_marker": "j40_CYCLE_FILL_08_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_08:1/CYCLE_slide_08 (1)": "j40_CYCLE_FILL_08_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_09:1/QC_specimen_face_marker": "j41_CYCLE_FILL_09_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_09:1/CYCLE_slide_09 (1)": "j41_CYCLE_FILL_09_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_10:1/QC_specimen_face_marker": "j42_CYCLE_FILL_10_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_10:1/CYCLE_slide_10 (1)": "j42_CYCLE_FILL_10_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_11:1/QC_specimen_face_marker": "j43_CYCLE_FILL_11_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_11:1/CYCLE_slide_11 (1)": "j43_CYCLE_FILL_11_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_12:1/QC_specimen_face_marker": "j44_CYCLE_FILL_12_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_12:1/CYCLE_slide_12 (1)": "j44_CYCLE_FILL_12_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_13:1/QC_specimen_face_marker": "j45_CYCLE_FILL_13_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_13:1/CYCLE_slide_13 (1)": "j45_CYCLE_FILL_13_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_14:1/QC_specimen_face_marker": "j46_CYCLE_FILL_14_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_14:1/CYCLE_slide_14 (1)": "j46_CYCLE_FILL_14_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_17:1/QC_specimen_face_marker": "j47_CYCLE_FILL_17_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_17:1/CYCLE_slide_17 (1)": "j47_CYCLE_FILL_17_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_18:1/QC_specimen_face_marker": "j48_CYCLE_FILL_18_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_18:1/CYCLE_slide_18 (1)": "j48_CYCLE_FILL_18_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_19:1/QC_specimen_face_marker": "j49_CYCLE_FILL_19_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_19:1/CYCLE_slide_19 (1)": "j49_CYCLE_FILL_19_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_20:1/QC_specimen_face_marker": "j50_CYCLE_FILL_20_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_20:1/CYCLE_slide_20 (1)": "j50_CYCLE_FILL_20_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_21:1/QC_specimen_face_marker": "j51_CYCLE_FILL_21_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_21:1/CYCLE_slide_21 (1)": "j51_CYCLE_FILL_21_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_22:1/QC_specimen_face_marker": "j52_CYCLE_FILL_22_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_22:1/CYCLE_slide_22 (1)": "j52_CYCLE_FILL_22_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_23:1/QC_specimen_face_marker": "j53_CYCLE_FILL_23_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_23:1/CYCLE_slide_23 (1)": "j53_CYCLE_FILL_23_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_24:1/QC_specimen_face_marker": "j54_CYCLE_FILL_24_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_24:1/CYCLE_slide_24 (1)": "j54_CYCLE_FILL_24_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_25:1/QC_specimen_face_marker": "j55_CYCLE_FILL_25_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_25:1/CYCLE_slide_25 (1)": "j55_CYCLE_FILL_25_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_26:1/QC_specimen_face_marker": "j56_CYCLE_FILL_26_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_26:1/CYCLE_slide_26 (1)": "j56_CYCLE_FILL_26_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_27:1/QC_specimen_face_marker": "j57_CYCLE_FILL_27_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_27:1/CYCLE_slide_27 (1)": "j57_CYCLE_FILL_27_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_28:1/QC_specimen_face_marker": "j58_CYCLE_FILL_28_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_28:1/CYCLE_slide_28 (1)": "j58_CYCLE_FILL_28_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_29:1/QC_specimen_face_marker": "j59_CYCLE_FILL_29_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_29:1/CYCLE_slide_29 (1)": "j59_CYCLE_FILL_29_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_30:1/QC_specimen_face_marker": "j60_CYCLE_FILL_30_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_30:1/CYCLE_slide_30 (1)": "j60_CYCLE_FILL_30_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1/Slide rack L33": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L34 - liftable:1/Slide rack L34": "j67_L34_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L35 - liftable:1/Slide rack L35": "j68_L35_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L36 - liftable:1/Slide rack L36": "j69_L36_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Internal vessel support": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 4": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 5": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 6": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 7": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 8": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 9": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 10": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 11": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 12": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 13": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 14": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 15": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 16": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 17": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 18": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 19": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 20": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 21": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 22": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 23": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 24": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 25": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 26": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 27": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Reference vessel 28": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1/Stationary front-center vessel support": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:1/Metal leveling pad and stem": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:1/Lower adjustment hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:1/Upper chassis locking hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:2/Metal leveling pad and stem": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:2/Lower adjustment hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:2/Upper chassis locking hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:3/Metal leveling pad and stem": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:3/Lower adjustment hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:3/Upper chassis locking hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:4/Metal leveling pad and stem": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:4/Lower adjustment hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:4/Upper chassis locking hex nut": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_background": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_titlebar": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (4)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (5)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (6)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (7)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (8)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (9)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (10)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (11)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (12)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (13)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (14)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (15)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (16)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (17)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_title (18)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_0": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (4)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (5)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (6)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_0 (7)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (4)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (5)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (6)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_1 (7)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (4)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (5)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_2 (6)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_3 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_3 (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_tab_text_3 (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_4": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_4": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_5": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_5": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_6": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_6": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_7": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_7": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_8": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_8": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_9": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_9": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_10": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_10": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_10 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_11": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_11": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_11 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_12": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_12": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_12 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_13": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_13": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_13 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_14": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_14": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_14 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_15": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_15": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_15 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_16": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_16": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_16 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_17": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_17": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_17 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_18": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_18": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_18 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_19": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_19": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_19 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_20": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_20": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_20 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_21": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_21": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_21 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_22": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_22": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_22 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_23": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_23": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_23 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_24": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_24": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_24 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_25": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_25": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_25 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_26": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_26": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_26 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_27": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_27": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_27 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_28": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_28": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_28 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_29": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_29": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_29 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_30": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_30": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_30 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_31": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_31": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_31 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_32": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_32": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_32 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_33": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_33": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_33 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_34": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_34": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_34 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_35": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_35": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_35 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_cell_36": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_36": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_station_36 (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_LOAD": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_LOAD": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_LOAD (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_LOAD (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_LOAD (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_EXIT": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_EXIT": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_EXIT (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_EXIT (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_EXIT (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_MENU": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_MENU": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_MENU (1)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_MENU (2)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1/ST_LCD_bottom_text_MENU (3)": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_trim": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_black_bezel": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_rocker": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_ON_indicator": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_I": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1/ST_switch_O": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1/ST_moving_lift_platform_EST": "j70_ST_ARM_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1/ST_shoulder_bearing_housing_EST": "j70_ST_ARM_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1/ST_moving_inner_telescoping_stem_EST": "j70_ST_ARM_Z_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_lower": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_teal": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_cap_260": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_cover_260": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_cap_660": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/ST_A_cover_660": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1/Body19": "j71_ST_ARM_SHOULDER_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_lower": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_teal": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_cap_280": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_cover_280": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_cap_640": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_B_cover_640": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1/ST_elbow_bearing": "j72_ST_ARM_ELBOW_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/Body21": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_crossbar": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_neck": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_support_pin_-1": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_outer_stem_-1": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_support_pin_1": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1/QC_handle_outer_stem_1": "j73_ST_ARM_WRIST_deg",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_fixed_base_plate": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_fixed_outer_telescoping_sleeve_EST": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_fixed_front_guide_EST": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_fixed_left_rail_EST": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_fixed_right_rail_EST": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_base_attachment_0": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_base_attachment_1": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_base_attachment_2": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1/ST_base_attachment_3": "fixed",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E25 - liftable:1/Removable snap handle - slots 15-16": "j62_E25_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E26 - liftable:1/Removable snap handle - slots 15-16": "j63_E26_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E27 - liftable:1/Removable snap handle - slots 15-16": "j64_E27_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E28 - liftable:1/Removable snap handle - slots 15-16": "j65_E28_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1/Removable snap handle - slots 15-16": "j66_LOAD_DRAWER_OPEN_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L34 - liftable:1/Removable snap handle - slots 15-16": "j67_L34_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L35 - liftable:1/Removable snap handle - slots 15-16": "j68_L35_RACK_LIFT_mm",
+    "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L36 - liftable:1/Removable snap handle - slots 15-16": "j69_L36_RACK_LIFT_mm"
+  },
+  "limitations": [
+    "CAD estimate geometry and ranges, not manufacturer-certified kinematics.",
+    "Fixed joints represented as rigid assemblies. Locked planar rotation retained with equality constraints.",
+    "Hidden reference joints retained without restoring hidden orange proxies or optional meshes.",
+    "Mass/inertia placeholders; kinematic preview only; no internal collision validation."
+  ]
+}

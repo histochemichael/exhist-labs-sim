@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="LeHisto v38 | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="lehisto_0" file="meshes/lehisto_0.obj" inertia="shell" />
+    <mesh name="lehisto_1" file="meshes/lehisto_1.obj" inertia="shell" />
+    <mesh name="lehisto_2" file="meshes/lehisto_2.obj" inertia="shell" />
+    <mesh name="lehisto_3" file="meshes/lehisto_3.obj" inertia="shell" />
+    <mesh name="lehisto_4" file="meshes/lehisto_4.obj" inertia="shell" />
+    <mesh name="lehisto_5" file="meshes/lehisto_5.obj" inertia="shell" />
+    <mesh name="lehisto_6" file="meshes/lehisto_6.obj" inertia="shell" />
+    <mesh name="lehisto_7" file="meshes/lehisto_7.obj" inertia="shell" />
+    <mesh name="lehisto_8" file="meshes/lehisto_8.obj" inertia="shell" />
+    <mesh name="lehisto_9" file="meshes/lehisto_9.obj" inertia="shell" />
+    <mesh name="lehisto_10" file="meshes/lehisto_10.obj" inertia="shell" />
+    <mesh name="lehisto_11" file="meshes/lehisto_11.obj" inertia="shell" />
+    <mesh name="lehisto_12" file="meshes/lehisto_12.obj" inertia="shell" />
+    <mesh name="lehisto_13" file="meshes/lehisto_13.obj" inertia="shell" />
+    <mesh name="lehisto_14" file="meshes/lehisto_14.obj" inertia="shell" />
+    <mesh name="lehisto_15" file="meshes/lehisto_15.obj" inertia="shell" />
+    <mesh name="lehisto_16" file="meshes/lehisto_16.obj" inertia="shell" />
+    <mesh name="lehisto_17" file="meshes/lehisto_17.obj" inertia="shell" />
+    <mesh name="lehisto_18" file="meshes/lehisto_18.obj" inertia="shell" />
+    <mesh name="lehisto_19" file="meshes/lehisto_19.obj" inertia="shell" />
+    <mesh name="lehisto_20" file="meshes/lehisto_20.obj" inertia="shell" />
+    <mesh name="lehisto_21" file="meshes/lehisto_21.obj" inertia="shell" />
+    <mesh name="lehisto_22" file="meshes/lehisto_22.obj" inertia="shell" />
+    <mesh name="lehisto_23" file="meshes/lehisto_23.obj" inertia="shell" />
+    <mesh name="lehisto_24" file="meshes/lehisto_24.obj" inertia="shell" />
+    <mesh name="lehisto_25" file="meshes/lehisto_25.obj" inertia="shell" />
+    <mesh name="lehisto_26" file="meshes/lehisto_26.obj" inertia="shell" />
+    <mesh name="lehisto_27" file="meshes/lehisto_27.obj" inertia="shell" />
+    <mesh name="lehisto_28" file="meshes/lehisto_28.obj" inertia="shell" />
+    <mesh name="lehisto_29" file="meshes/lehisto_29.obj" inertia="shell" />
+    <mesh name="lehisto_30" file="meshes/lehisto_30.obj" inertia="shell" />
+    <mesh name="lehisto_31" file="meshes/lehisto_31.obj" inertia="shell" />
+    <mesh name="lehisto_32" file="meshes/lehisto_32.obj" inertia="shell" />
+    <mesh name="lehisto_33" file="meshes/lehisto_33.obj" inertia="shell" />
+    <mesh name="lehisto_34" file="meshes/lehisto_34.obj" inertia="shell" />
+    <mesh name="lehisto_35" file="meshes/lehisto_35.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="lehisto_0" rgba="0.964705882 0.964705882 0.952941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_1" rgba="0.62745098 0.62745098 0.62745098 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_2" rgba="0.7 0.72 0.75 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_3" rgba="0 0.501960784 0 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_4" rgba="0.752941176 0.752941176 0.752941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_5" rgba="1 1 1 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_6" rgba="0.749019608 0.749019608 0.749019608 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_7" rgba="0.894117647 0.894117647 0.894117647 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_8" rgba="0.792156863 0.819607843 0.933333333 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_9" rgba="0.282352941 0.662745098 0.325490196 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_10" rgba="0.796078431 0.823529412 0.937254902 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_11" rgba="0.250980392 0.250980392 0.250980392 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_12" rgba="0.2 0.2 0.2 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_13" rgba="0.764705882 0.811764706 0.803921569 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_14" rgba="0.105882353 0.105882353 0.105882353 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_15" rgba="0.788235294 0.788235294 0.788235294 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_16" rgba="0.196078431 0.207843137 0.262745098 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_17" rgba="0.784313725 0.784313725 0.784313725 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_18" rgba="0 0.666666667 0 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_19" rgba="0.847058824 0 0 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_20" rgba="0.780392157 0.568627451 0.11372549 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_21" rgba="0.8 0.8 0.8 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_22" rgba="0.0980392157 0.0980392157 0.0980392157 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_23" rgba="0.960784314 0.960784314 0.964705882 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_24" rgba="0.929411765 0.929411765 0.929411765 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_25" rgba="0.984313725 0.980392157 0.960784314 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_26" rgba="0.17254902 0.17254902 0.17254902 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_27" rgba="0.266666667 0.588235294 0.282352941 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_28" rgba="0.831372549 0.670588235 0.129411765 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_29" rgba="0.898039216 0.917647059 0.929411765 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_30" rgba="0.501960784 0.501960784 0.501960784 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_31" rgba="0.776470588 0.756862745 0.737254902 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_32" rgba="1 1 0.752941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_33" rgba="1 0 0 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_34" rgba="0.776470588 0.776470588 0.815686275 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="lehisto_35" rgba="0.501960784 1 0.501960784 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

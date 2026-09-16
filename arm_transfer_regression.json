@@ -1,0 +1,322 @@
+[
+  {
+    "passed": true,
+    "phase": "COMPLETE",
+    "timestep_s": 0.001,
+    "grip_force_limit_N": 0.8,
+    "slide_offset_m": 0,
+    "events": [
+      {
+        "t": 2.0019999999998905,
+        "phase": "APPROACH"
+      },
+      {
+        "t": 6.003000000000339,
+        "phase": "CLOSE"
+      },
+      {
+        "t": 8.131000000000933,
+        "phase": "LIFT"
+      },
+      {
+        "t": 12.132999999998715,
+        "phase": "CARRY"
+      },
+      {
+        "t": 18.13399999999918,
+        "phase": "LOWER"
+      },
+      {
+        "t": 22.13500000000407,
+        "phase": "SUPPORT"
+      },
+      {
+        "t": 22.385000000004375,
+        "phase": "RELEASE"
+      },
+      {
+        "t": 23.3860000000056,
+        "phase": "RETREAT"
+      },
+      {
+        "t": 27.387000000010488,
+        "phase": "COMPLETE"
+      }
+    ],
+    "plan_errors": [
+      {
+        "position_m": 0.00011811984583457057,
+        "angle_rad": 4.201409058109869e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012368727997065192,
+        "angle_rad": 0.0002276246755607461,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012157870495812206,
+        "angle_rad": 4.298487554782175e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 2.5874237274773143e-06,
+        "angle_rad": 1.5431720047269776e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 4.322096049296535e-07,
+        "angle_rad": 1.4438267106882807e-06,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00016552922203638248,
+        "angle_rad": 7.666842855057097e-05,
+        "sampled_table_penetration_m": 0.0
+      }
+    ],
+    "peak_lift_m": 0.03973011654288272,
+    "relative_slip_m": 0.0007667967405469334,
+    "bilateral_contact_fraction": 0.9985267293391329,
+    "max_arm_torque_Nm": 4.0,
+    "final_slide_position_m": [
+      -0.10040357948601052,
+      -0.4798469644972442,
+      0.8373380640972617
+    ],
+    "final_position_error_m": 0.0004609983766000593,
+    "fault_contacts": [],
+    "head_camera_samples": [],
+    "front_facing": false,
+    "max_heading_error_deg": 0.0,
+    "maximum_provisional_lift_force_N": 0.0,
+    "scope": "Actual seven-joint Nori arm; passive slide; development guide slots; braked lift; not full lab validation."
+  },
+  {
+    "passed": true,
+    "phase": "COMPLETE",
+    "timestep_s": 0.0005,
+    "grip_force_limit_N": 0.8,
+    "slide_offset_m": 0,
+    "events": [
+      {
+        "t": 2.0009999999998356,
+        "phase": "APPROACH"
+      },
+      {
+        "t": 6.001999999999393,
+        "phase": "CLOSE"
+      },
+      {
+        "t": 8.129999999998445,
+        "phase": "LIFT"
+      },
+      {
+        "t": 12.130500000003334,
+        "phase": "CARRY"
+      },
+      {
+        "t": 18.131500000003093,
+        "phase": "LOWER"
+      },
+      {
+        "t": 22.13249999999377,
+        "phase": "SUPPORT"
+      },
+      {
+        "t": 22.491499999992932,
+        "phase": "RELEASE"
+      },
+      {
+        "t": 23.4924999999906,
+        "phase": "RETREAT"
+      },
+      {
+        "t": 27.493499999981275,
+        "phase": "COMPLETE"
+      }
+    ],
+    "plan_errors": [
+      {
+        "position_m": 0.00011811984583457057,
+        "angle_rad": 4.201409058109869e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012368727997065192,
+        "angle_rad": 0.0002276246755607461,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012157870495812206,
+        "angle_rad": 4.298487554782175e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 2.5874237274773143e-06,
+        "angle_rad": 1.5431720047269776e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 4.322096049296535e-07,
+        "angle_rad": 1.4438267106882807e-06,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00016552922203638248,
+        "angle_rad": 7.666842855057097e-05,
+        "sampled_table_penetration_m": 0.0
+      }
+    ],
+    "peak_lift_m": 0.039772797684298755,
+    "relative_slip_m": 0.0003368363464852809,
+    "bilateral_contact_fraction": 1.0,
+    "max_arm_torque_Nm": 4.0,
+    "final_slide_position_m": [
+      -0.10042443328973905,
+      -0.48039366119244387,
+      0.8374673554528762
+    ],
+    "final_position_error_m": 0.0005798089498550049,
+    "fault_contacts": [],
+    "head_camera_samples": [],
+    "front_facing": false,
+    "max_heading_error_deg": 0.0,
+    "maximum_provisional_lift_force_N": 0.0,
+    "scope": "Actual seven-joint Nori arm; passive slide; development guide slots; braked lift; not full lab validation."
+  },
+  {
+    "passed": false,
+    "phase": "NO_GRASP",
+    "timestep_s": 0.001,
+    "grip_force_limit_N": 0,
+    "slide_offset_m": 0,
+    "events": [
+      {
+        "t": 2.0019999999998905,
+        "phase": "APPROACH"
+      },
+      {
+        "t": 6.003000000000339,
+        "phase": "CLOSE"
+      },
+      {
+        "t": 9.004000000000449,
+        "phase": "NO_GRASP"
+      }
+    ],
+    "plan_errors": [
+      {
+        "position_m": 0.00011811984583457057,
+        "angle_rad": 4.201409058109869e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012368727997065192,
+        "angle_rad": 0.0002276246755607461,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012157870495812206,
+        "angle_rad": 4.298487554782175e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 2.5874237274773143e-06,
+        "angle_rad": 1.5431720047269776e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 4.322096049296535e-07,
+        "angle_rad": 1.4438267106882807e-06,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00016552922203638248,
+        "angle_rad": 7.666842855057097e-05,
+        "sampled_table_penetration_m": 0.0
+      }
+    ],
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "bilateral_contact_fraction": 0.0,
+    "max_arm_torque_Nm": 4.0,
+    "final_slide_position_m": [
+      -0.2,
+      -0.48,
+      0.8374709075734298
+    ],
+    "final_position_error_m": 0.10000000423184634,
+    "fault_contacts": [],
+    "head_camera_samples": [],
+    "front_facing": false,
+    "max_heading_error_deg": 0.0,
+    "maximum_provisional_lift_force_N": 0.0,
+    "scope": "Actual seven-joint Nori arm; passive slide; development guide slots; braked lift; not full lab validation."
+  },
+  {
+    "passed": false,
+    "phase": "PAYLOAD_POSE_REJECTED",
+    "timestep_s": 0.001,
+    "grip_force_limit_N": 0.8,
+    "slide_offset_m": 0.02,
+    "events": [
+      {
+        "t": 2.0019999999998905,
+        "phase": "APPROACH"
+      },
+      {
+        "t": 6.003000000000339,
+        "phase": "PAYLOAD_POSE_REJECTED"
+      }
+    ],
+    "plan_errors": [
+      {
+        "position_m": 0.00011811984583457057,
+        "angle_rad": 4.201409058109869e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012368727997065192,
+        "angle_rad": 0.0002276246755607461,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00012157870495812206,
+        "angle_rad": 4.298487554782175e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 2.5874237274773143e-06,
+        "angle_rad": 1.5431720047269776e-05,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 4.322096049296535e-07,
+        "angle_rad": 1.4438267106882807e-06,
+        "sampled_table_penetration_m": 0.0
+      },
+      {
+        "position_m": 0.00016552922203638248,
+        "angle_rad": 7.666842855057097e-05,
+        "sampled_table_penetration_m": 0.0
+      }
+    ],
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "bilateral_contact_fraction": 0.0,
+    "max_arm_torque_Nm": 4.0,
+    "final_slide_position_m": [
+      -0.18,
+      -0.48,
+      0.8374709075734249
+    ],
+    "final_position_error_m": 0.08000000528980783,
+    "fault_contacts": [],
+    "head_camera_samples": [],
+    "front_facing": false,
+    "max_heading_error_deg": 0.0,
+    "maximum_provisional_lift_force_N": 0.0,
+    "scope": "Actual seven-joint Nori arm; passive slide; development guide slots; braked lift; not full lab validation."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source_joints_per_workstation": 84,
+  "rigid_per_workstation": 10,
+  "moving_per_workstation": 74,
+  "imported_dofs_per_workstation": 88,
+  "total_dofs": 176,
+  "independent_dof_motion_tests": 162,
+  "locked_dofs": 14,
+  "workflow_active_dofs": 58,
+  "workflow_complete_slides": 36,
+  "all_four_machine_states_observed": true,
+  "pause_and_fault_freeze": true,
+  "joint_limits_passed": true,
+  "limitation": "No internal machine collision, grip/contact, chemistry or real-device status validation."
+}

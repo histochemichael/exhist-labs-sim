@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Staff entry door | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="0.63 0.028 1.11" pos="0 0.032 0" quat="1 0 0 0" rgba="0.180000007 0.400000006 0.449999988 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.28 0.008 0.37" pos="0 -0.005 0.45" quat="1 0 0 0" rgba="0.479999989 0.730000019 0.800000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.43 0.022 0.015" pos="0 -0.038 -0.13" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

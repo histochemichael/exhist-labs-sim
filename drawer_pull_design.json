@@ -1,0 +1,157 @@
+{
+  "pulls": [
+    {
+      "cad_joint": "UNLOAD_DRAWER_OPEN_mm",
+      "source_panel": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_UNLOAD_white_front_fascia",
+      "front_center_m": [
+        0.5184249958038329,
+        -0.3,
+        0.1690999984741211
+      ],
+      "joint_origin_m": [
+        0.639075,
+        -0.292,
+        0.0687
+      ],
+      "grip_frame_CAD_m": [
+        0.5184249958038329,
+        -0.32999999999999996,
+        0.1690999984741211
+      ],
+      "dimensions_mm": {
+        "width": 82,
+        "projection": 33,
+        "height": 10,
+        "clear_width": 66,
+        "clear_depth": 27,
+        "mount_hole_diameter": 3.3
+      },
+      "joint_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "joint_limits": [
+        -0.23495000000000002,
+        0.0
+      ]
+    },
+    {
+      "cad_joint": "LOAD_DRAWER_OPEN_mm",
+      "source_panel": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1/PHOTO_FLUSH_LOAD_white_front_fascia",
+      "front_center_m": [
+        0.974424995803833,
+        -0.3,
+        0.1690999984741211
+      ],
+      "joint_origin_m": [
+        1.095075,
+        -0.292,
+        0.0687
+      ],
+      "grip_frame_CAD_m": [
+        0.974424995803833,
+        -0.32999999999999996,
+        0.1690999984741211
+      ],
+      "dimensions_mm": {
+        "width": 82,
+        "projection": 33,
+        "height": 10,
+        "clear_width": 66,
+        "clear_depth": 27,
+        "mount_hole_diameter": 3.3
+      },
+      "joint_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "joint_limits": [
+        -0.23495000000000002,
+        0.0
+      ]
+    },
+    {
+      "cad_joint": "EST_DRAWER_SLIDER",
+      "source_panel": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1/drawer_front",
+      "front_center_m": [
+        -0.056999999880790714,
+        -0.29200000762939454,
+        0.07999999761581422
+      ],
+      "joint_origin_m": [
+        -0.02,
+        -0.28,
+        0.055
+      ],
+      "grip_frame_CAD_m": [
+        -0.056999999880790714,
+        -0.3220000076293945,
+        0.07999999761581422
+      ],
+      "dimensions_mm": {
+        "width": 82,
+        "projection": 33,
+        "height": 10,
+        "clear_width": 66,
+        "clear_depth": 27,
+        "mount_hole_diameter": 3.3
+      },
+      "joint_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "joint_limits": [
+        -0.23,
+        0.0
+      ]
+    },
+    {
+      "cad_joint": "TS5025_DRAWER_OPEN_mm",
+      "source_panel": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1/TS_front_white",
+      "front_center_m": [
+        0.28,
+        -0.3,
+        0.1675
+      ],
+      "joint_origin_m": [
+        0.28,
+        -0.28500000000000003,
+        0.16
+      ],
+      "grip_frame_CAD_m": [
+        0.28,
+        -0.32999999999999996,
+        0.1675
+      ],
+      "dimensions_mm": {
+        "width": 82,
+        "projection": 33,
+        "height": 10,
+        "clear_width": 66,
+        "clear_depth": 27,
+        "mount_hole_diameter": 3.3
+      },
+      "joint_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "joint_limits": [
+        -0.22,
+        0.0
+      ]
+    }
+  ],
+  "copies": 2,
+  "total_pulls": 8,
+  "passive": true,
+  "actuators_added": 0,
+  "limitations": [
+    "Concept pull mounts require real panel/load/fastener review.",
+    "3.3 mm mounting holes are present in the separate CAD concept, omitted from simple contact boxes.",
+    "CAD limits retained; Nori left-hand reach, latch force and collision sweep still need validation."
+  ]
+}

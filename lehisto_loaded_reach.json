@@ -1,0 +1,16 @@
+{
+  "name": "LeHisto_24slide_loaded_nominal_v1",
+  "robot": "LeHisto",
+  "tested_radius_m": [0.200, 0.330],
+  "design_margin_m": 0.010,
+  "tested_yaw_deg": [-105, 0, 105],
+  "design_yaw_limit_deg": 105,
+  "conditions": {"payload_kg": 0.145, "handle_width_m": 0.020, "riser_height_m": 0.0254, "lift_m": 0.110, "arm_cap_Nm": 1.5, "jar_origin_relative_shoulder_z_m": -0.092183, "rail_m": 0.0, "rack_tilt_deg": 0.0},
+  "frame": {"source_shoulder_m": [-0.000099,-0.007243,0.027983], "source_nominal_jar_m": [0.01,-0.23,-0.0642], "source_to_lab_rig_rotation": [[0,1,0],[-1,0,0],[0,0,1]], "evidence": "lab_row_test.py: shoulder-based transform; never use URDF origin z=0 as shoulder height"},
+  "minimum_transfer_clearance_m": 0.015,
+  "observed_transfer_clearance_m": 0.040783161024639816,
+  "observed_max_seated_lateral_error_m": 0.0007764340450619358,
+  "layout": {"row_center_x_m": 1.15, "row_y_m": 0.34, "pitch_m": 0.062, "count": 11, "active_jars": [4,5,6,7,8]},
+  "source_directory": "C:/Users/Owner/.codex/visualizations/2026/08/07/019fde06-5766-7fe2-8736-d06324be20d8/rack_sim",
+  "scope": "Nominal loaded simulation samples, not a continuous certified workspace. Parked rail only; different heights, payloads, orientation or rail trajectories require fresh validation. Not applicable to Nori."
+}

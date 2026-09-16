@@ -1,0 +1,542 @@
+[
+  {
+    "path": "Gripper:1+Gripper Rack - M0.8:1",
+    "name": "Body1",
+    "mass_kg": 0.011150008233925706,
+    "volume_cm3": 1.420383214512829,
+    "material": "Steel",
+    "center_m": [
+      0.03540605149366451,
+      -0.1751901198516974,
+      0.14239156778562906
+    ]
+  },
+  {
+    "path": "Gripper:1+Guide Rod - D6 x 125 mm:1",
+    "name": "Body1",
+    "mass_kg": 0.027744190122013675,
+    "volume_cm3": 3.5342917352883667,
+    "material": "Steel",
+    "center_m": [
+      0.006782616363004601,
+      -0.18526572800585325,
+      0.16749487842039795
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+ZK_122^STS3215_Servo:1",
+    "name": "Body1",
+    "mass_kg": 0.026588327637496405,
+    "volume_cm3": 3.3870481066874403,
+    "material": "Steel",
+    "center_m": [
+      0.007331913314549499,
+      -0.1525768095361018,
+      0.16643764661307908
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+SG-ZIJI_15^STS3215_Servo:1",
+    "name": "Body1",
+    "mass_kg": 0.02524853797280528,
+    "volume_cm3": 3.216374264051628,
+    "material": "Steel",
+    "center_m": [
+      0.006796392212919793,
+      -0.16450623212938287,
+      0.16680776664932345
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+XG-ZIJI_16^STS3215_Servo:1",
+    "name": "Body1",
+    "mass_kg": 0.028570655018512203,
+    "volume_cm3": 3.6395738877085613,
+    "material": "Steel",
+    "center_m": [
+      0.006835430463116156,
+      -0.13904972202788118,
+      0.16480019411685257
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+Main Wheel^STS3215_Servo:1",
+    "name": "Body1",
+    "mass_kg": 0.005945814420615385,
+    "volume_cm3": 0.7574285886134249,
+    "material": "Steel",
+    "center_m": [
+      0.007061839113147461,
+      -0.16872303879881007,
+      0.15164232104650802
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+pan head cross recess screw_din_DIN EN ISO 7045 - M3 x 4 - Z - 4N:1",
+    "name": "Body1",
+    "mass_kg": 0.00022211465739352632,
+    "volume_cm3": 0.028294860814461954,
+    "material": "Steel",
+    "center_m": [
+      0.007061838420561925,
+      -0.1683269920300952,
+      0.15164580745202672
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0022035035:1",
+    "name": "Body1",
+    "mass_kg": 0.0011925501093353703,
+    "volume_cm3": 0.15191721138030195,
+    "material": "Steel",
+    "center_m": [
+      0.0020085180667900452,
+      -0.14401287451012854,
+      0.16559550414671073
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+    "name": "Body1",
+    "mass_kg": 0.0002283610757194242,
+    "volume_cm3": 0.029090582894194167,
+    "material": "Steel",
+    "center_m": [
+      0.009295086465863234,
+      -0.13253959294339915,
+      0.1700104481610786
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+    "name": "Body2",
+    "mass_kg": 0.0018615540896656337,
+    "volume_cm3": 0.2371406483650489,
+    "material": "Steel",
+    "center_m": [
+      0.01186479031653372,
+      -0.1402305338290599,
+      0.16597129516260203
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+    "name": "Body3",
+    "mass_kg": 0.00022836107571942412,
+    "volume_cm3": 0.029090582894194156,
+    "material": "Steel",
+    "center_m": [
+      0.011794705718160553,
+      -0.13253997534511122,
+      0.1700540766759924
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+    "name": "Body4",
+    "mass_kg": 0.00022836107571942414,
+    "volume_cm3": 0.02909058289419416,
+    "material": "Steel",
+    "center_m": [
+      0.014294324970457873,
+      -0.13254035774682332,
+      0.17009770519090617
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Servo - STS3215:1+0022035035:2",
+    "name": "Body1",
+    "mass_kg": 0.0011925501093353703,
+    "volume_cm3": 0.15191721138030195,
+    "material": "Steel",
+    "center_m": [
+      0.011907010305892082,
+      -0.14401438882090872,
+      0.16576827306577357
+    ]
+  },
+  {
+    "path": "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):1",
+    "name": "Body1",
+    "mass_kg": 0.001073766174292929,
+    "volume_cm3": 0.13678549990992725,
+    "material": "Steel",
+    "center_m": [
+      0.007375980379468793,
+      -0.17506962335399223,
+      0.13358849597690076
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Jaw Clamp - A:1",
+    "name": "Body1",
+    "mass_kg": 0.2098893296853602,
+    "volume_cm3": 26.73749422743442,
+    "material": "Steel",
+    "center_m": [
+      0.05630781110066927,
+      -0.19681651273708523,
+      0.13055461042106933
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Jaw Clamp - B:1",
+    "name": "Body1",
+    "mass_kg": 0.20989125318258292,
+    "volume_cm3": 26.737739258927764,
+    "material": "Steel",
+    "center_m": [
+      -0.04143673859353363,
+      -0.19680664170296353,
+      0.1294204097836042
+    ]
+  },
+  {
+    "path": "Gripper:1+Guide Rod - D6 x 125 mm:2",
+    "name": "Body1",
+    "mass_kg": 0.027744190122013675,
+    "volume_cm3": 3.5342917352883667,
+    "material": "Steel",
+    "center_m": [
+      0.007341082804168067,
+      -0.18498408470698033,
+      0.1355009916248505
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Rack - M0.8:2",
+    "name": "Body1",
+    "mass_kg": 0.011150008233925706,
+    "volume_cm3": 1.420383214512829,
+    "material": "Steel",
+    "center_m": [
+      -0.021282365423187434,
+      -0.17535201185887594,
+      0.16077778943235072
+    ]
+  },
+  {
+    "path": "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):2",
+    "name": "Body1",
+    "mass_kg": 0.001073766174292929,
+    "volume_cm3": 0.13678549990992725,
+    "material": "Steel",
+    "center_m": [
+      0.00674770563383313,
+      -0.175386472063865,
+      0.16958161862055673
+    ]
+  },
+  {
+    "path": "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.010 Main frame_125 follower:1",
+    "name": "Body1",
+    "mass_kg": 0.23824969045794922,
+    "volume_cm3": 30.350279039229203,
+    "material": "Steel",
+    "center_m": [
+      0.007014301812622508,
+      -0.17255088286593542,
+      0.15345562218864378
+    ]
+  },
+  {
+    "path": "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.070 Camera holder_follower + camera:1",
+    "name": "Body1",
+    "mass_kg": 0.14997921782531842,
+    "volume_cm3": 19.10563284398961,
+    "material": "Steel",
+    "center_m": [
+      0.006069397696115745,
+      -0.16018556083120639,
+      0.17941328078175053
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body1",
+    "mass_kg": 0.017560547305555296,
+    "volume_cm3": 2.23701239561214,
+    "material": "Steel",
+    "center_m": [
+      0.00630114489790186,
+      -0.20285682734737073,
+      0.19480672084744854
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body2",
+    "mass_kg": 0.0031839600000000004,
+    "volume_cm3": 0.40560000000000007,
+    "material": "Steel",
+    "center_m": [
+      0.006336049050469931,
+      -0.20283922464126605,
+      0.1928071029227261
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body3",
+    "mass_kg": 0.007901545346750171,
+    "volume_cm3": 1.006566286210213,
+    "material": "Steel",
+    "center_m": [
+      0.006434653280860546,
+      -0.2027894969965202,
+      0.18715818228537448
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body4",
+    "mass_kg": 0.0051961785410744735,
+    "volume_cm3": 0.6619335721113979,
+    "material": "Steel",
+    "center_m": [
+      0.006549836984245961,
+      -0.2027314080663747,
+      0.18055944313378886
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body5",
+    "mass_kg": 0.00017478839776870181,
+    "volume_cm3": 0.022266037932318704,
+    "material": "Steel",
+    "center_m": [
+      0.006590413061873125,
+      -0.20271094492052805,
+      0.17823488729630366
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body6",
+    "mass_kg": 0.0008139897359999995,
+    "volume_cm3": 0.10369295999999995,
+    "material": "Steel",
+    "center_m": [
+      -0.0007231765069678486,
+      -0.1892541710915884,
+      0.19740434987950448
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body7",
+    "mass_kg": 1.511125e-06,
+    "volume_cm3": 0.00019250000000000002,
+    "material": "Steel",
+    "center_m": [
+      -0.0027613368440745733,
+      -0.19112775129664097,
+      0.19382660622526093
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body8",
+    "mass_kg": 1.511125e-06,
+    "volume_cm3": 0.00019250000000000002,
+    "material": "Steel",
+    "center_m": [
+      -0.0013615500627880805,
+      -0.19112796544159974,
+      0.19385103819361274
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body9",
+    "mass_kg": 1.511124999999997e-06,
+    "volume_cm3": 0.0001924999999999996,
+    "material": "Steel",
+    "center_m": [
+      3.823671849841115e-05,
+      -0.1911281795865585,
+      0.19387547016196455
+    ]
+  },
+  {
+    "path": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+    "name": "Body10",
+    "mass_kg": 1.5111249999999984e-06,
+    "volume_cm3": 0.0001924999999999998,
+    "material": "Steel",
+    "center_m": [
+      0.0014380234997849034,
+      -0.1911283937315173,
+      0.19389990213031635
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Pinion - M0.8, 18T:1",
+    "name": "GearInvolute",
+    "mass_kg": 0.010076704072318938,
+    "volume_cm3": 1.2836565697221578,
+    "material": "Steel",
+    "center_m": [
+      0.007061842005431038,
+      -0.1737207414673362,
+      0.15159832615049573
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:1",
+    "name": "Body1",
+    "mass_kg": 0.00023298142904943533,
+    "volume_cm3": 0.0296791629362338,
+    "material": "Steel",
+    "center_m": [
+      -0.003692711754048469,
+      -0.1670341608534079,
+      0.18047500434697678
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:1",
+    "name": "Body1",
+    "mass_kg": 0.0009124774220428693,
+    "volume_cm3": 0.11623916204367762,
+    "material": "Steel",
+    "center_m": [
+      0.0073729044875583275,
+      -0.17485294459080364,
+      0.13359287768787678
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:2",
+    "name": "Body1",
+    "mass_kg": 0.00023298142904943533,
+    "volume_cm3": 0.0296791629362338,
+    "material": "Steel",
+    "center_m": [
+      0.01716542409391701,
+      -0.16685510853926339,
+      0.1601367126483946
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:3",
+    "name": "Body1",
+    "mass_kg": 0.00023298142904943533,
+    "volume_cm3": 0.0296791629362338,
+    "material": "Steel",
+    "center_m": [
+      0.016804166114789403,
+      -0.16703729654744656,
+      0.18083275816927127
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:2",
+    "name": "Body1",
+    "mass_kg": 0.0009124774220428693,
+    "volume_cm3": 0.11623916204367762,
+    "material": "Steel",
+    "center_m": [
+      0.006750781237728073,
+      -0.17516974973762608,
+      0.16958105214940972
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:2",
+    "name": "M2.5 Hex Nut (1)",
+    "mass_kg": 0.0002753329985515152,
+    "volume_cm3": 0.03507426733140322,
+    "material": "Steel",
+    "center_m": [
+      -0.007541741859325137,
+      -0.1887794513581111,
+      0.18588685582470413
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:3",
+    "name": "M2.5 Hex Nut (1)",
+    "mass_kg": 0.0002753329985515152,
+    "volume_cm3": 0.03507426733140322,
+    "material": "Steel",
+    "center_m": [
+      -0.007541723252721027,
+      -0.21677836651612015,
+      0.18564038072601896
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:4",
+    "name": "M2.5 Hex Nut (1)",
+    "mass_kg": 0.0002753329985515152,
+    "volume_cm3": 0.03507426733140322,
+    "material": "Steel",
+    "center_m": [
+      0.020453993766404638,
+      -0.18878373425728678,
+      0.1863754951917405
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:5",
+    "name": "M2.5 Hex Nut (1)",
+    "mass_kg": 0.0002753329985515152,
+    "volume_cm3": 0.03507426733140322,
+    "material": "Steel",
+    "center_m": [
+      0.020454012373008725,
+      -0.2167826494152959,
+      0.18612902009305504
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:2",
+    "name": "Body1",
+    "mass_kg": 0.0006259152195295285,
+    "volume_cm3": 0.07973442287000364,
+    "material": "Steel",
+    "center_m": [
+      -0.007662226397809278,
+      -0.18883717897257962,
+      0.1926736768961953
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:3",
+    "name": "Body1",
+    "mass_kg": 0.0006259152195295285,
+    "volume_cm3": 0.07973442287000364,
+    "material": "Steel",
+    "center_m": [
+      -0.00766220779120518,
+      -0.2168360941305885,
+      0.1924272017975095
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:4",
+    "name": "Body1",
+    "mass_kg": 0.0006259152195295285,
+    "volume_cm3": 0.07973442287000364,
+    "material": "Steel",
+    "center_m": [
+      0.020333509227920626,
+      -0.1888414618717555,
+      0.19316231626323116
+    ]
+  },
+  {
+    "path": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:5",
+    "name": "Body1",
+    "mass_kg": 0.0006259152195295285,
+    "volume_cm3": 0.07973442287000364,
+    "material": "Steel",
+    "center_m": [
+      0.020333527834524676,
+      -0.21684037702976458,
+      0.19291584116454605
+    ]
+  }
+]

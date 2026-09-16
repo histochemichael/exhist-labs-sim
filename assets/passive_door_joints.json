@@ -1,0 +1,58 @@
+[
+  {
+    "document": "Quincy 10GC - Bottom Shelf - Swing Door v1",
+    "name": "Bottom shelf fixed in low position",
+    "kind": 0,
+    "one": "02 Bottom wire shelf ONLY:1",
+    "two": "01 Cabinet and controls [fixed]:1",
+    "origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "document": "Quincy 10GC - Bottom Shelf - Swing Door v1",
+    "name": "Door swing | 0 closed - 110 deg open",
+    "kind": 1,
+    "one": "03 Door [movable - right hinge]:1",
+    "two": "01 Cabinet and controls [fixed]:1",
+    "origin_m": [
+      0.35400000000000004,
+      -0.014000000000000129,
+      0.0
+    ],
+    "axis": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "value": 1.7453292519943295,
+    "limits": [
+      0.0,
+      1.9198621771937625
+    ]
+  },
+  {
+    "document": "NanoZoomer S60 C13210-01 - rear cassette prototype v0.2 v2",
+    "name": "Door - LEFT opens - provisional 225 mm",
+    "kind": 2,
+    "one": "cassette_door | Overlapping sliding door | revision 0.4:1",
+    "two": "base | Base and nominal envelope | revision 0.3:1",
+    "origin_m": [
+      0.026000000000000002,
+      0.36600000000000005,
+      0.3325
+    ],
+    "axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "value": 0.0,
+    "limits": [
+      -0.225,
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "checks": {
+    "no_actuators": true,
+    "no_attachments": true,
+    "finite": true,
+    "translation_stable": true,
+    "rotation_stable": true,
+    "quiet_velocity": true,
+    "rack_supported": true
+  },
+  "sim_seconds": 30.00000000001368,
+  "settle_seconds": 2.0,
+  "sample_hz": 100,
+  "bodies": [
+    {
+      "body": "qc_cassette_1",
+      "translation_span_m": 3.049442698355165e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.799960725160156
+    },
+    {
+      "body": "qc_cassette_2",
+      "translation_span_m": 3.0493120251051664e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.799960725160156
+    },
+    {
+      "body": "qc_cassette_3",
+      "translation_span_m": 3.049559521572931e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601558
+    },
+    {
+      "body": "qc_cassette_4",
+      "translation_span_m": 3.0491485447647904e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601559
+    },
+    {
+      "body": "qc_cassette_5",
+      "translation_span_m": 3.048973962194168e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601559
+    },
+    {
+      "body": "qc_cassette_6",
+      "translation_span_m": 3.0492925962022355e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601558
+    },
+    {
+      "body": "qc_cassette_7",
+      "translation_span_m": 3.04941588646912e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601558
+    },
+    {
+      "body": "qc_cassette_8",
+      "translation_span_m": 3.0492350311384087e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.7999607251601559
+    },
+    {
+      "body": "special_staining_jar_1",
+      "translation_span_m": 4.937242832418877e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084412
+    },
+    {
+      "body": "special_staining_jar_2",
+      "translation_span_m": 4.945052984912293e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084356
+    },
+    {
+      "body": "special_staining_jar_3",
+      "translation_span_m": 4.939791247190411e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084253
+    },
+    {
+      "body": "special_staining_jar_4",
+      "translation_span_m": 4.937508690912524e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084388
+    },
+    {
+      "body": "special_staining_jar_5",
+      "translation_span_m": 4.9419260743624486e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084731
+    },
+    {
+      "body": "special_staining_jar_6",
+      "translation_span_m": 7.839853331865725e-10,
+      "rotation_excursion_rad": 9.424321830774485e-08,
+      "final_z_m": 0.8053598116667624
+    },
+    {
+      "body": "special_staining_jar_7",
+      "translation_span_m": 4.934636705822031e-09,
+      "rotation_excursion_rad": 4.2146848510894035e-08,
+      "final_z_m": 0.805414209708426
+    },
+    {
+      "body": "special_staining_jar_8",
+      "translation_span_m": 4.9384593517409415e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084145
+    },
+    {
+      "body": "special_staining_jar_9",
+      "translation_span_m": 4.938674059444423e-09,
+      "rotation_excursion_rad": 1.1920928955078128e-07,
+      "final_z_m": 0.805414209708425
+    },
+    {
+      "body": "special_staining_jar_10",
+      "translation_span_m": 4.937138416418977e-09,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8054142097084441
+    },
+    {
+      "body": "special_staining_jar_11",
+      "translation_span_m": 4.935822640284948e-09,
+      "rotation_excursion_rad": 1.032382731180714e-07,
+      "final_z_m": 0.805414209708439
+    },
+    {
+      "body": "special_staining_jar_1_riser",
+      "translation_span_m": 1.4757359462321222e-07,
+      "rotation_excursion_rad": 0.0,
+      "final_z_m": 0.8039130883168853
+    },
+    {
+      "body": "special_staining_jar_2_riser",
+      "translation_span_m": 1.4757294113898216e-07,
+      "rotation_excursion_rad": 7.300048299977715e-08,
+      "final_z_m": 0.8039130883168728
+    },
+    {
+      "body": "special_staining_jar_3_riser",
+      "translation_span_m": 1.475737988515647e-07,
+      "rotation_excursion_rad": 1.1151007970493858e-07,
+      "final_z_m": 0.803913088316866
+    },
+    {
+      "body": "special_staining_jar_4_riser",
+      "translation_span_m": 1.4757371384450777e-07,
+      "rotation_excursion_rad": 1.032382731180714e-07,
+      "final_z_m": 0.8039130883168767
+    },
+    {
+      "body": "special_staining_jar_5_riser",
+      "translation_span_m": 1.47573332161471e-07,
+      "rotation_excursion_rad": 7.884953353001448e-08,
+      "final_z_m": 0.8039130883169121
+    },
+    {
+      "body": "special_staining_jar_6_riser",
+      "translation_span_m": 7.308605997240933e-07,
+      "rotation_excursion_rad": 4.4703483581543064e-07,
+      "final_z_m": 0.8038573352710331
+    },
+    {
+      "body": "special_staining_jar_7_riser",
+      "translation_span_m": 1.4757412065935181e-07,
+      "rotation_excursion_rad": 7.884953353001448e-08,
+      "final_z_m": 0.8039130883168656
+    },
+    {
+      "body": "special_staining_jar_8_riser",
+      "translation_span_m": 1.4757411781234856e-07,
+      "rotation_excursion_rad": 9.424321830774485e-08,
+      "final_z_m": 0.8039130883168576
+    },
+    {
+      "body": "special_staining_jar_9_riser",
+      "translation_span_m": 1.4757401799556375e-07,
+      "rotation_excursion_rad": 7.884953353001448e-08,
+      "final_z_m": 0.80391308831686
+    },
+    {
+      "body": "special_staining_jar_10_riser",
+      "translation_span_m": 1.475737636414639e-07,
+      "rotation_excursion_rad": 5.16191365590357e-08,
+      "final_z_m": 0.80391308831688
+    },
+    {
+      "body": "special_staining_jar_11_riser",
+      "translation_span_m": 1.475743654568007e-07,
+      "rotation_excursion_rad": 1.1151007970493858e-07,
+      "final_z_m": 0.8039130883168697
+    },
+    {
+      "body": "test_rack",
+      "translation_span_m": 1.0661643952791155e-06,
+      "rotation_excursion_rad": 4.4802714521804273e-07,
+      "final_z_m": 0.8292562182648435
+    }
+  ],
+  "max_generalized_speed": 8.682584858936091e-08,
+  "scene_sha256": "9f4e0f36682b818d00b7c2ac862e414710e3c5390fcad6d01e766cd751ed2670",
+  "scope": "11 free jars + 11 free 25.4 mm inserts + one 145 g loaded-rack envelope + 8 free QC blocks on copied lab tables. QC blocks use provisional 20 g masses and support envelopes. Dry nominal support only; loose slides, folders and robot contacts not certified."
+}

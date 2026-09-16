@@ -1,0 +1,25 @@
+{
+  "parts_by_link": {
+    "carriage": 188,
+    "j2": 22,
+    "j3": 23,
+    "j1": 42,
+    "j4": 19,
+    "j5": 47,
+    "fixed": 179,
+    "screw": 7,
+    "jaw_right": 2,
+    "jaw_left": 2,
+    "pinion": 1
+  },
+  "fallback_parts": [],
+  "instances": [
+    "sorter_1",
+    "sorter_2",
+    "special_lehisto",
+    "sendout_lehisto_1",
+    "sendout_lehisto_2"
+  ],
+  "source": "Fusion LeHisto v38 as-built joints / rigid groups; slider cm converted to m",
+  "limitation": "Legacy TCP is provisional. Separate original handle/slide groove frames and convex-partition finger contacts added; remaining robot geometry/mass remains incomplete."
+}

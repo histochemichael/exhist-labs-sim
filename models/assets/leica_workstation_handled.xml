@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Leica ST5020 / CV5030 | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="leica_workstation_handled_0" file="meshes/leica_workstation_handled_0.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_1" file="meshes/leica_workstation_handled_1.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_2" file="meshes/leica_workstation_handled_2.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_3" file="meshes/leica_workstation_handled_3.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_4" file="meshes/leica_workstation_handled_4.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_5" file="meshes/leica_workstation_handled_5.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_6" file="meshes/leica_workstation_handled_6.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_7" file="meshes/leica_workstation_handled_7.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_8" file="meshes/leica_workstation_handled_8.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_9" file="meshes/leica_workstation_handled_9.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_10" file="meshes/leica_workstation_handled_10.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_11" file="meshes/leica_workstation_handled_11.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_12" file="meshes/leica_workstation_handled_12.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_13" file="meshes/leica_workstation_handled_13.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_14" file="meshes/leica_workstation_handled_14.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_15" file="meshes/leica_workstation_handled_15.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_16" file="meshes/leica_workstation_handled_16.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_17" file="meshes/leica_workstation_handled_17.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_18" file="meshes/leica_workstation_handled_18.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_19" file="meshes/leica_workstation_handled_19.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_20" file="meshes/leica_workstation_handled_20.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_21" file="meshes/leica_workstation_handled_21.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_22" file="meshes/leica_workstation_handled_22.obj" inertia="shell" />
+    <mesh name="leica_workstation_handled_23" file="meshes/leica_workstation_handled_23.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="leica_workstation_handled_0" rgba="0.141176471 0.156862745 0.180392157 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_1" rgba="0.0666666667 0.0784313725 0.0941176471 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_2" rgba="0.91372549 0.91372549 0.878431373 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_3" rgba="0.643137255 0.670588235 0.694117647 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_4" rgba="0.62745098 0.62745098 0.62745098 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_5" rgba="0.109803922 0.168627451 0.321568627 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_6" rgba="0.874509804 0.905882353 0.905882353 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_7" rgba="0.803921569 0.0941176471 0.17254902 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_8" rgba="0.603921569 0.733333333 0.768627451 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_9" rgba="0.137254902 0.22745098 0.819607843 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_10" rgba="0.48627451 0.650980392 0.243137255 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_11" rgba="0.717647059 0.0862745098 0.156862745 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_12" rgba="0.964705882 0.290196078 0.403921569 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_13" rgba="0.231372549 0.431372549 0.623529412 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_14" rgba="0.964705882 0.964705882 0.952941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_15" rgba="0.0980392157 0.0980392157 0.0980392157 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_16" rgba="0.188235294 0.231372549 0.588235294 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_17" rgba="0.6 0.615686275 0.592156863 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_18" rgba="0.937254902 0.949019608 0.901960784 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_19" rgba="0.117647059 0.192156863 0.360784314 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_20" rgba="0.666666667 0.709803922 0.752941176 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_21" rgba="0.937254902 0.870588235 0.219607843 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_22" rgba="0.0745098039 0.0862745098 0.0941176471 1" contype="0" conaffinity="0" density="0" />
+    <geom type="mesh" mesh="leica_workstation_handled_23" rgba="0.290196078 0.721568627 0.392156863 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

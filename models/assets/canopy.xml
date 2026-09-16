@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Canopy hood concept | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="0.006 0.38 0.1" pos="-0.54 -5.55111512e-17 -0.552" quat="1 0 0 0" rgba="0.670000017 0.720000029 0.75 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.54 0.006 0.1" pos="0 -0.38 -0.552" quat="1 0 0 0" rgba="0.670000017 0.720000029 0.75 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.006 0.38 0.1" pos="0.54 -5.55111512e-17 -0.552" quat="1 0 0 0" rgba="0.670000017 0.720000029 0.75 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.54 0.006 0.1" pos="0 0.38 -0.552" quat="1 0 0 0" rgba="0.670000017 0.720000029 0.75 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.54 0.38 0.006" pos="0 -5.55111512e-17 -0.452" quat="1 0 0 0" rgba="0.670000017 0.720000029 0.75 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="-0.39 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="-0.26 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="-0.13 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="0 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="0.13 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="0.26 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.035 0.29 0.004" pos="0.39 -5.55111512e-17 -0.492" quat="1 0 0 0" rgba="0.379999995 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.38 0.012 0.005" pos="0 -0.29 -0.512" quat="1 0 0 0" rgba="0.949999988 0.980000019 1 1" contype="0" conaffinity="0" />
+    <geom type="cylinder" size="0.1 0.55" pos="0 -5.55111512e-17 0.098" quat="1 0 0 0" rgba="0.620000005 0.670000017 0.699999988 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.004 0.55" pos="-0.45 -0.3 0.098" quat="6.123234e-17 1 0 0" rgba="0.400000006 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.004 0.55" pos="-0.45 0.3 0.098" quat="6.123234e-17 1 0 0" rgba="0.400000006 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.004 0.55" pos="0.45 -0.3 0.098" quat="6.123234e-17 1 0 0" rgba="0.400000006 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.004 0.55" pos="0.45 0.3 0.098" quat="6.123234e-17 1 0 0" rgba="0.400000006 0.430000007 0.460000008 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

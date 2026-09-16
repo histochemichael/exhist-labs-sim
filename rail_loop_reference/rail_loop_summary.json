@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "rail_actual_range_m": [
+    -0.060000191937701744,
+    0.21000106412333105
+  ],
+  "rail_start_m": -0.059999951225180086,
+  "rail_end_m": -0.059984940142374966,
+  "rail_peak_speed_m_s": 0.01963279406427188,
+  "minimum_rail_clearance_m": 0.050973475287984196,
+  "minimum_transfer_clearance_m": 0.04106741088334213,
+  "max_rail_contact_N": 0.0,
+  "max_slip_m": 0.0017713392293203349,
+  "joint_limit_violations": [],
+  "simulated_seconds": 313.2489999995045,
+  "transfers": 11,
+  "max_seated_error_mm": 0.5220245379384336,
+  "source_hashes": {
+    "rail_loop.xml": "386805f5cee3972354c04b220095a3e7b165436da8a04e61a1ba47a76800320e",
+    "rail_loop_controller.py": "0539478ab2743bd1be79809f01441215b9b2d589bbc5380403060bbbc1d2c8aa",
+    "rail_loop_trace.json": "e1fd4467bd44f05a02d350ff7e9e65c95faa140abe620ee6d95b46049ed4a791"
+  },
+  "scope": "Full 270mm MODELED stroke, not the full extrusion length. Far-side crossover passes above the rail, not a continuous 360deg orbit around its physical ends. Existing hardware limits unchanged."
+}

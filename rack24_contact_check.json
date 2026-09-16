@@ -1,0 +1,80 @@
+[
+  {
+    "mass_kg": 0.145,
+    "force_N": 0.8,
+    "yaw_error_deg": 0.0,
+    "phase": "RELEASE",
+    "passed": false,
+    "peak_lift_m": 0.03482899869526211,
+    "relative_slip_m": 0.0027993765825764035,
+    "bilateral_hold_fraction": 1.0,
+    "release_drop_m": 1.5401146185450854e-07,
+    "events": [
+      "bilateral_contact_then_lift",
+      "open_jaws_drop_test"
+    ],
+    "scope": "Gravity/contact-only fixture, actual CAD T-bar extents, conservative lower envelope; provisional loaded mass. Not Nori arm or loose slide retention validation."
+  },
+  {
+    "mass_kg": 0.145,
+    "force_N": 2,
+    "yaw_error_deg": 0.0,
+    "phase": "RELEASE",
+    "passed": true,
+    "peak_lift_m": 0.037467964385045585,
+    "relative_slip_m": 0.0029107481446303085,
+    "bilateral_hold_fraction": 1.0,
+    "release_drop_m": 0.0348579338999372,
+    "events": [
+      "bilateral_contact_then_lift",
+      "open_jaws_drop_test"
+    ],
+    "scope": "Gravity/contact-only fixture, actual CAD T-bar extents, conservative lower envelope; provisional loaded mass. Not Nori arm or loose slide retention validation."
+  },
+  {
+    "mass_kg": 0.145,
+    "force_N": 4,
+    "yaw_error_deg": 0.0,
+    "phase": "RELEASE",
+    "passed": false,
+    "peak_lift_m": 0.036231709929313106,
+    "relative_slip_m": 0.002800211159525132,
+    "bilateral_hold_fraction": 1.0,
+    "release_drop_m": 0.00040534768141068517,
+    "events": [
+      "bilateral_contact_then_lift",
+      "open_jaws_drop_test"
+    ],
+    "scope": "Gravity/contact-only fixture, actual CAD T-bar extents, conservative lower envelope; provisional loaded mass. Not Nori arm or loose slide retention validation."
+  },
+  {
+    "mass_kg": 0.145,
+    "force_N": 1e-05,
+    "yaw_error_deg": 0.0,
+    "phase": "NO_GRASP",
+    "passed": false,
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "bilateral_hold_fraction": 0.0,
+    "release_drop_m": null,
+    "events": [
+      "no_bilateral_grasp"
+    ],
+    "scope": "Gravity/contact-only fixture, actual CAD T-bar extents, conservative lower envelope; provisional loaded mass. Not Nori arm or loose slide retention validation."
+  },
+  {
+    "mass_kg": 0.145,
+    "force_N": 2.0,
+    "yaw_error_deg": 90.0,
+    "phase": "NO_GRASP",
+    "passed": false,
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "bilateral_hold_fraction": 0.0,
+    "release_drop_m": null,
+    "events": [
+      "no_bilateral_grasp"
+    ],
+    "scope": "Gravity/contact-only fixture, actual CAD T-bar extents, conservative lower envelope; provisional loaded mass. Not Nori arm or loose slide retention validation."
+  }
+]

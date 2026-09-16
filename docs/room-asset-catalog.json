@@ -1,0 +1,165 @@
+[
+  {
+    "id": "bench",
+    "title": "Process bench",
+    "geoms": [
+      "sorting_top",
+      "sorting_leg_0",
+      "sorting_leg_1",
+      "sorting_leg_2",
+      "sorting_leg_3"
+    ],
+    "xml": "models/assets/bench.xml",
+    "stl": "cad/stl/bench.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "canopy",
+    "title": "Canopy hood concept",
+    "geoms": [
+      "special_canopy_side_-1",
+      "special_canopy_frontback_-1",
+      "special_canopy_side_1",
+      "special_canopy_frontback_1",
+      "special_canopy_roof",
+      "special_canopy_baffle_0",
+      "special_canopy_baffle_1",
+      "special_canopy_baffle_2",
+      "special_canopy_baffle_3",
+      "special_canopy_baffle_4",
+      "special_canopy_baffle_5",
+      "special_canopy_baffle_6",
+      "special_canopy_light",
+      "special_canopy_duct",
+      "special_canopy_hanger_0",
+      "special_canopy_hanger_1",
+      "special_canopy_hanger_2",
+      "special_canopy_hanger_3"
+    ],
+    "xml": "models/assets/canopy.xml",
+    "stl": "cad/stl/canopy.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "cabinet",
+    "title": "Storage cabinet",
+    "geoms": [
+      "lab_storage_tower_0_case",
+      "lab_storage_tower_0_toe",
+      "lab_storage_tower_0_door-1",
+      "lab_storage_tower_0_pull-1",
+      "lab_storage_tower_0_door1",
+      "lab_storage_tower_0_pull1"
+    ],
+    "xml": "models/assets/cabinet.xml",
+    "stl": "cad/stl/cabinet.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "shelves",
+    "title": "Shelf bay and boxes",
+    "geoms": [
+      "lab_shelf_rail_0_-1",
+      "lab_shelf_rail_0_1",
+      "lab_shelf_0_0.35",
+      "lab_shelf_box_0_0.35_0",
+      "lab_shelf_box_0_0.35_1",
+      "lab_shelf_box_0_0.35_2",
+      "lab_shelf_box_0_0.35_3",
+      "lab_shelf_box_0_0.35_4",
+      "lab_shelf_0_0.7",
+      "lab_shelf_box_0_0.7_0",
+      "lab_shelf_box_0_0.7_1",
+      "lab_shelf_box_0_0.7_2",
+      "lab_shelf_box_0_0.7_3",
+      "lab_shelf_box_0_0.7_4",
+      "lab_shelf_0_1.05",
+      "lab_shelf_box_0_1.05_0",
+      "lab_shelf_box_0_1.05_1",
+      "lab_shelf_box_0_1.05_2",
+      "lab_shelf_box_0_1.05_3",
+      "lab_shelf_box_0_1.05_4"
+    ],
+    "xml": "models/assets/shelves.xml",
+    "stl": "cad/stl/shelves.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "chair",
+    "title": "Lab task chair",
+    "geoms": [
+      "lab_task_chair_0_seat",
+      "lab_task_chair_0_back",
+      "lab_task_chair_0_post",
+      "lab_task_chair_0_spoke0",
+      "lab_task_chair_0_wheel0",
+      "lab_task_chair_0_spoke1",
+      "lab_task_chair_0_wheel1",
+      "lab_task_chair_0_spoke2",
+      "lab_task_chair_0_wheel2",
+      "lab_task_chair_0_spoke3",
+      "lab_task_chair_0_wheel3",
+      "lab_task_chair_0_spoke4",
+      "lab_task_chair_0_wheel4"
+    ],
+    "xml": "models/assets/chair.xml",
+    "stl": "cad/stl/chair.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "pc",
+    "title": "PC workstation",
+    "geoms": [
+      "lab_desk_pc_2_monitor",
+      "lab_desk_pc_2_screen",
+      "lab_desk_pc_2_ui0",
+      "lab_desk_pc_2_ui1",
+      "lab_desk_pc_2_ui2",
+      "lab_desk_pc_2_ui3",
+      "lab_desk_pc_2_stem",
+      "lab_desk_pc_2_foot",
+      "lab_desk_pc_2_keyboard",
+      "lab_desk_pc_2_mouse",
+      "lab_desk_pc_2_tower"
+    ],
+    "xml": "models/assets/pc.xml",
+    "stl": "cad/stl/pc.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "entry-door",
+    "title": "Staff entry door",
+    "geoms": [
+      "lab_entry_door",
+      "lab_entry_vision",
+      "lab_entry_pushbar"
+    ],
+    "xml": "models/assets/entry-door.xml",
+    "stl": "cad/stl/entry-door.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  },
+  {
+    "id": "window",
+    "title": "Observation window",
+    "geoms": [
+      "lab_window_0",
+      "lab_window_0_v-1",
+      "lab_window_0_v0",
+      "lab_window_0_v1",
+      "lab_window_0_h-1",
+      "lab_window_0_h1",
+      "lab_window_0_sill"
+    ],
+    "xml": "models/assets/window.xml",
+    "stl": "cad/stl/window.stl",
+    "units_stl": "mm",
+    "note": "Procedural scene geometry, no native STEP source; static visualization."
+  }
+]

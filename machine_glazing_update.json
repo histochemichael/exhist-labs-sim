@@ -1,0 +1,88 @@
+{
+  "exhist.xml": [
+    {
+      "mesh": "leica_workstation_4",
+      "instances": 2,
+      "split": true,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_right",
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent left return for gentle trim"
+      ]
+    },
+    {
+      "mesh": "leica_workstation_8",
+      "instances": 2,
+      "split": true,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_left",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_canopy",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_front_top",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_210",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_348"
+      ]
+    },
+    {
+      "mesh": "leica_workstation_16",
+      "instances": 2,
+      "split": true,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Rounded transparent hood",
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent right return for gentle trim"
+      ]
+    }
+  ],
+  "exhist_operational.xml": [
+    {
+      "mesh": "art_leica_6",
+      "instances": 2,
+      "split": true,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent left return for gentle trim"
+      ]
+    },
+    {
+      "mesh": "art_leica_11",
+      "instances": 2,
+      "split": false,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_left",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_canopy"
+      ]
+    },
+    {
+      "mesh": "art_leica_13",
+      "instances": 2,
+      "split": false,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1/PHOTO_curved_hood_right"
+      ]
+    },
+    {
+      "mesh": "art_leica_52",
+      "instances": 2,
+      "split": false,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_front_top",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_210",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1/TS_clear_side_348"
+      ]
+    },
+    {
+      "mesh": "art_leica_62",
+      "instances": 2,
+      "split": true,
+      "rgba": "0.55 0.78 0.83 0.18",
+      "glass_parts": [
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Rounded transparent hood",
+        "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1/Transparent right return for gentle trim"
+      ]
+    }
+  ]
+}

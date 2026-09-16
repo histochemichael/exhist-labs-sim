@@ -1,0 +1,864 @@
+{
+  "joints": [
+    {
+      "name": "Lead Screw Rotation - DRIVE THIS",
+      "one": "Lead Screw Drive:1+Lead Screw - TR8x8 x 400 mm:1",
+      "two": "Frame and Supports:1+Rail - V-slot 2040 x 600 mm:1",
+      "origin": [
+        0.00026995482158736003,
+        0.0,
+        -0.028562
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": null,
+      "maximum": null
+    },
+    {
+      "name": "Arm Carriage Travel",
+      "one": "Carriage:1+Carriage Plate - SO101 Adapter:1",
+      "two": "Frame and Supports:1+Rail - V-slot 2040 x 600 mm:1",
+      "origin": [
+        0.00026995482158736003,
+        0.0,
+        -0.028562
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "kind": 2,
+      "value": 0.0,
+      "minimum": -6.0,
+      "maximum": 21.0
+    },
+    {
+      "name": "SO101 J5 - wrist_roll",
+      "one": "Gripper:1+RB9.01.062.000 Gripper v8:1",
+      "two": "SO101 Arm:1+Links and Mounts:1+Wrist Pitch Link:1",
+      "origin": [
+        0.007061799212846166,
+        -0.10932784317866613,
+        0.1521651783256807
+      ],
+      "axis": [
+        6.645215746059407e-07,
+        -0.999961255643176,
+        -0.008802682095902693
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": -1.5707999999991324,
+      "maximum": 4.276059999999812
+    },
+    {
+      "name": "SO101 J2 - shoulder_lift",
+      "one": "SO101 Arm:1+Links and Mounts:1+Upper Arm Link:1",
+      "two": "SO101 Arm:1+Links and Mounts:1+Rotation_Pitch_SO101 v9:1",
+      "origin": [
+        -0.004206652385192279,
+        -0.0387777050437608,
+        0.11975808825446552
+      ],
+      "axis": [
+        -0.9999619230641711,
+        -0.008726203218641296,
+        -7.615242181740788e-05
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": -3.228859999999808,
+      "maximum": 0.17453300000075403
+    },
+    {
+      "name": "SO101 J3 - elbow_flex",
+      "one": "SO101 Arm:1+Links and Mounts:1+Forearm Link:1",
+      "two": "SO101 Arm:1+Links and Mounts:1+Upper Arm Link:1",
+      "origin": [
+        -0.0026957145213024093,
+        0.073662720083,
+        0.1485565205500875
+      ],
+      "axis": [
+        -0.9999238475781942,
+        -0.008649718529757584,
+        -0.008802352740801263
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": 0.0,
+      "maximum": 3.316129999999691
+    },
+    {
+      "name": "SO101 J4 - wrist_flex",
+      "one": "SO101 Arm:1+Links and Mounts:1+Wrist Pitch Link:1",
+      "two": "SO101 Arm:1+Links and Mounts:1+Forearm Link:1",
+      "origin": [
+        -0.00061427051854337,
+        -0.06057855765574741,
+        0.15246033108183343
+      ],
+      "axis": [
+        -0.9998477009554175,
+        0.00015296066643966794,
+        -0.01745140387480333
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": -1.6580600000006758,
+      "maximum": 1.6580600000006758
+    },
+    {
+      "name": "SO101 J1 - shoulder_pan",
+      "one": "SO101 Arm:1+Links and Mounts:1+Rotation_Pitch_SO101 v9:1",
+      "two": "SO101 Arm:1",
+      "origin": [
+        -9.943246979555129e-05,
+        -0.007460774274249862,
+        0.05298188074474599
+      ],
+      "axis": [
+        6.10622663543836e-16,
+        -0.008726535498373654,
+        0.9999619230641714
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": -2.094400000000007,
+      "maximum": 2.094400000000007
+    },
+    {
+      "name": "Slide_Jaw_Right",
+      "one": "Gripper:1+Gripper Rack - M0.8:1",
+      "two": "Gripper:1+RB9.01.062.000 Gripper v8:1",
+      "origin": [
+        0.033110765463319966,
+        -0.1730529814578453,
+        0.14338224156005785
+      ],
+      "axis": [
+        0.9998477009189234,
+        -0.00015296068483649489,
+        0.017451405965577104
+      ],
+      "kind": 2,
+      "value": 0.0,
+      "minimum": -3.5500000000000003,
+      "maximum": 0.0
+    },
+    {
+      "name": "Slide_Jaw_Left",
+      "one": "Gripper:1+Gripper Rack - M0.8:2",
+      "two": "Gripper:1+RB9.01.062.000 Gripper v8:1",
+      "origin": [
+        -0.01898708224467416,
+        -0.17319776111955482,
+        0.15982489285586507
+      ],
+      "axis": [
+        -0.9998477009189235,
+        0.00015296068483649486,
+        -0.017451405965569995
+      ],
+      "kind": 2,
+      "value": 0.0,
+      "minimum": -3.5500000000000003,
+      "maximum": 0.0
+    },
+    {
+      "name": "Drive_Pinion",
+      "one": "Gripper:1+Gripper Pinion - M0.8, 18T:1",
+      "two": "Gripper:1+RB9.01.062.000 Gripper v8:1",
+      "origin": [
+        0.007061842406748769,
+        -0.1743253247954719,
+        0.15159300398944628
+      ],
+      "axis": [
+        6.645215740505144e-07,
+        -0.9999612556431762,
+        -0.008802682095902695
+      ],
+      "kind": 1,
+      "value": 0.0,
+      "minimum": -4.930555136883981,
+      "maximum": 0.0
+    }
+  ],
+  "groups": [
+    {
+      "name": "RG_Base_To_Adapter",
+      "occurrences": [
+        "SO101 Arm:1",
+        "Carriage:1+Carriage Plate - SO101 Adapter:1",
+        "Carriage:1+Arm Mount Hardware:1+M4 - Hex Nut:1",
+        "Carriage:1+Arm Mount Hardware:1+M4 - Hex Nut:2",
+        "Carriage:1+Arm Mount Hardware:1+M4 - Hex Nut:3",
+        "Carriage:1+Arm Mount Hardware:1+M4 - Hex Nut:4",
+        "Carriage:1+Arm Mount Hardware:1+M4 x 25 - Countersunk Socket Screw:1",
+        "Carriage:1+Arm Mount Hardware:1+M4 x 25 - Countersunk Socket Screw:2",
+        "Carriage:1+Arm Mount Hardware:1+M4 x 25 - Countersunk Socket Screw:3",
+        "Carriage:1+Arm Mount Hardware:1+M4 x 25 - Countersunk Socket Screw:4"
+      ]
+    },
+    {
+      "name": "Linear actuator fixed frame and four feet",
+      "occurrences": [
+        "Frame and Supports:1+Rail - V-slot 2040 x 600 mm:1",
+        "Frame and Supports:1+Rail - V-slot 2040 x 600 mm:2",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+CUERPO 17HS8401 v1:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Pines v1:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Tornillo v1:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Flecha 17HS4401 v1:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Untitled v1:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+INF TECNICA v3:1",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Tornillo v1:2",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Tornillo v1:3",
+        "Lead Screw Drive:1+Drive Motor - NEMA 17HS8401:1+Tornillo v1:4",
+        "Frame and Supports:1+End Plate - Motor:1",
+        "Frame and Supports:1+End Plate - Bearing:1",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:1",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:2",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:3",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:4",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:5",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:6",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:7",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:8",
+        "Lead Screw Drive:1+Motor Fasteners:1+M3 x 10 - Socket Head Screw:1",
+        "Lead Screw Drive:1+Motor Fasteners:1+M3 x 10 - Socket Head Screw:2",
+        "Lead Screw Drive:1+Motor Fasteners:1+M3 x 10 - Socket Head Screw:3",
+        "Lead Screw Drive:1+Motor Fasteners:1+M3 x 10 - Socket Head Screw:4",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:1",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:2",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:3",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:4",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:5",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:6",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:7",
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:8",
+        "Frame and Supports:1+Support Foot 1:1+M5 x 16 - Socket Head Screw - Support Leg:1",
+        "Frame and Supports:1+Support Foot 1:1+LeLab Assistant Legs v1:1",
+        "Frame and Supports:1+Support Foot 2:1+LeLab Assistant Legs v1:2",
+        "Frame and Supports:1+Support Foot 3:1+LeLab Assistant Legs v1:3",
+        "Frame and Supports:1+Support Foot 4:1+LeLab Assistant Legs v1:4",
+        "Frame and Supports:1+Support Foot 2:1+M5 x 16 - Socket Head Screw - Support Leg:2",
+        "Frame and Supports:1+Support Foot 3:1+M5 x 16 - Socket Head Screw - Support Leg:3",
+        "Frame and Supports:1+Support Foot 4:1+M5 x 16 - Socket Head Screw - Support Leg:4",
+        "Frame and Supports:1+Support Foot 1:1+M5 T-Nut - 20 Series:9",
+        "Frame and Supports:1+Support Foot 2:1+M5 T-Nut - 20 Series:10",
+        "Frame and Supports:1+Support Foot 3:1+M5 T-Nut - 20 Series:11",
+        "Frame and Supports:1+Support Foot 4:1+M5 T-Nut - 20 Series:12"
+      ]
+    },
+    {
+      "name": "SO101 Link 5 - wrist roll and gripper mount",
+      "occurrences": [
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+GE_27:5",
+        "SO101 Arm:1+Cables:1+Cable - Gripper:1",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:41",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:42",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:43",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:44",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:45",
+        "Gripper:1+RB9.01.062.000 Gripper v8:1"
+      ]
+    },
+    {
+      "name": "608ZZ outer race secured to bearing mount",
+      "occurrences": [
+        "Frame and Supports:1+End Plate - Bearing:1",
+        "Lead Screw Drive:1+Support Bearing - 608ZZ (8 x 22 x 7 mm):1",
+        "Lead Screw Drive:1+Support Bearing - 608ZZ (8 x 22 x 7 mm):1+608ZZ Outer race and shields:1"
+      ]
+    },
+    {
+      "name": "SO101 Link 1 - shoulder pan",
+      "occurrences": [
+        "SO101 Arm:1+Links and Mounts:1+Shoulder Servo Mount:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+GE_27:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+ZK_122:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+SG-ZIJI_15:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+XG-ZIJI_16:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+MOTOR-1723_3:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+PCB-CHAZUO_92:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+\u91d1\u5c5e\u8235\u76d8\uff08\u9a71\u52a8\uff09 v2:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+\u91d1\u5c5e\u8235\u76d8\uff08\u4ece\u52a8\uff09 v2:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1",
+        "SO101 Arm:1+Cables:1+Cable - Shoulder:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:5",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:6",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:7",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:8",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:33",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:34",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:35",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:36",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:37",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:38",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:39",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:40",
+        "SO101 Arm:1+Links and Mounts:1+Rotation_Pitch_SO101 v9:1",
+        "SO101 Arm:1+Links and Mounts:1+Rotation_Pitch_SO101 v9:1+arducam_ov9281_b0332_fusion v1:1",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 x 8 - Socket Head Screw:2",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 - Hex Nut:6",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 x 8 - Socket Head Screw:3",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 - Hex Nut:7",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 x 8 - Socket Head Screw:4",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 - Hex Nut:8",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 x 8 - Socket Head Screw:5",
+        "SO101 Arm:1+Arm Fasteners:1+M2.5 - Hex Nut:9"
+      ]
+    },
+    {
+      "name": "SO101 Link 0 - base and controller on carriage",
+      "occurrences": [
+        "SO101 Arm:1",
+        "SO101 Arm:1+Links and Mounts:1+Arm Base:1",
+        "SO101 Arm:1+Links and Mounts:1+Arm Base Mount:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:1",
+        "SO101 Arm:1+Arm Fasteners:1+#0-48 x 3/16 in - Self-Tapping Phillips Screw:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Board:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C1:1+User_Library-0603_SMD_Capacitor:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C2:1+User_Library-0603_SMD_Capacitor:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C3:1+User_Library-0603_SMD_Capacitor:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C4:1+User_Library-0603_SMD_Capacitor:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C4:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C5:1+User_Library-0603_SMD_Capacitor:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C5:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1+C_0603-7177_AF0_ASM:1+C_0603-683_AF0_ASM:1+2_1_200:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1+C_0603-7177_AF0_ASM:1+C_0603-683_AF0_ASM:1+_1_1_20001:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1+C_0603-7177_AF0_ASM:1+C_0603-683_AF0_ASM:1+3_1_2_A:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1+C_0603-7177_AF0_ASM:1+C_0603-683_AF0_ASM:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1+C_0603-7177_AF0_ASM:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1+C_0603:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C7:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C6:1+User_Library-0603_SMD_Capacitor:6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C6:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D2:1+SOD323:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+DC1:1+dc-005-5a-20:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+DC1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H1:1+User_Library-DG350-3,5-02P:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H3:1+X2564WV-03-N0SN:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H5:1+X2564WV-03-N0SN:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H5:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1+R_0603-3615_AF0_ASM:1+R_0603-3601_AF0_ASM:1+_2_1_2_3_4_AF0:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1+R_0603-3615_AF0_ASM:1+R_0603-3601_AF0_ASM:1+_7_1_2_AF0:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1+R_0603-3615_AF0_ASM:1+R_0603-3601_AF0_ASM:1+5_1_2_3_400:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1+R_0603-3615_AF0_ASM:1+R_0603-3601_AF0_ASM:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1+R_0603-3615_AF0_ASM:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1+R0603:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1+R_0603-3615_AF0_ASM (1):1+R_0603-3601_AF0_ASM (1):1+_2_1_2_3_4_AF0:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1+R_0603-3615_AF0_ASM (1):1+R_0603-3601_AF0_ASM (1):1+_7_1_2_AF0:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1+R_0603-3615_AF0_ASM (1):1+R_0603-3601_AF0_ASM (1):1+5_1_2_3_400:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1+R_0603-3615_AF0_ASM (1):1+R_0603-3601_AF0_ASM (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1+R_0603-3615_AF0_ASM (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1+R0603 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (9):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (10):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (11):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (12):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (13):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (14):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (15):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (16):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (17):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (18):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (19):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (20):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1+SOLID (21):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1+698b116-264-211:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Type_C1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U1:1+User_Library-QFN-16:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1+User_Library-TO-223_1_1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1+User_Library-TO-223_2_1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1+User_Library-TO-223_3_1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1+User_Library-TO-223_4_1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1+User_Library-TO-223_5_1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1+TO-223:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C8:1+User_Library-0603_SMD_Capacitor:7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C8:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1+C_0603-7177_AF0_ASM (1):1+C_0603-683_AF0_ASM (1):1+2_1_200:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1+C_0603-7177_AF0_ASM (1):1+C_0603-683_AF0_ASM (1):1+_1_1_20001:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1+C_0603-7177_AF0_ASM (1):1+C_0603-683_AF0_ASM (1):1+3_1_2_A:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1+C_0603-7177_AF0_ASM (1):1+C_0603-683_AF0_ASM (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1+C_0603-7177_AF0_ASM (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1+C_0603 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C9:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1+C_0603-7177_AF0_ASM (2):1+C_0603-683_AF0_ASM (2):1+2_1_200:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1+C_0603-7177_AF0_ASM (2):1+C_0603-683_AF0_ASM (2):1+_1_1_20001:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1+C_0603-7177_AF0_ASM (2):1+C_0603-683_AF0_ASM (2):1+3_1_2_A:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1+C_0603-7177_AF0_ASM (2):1+C_0603-683_AF0_ASM (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1+C_0603-7177_AF0_ASM (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1+C_0603 (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+C10:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+M1:1+User_Library-sop-8:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+M1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Q1:1+SOT-23:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Q1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1+R_0603-3615_AF0_ASM (2):1+R_0603-3601_AF0_ASM (2):1+_2_1_2_3_4_AF0:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1+R_0603-3615_AF0_ASM (2):1+R_0603-3601_AF0_ASM (2):1+_7_1_2_AF0:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1+R_0603-3615_AF0_ASM (2):1+R_0603-3601_AF0_ASM (2):1+5_1_2_3_400:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1+R_0603-3615_AF0_ASM (2):1+R_0603-3601_AF0_ASM (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1+R_0603-3615_AF0_ASM (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1+R0603 (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R4:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1+R_0603-3615_AF0_ASM (3):1+R_0603-3601_AF0_ASM (3):1+_2_1_2_3_4_AF0:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1+R_0603-3615_AF0_ASM (3):1+R_0603-3601_AF0_ASM (3):1+_7_1_2_AF0:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1+R_0603-3615_AF0_ASM (3):1+R_0603-3601_AF0_ASM (3):1+5_1_2_3_400:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1+R_0603-3615_AF0_ASM (3):1+R_0603-3601_AF0_ASM (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1+R_0603-3615_AF0_ASM (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1+R0603 (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R5:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1+R_0603-3615_AF0_ASM (4):1+R_0603-3601_AF0_ASM (4):1+_2_1_2_3_4_AF0:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1+R_0603-3615_AF0_ASM (4):1+R_0603-3601_AF0_ASM (4):1+_7_1_2_AF0:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1+R_0603-3615_AF0_ASM (4):1+R_0603-3601_AF0_ASM (4):1+5_1_2_3_400:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1+R_0603-3615_AF0_ASM (4):1+R_0603-3601_AF0_ASM (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1+R_0603-3615_AF0_ASM (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1+R0603 (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R6:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1+R_0603-3615_AF0_ASM (5):1+R_0603-3601_AF0_ASM (5):1+_2_1_2_3_4_AF0:6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1+R_0603-3615_AF0_ASM (5):1+R_0603-3601_AF0_ASM (5):1+_7_1_2_AF0:6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1+R_0603-3615_AF0_ASM (5):1+R_0603-3601_AF0_ASM (5):1+5_1_2_3_400:6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1+R_0603-3615_AF0_ASM (5):1+R_0603-3601_AF0_ASM (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1+R_0603-3615_AF0_ASM (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1+R0603 (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R7:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1+R_0603-3615_AF0_ASM (6):1+R_0603-3601_AF0_ASM (6):1+_2_1_2_3_4_AF0:7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1+R_0603-3615_AF0_ASM (6):1+R_0603-3601_AF0_ASM (6):1+_7_1_2_AF0:7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1+R_0603-3615_AF0_ASM (6):1+R_0603-3601_AF0_ASM (6):1+5_1_2_3_400:7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1+R_0603-3615_AF0_ASM (6):1+R_0603-3601_AF0_ASM (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1+R_0603-3615_AF0_ASM (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1+R0603 (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R8:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640:1+Extruded:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+736125216:1+Extruded (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+736125216:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (1):1+Extruded:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (2):1+Extruded:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (3):1+Extruded:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (4):1+Extruded:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1+1653192640 (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (5):1+Extruded:6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (6):1+Extruded:7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (7):1+Extruded:8",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (8):1+Extruded:9",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (9):1+Extruded:10",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+1653192640 (9):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+736125216 (1):1+Extruded (1):2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1+736125216 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+U4:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D1:1+SOD323:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760:1+Extruded (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721632:1+Extruded (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721632:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (1):1+Extruded (2):2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (2):1+Extruded (2):3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (3):1+Extruded (2):4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721760 (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721632 (1):1+Extruded (3):2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1+840721632 (1):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1+R_0603-3615_AF0_ASM (7):1+R_0603-3601_AF0_ASM (7):1+_2_1_2_3_4_AF0:8",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1+R_0603-3615_AF0_ASM (7):1+R_0603-3601_AF0_ASM (7):1+_7_1_2_AF0:8",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1+R_0603-3615_AF0_ASM (7):1+R_0603-3601_AF0_ASM (7):1+5_1_2_3_400:8",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1+R_0603-3615_AF0_ASM (7):1+R_0603-3601_AF0_ASM (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1+R_0603-3615_AF0_ASM (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1+R0603 (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+1653246912:1+Extruded (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+1653246912:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (4):1+Extruded (2):5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (5):1+Extruded (2):6",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (5):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (6):1+Extruded (2):7",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (6):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (7):1+Extruded (2):8",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (7):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (8):1+Extruded (2):9",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721760 (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (2):1+Extruded (3):3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (2):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (3):1+Extruded (3):4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (3):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (4):1+Extruded (3):5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1+840721632 (4):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+H4:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D3:1+SOD323:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D4:1+SOD323:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+D4:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1+User_Library-LED_0603_R_Pocket002:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1+User_Library-LED_0603_R_Pad004:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1+User_Library-LED_0603_R_Fillet:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1+User_Library-LED_0603_R_Pocket001:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1+User_Library-LED_0603_R_Pad:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1+User_Library-LED_0603_R:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+LED1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1+R_0603-3615_AF0_ASM (8):1+R_0603-3601_AF0_ASM (8):1+_2_1_2_3_4_AF0:9",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1+R_0603-3615_AF0_ASM (8):1+R_0603-3601_AF0_ASM (8):1+_7_1_2_AF0:9",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1+R_0603-3615_AF0_ASM (8):1+R_0603-3601_AF0_ASM (8):1+5_1_2_3_400:9",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1+R_0603-3615_AF0_ASM (8):1+R_0603-3601_AF0_ASM (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1+R_0603-3615_AF0_ASM (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1+R0603 (8):1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+R9:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+hexagonal_spacer_FF_M2.5_H06_HEX5_pass_through v1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Pan Head Screw DIN EN ISO 7045 - M2.5 x 4 - H Steel 4.6 Plain v1:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+hexagonal_spacer_FF_M2.5_H06_HEX5_pass_through v1:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+hexagonal_spacer_FF_M2.5_H06_HEX5_pass_through v1:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+hexagonal_spacer_FF_M2.5_H06_HEX5_pass_through v1:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Pan Head Screw DIN EN ISO 7045 - M2.5 x 4 - H Steel 4.6 Plain v1:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Pan Head Screw DIN EN ISO 7045 - M2.5 x 4 - H Steel 4.6 Plain v1:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo Controller - Waveshare:1+Pan Head Screw DIN EN ISO 7045 - M2.5 x 4 - H Steel 4.6 Plain v1:4",
+        "SO101 Arm:1+Servos and Electronics:1+050375033 v3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+ZK_122:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+SG-ZIJI_15:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+XG-ZIJI_16:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+MOTOR-1723_3:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+PCB-CHAZUO_92:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+\u91d1\u5c5e\u8235\u76d8\uff08\u9a71\u52a8\uff09 v2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1+\u91d1\u5c5e\u8235\u76d8\uff08\u4ece\u52a8\uff09 v2:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 1 - Shoulder Pan:1+SCS215 v6_7:1",
+        "SO101 Arm:1+Links and Mounts:1+Controller Mounting Plate:1",
+        "SO101 Arm:1+Cables:1+Cable - Controller:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:2",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:3",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:4",
+        "SO101 Arm:1+Arm Fasteners:1+#0-48 x 3/16 in - Self-Tapping Phillips Screw:2",
+        "SO101 Arm:1+Servos and Electronics:1+050375033 v3:2"
+      ]
+    },
+    {
+      "name": "SO101 Link 2 - upper arm",
+      "occurrences": [
+        "SO101 Arm:1+Links and Mounts:1+Upper Arm Link:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 2 - Shoulder Lift:1+SCS215 v6_7 (1):1+GE_27:2",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+ZK_122:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+SG-ZIJI_15:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+XG-ZIJI_16:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+MOTOR-1723_3:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+PCB-CHAZUO_92:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+\u91d1\u5c5e\u8235\u76d8\uff08\u9a71\u52a8\uff09 v2:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+\u91d1\u5c5e\u8235\u76d8\uff08\u4ece\u52a8\uff09 v2:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1",
+        "SO101 Arm:1+Cables:1+Cable - Upper Arm:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:9",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:10",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:11",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:12",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:17",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:18",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:19",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:20",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:25",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:26",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:27",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:28"
+      ]
+    },
+    {
+      "name": "SO101 Link 3 - forearm",
+      "occurrences": [
+        "SO101 Arm:1+Links and Mounts:1+Forearm Link:1",
+        "SO101 Arm:1+Links and Mounts:1+Wrist Servo Mount:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 3 - Elbow Flex:1+SCS215 v6_7 (2):1+GE_27:3",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+ZK_122:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+SG-ZIJI_15:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+XG-ZIJI_16:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+MOTOR-1723_3:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+PCB-CHAZUO_92:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+\u91d1\u5c5e\u8235\u76d8\uff08\u9a71\u52a8\uff09 v2:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+\u91d1\u5c5e\u8235\u76d8\uff08\u4ece\u52a8\uff09 v2:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1",
+        "SO101 Arm:1+Cables:1+Cable - Forearm:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:13",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:14",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:15",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:16",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:13",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:14",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:15",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:16",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:21",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:22",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:23",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:24"
+      ]
+    },
+    {
+      "name": "SO101 Link 4 - wrist pitch",
+      "occurrences": [
+        "SO101 Arm:1+Links and Mounts:1+Wrist Pitch Link:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 4 - Wrist Flex:1+SCS215 v6_7 (3):1+GE_27:4",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+ZK_122:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+SG-ZIJI_15:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+XG-ZIJI_16:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+MOTOR-1723_3:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+PCB-CHAZUO_92:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1+\u91d1\u5c5e\u8235\u76d8\uff08\u9a71\u52a8\uff09 v2:5",
+        "SO101 Arm:1+Servos and Electronics:1+Servo 5 - Wrist Roll:1+SCS215 v6_7 (4):1",
+        "SO101 Arm:1+Cables:1+Cable - Wrist:1",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:19",
+        "SO101 Arm:1+Arm Fasteners:1+#1-42 x 3/16 in - Self-Tapping Phillips Screw:20",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:5",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:6",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:7",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:8",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:29",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:30",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:31",
+        "SO101 Arm:1+Arm Fasteners:1+M3 x 6 - Pan Head Phillips Screw:32"
+      ]
+    },
+    {
+      "name": "Support leg 1 with M5 screw and T-nut",
+      "occurrences": [
+        "Frame and Supports:1+Support Foot 1:1+LeLab Assistant Legs v1:1",
+        "Frame and Supports:1+Support Foot 1:1+M5 x 16 - Socket Head Screw - Support Leg:1",
+        "Frame and Supports:1+Support Foot 1:1+M5 T-Nut - 20 Series:9"
+      ]
+    },
+    {
+      "name": "Support leg 2 with M5 screw and T-nut",
+      "occurrences": [
+        "Frame and Supports:1+Support Foot 2:1+LeLab Assistant Legs v1:2",
+        "Frame and Supports:1+Support Foot 2:1+M5 x 16 - Socket Head Screw - Support Leg:2",
+        "Frame and Supports:1+Support Foot 2:1+M5 T-Nut - 20 Series:10"
+      ]
+    },
+    {
+      "name": "Support leg 3 with M5 screw and T-nut",
+      "occurrences": [
+        "Frame and Supports:1+Support Foot 3:1+LeLab Assistant Legs v1:3",
+        "Frame and Supports:1+Support Foot 3:1+M5 x 16 - Socket Head Screw - Support Leg:3",
+        "Frame and Supports:1+Support Foot 3:1+M5 T-Nut - 20 Series:11"
+      ]
+    },
+    {
+      "name": "Support leg 4 with M5 screw and T-nut",
+      "occurrences": [
+        "Frame and Supports:1+Support Foot 4:1+LeLab Assistant Legs v1:4",
+        "Frame and Supports:1+Support Foot 4:1+M5 x 16 - Socket Head Screw - Support Leg:4",
+        "Frame and Supports:1+Support Foot 4:1+M5 T-Nut - 20 Series:12"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:1",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:1",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:1"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:2",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:2",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:2"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:3",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:3",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:3"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:4",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:4",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:4"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:5",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:5",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:5"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:6",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:6",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:6"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:7",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:7",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:7"
+      ]
+    },
+    {
+      "name": "T-nut to M5 x 10 SHCS:8",
+      "occurrences": [
+        "Frame and Supports:1+Rail Fasteners:1+M5 T-Nut - 20 Series:8",
+        "Frame and Supports:1+Rail Fasteners:1+M5 x 10 - Socket Head Screw:8"
+      ]
+    },
+    {
+      "name": "Lead screw and flexible coupling rotate together",
+      "occurrences": [
+        "Lead Screw Drive:1+Lead Screw - TR8x8 x 400 mm:1",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1+Component1 (1):1",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1+screw:1",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1+screw:2",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1+screw:3",
+        "Lead Screw Drive:1+Shaft Coupling - 5 to 8 mm:1+screw:4"
+      ]
+    },
+    {
+      "name": "608ZZ inner race follows lead screw",
+      "occurrences": [
+        "Lead Screw Drive:1+Lead Screw - TR8x8 x 400 mm:1",
+        "Lead Screw Drive:1+Support Bearing - 608ZZ (8 x 22 x 7 mm):1+608ZZ Inner race:1"
+      ]
+    },
+    {
+      "name": "T8 flange fasteners - four M3x12 and nuts",
+      "occurrences": [
+        "Carriage:1+Lead Nut Mount:1+Lead Nut Bracket - T8:1",
+        "Carriage:1+Lead Nut Mount:1+M3 x 12 - Socket Head Screw - T8 Flange:1",
+        "Carriage:1+Lead Nut Mount:1+M3 x 12 - Socket Head Screw - T8 Flange:2",
+        "Carriage:1+Lead Nut Mount:1+M3 x 12 - Socket Head Screw - T8 Flange:3",
+        "Carriage:1+Lead Nut Mount:1+M3 x 12 - Socket Head Screw - T8 Flange:4",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Flange:1",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Flange:2",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Flange:3",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Flange:4"
+      ]
+    },
+    {
+      "name": "T8 L-bracket and exposed foot fasteners to adapter",
+      "occurrences": [
+        "Carriage:1+Carriage Plate - SO101 Adapter:1",
+        "Carriage:1+Lead Nut Mount:1+Lead Nut Bracket - T8:1",
+        "Carriage:1+Lead Nut Mount:1+Lead Screw Nut - TR8x8:1",
+        "Carriage:1+Lead Nut Mount:1+M3 x 14 - Socket Head Screw - T8 Foot:1",
+        "Carriage:1+Lead Nut Mount:1+M3 x 14 - Socket Head Screw - T8 Foot:2",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Foot:1",
+        "Carriage:1+Lead Nut Mount:1+M3 - Hex Nut - T8 Foot:2"
+      ]
+    },
+    {
+      "name": "Carriage wheels and mounting hardware to adapter",
+      "occurrences": [
+        "Carriage:1+Carriage Plate - SO101 Adapter:1",
+        "Carriage:1+Wheel Mount 1:1+V-Wheel - POM, D15.3 x 8.8 mm:1",
+        "Carriage:1+Wheel Mount 1:1+Wheel Spacer - D10 x D5 x 6 mm:1",
+        "Carriage:1+Wheel Mount 1:1+M5 x 35 - Socket Head Screw:1",
+        "Carriage:1+Wheel Mount 1:1+M5 - Hex Nut:1",
+        "Carriage:1+Wheel Mount 2:1+V-Wheel - POM, D15.3 x 8.8 mm:2",
+        "Carriage:1+Wheel Mount 3:1+V-Wheel - POM, D15.3 x 8.8 mm:3",
+        "Carriage:1+Wheel Mount 4:1+V-Wheel - POM, D15.3 x 8.8 mm:4",
+        "Carriage:1+Wheel Mount 2:1+Wheel Spacer - D10 x D5 x 6 mm:2",
+        "Carriage:1+Wheel Mount 3:1+Wheel Spacer - D10 x D5 x 6 mm:3",
+        "Carriage:1+Wheel Mount 4:1+Wheel Spacer - D10 x D5 x 6 mm:4",
+        "Carriage:1+Wheel Mount 2:1+M5 x 35 - Socket Head Screw:2",
+        "Carriage:1+Wheel Mount 3:1+M5 x 35 - Socket Head Screw:3",
+        "Carriage:1+Wheel Mount 4:1+M5 x 35 - Socket Head Screw:4",
+        "Carriage:1+Wheel Mount 2:1+M5 - Hex Nut:2",
+        "Carriage:1+Wheel Mount 3:1+M5 - Hex Nut:3",
+        "Carriage:1+Wheel Mount 4:1+M5 - Hex Nut:4"
+      ]
+    },
+    {
+      "name": "RG_Jaw_Right",
+      "occurrences": [
+        "Gripper:1+Gripper Rack - M0.8:1",
+        "Gripper:1+Gripper Jaw Clamp - A:1"
+      ]
+    },
+    {
+      "name": "RG_Jaw_Left",
+      "occurrences": [
+        "Gripper:1+Gripper Rack - M0.8:2",
+        "Gripper:1+Gripper Jaw Clamp - B:1"
+      ]
+    },
+    {
+      "name": "RG_Frame_Static",
+      "occurrences": [
+        "Gripper:1+Guide Rod - D6 x 125 mm:1",
+        "Gripper:1+Gripper Servo - STS3215:1",
+        "Gripper:1+Gripper Servo - STS3215:1+ZK_122^STS3215_Servo:1",
+        "Gripper:1+Gripper Servo - STS3215:1+SG-ZIJI_15^STS3215_Servo:1",
+        "Gripper:1+Gripper Servo - STS3215:1+XG-ZIJI_16^STS3215_Servo:1",
+        "Gripper:1+Gripper Servo - STS3215:1+Main Wheel^STS3215_Servo:1",
+        "Gripper:1+Gripper Servo - STS3215:1+pan head cross recess screw_din_DIN EN ISO 7045 - M3 x 4 - Z - 4N:1",
+        "Gripper:1+Gripper Servo - STS3215:1+0022035035:1",
+        "Gripper:1+Gripper Servo - STS3215:1+0022035035:2",
+        "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+        "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):1",
+        "Gripper:1+Guide Rod - D6 x 125 mm:2",
+        "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):2",
+        "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:1",
+        "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:2",
+        "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:3",
+        "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:1",
+        "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:2",
+        "Gripper:1+RB9.01.062.000 Gripper v8:1",
+        "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.010 Main frame_125 follower:1",
+        "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.070 Camera holder_follower + camera:1",
+        "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+        "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:2",
+        "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:3",
+        "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:4",
+        "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:5",
+        "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:2",
+        "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:3",
+        "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:4",
+        "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:5"
+      ]
+    }
+  ]
+}

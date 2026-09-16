@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Storage cabinet | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="0.375 0.21 1.125" pos="0 0.0195 0" quat="1 0 0 0" rgba="0.730000019 0.800000012 0.819999993 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.345 0.22 0.05" pos="0 0.0195 -1.075" quat="1 0 0 0" rgba="0.119999997 0.340000004 0.389999986 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.1805 0.015 1.045" pos="-0.1875 -0.2005 0.05" quat="1 0 0 0" rgba="0.879999995 0.910000026 0.920000017 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.007 0.012 0.09" pos="-0.05 -0.2275 0.09" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.1805 0.015 1.045" pos="0.1875 -0.2005 0.05" quat="1 0 0 0" rgba="0.879999995 0.910000026 0.920000017 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.007 0.012 0.09" pos="0.05 -0.2275 0.09" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

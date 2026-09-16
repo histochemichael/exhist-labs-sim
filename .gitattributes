@@ -1,0 +1,9 @@
+# Preserve exact bytes for evidence and pinned controller hashes on all platforms.
+* -text
+*.stp binary
+*.step binary
+*.stl binary
+*.obj binary
+*.f3d binary
+assets/*.json -diff
+*_trace.json -diff

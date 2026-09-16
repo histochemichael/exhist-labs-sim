@@ -1,0 +1,17 @@
+{
+  "source": "Slide Rack v13 / root/Staining Jar",
+  "count": 6,
+  "passive_free_bodies": true,
+  "cavity_flat_dimensions_m": [
+    0.098,
+    0.044
+  ],
+  "inside_floor_CAD_z_m": -0.0015,
+  "rim_CAD_z_m": 0.0918,
+  "inner_vertical_corner_radius_m": 0.005,
+  "assumptions": [
+    "Empty jar mass 0.1 kg and inertia are provisional; no fluid model.",
+    "Conservative corner blocks and non-beveled rim; bottom edge blends simplified.",
+    "No validated robot insertion trajectory or loaded-rack retention yet."
+  ]
+}

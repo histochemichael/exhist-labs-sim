@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+*.log
+MUJOCO_LOG.TXT
+# Generated unpacked large files (compressed originals are tracked):
+/cad/step/leica-workstation.stp
+/rail_loop_lab_trace.json
+/rail_loop_reference/rail_loop_trace.json
+/rail_loop_lab_revalidation_trace.json

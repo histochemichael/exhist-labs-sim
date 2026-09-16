@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Nori with parallel histo gripper">
+  <compiler angle="radian" />
+  <visual>
+    <global azimuth="135" elevation="-20" offwidth="1000" offheight="800" />
+    <headlight ambient="0.5 0.5 0.5" diffuse="0.75 0.75 0.75" specular="0.12 0.12 0.12" />
+    <rgba haze="0.94 0.95 0.96 1" />
+    <quality shadowsize="4096" offsamples="4" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.99 0.99 0.97" rgb2="0.86 0.9 0.94" width="512" height="3072" />
+    <texture name="checkerboard_texture" type="2d" builtin="checker" rgb1="0.94 0.94 0.91" rgb2="0.5 0.54 0.57" width="512" height="512" />
+    <material name="checkerboard_material" texture="checkerboard_texture" texuniform="true" texrepeat="2 2" reflectance="0.03" shininess="0.08" specular="0.08" />
+    <mesh name="base_shell" content_type="model/stl" file="../nori_description/meshes/visual/base_shell.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="shoulder_pitch_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/shoulder_pitch_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="shoulder_roll_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/shoulder_roll_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="bicep_yaw_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/bicep_yaw_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="elbow_pitch_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/elbow_pitch_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="forearm_yaw_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/forearm_yaw_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="wrist_pitch_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/wrist_pitch_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="wrist_roll_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/wrist_roll_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="gripper_r_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/gripper_r_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="left_camera_mount_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/camera_mounts/left_camera_mount_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="gripper_l_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/gripper_l_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="shoulder_pitch" content_type="model/stl" file="../nori_description/meshes/visual/shoulder_pitch.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="shoulder_roll" content_type="model/stl" file="../nori_description/meshes/visual/shoulder_roll.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="bicep_yaw" content_type="model/stl" file="../nori_description/meshes/visual/bicep_yaw.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="elbow_pitch" content_type="model/stl" file="../nori_description/meshes/visual/elbow_pitch.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="forearm_yaw" content_type="model/stl" file="../nori_description/meshes/visual/forearm_yaw.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="wrist_pitch" content_type="model/stl" file="../nori_description/meshes/visual/wrist_pitch.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="wrist_roll" content_type="model/stl" file="../nori_description/meshes/visual/wrist_roll.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="gripper_r" content_type="model/stl" file="../nori_description/meshes/visual/gripper_r.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="right_camera_mount_mirrored" content_type="model/stl" file="../nori_description/meshes/visual/camera_mounts/right_camera_mount_mirrored.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="gripper_l" content_type="model/stl" file="../nori_description/meshes/visual/gripper_l.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="RPLiDarC1" content_type="model/stl" file="../nori_description/meshes/visual/RPLiDarC1.stl" scale="0.001 0.001 0.001" smoothnormal="true" />
+    <mesh name="lehisto_part_00" file="lehisto_meshes/lehisto_part_00.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_01" file="lehisto_meshes/lehisto_part_01.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_02" file="lehisto_meshes/lehisto_part_02.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_03" file="lehisto_meshes/lehisto_part_03.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_04" file="lehisto_meshes/lehisto_part_04.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_05" file="lehisto_meshes/lehisto_part_05.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_06" file="lehisto_meshes/lehisto_part_06.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_07" file="lehisto_meshes/lehisto_part_07.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_08" file="lehisto_meshes/lehisto_part_08.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_09" file="lehisto_meshes/lehisto_part_09.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_10" file="lehisto_meshes/lehisto_part_10.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_11" file="lehisto_meshes/lehisto_part_11.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_12" file="lehisto_meshes/lehisto_part_12.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_13" file="lehisto_meshes/lehisto_part_13.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_14" file="lehisto_meshes/lehisto_part_14.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_15" file="lehisto_meshes/lehisto_part_15.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_16" file="lehisto_meshes/lehisto_part_16.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_17" file="lehisto_meshes/lehisto_part_17.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_18" file="lehisto_meshes/lehisto_part_18.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_19" file="lehisto_meshes/lehisto_part_19.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_20" file="lehisto_meshes/lehisto_part_20.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_21" file="lehisto_meshes/lehisto_part_21.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_22" file="lehisto_meshes/lehisto_part_22.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_23" file="lehisto_meshes/lehisto_part_23.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_24" file="lehisto_meshes/lehisto_part_24.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_25" file="lehisto_meshes/lehisto_part_25.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_26" file="lehisto_meshes/lehisto_part_26.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_27" file="lehisto_meshes/lehisto_part_27.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_28" file="lehisto_meshes/lehisto_part_28.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_29" file="lehisto_meshes/lehisto_part_29.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_30" file="lehisto_meshes/lehisto_part_30.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_31" file="lehisto_meshes/lehisto_part_31.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_32" file="lehisto_meshes/lehisto_part_32.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_33" file="lehisto_meshes/lehisto_part_33.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_34" file="lehisto_meshes/lehisto_part_34.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_35" file="lehisto_meshes/lehisto_part_35.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_36" file="lehisto_meshes/lehisto_part_36.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_37" file="lehisto_meshes/lehisto_part_37.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_38" file="lehisto_meshes/lehisto_part_38.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_39" file="lehisto_meshes/lehisto_part_39.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_40" file="lehisto_meshes/lehisto_part_40.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_41" file="lehisto_meshes/lehisto_part_41.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_42" file="lehisto_meshes/lehisto_part_42.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_43" file="lehisto_meshes/lehisto_part_43.stl" smoothnormal="true" />
+    <mesh name="lehisto_part_44" file="lehisto_meshes/lehisto_part_44.stl" smoothnormal="true" />
+  </asset>
+  <worldbody>
+    <light name="key_light" pos="2 -3 4" dir="-0.35 0.45 -1" directional="true" diffuse="0.8 0.8 0.8" specular="0.15 0.15 0.15" castshadow="true" />
+    <light name="fill_light" pos="-2 2 3" dir="0.4 -0.35 -1" directional="true" diffuse="0.35 0.4 0.45" specular="0 0 0" castshadow="false" />
+    <geom name="checkerboard_floor" type="plane" pos="0 0 0" size="0 0 0.05" material="checkerboard_material" friction="1 0.005 0.0001" />
+    <geom size="0.175 0.1 0.02" pos="-0.133275 0 0.105828" type="box" contype="0" conaffinity="0" group="1" rgba="0.11 0.12 0.13 1" density="0" />
+    <geom pos="0.691944 0.216671 0.743839" quat="0 0 0 1" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.8 0.81 0.83 1" density="0" mesh="base_shell" />
+    <geom size="0.175 0.1 0.02" pos="-0.133275 0 0.105828" type="box" rgba="0.8 0.81 0.83 0" />
+    <geom size="0.0254" pos="-0.273275 0.075 0.0254" contype="0" conaffinity="0" group="1" rgba="0.07 0.07 0.08 1" density="0" />
+    <geom size="0.0254" pos="-0.273275 0.075 0.0254" rgba="0.07 0.07 0.08 0" />
+    <geom size="0.0254" pos="-0.273275 -0.075 0.0254" contype="0" conaffinity="0" group="1" rgba="0.07 0.07 0.08 1" density="0" />
+    <geom size="0.0254" pos="-0.273275 -0.075 0.0254" rgba="0.07 0.07 0.08 0" />
+    <geom size="0.0193763 0.0344513 0.2575" pos="-0.113523 0 0.428928" type="box" contype="0" conaffinity="0" group="1" rgba="0.34 0.35 0.37 1" density="0" />
+    <geom size="0.0193763 0.0344513 0.2575" pos="-0.113523 0 0.428928" type="box" rgba="0.34 0.35 0.37 0" />
+    <geom pos="0.00422459 0 0.175828" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.18 0.19 0.21 1" density="0" mesh="RPLiDarC1" />
+    <geom size="0.0278 0.02065" pos="0.00422459 0 0.196478" type="cylinder" rgba="0.18 0.19 0.21 0" />
+    <geom size="0.002625 0.001925 0.0006" pos="0.0184336 -0.0809077 0.134028" type="box" contype="0" conaffinity="0" group="1" rgba="0.18 0.19 0.21 1" density="0" />
+    <geom size="0.002625 0.001925 0.0006" pos="0.0184336 -0.0809077 0.134028" type="box" rgba="0.18 0.19 0.21 0" />
+    <body name="left_wheel_link" pos="0 0.15 0.0762">
+      <inertial pos="0 0 0" quat="0.5 0.5 -0.5 0.5" mass="0.437" diaginertia="0.00126871 0.000657848 0.000657848" />
+      <joint name="left_wheel_joint" damping="0.05" frictionloss="0.02" axis="0 1 0" />
+      <geom size="0.0762 0.0127" quat="0.707107 0.707107 0 0" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.07 0.07 0.08 1" density="0" />
+      <geom size="0.0762 0.0127" quat="0.707107 0.707107 0 0" type="cylinder" rgba="0.07 0.07 0.08 0" />
+    </body>
+    <body name="right_wheel_link" pos="0 -0.15 0.0762">
+      <inertial pos="0 0 0" quat="0.5 0.5 -0.5 0.5" mass="0.437" diaginertia="0.00126871 0.000657848 0.000657848" />
+      <joint name="right_wheel_joint" damping="0.05" frictionloss="0.02" axis="0 1 0" />
+      <geom size="0.0762 0.0127" quat="0.707107 0.707107 0 0" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.07 0.07 0.08 1" density="0" />
+      <geom size="0.0762 0.0127" quat="0.707107 0.707107 0 0" type="cylinder" rgba="0.07 0.07 0.08 0" />
+    </body>
+    <body name="lift_top_link" pos="-0.113523 0 0.428928">
+      <inertial pos="0 0 0.0564311" quat="1 0 -0.000138869 0" mass="4.31" diaginertia="0.0829758 0.0750213 0.0137826" />
+      <joint name="lift_extension_joint" type="slide" range="0 0.7" actuatorfrcrange="-1 1" damping="1" />
+      <geom size="0.0253762 0.0404513 0.2575" type="box" contype="0" conaffinity="0" group="1" rgba="0.34 0.35 0.37 1" density="0" />
+      <geom size="0.0253762 0.0404513 0.2575" type="box" rgba="0.34 0.35 0.37 0" />
+      <geom size="0.007 0.01" pos="0.077037 0 0.0798425" quat="0.5 -0.5 0.5 -0.5" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.18 0.19 0.21 1" density="0" />
+      <geom size="0.007 0.01" pos="0.089641 0 0.310492" quat="0.241845 -0.664463 0.664463 -0.241845" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.18 0.19 0.21 1" density="0" />
+      <geom size="0.06 0.125 0.05" pos="0 0 0.0369827" type="box" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" />
+      <geom size="0.061 0.121" pos="0 0 0.0869827" quat="0.707107 0.707107 0 0" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.93 0.94 0.95 1" density="0" />
+      <geom size="0.061 0.121" pos="0 0 -0.0130173" quat="0.707107 0.707107 0 0" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" />
+      <geom size="0.04 0.05 0.04" pos="0 0 0.126983" type="box" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" />
+      <geom size="0.05 0.088 0.0585" pos="0 0 0.225483" quat="0.999048 0 -0.0436194 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.93 0.94 0.95 1" density="0" />
+      <geom size="0.004 0.07128 0.040365" pos="0.048892 0 0.24033" quat="0.999048 0 -0.0436194 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.05 0.06 0.08 1" density="0" />
+      <geom size="0.003 0.0099792 0.0222008" pos="0.0513825 0.0313632 0.240548" quat="0.999048 0 -0.0436194 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.99 0.99 0.99 1" density="0" />
+      <geom size="0.003 0.0099792 0.0222008" pos="0.0513825 -0.0313632 0.240548" quat="0.999048 0 -0.0436194 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.99 0.99 0.99 1" density="0" />
+      <geom size="0.065 0.088 0.008" pos="0.0247872 0 0.286375" quat="0.939693 0 -0.34202 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.93 0.94 0.95 1" density="0" />
+      <geom size="0.065 0.073 0.011" pos="0.0324477 0 0.292803" quat="0.939693 0 -0.34202 0" type="box" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" />
+      <body name="left_shoulder_pitch_link" pos="-2.23e-06 0.125 0.0869827" quat="0 0 0 1">
+        <inertial pos="0 -0.0235 0" quat="0 0.707107 0 0.707107" mass="0.4" diaginertia="0.000176679 0.00015184 0.000122428" />
+        <joint name="left_shoulder_pitch_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+        <geom quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="shoulder_pitch_mirrored" />
+        <geom size="0.0278 0.0235 0.01913" pos="0 -0.0235 0" type="box" rgba="0.16 0.17 0.18 0" />
+        <body name="left_shoulder_roll_link" pos="0 -0.0567 0" quat="0.707107 -0.707107 0 0">
+          <inertial pos="0 0 -0.0455" quat="0.707107 0 0 0.707107" mass="0.252" diaginertia="0.000529493 0.00042525 0.000189293" />
+          <joint name="left_shoulder_roll_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="1 0 0" />
+          <geom pos="0 0 -0.115" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="shoulder_roll_mirrored" />
+          <geom size="0.0418 0.0225 0.0675" pos="0 0 -0.0455" type="box" rgba="0.16 0.17 0.18 0" />
+          <body name="left_bicep_yaw_link" pos="0 0 -0.115">
+            <inertial pos="0 0 -0.04163" mass="0.175" diaginertia="0.000143778 0.000122442 6.40301e-05" />
+            <joint name="left_bicep_yaw_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" />
+            <geom pos="0 0 -0.06736" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="bicep_yaw_mirrored" />
+            <geom size="0.01913 0.02705 0.04163" pos="0 0 -0.04163" type="box" rgba="0.16 0.17 0.18 0" />
+            <body name="left_elbow_pitch_link" pos="0 0 -0.06736">
+              <inertial pos="0 0 -0.0455" mass="0.254" diaginertia="0.000533695 0.000428625 0.000190795" />
+              <joint name="left_elbow_pitch_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+              <geom pos="0 0 -0.115" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="elbow_pitch_mirrored" />
+              <geom size="0.0418 0.0225 0.0675" pos="0 0 -0.0455" quat="0.707107 0 0 0.707107" type="box" rgba="0.16 0.17 0.18 0" />
+              <body name="left_forearm_yaw_link" pos="0 0 -0.115">
+                <inertial pos="0 0 -0.0282" mass="0.148" diaginertia="7.00652e-05 5.45133e-05 4.61148e-05" />
+                <joint name="left_forearm_yaw_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" />
+                <geom pos="0 0 -0.0462" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="forearm_yaw_mirrored" />
+                <geom size="0.0176 0.025 0.0282" pos="0 0 -0.0282" type="box" rgba="0.16 0.17 0.18 0" />
+                <body name="left_wrist_pitch_link" pos="0 0 -0.0462">
+                  <inertial pos="0 0 -0.033" mass="0.09" diaginertia="9.08967e-05 7.95e-05 4.88967e-05" />
+                  <joint name="left_wrist_pitch_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+                  <geom pos="0 0 -0.0678" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="wrist_pitch_mirrored" />
+                  <geom size="0.025 0.0317 0.045" pos="0 0 -0.033" type="box" rgba="0.16 0.17 0.18 0" />
+                  <body name="left_wrist_roll_link" pos="0 0 -0.0678" quat="0 0 0 1">
+                    <inertial pos="0 0 -0.0188922" quat="0.707107 0.707107 0 0" mass="0.142" diaginertia="9.27362e-05 8.36868e-05 8.12934e-05" />
+                    <joint name="left_wrist_roll_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="-1 0 0" />
+                    <geom pos="0.0174 -0.0089 -0.0322843" quat="0 0 -0.707107 0.707107" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="wrist_roll_mirrored" />
+                    <geom size="0.027625 0.0317 0.0308922" pos="0 0 -0.0188922" type="box" rgba="0.16 0.17 0.18 0" />
+                    <geom pos="0.0024 0.0311 -0.0322843" quat="0 0 0 1" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="left_camera_mount_mirrored" />
+                    <geom size="0.007 0.01" pos="0.0024 0.0845133 -0.0577163" quat="0 0 -0.92388 0.382683" type="cylinder" contype="0" conaffinity="0" group="1" rgba="0.18 0.19 0.21 1" density="0" />
+                    <body name="left_gripper_link" pos="0.0174 -0.0089 -0.0322843" quat="0 0 0 1">
+                      <inertial pos="0 -0.023 -0.035" mass="0.013" diaginertia="1.53617e-05 1.29697e-05 4.89667e-06" />
+                      <joint name="left_gripper_joint" range="0 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+                      <geom quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="gripper_r_mirrored" />
+                      <geom size="0.017 0.029 0.052" pos="0 -0.023 -0.035" type="box" rgba="0.16 0.17 0.18 0" />
+                    </body>
+                    <body name="left_gripper_idler_link" pos="-0.0126 -0.0089 -0.0322843" quat="0 0 0 1">
+                      <inertial pos="0 -0.023 -0.035" mass="0.013" diaginertia="1.53617e-05 1.29697e-05 4.89667e-06" />
+                      <joint name="left_gripper_idler_joint" range="-1.5708 0" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+                      <geom quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="gripper_l_mirrored" />
+                      <geom size="0.017 0.029 0.052" pos="0 -0.023 -0.035" type="box" rgba="0.16 0.17 0.18 0" />
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_shoulder_pitch_link" pos="-2.23e-06 -0.125 0.0869827" quat="0 0 0 1">
+        <inertial pos="0 0.0235 0" quat="0 0.707107 0 0.707107" mass="0.4" diaginertia="0.000176679 0.00015184 0.000122428" />
+        <joint name="right_shoulder_pitch_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+        <geom quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="shoulder_pitch" />
+        <geom size="0.0278 0.0235 0.01913" pos="0 0.0235 0" type="box" rgba="0.16 0.17 0.18 0" />
+        <body name="right_shoulder_roll_link" pos="0 0.0567 0" quat="0.707107 0.707107 0 0">
+          <inertial pos="0 0 -0.0455" quat="0.707107 0 0 0.707107" mass="0.252" diaginertia="0.000529493 0.00042525 0.000189293" />
+          <joint name="right_shoulder_roll_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="1 0 0" />
+          <geom pos="0 0 -0.115" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="shoulder_roll" />
+          <geom size="0.0418 0.0225 0.0675" pos="0 0 -0.0455" type="box" rgba="0.16 0.17 0.18 0" />
+          <body name="right_bicep_yaw_link" pos="0 0 -0.115">
+            <inertial pos="0 0 -0.04163" mass="0.175" diaginertia="0.000143778 0.000122442 6.40301e-05" />
+            <joint name="right_bicep_yaw_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" />
+            <geom pos="0 0 -0.06736" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="bicep_yaw" />
+            <geom size="0.01913 0.02705 0.04163" pos="0 0 -0.04163" type="box" rgba="0.16 0.17 0.18 0" />
+            <body name="right_elbow_pitch_link" pos="0 0 -0.06736">
+              <inertial pos="0 0 -0.0455" mass="0.254" diaginertia="0.000533695 0.000428625 0.000190795" />
+              <joint name="right_elbow_pitch_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+              <geom pos="0 0 -0.115" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="elbow_pitch" />
+              <geom size="0.0418 0.0225 0.0675" pos="0 0 -0.0455" quat="0.707107 0 0 0.707107" type="box" rgba="0.16 0.17 0.18 0" />
+              <body name="right_forearm_yaw_link" pos="0 0 -0.115">
+                <inertial pos="0 0 -0.0282" mass="0.148" diaginertia="7.00652e-05 5.45133e-05 4.61148e-05" />
+                <joint name="right_forearm_yaw_joint" range="-3.14159 3.14159" actuatorfrcrange="-4 4" damping="0.1" />
+                <geom pos="0 0 -0.0462" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="forearm_yaw" />
+                <geom size="0.0176 0.025 0.0282" pos="0 0 -0.0282" type="box" rgba="0.16 0.17 0.18 0" />
+                <body name="right_wrist_pitch_link" pos="0 0 -0.0462">
+                  <inertial pos="0 0 -0.033" mass="0.09" diaginertia="9.08967e-05 7.95e-05 4.88967e-05" />
+                  <joint name="right_wrist_pitch_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="0 1 0" />
+                  <geom pos="0 0 -0.0678" quat="0.707107 -0.707107 0 0" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.17 0.18 1" density="0" mesh="wrist_pitch" />
+                  <geom size="0.025 0.0317 0.045" pos="0 0 -0.033" type="box" rgba="0.16 0.17 0.18 0" />
+                  <body name="right_wrist_roll_link" pos="0 0 -0.0678" quat="0 0 0 1">
+                    <joint name="right_wrist_roll_joint" range="-1.5708 1.5708" actuatorfrcrange="-4 4" damping="0.1" axis="-1 0 0" />
+                    <body name="lehisto_mount" xyaxes="0 1 0 0 0 -1">
+                      <body name="lehisto_jaw_a">
+                        <joint name="lehisto_jaw_a_slide" type="slide" axis="1 0 0" range="-0.0355 0" damping="4" armature="0.01" />
+                        <geom name="lehisto_part_00" type="mesh" mesh="lehisto_part_00" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                        <geom name="lehisto_part_14" type="mesh" mesh="lehisto_part_14" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                        <geom name="lehisto_part_14_contact" type="mesh" mesh="lehisto_part_14" rgba="0 0 0 0" contype="2" conaffinity="1" density="0" group="3" friction="1 0.005 0.0001" />
+                        <inertial mass="0.2210393379192859" pos="0.04783081432 -0.02109008266 0.08657941709" fullinertia="0.0002364778479 3.929192108e-05 0.000225296358 2.800500494e-06 -6.197221784e-06 2.821113206e-05" />
+                      </body>
+                      <body name="lehisto_jaw_b">
+                        <joint name="lehisto_jaw_b_slide" type="slide" axis="-1 0 0" range="-0.0355 0" damping="4" armature="0.01" />
+                        <geom name="lehisto_part_15" type="mesh" mesh="lehisto_part_15" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                        <geom name="lehisto_part_15_contact" type="mesh" mesh="lehisto_part_15" rgba="0 0 0 0" contype="2" conaffinity="1" density="0" group="3" friction="1 0.005 0.0001" />
+                        <geom name="lehisto_part_17" type="mesh" mesh="lehisto_part_17" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                        <inertial mass="0.22104126141650862" pos="-0.04783076605 -0.01956989775 0.08657947258" fullinertia="0.0002501479579 3.929212716e-05 0.0002389663838 -6.474478158e-06 6.197153921e-06 3.498759828e-05" />
+                      </body>
+                      <body name="lehisto_pinion">
+                        <joint name="lehisto_pinion_joint" axis="0 0 1" pos="0 0 0.065" damping="0.002" armature="0.00001" />
+                        <geom name="lehisto_part_31" type="mesh" mesh="lehisto_part_31" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                        <inertial mass="0.010076704072318938" pos="4.568464709e-13 -1.010793243e-15 0.06439539325" fullinertia="2.630405838e-07 2.631203456e-07 4.088460077e-07 -5.793290207e-12 1.269121742e-17 8.013117261e-23" />
+                      </body>
+                      <geom name="lehisto_part_01" type="mesh" mesh="lehisto_part_01" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_02" type="mesh" mesh="lehisto_part_02" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_03" type="mesh" mesh="lehisto_part_03" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_04" type="mesh" mesh="lehisto_part_04" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_05" type="mesh" mesh="lehisto_part_05" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_06" type="mesh" mesh="lehisto_part_06" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_07" type="mesh" mesh="lehisto_part_07" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_08" type="mesh" mesh="lehisto_part_08" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_09" type="mesh" mesh="lehisto_part_09" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_10" type="mesh" mesh="lehisto_part_10" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_11" type="mesh" mesh="lehisto_part_11" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_12" type="mesh" mesh="lehisto_part_12" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_13" type="mesh" mesh="lehisto_part_13" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_16" type="mesh" mesh="lehisto_part_16" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_18" type="mesh" mesh="lehisto_part_18" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_19" type="mesh" mesh="lehisto_part_19" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_20" type="mesh" mesh="lehisto_part_20" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_21" type="mesh" mesh="lehisto_part_21" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_22" type="mesh" mesh="lehisto_part_22" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_23" type="mesh" mesh="lehisto_part_23" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_24" type="mesh" mesh="lehisto_part_24" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_25" type="mesh" mesh="lehisto_part_25" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_26" type="mesh" mesh="lehisto_part_26" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_27" type="mesh" mesh="lehisto_part_27" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_28" type="mesh" mesh="lehisto_part_28" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_29" type="mesh" mesh="lehisto_part_29" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_30" type="mesh" mesh="lehisto_part_30" rgba="0.08 0.23 0.16 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_32" type="mesh" mesh="lehisto_part_32" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_33" type="mesh" mesh="lehisto_part_33" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_34" type="mesh" mesh="lehisto_part_34" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_35" type="mesh" mesh="lehisto_part_35" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_36" type="mesh" mesh="lehisto_part_36" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_37" type="mesh" mesh="lehisto_part_37" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_38" type="mesh" mesh="lehisto_part_38" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_39" type="mesh" mesh="lehisto_part_39" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_40" type="mesh" mesh="lehisto_part_40" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_41" type="mesh" mesh="lehisto_part_41" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_42" type="mesh" mesh="lehisto_part_42" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_43" type="mesh" mesh="lehisto_part_43" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                      <geom name="lehisto_part_44" type="mesh" mesh="lehisto_part_44" rgba="0.62 0.65 0.69 1" contype="0" conaffinity="0" density="0" group="1" />
+                    </body>
+                    <inertial mass="0.5783379539489052" pos="-0.05988258856 -9.73541478e-05 -0.01268665023" fullinertia="0.0008131490499 0.0004956855214 0.0008215604926 1.99122336e-06 -3.583132066e-05 -2.349967927e-07" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="lift_middle_link" pos="-0.113523 0 0.428928">
+      <inertial pos="0 0 0" mass="2.268" diaginertia="0.0511879 0.0505061 0.00143889" />
+      <joint name="lift_middle_joint" type="slide" range="0 0.35" actuatorfrcrange="-1 1" damping="1" />
+      <geom size="0.0223763 0.0374512 0.2575" type="box" contype="0" conaffinity="0" group="1" rgba="0.34 0.35 0.37 1" density="0" />
+      <geom size="0.0223763 0.0374512 0.2575" type="box" rgba="0.34 0.35 0.37 0" />
+    </body>
+  </worldbody>
+  <equality>
+    <joint name="lift_mimic" joint1="lift_middle_joint" joint2="lift_extension_joint" polycoef="0 0.5 0 0 0" />
+    <joint name="left_gripper_mimic" joint1="left_gripper_idler_joint" joint2="left_gripper_joint" polycoef="0 -1 0 0 0" />
+    <joint name="lehisto_jaw_sync" joint1="lehisto_jaw_b_slide" joint2="lehisto_jaw_a_slide" polycoef="0 1 0 0 0" />
+    <joint name="lehisto_rack_pinion" joint1="lehisto_pinion_joint" joint2="lehisto_jaw_a_slide" polycoef="0 138.888888889 0 0 0" />
+  </equality>
+  <actuator>
+    <position name="lehisto_grip" joint="lehisto_jaw_a_slide" kp="1500" kv="15" ctrlrange="-0.0355 0" forcerange="-20 20" />
+  </actuator>
+</mujoco>

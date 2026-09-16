@@ -1,0 +1,37 @@
+{
+  "table_top_m": 0.8,
+  "shown_lift_m": 0.43,
+  "shoulder_height_m": 0.9459107000000001,
+  "lift_CAD_limits_m": [
+    0.0,
+    0.7
+  ],
+  "carrier_plan_lifts": {
+    "leica_rack": [
+      0.5255864506528578,
+      0.5968242226923405,
+      0.5968242226923405
+    ],
+    "rack24": [
+      0.5213583010179508,
+      0.5904380786354542,
+      0.5904380786354542
+    ],
+    "output_magazine": [
+      0.4611345898490449,
+      0.528859446491919,
+      0.528859446491919
+    ],
+    "scanner_cassette": [
+      0.48050016966853304,
+      0.5482092410335503,
+      0.5482092410335503
+    ],
+    "slide_folder": [
+      0.3604771773616299,
+      0.42949780609343585,
+      0.42949780609343585
+    ]
+  },
+  "scope": "Posture/geometry review. Contact validation is separate; full-lab guard remains active."
+}

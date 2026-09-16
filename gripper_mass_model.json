@@ -1,0 +1,356 @@
+{
+  "total_kg": 0.2566282043347374,
+  "body_inertials": {
+    "right_wrist_roll_link": {
+      "mass": 0.18520463029320097,
+      "pos": [
+        -0.05731613295562641,
+        1.5064891819425828e-06,
+        -0.016151394339811064
+      ],
+      "fullinertia": [
+        0.00017275852216902562,
+        0.00022322875329388328,
+        0.00024715824913219174,
+        -7.335546156132118e-08,
+        -4.597104352896386e-05,
+        -8.90559812174478e-08
+      ]
+    },
+    "lehisto_jaw_a": {
+      "mass": 0.03491576802801459,
+      "pos": [
+        0.04783019241237874,
+        -0.021105740534809653,
+        0.0865729927980761
+      ],
+      "fullinertia": [
+        3.7344590450993796e-05,
+        6.20557365977515e-06,
+        3.5578789817441576e-05,
+        4.4387380125628616e-07,
+        -9.78534661648236e-07,
+        4.464300336532185e-06
+      ]
+    },
+    "lehisto_jaw_b": {
+      "mass": 0.034916071867066335,
+      "pos": [
+        -0.04783014419201822,
+        -0.01958514319366849,
+        0.08657304900024691
+      ],
+      "fullinertia": [
+        3.950616973246984e-05,
+        6.205606059248592e-06,
+        3.774035589583089e-05,
+        -1.0238907989007072e-06,
+        9.785239496389644e-07,
+        5.534651867579212e-06
+      ]
+    },
+    "lehisto_pinion": {
+      "mass": 0.0015917341464554758,
+      "pos": [
+        -2.002614789881757e-18,
+        3.1148524176908893e-19,
+        0.06440162448337715
+      ],
+      "fullinertia": [
+        4.132650921895346e-08,
+        4.132833769366519e-08,
+        6.413036644146245e-08,
+        6.90959311693142e-13,
+        -1.4323487891537685e-22,
+        -8.495866355623466e-22
+      ]
+    }
+  },
+  "parts": [
+    {
+      "mesh": "lehisto_part_00",
+      "source": "Gripper:1+Gripper Rack - M0.8:1",
+      "mass_kg": 0.001761275185995908,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_01",
+      "source": "Gripper:1+Guide Rod - D6 x 125 mm:1",
+      "mass_kg": 0.005301437602932777,
+      "basis": "aluminum tube D6 x assumed D4 ID x 125 mm"
+    },
+    {
+      "mesh": "lehisto_part_02",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+ZK_122^STS3215_Servo:1",
+      "mass_kg": 0.015980799586702142,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_03",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+SG-ZIJI_15^STS3215_Servo:1",
+      "mass_kg": 0.015175524790495373,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_04",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+XG-ZIJI_16^STS3215_Servo:1",
+      "mass_kg": 0.017172268904485404,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_05",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+Main Wheel^STS3215_Servo:1",
+      "mass_kg": 0.003573706098821231,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_06",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+pan head cross recess screw_din_DIN EN ISO 7045 - M3 x 4 - Z - 4N:1",
+      "mass_kg": 0.00013350105630822542,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_07",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0022035035:1",
+      "mass_kg": 0.0007167770968607938,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_08",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+      "mass_kg": 0.00013725543908708443,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_09",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+      "mass_kg": 0.001118879052204784,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_10",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+      "mass_kg": 0.00013725543908708437,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_11",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0050375033_\u00a2\u00af\u00e0\u00a0\u00a2\u00ae:1",
+      "mass_kg": 0.0001372554390870844,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_12",
+      "source": "Gripper:1+Gripper Servo - STS3215:1+0022035035:2",
+      "mass_kg": 0.0007167770968607938,
+      "basis": "STS3215 assembly: 55 g datasheet"
+    },
+    {
+      "mesh": "lehisto_part_13",
+      "source": "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):1",
+      "mass_kg": 0.001073766174292929,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_14",
+      "source": "Gripper:1+Gripper Jaw Clamp - A:1",
+      "mass_kg": 0.033154492842018685,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_15",
+      "source": "Gripper:1+Gripper Jaw Clamp - B:1",
+      "mass_kg": 0.03315479668107043,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_16",
+      "source": "Gripper:1+Guide Rod - D6 x 125 mm:2",
+      "mass_kg": 0.005301437602932777,
+      "basis": "aluminum tube D6 x assumed D4 ID x 125 mm"
+    },
+    {
+      "mesh": "lehisto_part_17",
+      "source": "Gripper:1+Gripper Rack - M0.8:2",
+      "mass_kg": 0.001761275185995908,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_18",
+      "source": "Gripper:1+Guide Bearing - MF106 (6 x 10 x 3 mm):2",
+      "mass_kg": 0.001073766174292929,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_19",
+      "source": "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.010 Main frame_125 follower:1",
+      "mass_kg": 0.037634346008644216,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_20",
+      "source": "Gripper:1+RB9.01.062.000 Gripper v8:1+RB9.01.062.070 Camera holder_follower + camera:1",
+      "mass_kg": 0.02369098472654712,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_21",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.017642684675460714,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_22",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.0031988525939342064,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_23",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.007938503884640681,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_24",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.005220483047733432,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_25",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.00017560594969535283,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_26",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 0.0008177970761063009,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_27",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 1.5181931073282414e-06,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_28",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 1.5181931073282414e-06,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_29",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 1.518193107328238e-06,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_30",
+      "source": "Gripper:1+arducam_ov9281_b0332_fusion v1:1",
+      "mass_kg": 1.5181931073282397e-06,
+      "basis": "B0332 assembly: assumed 35 g, not a sourced net weight"
+    },
+    {
+      "mesh": "lehisto_part_31",
+      "source": "Gripper:1+Gripper Pinion - M0.8, 18T:1",
+      "mass_kg": 0.0015917341464554758,
+      "basis": "printed part, conservative solid PLA at 1.24 g/cm3"
+    },
+    {
+      "mesh": "lehisto_part_32",
+      "source": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:1",
+      "mass_kg": 0.00023298142904943533,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_33",
+      "source": "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:1",
+      "mass_kg": 0.0009124774220428693,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_34",
+      "source": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:2",
+      "mass_kg": 0.00023298142904943533,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_35",
+      "source": "Gripper:1+Gripper Fasteners:1+M2 x 8 - Countersunk Phillips Screw:3",
+      "mass_kg": 0.00023298142904943533,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_36",
+      "source": "Gripper:1+Gripper Fasteners:1+M4 x 8 - Countersunk Socket Screw:2",
+      "mass_kg": 0.0009124774220428693,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_37",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:2",
+      "mass_kg": 0.0002753329985515152,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_38",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:3",
+      "mass_kg": 0.0002753329985515152,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_39",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:4",
+      "mass_kg": 0.0002753329985515152,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_40",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 - Hex Nut:5",
+      "mass_kg": 0.0002753329985515152,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_41",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:2",
+      "mass_kg": 0.0006259152195295285,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_42",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:3",
+      "mass_kg": 0.0006259152195295285,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_43",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:4",
+      "mass_kg": 0.0006259152195295285,
+      "basis": "bearing/fastener CAD steel retained"
+    },
+    {
+      "mesh": "lehisto_part_44",
+      "source": "Gripper:1+Gripper Fasteners:1+M2.5 x 12 - Socket Head Screw:5",
+      "mass_kg": 0.0006259152195295285,
+      "basis": "bearing/fastener CAD steel retained"
+    }
+  ],
+  "old_all_steel_CAD_kg": 1.0304952573570185,
+  "printed_volume_cm3": 107.05556836832882,
+  "conservative_scenario_kg": 0.3332393954383624,
+  "sources": {
+    "servo": "https://www.feetechrc.com/products.html?keyword=STS3215",
+    "PLA": "https://polymaker.com/wp-content/tech-docs/PolyLite_PLA_PIS_EN_V1.1.pdf",
+    "camera": "https://www.welectron.com/mediafiles/productimg/arducam/Amazon/B0332_OV9281_Global_Shutter_UVC_Camera_Datasheet.pdf"
+  },
+  "assumptions": [
+    "Filament identity/infill not measured; solid PLA is the nominal model.",
+    "Tube ID assumed 4 mm; CAD currently models solid D6 rods. Aluminum density assumed 2700 kg/m3.",
+    "B0332 manufacturer datasheet reviewed but no net mass found; 35 g nominal / 50 g conservative allowance.",
+    "15 g nominal wiring/attachment allowance at wrist; 50 g in conservative scenario.",
+    "Servo/camera internal mass distributed by CAD volume; tube mass uses CAD solid-rod shape moments. Inertias approximate."
+  ]
+}

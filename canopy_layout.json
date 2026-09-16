@@ -1,0 +1,39 @@
+{
+  "canopies": [
+    {
+      "station": "routine_a",
+      "position_m": [
+        -2.37,
+        0.69,
+        1.89
+      ],
+      "width_m": 1.3599999999999999,
+      "depth_m": 1.0542850001454354,
+      "underside_height_m": 1.88,
+      "machine_static_top_m": 1.3900000000000001,
+      "static_clearance_m": 0.49,
+      "duct_diameter_m": 0.2,
+      "top_height_m": 3.0
+    },
+    {
+      "station": "routine_b",
+      "position_m": [
+        -0.27,
+        0.69,
+        1.89
+      ],
+      "width_m": 1.3599999999999999,
+      "depth_m": 1.0542850001454354,
+      "underside_height_m": 1.88,
+      "machine_static_top_m": 1.3900000000000001,
+      "static_clearance_m": 0.49,
+      "duct_diameter_m": 0.2,
+      "top_height_m": 3.0
+    }
+  ],
+  "design": "Suspended stainless-look canopy, tapered plenum, vertical duct stub and hanger rods",
+  "limitations": [
+    "Conceptual layout geometry only; no airflow, fume capture, duct routing, structural or ventilation-code validation.",
+    "Clearance is above current CAD envelope, not a guarantee for every possible machine joint configuration."
+  ]
+}

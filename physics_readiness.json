@@ -1,0 +1,74 @@
+{
+  "full_lab_physics_ready": false,
+  "default_viewer": "PHYSICS_READINESS_HOLD",
+  "full_lab_model": {
+    "joints": 257,
+    "actuators": 1,
+    "actuated_joints": [
+      "lehisto_jaw_a_slide"
+    ],
+    "mocap_carriers": 20,
+    "passive_cad_doors": 5
+  },
+  "measurements": {
+    "slide_dimensions_m": [
+      0.02500000059604645,
+      0.0009999990463256912,
+      0.07499999642372132
+    ],
+    "loaded_slide_count": 28,
+    "slide_pitch_m": 0.0035346508026123033,
+    "clear_slide_gap_m": 0.002534651756286612,
+    "glass_mass_kg_nominal_2500kg_m3": 0.131249871701006,
+    "gripper_subtree_estimated_mass_kg": 0.2566282043347374,
+    "superseded_all_steel_CAD_mass_kg": 1.0304952573570185,
+    "fingertip_open_gap_m": 0.08399999886751175,
+    "fingertip_closed_gap_m": 0.012999998867511756,
+    "rack_handle_neck_width_m": 0.009,
+    "rack_handle_topbar_width_m": 0.02,
+    "flat_gap_is_not_groove_grasp_clearance": true,
+    "grip_interfaces": "Original upper handle groove / lower slide groove; no extra pads",
+    "physical_grasp_evidence": "User reports successful printed slide and rack grasps; prior LeHisto Physical Training task records lift-and-return demonstration",
+    "nominal_wheel_radius_m": 0.0762,
+    "nominal_wheel_track_m": 0.3
+  },
+  "gravity_audit": [
+    {
+      "joint": "lift_extension_joint",
+      "unit": "N",
+      "gravity_generalized_force": 72.32548268452376,
+      "imported_effort_range": [
+        -1.0,
+        1.0
+      ],
+      "actuator_present": false,
+      "pose": "exported arm pose, lift .25 m / middle .125 m"
+    },
+    {
+      "joint": "right_shoulder_roll_joint",
+      "unit": "Nm",
+      "gravity_generalized_force": 2.805298027405236,
+      "imported_effort_range": [
+        -4.0,
+        4.0
+      ],
+      "actuator_present": false,
+      "pose": "exported arm pose, lift .25 m / middle .125 m"
+    }
+  ],
+  "blockers": [
+    "Full lab is still a kinematic model: 20 mocap carrier variants; only right gripper has an actuator.",
+    "Arm, lift and wheel servos, measured inertia, torque limits and full collision models are missing.",
+    "Nori preview base uses x/y/yaw coordinates. It does not obey rolling/no-lateral-slip physics.",
+    "Source rear caster contacts are fixed spheres, not articulated rolling/swiveling caster assemblies.",
+    "Robot TCP orientation and actual slide/rack handle frames are not calibrated in the lab.",
+    "Do not use flat-tip gap versus neck width as a grip rejection. Original grooved grasp works in user physical tests; loaded-rack simulation and detachable-handle retention remain to be validated.",
+    "Loaded slides remain merged in carrier meshes, not independent free bodies with slot contacts.",
+    "Machine enclosure colliders are solid envelopes, not open cavities or decomposed insertion geometry.",
+    "Passive CAD doors have estimated inertias and no validated collision/contact model.",
+    "Leica source CAD includes provisional joints and illustrative filling/transport references.",
+    "No verified matching 24-slide bucket CAD; scanner depth and carrier compatibility provisional.",
+    "No physically supported rack-type conversion, slide-folder mechanism or block-QC handling.",
+    "No calibrated glass fracture model; loss/impact must flag quarantine, not assert breakage."
+  ]
+}

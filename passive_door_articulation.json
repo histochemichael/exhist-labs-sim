@@ -1,0 +1,115 @@
+{
+  "doors": [
+    {
+      "machine": "quincy_1",
+      "joint": "quincy_1_door_joint",
+      "cad_joint": "Door swing | 0 closed - 110 deg open",
+      "passive": true,
+      "actuator": false,
+      "axis_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits": [
+        0.0,
+        1.9198621771937625
+      ],
+      "cad_pose_qpos0": 1.7453292519943295,
+      "parts": {
+        "fixed": 51,
+        "door": 15
+      }
+    },
+    {
+      "machine": "quincy_2",
+      "joint": "quincy_2_door_joint",
+      "cad_joint": "Door swing | 0 closed - 110 deg open",
+      "passive": true,
+      "actuator": false,
+      "axis_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits": [
+        0.0,
+        1.9198621771937625
+      ],
+      "cad_pose_qpos0": 1.7453292519943295,
+      "parts": {
+        "fixed": 51,
+        "door": 15
+      }
+    },
+    {
+      "machine": "quincy_3",
+      "joint": "quincy_3_door_joint",
+      "cad_joint": "Door swing | 0 closed - 110 deg open",
+      "passive": true,
+      "actuator": false,
+      "axis_local": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limits": [
+        0.0,
+        1.9198621771937625
+      ],
+      "cad_pose_qpos0": 1.7453292519943295,
+      "parts": {
+        "fixed": 51,
+        "door": 15
+      }
+    },
+    {
+      "machine": "imaging_a_s60_pc",
+      "joint": "imaging_a_s60_pc_door_joint",
+      "cad_joint": "Door - LEFT opens - provisional 225 mm",
+      "passive": true,
+      "actuator": false,
+      "axis_local": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limits": [
+        -0.225,
+        0.0
+      ],
+      "cad_pose_qpos0": 0.0,
+      "parts": {
+        "fixed": 365,
+        "door": 2
+      }
+    },
+    {
+      "machine": "imaging_b_s60_pc",
+      "joint": "imaging_b_s60_pc_door_joint",
+      "cad_joint": "Door - LEFT opens - provisional 225 mm",
+      "passive": true,
+      "actuator": false,
+      "axis_local": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limits": [
+        -0.225,
+        0.0
+      ],
+      "cad_pose_qpos0": 0.0,
+      "parts": {
+        "fixed": 365,
+        "door": 2
+      }
+    }
+  ],
+  "limitations": [
+    "Door masses (1 kg), inertia, damping and hinge friction are placeholders.",
+    "Exported geometry and pivot preserved; no door collision or handle-contact validation.",
+    "Whole-machine envelope colliders still block insertion. Do NOT enable full-lab physics yet.",
+    "S60 CAD door stroke is marked provisional; not manufacturer validation."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-15",
+  "command": "python -m unittest test_equipment_access test_lehisto_loaded_reach test_first_pass test_jar_riser test_review_corrections -v",
+  "tests_run": 21,
+  "passed": true,
+  "elapsed_seconds": 158.955,
+  "nominal_dynamic_cycles_recorded_separately": 6,
+  "negative_dynamic_records": ["access_st_load_jammed_validation.json", "access_quincy_miss_validation.json"],
+  "full_lab_transfers_validated": false
+}

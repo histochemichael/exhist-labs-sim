@@ -1,0 +1,14 @@
+{
+  "station": "special",
+  "position_m": [
+    1.15,
+    0.46,
+    1.7
+  ],
+  "width_m": 1.08,
+  "depth_m": 0.76,
+  "underside_m": 1.7,
+  "table_top_m": 0.8,
+  "clearance_above_table_m": 0.9,
+  "scope": "Concept only: airflow, containment, chemical compatibility, duct routing and structural design unvalidated."
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="One-inch support insert | static asset inspection">
+  <compiler angle="radian" />
+  <visual>
+    <global offwidth="1000" offheight="600" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+    <mesh name="rack24_riser_0" file="meshes/rack24_riser_0.obj" inertia="shell" />
+  </asset>
+  <worldbody>
+    <geom type="mesh" mesh="rack24_riser_0" rgba="0.72 0.76 0.65 1" contype="0" conaffinity="0" density="0" />
+  </worldbody>
+</mujoco>

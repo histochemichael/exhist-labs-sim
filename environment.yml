@@ -1,0 +1,10 @@
+name: exhist-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - placo=0.9.20
+  - numpy=2.2.6
+  - pip
+  - pip:
+      - -r requirements.txt

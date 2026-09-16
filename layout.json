@@ -1,0 +1,1549 @@
+{
+  "version": 1,
+  "stage": "CAD layout / kinematic preview",
+  "sources": {
+    "lehisto": {
+      "document": "LeHisto v38",
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ],
+      "meshes": [
+        {
+          "name": "lehisto_0",
+          "file": "assets/lehisto_0.obj",
+          "rgba": [
+            0.965,
+            0.965,
+            0.953,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_1",
+          "file": "assets/lehisto_1.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_2",
+          "file": "assets/lehisto_2.obj",
+          "rgba": [
+            0.7,
+            0.72,
+            0.75,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_3",
+          "file": "assets/lehisto_3.obj",
+          "rgba": [
+            0.0,
+            0.502,
+            0.0,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_4",
+          "file": "assets/lehisto_4.obj",
+          "rgba": [
+            0.753,
+            0.753,
+            0.753,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_5",
+          "file": "assets/lehisto_5.obj",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_6",
+          "file": "assets/lehisto_6.obj",
+          "rgba": [
+            0.749,
+            0.749,
+            0.749,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_7",
+          "file": "assets/lehisto_7.obj",
+          "rgba": [
+            0.894,
+            0.894,
+            0.894,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_8",
+          "file": "assets/lehisto_8.obj",
+          "rgba": [
+            0.792,
+            0.82,
+            0.933,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_9",
+          "file": "assets/lehisto_9.obj",
+          "rgba": [
+            0.282,
+            0.663,
+            0.325,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_10",
+          "file": "assets/lehisto_10.obj",
+          "rgba": [
+            0.796,
+            0.824,
+            0.937,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_11",
+          "file": "assets/lehisto_11.obj",
+          "rgba": [
+            0.251,
+            0.251,
+            0.251,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_12",
+          "file": "assets/lehisto_12.obj",
+          "rgba": [
+            0.2,
+            0.2,
+            0.2,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_13",
+          "file": "assets/lehisto_13.obj",
+          "rgba": [
+            0.765,
+            0.812,
+            0.804,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_14",
+          "file": "assets/lehisto_14.obj",
+          "rgba": [
+            0.106,
+            0.106,
+            0.106,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_15",
+          "file": "assets/lehisto_15.obj",
+          "rgba": [
+            0.788,
+            0.788,
+            0.788,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_16",
+          "file": "assets/lehisto_16.obj",
+          "rgba": [
+            0.196,
+            0.208,
+            0.263,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_17",
+          "file": "assets/lehisto_17.obj",
+          "rgba": [
+            0.784,
+            0.784,
+            0.784,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_18",
+          "file": "assets/lehisto_18.obj",
+          "rgba": [
+            0.0,
+            0.667,
+            0.0,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_19",
+          "file": "assets/lehisto_19.obj",
+          "rgba": [
+            0.847,
+            0.0,
+            0.0,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_20",
+          "file": "assets/lehisto_20.obj",
+          "rgba": [
+            0.78,
+            0.569,
+            0.114,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_21",
+          "file": "assets/lehisto_21.obj",
+          "rgba": [
+            0.8,
+            0.8,
+            0.8,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_22",
+          "file": "assets/lehisto_22.obj",
+          "rgba": [
+            0.098,
+            0.098,
+            0.098,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_23",
+          "file": "assets/lehisto_23.obj",
+          "rgba": [
+            0.961,
+            0.961,
+            0.965,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_24",
+          "file": "assets/lehisto_24.obj",
+          "rgba": [
+            0.929,
+            0.929,
+            0.929,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_25",
+          "file": "assets/lehisto_25.obj",
+          "rgba": [
+            0.984,
+            0.98,
+            0.961,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_26",
+          "file": "assets/lehisto_26.obj",
+          "rgba": [
+            0.173,
+            0.173,
+            0.173,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_27",
+          "file": "assets/lehisto_27.obj",
+          "rgba": [
+            0.267,
+            0.588,
+            0.282,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_28",
+          "file": "assets/lehisto_28.obj",
+          "rgba": [
+            0.831,
+            0.671,
+            0.129,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_29",
+          "file": "assets/lehisto_29.obj",
+          "rgba": [
+            0.898,
+            0.918,
+            0.929,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_30",
+          "file": "assets/lehisto_30.obj",
+          "rgba": [
+            0.502,
+            0.502,
+            0.502,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_31",
+          "file": "assets/lehisto_31.obj",
+          "rgba": [
+            0.776,
+            0.757,
+            0.737,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_32",
+          "file": "assets/lehisto_32.obj",
+          "rgba": [
+            1.0,
+            1.0,
+            0.753,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_33",
+          "file": "assets/lehisto_33.obj",
+          "rgba": [
+            1.0,
+            0.0,
+            0.0,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_34",
+          "file": "assets/lehisto_34.obj",
+          "rgba": [
+            0.776,
+            0.776,
+            0.816,
+            1
+          ]
+        },
+        {
+          "name": "lehisto_35",
+          "file": "assets/lehisto_35.obj",
+          "rgba": [
+            0.502,
+            1.0,
+            0.502,
+            1
+          ]
+        }
+      ],
+      "part_count": 532,
+      "source_json": "assets/lehisto.json"
+    },
+    "quincy": {
+      "document": "Quincy 10GC - Bottom Shelf - Swing Door v1",
+      "bounds_m": [
+        0.44513466038340577,
+        0.6499165007776753,
+        0.44450000762939457
+      ],
+      "meshes": [
+        {
+          "name": "quincy_0",
+          "file": "assets/quincy_0.obj",
+          "rgba": [
+            0.702,
+            0.702,
+            0.702,
+            1
+          ]
+        },
+        {
+          "name": "quincy_1",
+          "file": "assets/quincy_1.obj",
+          "rgba": [
+            0.098,
+            0.098,
+            0.098,
+            1
+          ]
+        },
+        {
+          "name": "quincy_2",
+          "file": "assets/quincy_2.obj",
+          "rgba": [
+            0.961,
+            0.961,
+            0.965,
+            1
+          ]
+        },
+        {
+          "name": "quincy_3",
+          "file": "assets/quincy_3.obj",
+          "rgba": [
+            0.769,
+            0.208,
+            0.153,
+            1
+          ]
+        },
+        {
+          "name": "quincy_4",
+          "file": "assets/quincy_4.obj",
+          "rgba": [
+            0.153,
+            0.153,
+            0.153,
+            1
+          ]
+        },
+        {
+          "name": "quincy_5",
+          "file": "assets/quincy_5.obj",
+          "rgba": [
+            0.796,
+            0.796,
+            0.796,
+            1
+          ]
+        },
+        {
+          "name": "quincy_6",
+          "file": "assets/quincy_6.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        }
+      ],
+      "part_count": 66,
+      "source_json": "assets/quincy.json"
+    },
+    "leica_workstation": {
+      "document": "Leica_ST5020_CV5030_Workstation_Mechanical_QC_v2 v2",
+      "bounds_m": [
+        1.6199999999999999,
+        0.7542850001454353,
+        0.6
+      ],
+      "meshes": [
+        {
+          "name": "leica_workstation_0",
+          "file": "assets/leica_workstation_0.obj",
+          "rgba": [
+            0.141,
+            0.157,
+            0.18,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_1",
+          "file": "assets/leica_workstation_1.obj",
+          "rgba": [
+            0.067,
+            0.078,
+            0.094,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_2",
+          "file": "assets/leica_workstation_2.obj",
+          "rgba": [
+            0.914,
+            0.914,
+            0.878,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_3",
+          "file": "assets/leica_workstation_3.obj",
+          "rgba": [
+            0.643,
+            0.671,
+            0.694,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_4",
+          "file": "assets/leica_workstation_4.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_5",
+          "file": "assets/leica_workstation_5.obj",
+          "rgba": [
+            0.11,
+            0.169,
+            0.322,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_6",
+          "file": "assets/leica_workstation_6.obj",
+          "rgba": [
+            0.875,
+            0.906,
+            0.906,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_7",
+          "file": "assets/leica_workstation_7.obj",
+          "rgba": [
+            0.804,
+            0.094,
+            0.173,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_8",
+          "file": "assets/leica_workstation_8.obj",
+          "rgba": [
+            0.604,
+            0.733,
+            0.769,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_9",
+          "file": "assets/leica_workstation_9.obj",
+          "rgba": [
+            0.137,
+            0.227,
+            0.82,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_10",
+          "file": "assets/leica_workstation_10.obj",
+          "rgba": [
+            0.486,
+            0.651,
+            0.243,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_11",
+          "file": "assets/leica_workstation_11.obj",
+          "rgba": [
+            0.718,
+            0.086,
+            0.157,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_12",
+          "file": "assets/leica_workstation_12.obj",
+          "rgba": [
+            0.965,
+            0.29,
+            0.404,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_13",
+          "file": "assets/leica_workstation_13.obj",
+          "rgba": [
+            0.231,
+            0.431,
+            0.624,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_14",
+          "file": "assets/leica_workstation_14.obj",
+          "rgba": [
+            0.965,
+            0.965,
+            0.953,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_15",
+          "file": "assets/leica_workstation_15.obj",
+          "rgba": [
+            0.098,
+            0.098,
+            0.098,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_16",
+          "file": "assets/leica_workstation_16.obj",
+          "rgba": [
+            0.188,
+            0.231,
+            0.588,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_17",
+          "file": "assets/leica_workstation_17.obj",
+          "rgba": [
+            0.6,
+            0.616,
+            0.592,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_18",
+          "file": "assets/leica_workstation_18.obj",
+          "rgba": [
+            0.937,
+            0.949,
+            0.902,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_19",
+          "file": "assets/leica_workstation_19.obj",
+          "rgba": [
+            0.118,
+            0.192,
+            0.361,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_20",
+          "file": "assets/leica_workstation_20.obj",
+          "rgba": [
+            0.667,
+            0.71,
+            0.753,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_21",
+          "file": "assets/leica_workstation_21.obj",
+          "rgba": [
+            0.937,
+            0.871,
+            0.22,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_22",
+          "file": "assets/leica_workstation_22.obj",
+          "rgba": [
+            0.075,
+            0.086,
+            0.094,
+            1
+          ]
+        },
+        {
+          "name": "leica_workstation_23",
+          "file": "assets/leica_workstation_23.obj",
+          "rgba": [
+            0.29,
+            0.722,
+            0.392,
+            1
+          ]
+        }
+      ],
+      "part_count": 788,
+      "source_json": "assets/leica_workstation_handled.json"
+    },
+    "s60": {
+      "document": "Untitled",
+      "bounds_m": [
+        1.4379999923706055,
+        0.6829999923706055,
+        0.7000000000000001
+      ],
+      "meshes": [
+        {
+          "name": "s60_0",
+          "file": "assets/s60_0.obj",
+          "rgba": [
+            0.961,
+            0.961,
+            0.965,
+            1
+          ]
+        },
+        {
+          "name": "s60_1",
+          "file": "assets/s60_1.obj",
+          "rgba": [
+            0.098,
+            0.098,
+            0.098,
+            1
+          ]
+        },
+        {
+          "name": "s60_2",
+          "file": "assets/s60_2.obj",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1
+          ]
+        },
+        {
+          "name": "s60_3",
+          "file": "assets/s60_3.obj",
+          "rgba": [
+            0.965,
+            0.965,
+            0.953,
+            1
+          ]
+        },
+        {
+          "name": "s60_4",
+          "file": "assets/s60_4.obj",
+          "rgba": [
+            0.188,
+            0.196,
+            0.204,
+            1
+          ]
+        },
+        {
+          "name": "s60_5",
+          "file": "assets/s60_5.obj",
+          "rgba": [
+            0.137,
+            0.824,
+            0.471,
+            1
+          ]
+        },
+        {
+          "name": "s60_6",
+          "file": "assets/s60_6.obj",
+          "rgba": [
+            0.824,
+            0.176,
+            0.176,
+            1
+          ]
+        },
+        {
+          "name": "s60_7",
+          "file": "assets/s60_7.obj",
+          "rgba": [
+            0.878,
+            0.839,
+            0.714,
+            1
+          ]
+        },
+        {
+          "name": "s60_8",
+          "file": "assets/s60_8.obj",
+          "rgba": [
+            0.871,
+            0.184,
+            0.255,
+            1
+          ]
+        },
+        {
+          "name": "s60_9",
+          "file": "assets/s60_9.obj",
+          "rgba": [
+            0.635,
+            0.58,
+            0.808,
+            1
+          ]
+        }
+      ],
+      "part_count": 367,
+      "source_json": "assets/s60.json"
+    },
+    "slide_folder": {
+      "document": "Cardboard Slide Folder - 20 Place v1",
+      "bounds_m": [
+        0.4140000057220459,
+        0.34099998474121096,
+        0.008999999761581421
+      ],
+      "meshes": [
+        {
+          "name": "slide_folder_0",
+          "file": "assets/slide_folder_0.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        }
+      ],
+      "part_count": 3,
+      "source_json": "assets/slide_folder.json"
+    },
+    "rack24": {
+      "document": "Slide Rack v13",
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ],
+      "meshes": [
+        {
+          "name": "rack24_0",
+          "file": "assets/rack24_0.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        }
+      ],
+      "part_count": 1,
+      "source_json": "assets/rack24.json"
+    },
+    "leica_rack": {
+      "document": "Leica Staining Rack v6",
+      "bounds_m": [
+        0.03696989975403994,
+        0.16793700479203835,
+        0.12498906129505484
+      ],
+      "meshes": [
+        {
+          "name": "leica_rack_0",
+          "file": "assets/leica_rack_0.obj",
+          "rgba": [
+            0.627,
+            0.627,
+            0.627,
+            1
+          ]
+        },
+        {
+          "name": "leica_rack_1",
+          "file": "assets/leica_rack_1.obj",
+          "rgba": [
+            0.604,
+            0.733,
+            0.769,
+            1
+          ]
+        }
+      ],
+      "part_count": 30,
+      "source_json": "assets/leica_rack_handled.json"
+    },
+    "cassette_block": {
+      "document": "Untitled",
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ],
+      "meshes": [
+        {
+          "name": "cassette_block_0",
+          "file": "assets/cassette_block_0.obj",
+          "rgba": [
+            0.353,
+            0.694,
+            0.745,
+            1
+          ]
+        },
+        {
+          "name": "cassette_block_1",
+          "file": "assets/cassette_block_1.obj",
+          "rgba": [
+            0.937,
+            0.871,
+            0.686,
+            1
+          ]
+        },
+        {
+          "name": "cassette_block_2",
+          "file": "assets/cassette_block_2.obj",
+          "rgba": [
+            0.627,
+            0.306,
+            0.318,
+            1
+          ]
+        }
+      ],
+      "part_count": 4,
+      "source_json": "assets/cassette_block.json"
+    }
+  },
+  "stations": [
+    {
+      "name": "sorting",
+      "label": "PROTOCOL SORTING",
+      "x": -6.5,
+      "width": 1.85,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        -6.5,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        -6.5,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "baking",
+      "label": "BAKING",
+      "x": -4.6,
+      "width": 1.65,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        -4.6,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        -4.6,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "routine_a",
+      "label": "STAIN + COVERSLIP 1",
+      "x": -2.65,
+      "width": 1.95,
+      "depth": 1.2,
+      "height": 0.8,
+      "dock": [
+        -2.65,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        -2.65,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "routine_b",
+      "label": "STAIN + COVERSLIP 2",
+      "x": -0.5499999999999999,
+      "width": 1.95,
+      "depth": 1.2,
+      "height": 0.8,
+      "dock": [
+        -0.5499999999999999,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        -0.5499999999999999,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "special",
+      "label": "SPECIAL STAIN",
+      "x": 1.1500000000000001,
+      "width": 1.15,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        1.1500000000000001,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        1.1500000000000001,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "sendout",
+      "label": "SEND-OUT / BLOCK QC",
+      "x": 2.85,
+      "width": 1.95,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        2.85,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        2.85,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "imaging_a",
+      "label": "IMAGING 1",
+      "x": 4.8,
+      "width": 1.65,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        4.8,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        4.8,
+        0.19,
+        0.8350000000000001
+      ]
+    },
+    {
+      "name": "imaging_b",
+      "label": "IMAGING 2",
+      "x": 6.6000000000000005,
+      "width": 1.65,
+      "depth": 1.0,
+      "height": 0.8,
+      "dock": [
+        6.6000000000000005,
+        -0.62,
+        0
+      ],
+      "handoff": [
+        6.6000000000000005,
+        0.19,
+        0.8350000000000001
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "name": "sorter_1",
+      "asset": "lehisto",
+      "position": [
+        -6.96,
+        0.67,
+        0.8
+      ],
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ]
+    },
+    {
+      "name": "sorter_2",
+      "asset": "lehisto",
+      "position": [
+        -6.04,
+        0.67,
+        0.8
+      ],
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ]
+    },
+    {
+      "name": "filled_leica_0",
+      "asset": "leica_rack",
+      "position": [
+        -7.2,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.03696989975403994,
+        0.16793700479203835,
+        0.12498906129505484
+      ]
+    },
+    {
+      "name": "filled_leica_1",
+      "asset": "leica_rack",
+      "position": [
+        -6.98,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.03696989975403994,
+        0.16793700479203835,
+        0.12498906129505484
+      ]
+    },
+    {
+      "name": "filled_leica_2",
+      "asset": "leica_rack",
+      "position": [
+        -6.76,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.03696989975403994,
+        0.16793700479203835,
+        0.12498906129505484
+      ]
+    },
+    {
+      "name": "protocol_rack24_0",
+      "asset": "rack24",
+      "position": [
+        -6.35,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "protocol_rack24_1",
+      "asset": "rack24",
+      "position": [
+        -6.21,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "protocol_rack24_2",
+      "asset": "rack24",
+      "position": [
+        -6.07,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "protocol_rack24_3",
+      "asset": "rack24",
+      "position": [
+        -5.93,
+        0.22,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "quincy_1",
+      "asset": "quincy",
+      "position": [
+        -5.13,
+        0.63,
+        0.8
+      ],
+      "bounds_m": [
+        0.44513466038340577,
+        0.6499165007776753,
+        0.44450000762939457
+      ]
+    },
+    {
+      "name": "quincy_2",
+      "asset": "quincy",
+      "position": [
+        -4.6,
+        0.63,
+        0.8
+      ],
+      "bounds_m": [
+        0.44513466038340577,
+        0.6499165007776753,
+        0.44450000762939457
+      ]
+    },
+    {
+      "name": "quincy_3",
+      "asset": "quincy",
+      "position": [
+        -4.069999999999999,
+        0.63,
+        0.8
+      ],
+      "bounds_m": [
+        0.44513466038340577,
+        0.6499165007776753,
+        0.44450000762939457
+      ]
+    },
+    {
+      "name": "routine_a_workstation",
+      "asset": "leica_workstation",
+      "position": [
+        -2.65,
+        0.69,
+        0.8
+      ],
+      "bounds_m": [
+        1.6199999999999999,
+        0.7542850001454353,
+        0.6
+      ]
+    },
+    {
+      "name": "routine_b_workstation",
+      "asset": "leica_workstation",
+      "position": [
+        -0.5499999999999999,
+        0.69,
+        0.8
+      ],
+      "bounds_m": [
+        1.6199999999999999,
+        0.7542850001454353,
+        0.6
+      ]
+    },
+    {
+      "name": "special_lehisto",
+      "asset": "lehisto",
+      "position": [
+        1.1500000000000001,
+        0.68,
+        0.8
+      ],
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ]
+    },
+    {
+      "name": "special_dropoff",
+      "asset": "rack24",
+      "position": [
+        0.6800000000000002,
+        0.11,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "sendout_lehisto_1",
+      "asset": "lehisto",
+      "position": [
+        2.39,
+        0.72,
+        0.8
+      ],
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ]
+    },
+    {
+      "name": "sendout_lehisto_2",
+      "asset": "lehisto",
+      "position": [
+        3.31,
+        0.72,
+        0.8
+      ],
+      "bounds_m": [
+        0.6372815350932446,
+        0.16324364802348534,
+        0.2689483176407534
+      ]
+    },
+    {
+      "name": "sendout_folder_1",
+      "asset": "slide_folder",
+      "position": [
+        2.29,
+        0.26,
+        0.8
+      ],
+      "bounds_m": [
+        0.4140000057220459,
+        0.34099998474121096,
+        0.008999999761581421
+      ]
+    },
+    {
+      "name": "sendout_folder_2",
+      "asset": "slide_folder",
+      "position": [
+        2.79,
+        0.26,
+        0.8
+      ],
+      "bounds_m": [
+        0.4140000057220459,
+        0.34099998474121096,
+        0.008999999761581421
+      ]
+    },
+    {
+      "name": "qc_cassette_1",
+      "asset": "cassette_block",
+      "position": [
+        3.33,
+        0.15,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_2",
+      "asset": "cassette_block",
+      "position": [
+        3.395,
+        0.15,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_3",
+      "asset": "cassette_block",
+      "position": [
+        3.33,
+        0.205,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_4",
+      "asset": "cassette_block",
+      "position": [
+        3.395,
+        0.205,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_5",
+      "asset": "cassette_block",
+      "position": [
+        3.33,
+        0.26,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_6",
+      "asset": "cassette_block",
+      "position": [
+        3.395,
+        0.26,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_7",
+      "asset": "cassette_block",
+      "position": [
+        3.33,
+        0.315,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "qc_cassette_8",
+      "asset": "cassette_block",
+      "position": [
+        3.395,
+        0.315,
+        0.8
+      ],
+      "bounds_m": [
+        0.027999999523162844,
+        0.04,
+        0.013049999475479126
+      ]
+    },
+    {
+      "name": "imaging_a_s60_pc",
+      "asset": "s60",
+      "position": [
+        4.8,
+        0.68,
+        0.8
+      ],
+      "bounds_m": [
+        1.4379999923706055,
+        0.6829999923706055,
+        0.7000000000000001
+      ]
+    },
+    {
+      "name": "imaging_a_staging",
+      "asset": "rack24",
+      "position": [
+        4.35,
+        0.17,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    },
+    {
+      "name": "imaging_b_s60_pc",
+      "asset": "s60",
+      "position": [
+        6.6000000000000005,
+        0.68,
+        0.8
+      ],
+      "bounds_m": [
+        1.4379999923706055,
+        0.6829999923706055,
+        0.7000000000000001
+      ]
+    },
+    {
+      "name": "imaging_b_staging",
+      "asset": "rack24",
+      "position": [
+        6.15,
+        0.17,
+        0.8
+      ],
+      "bounds_m": [
+        0.08800000190734864,
+        0.03329321146011353,
+        0.09400000005960464
+      ]
+    }
+  ],
+  "nori_source": "C:\\Users\\Owner\\Documents\\Nori\\mujoco\\Nori with parallel histo gripper.xml",
+  "assumptions": [
+    "Table heights 0.80 m are provisional.",
+    "CAD equipment is static; articulation export and device controllers remain pending.",
+    "Nori planar base is an added kinematic preview abstraction, not a wheel controller.",
+    "Machine envelope colliders are conservative and unsuitable for insertion validation.",
+    "Special-stain buckets remain provisional; QC cassettes use generic CAD, 40 x 28 x 6 mm cassette with illustrative wax and tissue.",
+    "Rack24 is the actual 24 Capacity Slide Rack body; the Leica rack includes 28 slides.",
+    "S60 uses the local door-fit-v04 archive; internal cassette depth remains provisional.",
+    "No grasp, throughput, robot reach or collision-free transfer claim is made."
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "slide",
+    "offset_m": 0,
+    "force_limit_N": 0.8,
+    "passed": true,
+    "peak_lift_m": 0.03801152063506892,
+    "relative_slip_m": 0.00021053850537829674,
+    "hold_bilateral_fraction": 1.0,
+    "events": [
+      [
+        0.3,
+        "CLOSE"
+      ],
+      [
+        2.398,
+        "LIFT"
+      ],
+      [
+        3.699,
+        "HOLD"
+      ],
+      [
+        5.699,
+        "DROP_TEST"
+      ]
+    ],
+    "release_drop_m": 0.07491265582365615,
+    "scope": "original groove contact on isolated fixture; no Nori arm or loaded-rack validation"
+  },
+  {
+    "kind": "handle",
+    "offset_m": 0,
+    "force_limit_N": 0.8,
+    "passed": true,
+    "peak_lift_m": 0.0378431698188427,
+    "relative_slip_m": 0.0004366786989612824,
+    "hold_bilateral_fraction": 1.0,
+    "events": [
+      [
+        0.3,
+        "CLOSE"
+      ],
+      [
+        2.495,
+        "LIFT"
+      ],
+      [
+        3.796,
+        "HOLD"
+      ],
+      [
+        5.796,
+        "DROP_TEST"
+      ]
+    ],
+    "release_drop_m": 0.10196915372057189,
+    "scope": "original groove contact on isolated fixture; no Nori arm or loaded-rack validation"
+  },
+  {
+    "kind": "slide",
+    "offset_m": 0.085,
+    "force_limit_N": 0.8,
+    "passed": false,
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "hold_bilateral_fraction": 0.0,
+    "events": [
+      [
+        0.3,
+        "POSE_REJECTED"
+      ]
+    ],
+    "release_drop_m": null,
+    "scope": "original groove contact on isolated fixture; no Nori arm or loaded-rack validation"
+  },
+  {
+    "kind": "handle",
+    "offset_m": 0,
+    "force_limit_N": 1e-05,
+    "passed": false,
+    "peak_lift_m": 0.0,
+    "relative_slip_m": 0.0,
+    "hold_bilateral_fraction": 0.0,
+    "events": [
+      [
+        0.3,
+        "CLOSE"
+      ],
+      [
+        5.3,
+        "NO_GRASP"
+      ]
+    ],
+    "release_drop_m": null,
+    "scope": "original groove contact on isolated fixture; no Nori arm or loaded-rack validation"
+  }
+]

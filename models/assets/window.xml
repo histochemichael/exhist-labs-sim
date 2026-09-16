@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Observation window | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="1.09 0.015 0.68" pos="0 0.145 0.0085" quat="1 0 0 0" rgba="0.400000006 0.670000017 0.75999999 0.379999995" contype="0" conaffinity="0" />
+    <geom type="box" size="0.018 0.035 0.7" pos="-1.1 0.065 0.0085" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.018 0.035 0.7" pos="0 0.065 0.0085" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.018 0.035 0.7" pos="1.1 0.065 0.0085" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="1.12 0.035 0.018" pos="0 0.065 -0.6815" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="1.12 0.035 0.018" pos="0 0.065 0.6985" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="box" size="1.14 0.14 0.025" pos="0 -0.02 -0.6915" quat="1 0 0 0" rgba="0.879999995 0.910000026 0.920000017 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

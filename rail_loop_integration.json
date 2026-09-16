@@ -1,0 +1,31 @@
+{
+  "model": "exhist_rail_loop.xml",
+  "canonical_layout": "exhist_operational.xml",
+  "source": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\08\\07\\019fde06-5766-7fe2-8736-d06324be20d8\\rack_sim",
+  "route": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    1
+  ],
+  "rail_limits_m": [
+    -0.06,
+    0.21
+  ],
+  "riser_height_m": 0.0254,
+  "model_sha256": "86539e0e41ca4219cbf6ef47d76f7f8d4e57048b6b66da9d31b32428eba2994d",
+  "lab_sha256": "9f4e0f36682b818d00b7c2ac862e414710e3c5390fcad6d01e766cd751ed2670",
+  "source_manifest_sha256": "5ee8b53d881aa1739304a4e5c47147f222864c59095acefdebed35bc8af4c586",
+  "scope": "Live contact-driven LeHisto station composed with all lab visual geometry. Other stations are held context, not coupled or collision-certified. Actual bounded bench replaces benchmark plane. Native source experiment and historical first-pass video are preserved.",
+  "author_model_sha256": "cc4a9ca209a790975b38b00bb009b2fb732137650e610e1349deb06606aa5bba",
+  "author_lab_sha256": "9f4e0f36682b818d00b7c2ac862e414710e3c5390fcad6d01e766cd751ed2670",
+  "distribution_note": "Only XML asset paths relocated. See docs/portability-validation.json. Original run reports are preserved, not relabeled as new runs."
+}

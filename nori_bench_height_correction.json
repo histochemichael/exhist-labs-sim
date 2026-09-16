@@ -1,0 +1,18 @@
+{
+  "before": {
+    "bench_top_m": 0.8,
+    "shoulder_height_m": 0.7659107,
+    "shoulder_above_bench_m": -0.03408929999999999,
+    "lift_m": 0.25
+  },
+  "after": {
+    "bench_top_m": 0.8,
+    "shoulder_height_m": 1.0659107,
+    "shoulder_above_bench_m": 0.26591070000000006,
+    "lift_m": 0.55
+  },
+  "view_only_startup_change": true,
+  "tables_changed": false,
+  "contact_controller_unchanged": true,
+  "scope": "Measured CAD/MuJoCo geometry, same scale and camera. Resting arms match across panels to isolate the lift change. Existing runtime grasp/access plans retain their own lift targets."
+}

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Lab task chair | static procedural reference">
+  <visual>
+    <global offwidth="1000" offheight="600" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1=".92 .95 .97" rgb2=".70 .78 .84" width="512" height="3072" />
+  </asset>
+  <worldbody>
+    <geom type="box" size="0.22 0.21 0.035" pos="-0.0267376 0 -0.005" quat="1 0 0 0" rgba="0.119999997 0.340000004 0.389999986 1" contype="0" conaffinity="0" />
+    <geom type="box" size="0.22 0.03 0.23" pos="-0.0267376 -0.2 0.265" quat="1 0 0 0" rgba="0.119999997 0.340000004 0.389999986 1" contype="0" conaffinity="0" />
+    <geom type="cylinder" size="0.035 0.2" pos="-0.0267376 0 -0.235" quat="1 0 0 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.018 0.14" pos="0.1132624 0 -0.41" quat="0.707106781 0 -0.707106781 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="sphere" size="0.04" pos="0.2532624 0 -0.455" quat="1 0 0 0" rgba="0.119999997 0.150000006 0.170000002 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.018 0.139999995" pos="0.0165248 0.1331479 -0.41" quat="0.707106781 0.672498475 -0.218508125 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="sphere" size="0.04" pos="0.0597872 0.2662958 -0.455" quat="1 0 0 0" rgba="0.119999997 0.150000006 0.170000002 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.018 0.140000025" pos="-0.14 0.08228995 -0.41" quat="0.707106781 0.415626936 0.572061404 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="sphere" size="0.04" pos="-0.2532624 0.1645799 -0.455" quat="1 0 0 0" rgba="0.119999997 0.150000006 0.170000002 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.018 0.140000025" pos="-0.14 -0.08228995 -0.41" quat="0.707106781 -0.415626936 0.572061404 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="sphere" size="0.04" pos="-0.2532624 -0.1645799 -0.455" quat="1 0 0 0" rgba="0.119999997 0.150000006 0.170000002 1" contype="0" conaffinity="0" />
+    <geom type="capsule" size="0.018 0.139999995" pos="0.0165248 -0.1331479 -0.41" quat="0.707106781 -0.672498475 -0.218508125 0" rgba="0.449999988 0.50999999 0.550000012 1" contype="0" conaffinity="0" />
+    <geom type="sphere" size="0.04" pos="0.0597872 -0.2662958 -0.455" quat="1 0 0 0" rgba="0.119999997 0.150000006 0.170000002 1" contype="0" conaffinity="0" />
+  </worldbody>
+</mujoco>

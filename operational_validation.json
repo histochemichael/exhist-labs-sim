@@ -1,0 +1,9 @@
+{
+  "compiled": true,
+  "mujoco_version": "3.12.0",
+  "visual_steps": 3390,
+  "completed_slides": 36,
+  "mocap_carriers": 20,
+  "finite_transforms": true,
+  "scope": "Workflow and kinematic visualization only; no grasp/contact validation"
+}

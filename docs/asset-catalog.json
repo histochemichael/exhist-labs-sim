@@ -1,0 +1,206 @@
+[
+  {
+    "id": "lehisto",
+    "title": "LeHisto v38",
+    "description": "Rail-mounted SO-101 arm, dual-groove parallel gripper and cameras.",
+    "document": "LeHisto v38",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/lehisto.stl",
+    "xml": "models/assets/lehisto.xml",
+    "image": "docs/images/asset-lehisto.png",
+    "dimensions_m": [
+      0.16324364802348534,
+      0.6372815350932446,
+      0.2689483176407534
+    ],
+    "part_count": 532
+  },
+  {
+    "id": "quincy",
+    "title": "Quincy 10GC",
+    "description": "Three baking incubators; swing-door access is tested separately.",
+    "document": "Quincy 10GC - Bottom Shelf - Swing Door v1",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/quincy.stl",
+    "xml": "models/assets/quincy.xml",
+    "image": "docs/images/asset-quincy.png",
+    "dimensions_m": [
+      0.44513466038340577,
+      0.6499165007776753,
+      0.44450000762939457
+    ],
+    "part_count": 66
+  },
+  {
+    "id": "leica_workstation_handled",
+    "title": "Leica ST5020 / CV5030",
+    "description": "Two routine-staining/coverslipping workstations with articulated mechanisms.",
+    "document": "Leica_ST5020_CV5030_Workstation_Mechanical_QC_v2 v2",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/leica_workstation_handled.stl",
+    "xml": "models/assets/leica_workstation_handled.xml",
+    "image": "docs/images/asset-leica_workstation_handled.png",
+    "dimensions_m": [
+      1.6199999999999999,
+      0.7542850001454353,
+      0.6
+    ],
+    "part_count": 788
+  },
+  {
+    "id": "s60",
+    "title": "Hamamatsu NanoZoomer S60",
+    "description": "Two scanner and PC stations; cassette insertion remains development work.",
+    "document": "Untitled",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/s60.stl",
+    "xml": "models/assets/s60.xml",
+    "image": "docs/images/asset-s60.png",
+    "dimensions_m": [
+      1.4379999923706055,
+      0.6829999923706055,
+      0.7000000000000001
+    ],
+    "part_count": 367
+  },
+  {
+    "id": "rack24",
+    "title": "24-slide handled rack",
+    "description": "User-tested top handle; distinct from Leica input and output carriers.",
+    "document": "Slide Rack v13",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/rack24.stl",
+    "xml": "models/assets/rack24.xml",
+    "image": "docs/images/asset-rack24.png",
+    "dimensions_m": [
+      0.08800000190734864,
+      0.03329321146011353,
+      0.09400000005960464
+    ],
+    "part_count": 1
+  },
+  {
+    "id": "rack24_jar",
+    "title": "24-slide staining container",
+    "description": "Matching vessel used in the eleven-bath special-staining layout.",
+    "document": "Slide Rack v13",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/rack24_jar.stl",
+    "xml": "models/assets/rack24_jar.xml",
+    "image": "docs/images/asset-rack24_jar.png",
+    "dimensions_m": [
+      0.10699999809265137,
+      0.05300000190734863,
+      0.0973000031709671
+    ],
+    "part_count": 1
+  },
+  {
+    "id": "rack24_riser",
+    "title": "One-inch support insert",
+    "description": "25.4 mm passive riser raises the handle; material compatibility unvalidated.",
+    "document": "24-slide jar / removable one-inch riser / simulation design v1",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/rack24_riser.stl",
+    "xml": "models/assets/rack24_riser.xml",
+    "image": "docs/images/asset-rack24_riser.png",
+    "dimensions_m": [
+      0.094,
+      0.04,
+      0.0254
+    ],
+    "part_count": 1
+  },
+  {
+    "id": "leica_rack_handled",
+    "title": "Handled Leica input rack",
+    "description": "Updated Leica rack with an accessible carrying handle.",
+    "document": "Leica Staining Rack v6",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/leica_rack_handled.stl",
+    "xml": "models/assets/leica_rack_handled.xml",
+    "image": "docs/images/asset-leica_rack_handled.png",
+    "dimensions_m": [
+      0.03696989975403994,
+      0.16793700479203835,
+      0.12498906129505484
+    ],
+    "part_count": 30
+  },
+  {
+    "id": "output_magazine",
+    "title": "CV5030 output magazine",
+    "description": "Coverslipped-slide output carrier; Nori extraction is not yet validated.",
+    "document": "Untitled",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/output_magazine.stl",
+    "xml": "models/assets/output_magazine.xml",
+    "image": "docs/images/asset-output_magazine.png",
+    "dimensions_m": [
+      0.08399999618530274,
+      0.03200000047683716,
+      0.11300000190734863
+    ],
+    "part_count": 5
+  },
+  {
+    "id": "scanner_cassette",
+    "title": "S60 scanner cassette",
+    "description": "Scanner-specific slide carrier; no automatic compatibility assumed.",
+    "document": "S60 bottom cassette from branded CAD",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/scanner_cassette.stl",
+    "xml": "models/assets/scanner_cassette.xml",
+    "image": "docs/images/asset-scanner_cassette.png",
+    "dimensions_m": [
+      0.07999999999999999,
+      0.09600000381469725,
+      0.13399999618530273
+    ],
+    "part_count": 69
+  },
+  {
+    "id": "slide_folder",
+    "title": "20-place slide folder",
+    "description": "Send-out folder with modeled flaps; physical closing/carrying unvalidated.",
+    "document": "Cardboard Slide Folder - 20 Place v1",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/slide_folder.stl",
+    "xml": "models/assets/slide_folder.xml",
+    "image": "docs/images/asset-slide_folder.png",
+    "dimensions_m": [
+      0.4140000057220459,
+      0.34099998474121096,
+      0.008999999761581421
+    ],
+    "part_count": 3
+  },
+  {
+    "id": "cassette_block",
+    "title": "Embedded cassette block",
+    "description": "Modeled tissue cassette with paraffin/tissue geometry for QC staging.",
+    "document": "Untitled",
+    "units_stl": "mm",
+    "units_xml": "m",
+    "mesh": "cad/stl/cassette_block.stl",
+    "xml": "models/assets/cassette_block.xml",
+    "image": "docs/images/asset-cassette_block.png",
+    "dimensions_m": [
+      0.027999999523162844,
+      0.04,
+      0.013049999475479126
+    ],
+    "part_count": 4
+  }
+]

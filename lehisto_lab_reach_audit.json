@@ -1,0 +1,640 @@
+{
+  "profile": {
+    "name": "LeHisto_24slide_loaded_nominal_v1",
+    "robot": "LeHisto",
+    "tested_radius_m": [
+      0.2,
+      0.33
+    ],
+    "design_margin_m": 0.01,
+    "tested_yaw_deg": [
+      -105,
+      0,
+      105
+    ],
+    "design_yaw_limit_deg": 105,
+    "conditions": {
+      "payload_kg": 0.145,
+      "handle_width_m": 0.02,
+      "riser_height_m": 0.0254,
+      "lift_m": 0.11,
+      "arm_cap_Nm": 1.5,
+      "jar_origin_relative_shoulder_z_m": -0.092183,
+      "rail_m": 0.0,
+      "rack_tilt_deg": 0.0
+    },
+    "frame": {
+      "source_shoulder_m": [
+        -9.9e-05,
+        -0.007243,
+        0.027983
+      ],
+      "source_nominal_jar_m": [
+        0.01,
+        -0.23,
+        -0.0642
+      ],
+      "source_to_lab_rig_rotation": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "evidence": "lab_row_test.py: shoulder-based transform; never use URDF origin z=0 as shoulder height"
+    },
+    "minimum_transfer_clearance_m": 0.015,
+    "observed_transfer_clearance_m": 0.040783161024639816,
+    "observed_max_seated_lateral_error_m": 0.0007764340450619358,
+    "layout": {
+      "row_center_x_m": 1.15,
+      "row_y_m": 0.34,
+      "pitch_m": 0.062,
+      "count": 11,
+      "active_jars": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "source_directory": "C:/Users/Owner/.codex/visualizations/2026/08/07/019fde06-5766-7fe2-8736-d06324be20d8/rack_sim",
+    "scope": "Nominal loaded simulation samples, not a continuous certified workspace. Parked rail only; different heights, payloads, orientation or rail trajectories require fresh validation. Not applicable to Nori."
+  },
+  "rows": [
+    {
+      "rig": "sorter_1",
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "No matched loaded container route assigned"
+    },
+    {
+      "rig": "sorter_2",
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "No matched loaded container route assigned"
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 1,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 2,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 3,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 4,
+      "active": true,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 5,
+      "active": true,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 6,
+      "active": true,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 7,
+      "active": true,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 8,
+      "active": true,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 9,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 10,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "special_lehisto",
+      "jar": 11,
+      "active": false,
+      "center_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "front_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": null,
+      "yaw_deg": null,
+      "reasons": [
+        "invalid_reach_frame"
+      ],
+      "conditions": {
+        "payload_kg": null,
+        "handle_width_m": 0.02,
+        "riser_height_m": 0.0254,
+        "lift_m": 0.11,
+        "arm_cap_Nm": null,
+        "jar_origin_relative_shoulder_z_m": 0.0,
+        "rail_m": 0.0,
+        "rack_tilt_deg": 0.0
+      },
+      "tool_approach_tilt_deg": 30,
+      "transfer_allowed": false,
+      "transfer_blockers": [
+        "invalid_reach_frame",
+        "condition_requires_revalidation:payload_kg",
+        "condition_requires_revalidation:arm_cap_Nm",
+        "condition_requires_revalidation:jar_origin_relative_shoulder_z_m",
+        "placed_loaded_trajectory_unvalidated",
+        "source_grasp_frame_mapping_unverified",
+        "swept_collision_check_missing_or_failed",
+        "rack_bottom_clearance_missing_or_insufficient"
+      ]
+    },
+    {
+      "rig": "sendout_lehisto_1",
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "No matched loaded container route assigned"
+    },
+    {
+      "rig": "sendout_lehisto_2",
+      "shoulder_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "No matched loaded container route assigned"
+    }
+  ],
+  "source_sha256": {
+    "REACH_RESULTS.md": "37203a609a833186432b1a478218640c2ebca564801656ea91d773af48d7cdde",
+    "reach_verification.json": "106f72a74841503d7644d9f3c2a5f829042ea097e61b0a2ea426a3ba9ffb011b",
+    "reach_screen.json": "2a8cc42945fd40a41b1221793c00473aa15d6c0d3069a407a70a1c4341d32670",
+    "reach_transfer_layout.json": "e94b9dd88b7d246f769f2123aaa6825287023ec3f7e7bb540156d6eb6e79df81",
+    "reach_transfer.json": "a41e24dba08b9f62e4f675aa44ef364ce8aa74a887419e47dd1a3f716233f252",
+    "multi_container_layout.json": "f718e2dbfa0e2c6743096b523a6c913acb4c53083b0722ed34c33cc489a3defa"
+  },
+  "source_modified": false,
+  "scope": "Placement/admission audit only. Existing choreography is not loaded physics validation."
+}

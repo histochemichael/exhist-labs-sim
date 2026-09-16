@@ -1,0 +1,114 @@
+[
+  {
+    "station": "sorting",
+    "base_position_m": [
+      -6.5,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      -6.5,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "baking",
+    "base_position_m": [
+      -4.6,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      -4.6,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "routine_a",
+    "base_position_m": [
+      -2.65,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      -2.65,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "routine_b",
+    "base_position_m": [
+      -0.5499999999999999,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      -0.5499999999999999,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "special",
+    "base_position_m": [
+      1.1500000000000001,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      1.1500000000000001,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "sendout",
+    "base_position_m": [
+      2.85,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      2.85,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "imaging_a",
+    "base_position_m": [
+      4.8,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      4.8,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  },
+  {
+    "station": "imaging_b",
+    "base_position_m": [
+      6.6000000000000005,
+      -0.62,
+      0
+    ],
+    "equipment_point_m": [
+      6.6000000000000005,
+      0.19
+    ],
+    "required_yaw_rad": 1.5707963267948966,
+    "status": "Heading contract; arm reach, chassis stand-off and collision clearance still require physical validation"
+  }
+]

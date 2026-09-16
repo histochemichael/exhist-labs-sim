@@ -1,0 +1,388 @@
+{
+  "simulated_seconds": 19.1,
+  "completed_slides": 0,
+  "total_slides": 36,
+  "jobs": [
+    {
+      "batch": "B01",
+      "protocol": "HE",
+      "slides": 8,
+      "state": "TRANSPORT",
+      "trace": [
+        "sort"
+      ],
+      "carrier": "leica_rack",
+      "scan_attempts": 0
+    },
+    {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "slides": 6,
+      "state": "READY",
+      "trace": [
+        "sort"
+      ],
+      "carrier": "rack24",
+      "scan_attempts": 0
+    },
+    {
+      "batch": "B03",
+      "protocol": "HE",
+      "slides": 12,
+      "state": "PROCESSING",
+      "trace": [],
+      "carrier": "leica_rack",
+      "scan_attempts": 0
+    },
+    {
+      "batch": "B04",
+      "protocol": "HE",
+      "slides": 10,
+      "state": "WAITING",
+      "trace": [],
+      "carrier": "leica_rack",
+      "scan_attempts": 0
+    }
+  ],
+  "slides": {
+    "B01-S01": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S02": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S03": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S04": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S05": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S06": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S07": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B01-S08": {
+      "batch": "B01",
+      "protocol": "HE",
+      "stage": "sort",
+      "location": "nori"
+    },
+    "B02-S01": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B02-S02": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B02-S03": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B02-S04": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B02-S05": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B02-S06": {
+      "batch": "B02",
+      "protocol": "SPECIAL",
+      "stage": "sort",
+      "location": "sorting"
+    },
+    "B03-S01": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S02": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S03": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S04": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S05": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S06": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S07": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S08": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S09": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S10": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S11": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B03-S12": {
+      "batch": "B03",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S01": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S02": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S03": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S04": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S05": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S06": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S07": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S08": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S09": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    },
+    "B04-S10": {
+      "batch": "B04",
+      "protocol": "HE",
+      "stage": "queued",
+      "location": "sorting"
+    }
+  },
+  "events": [
+    {
+      "t": 0.05,
+      "batch": "B01",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 0.05,
+      "batch": "B02",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "rack24"
+    },
+    {
+      "t": 6.1,
+      "batch": "B01",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 6.1,
+      "batch": "B02",
+      "action": "step_completed",
+      "step": "sort"
+    },
+    {
+      "t": 6.1,
+      "batch": "B01",
+      "action": "transport_reserved",
+      "source": "sorting",
+      "target": "baking"
+    },
+    {
+      "t": 13.15,
+      "batch": "B01",
+      "action": "custody_pickup",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 13.15,
+      "batch": "B03",
+      "action": "step_started",
+      "step": "sort",
+      "station": "sorting",
+      "carrier": "leica_rack"
+    },
+    {
+      "t": 19.1,
+      "batch": "B01",
+      "action": "interaction_hold",
+      "reasons": [
+        "Incubator: left-hand handle contact, hinge force and shelf insertion are not integrated."
+      ]
+    }
+  ],
+  "limitations": [
+    "Playback is not force-driven simulation; unvalidated access stops the guarded viewer. Passive doors never move on a timer.",
+    "External handoffs use front buffers; incubator/scanner insertion and drawer contact remain unvalidated.",
+    "Special rack to Leica rack and output magazine to scanner cassette exchanges are workflow abstractions.",
+    "Special LeHisto has five reach-checked bath positions; six other jars are spare positions, not cleared active baths. Contact and insertion remain unvalidated.",
+    "Nori fills the real folder slots from a provisional flat-slide staging point, closes both passive flaps, and carries the closed folder to the finished bench; crease/contact forces remain unvalidated.",
+    "Machine internals use the actual v3 film motion, with the batch-specific slide count.",
+    "Original 28-slot Leica rack reserves center slots 15 and 16.",
+    "Legacy machine joint coordinates remain at source pose: visible machine motion uses film rigid-body transforms, not a force-driven joint graph."
+  ],
+  "mode": "FIRST_PASS_KINEMATIC_WORKFLOW",
+  "physical_success": false,
+  "guarded": true,
+  "interaction_hold": {
+    "batch": "B01",
+    "source": "sorting",
+    "target": "baking",
+    "reasons": [
+      "Incubator: left-hand handle contact, hinge force and shelf insertion are not integrated."
+    ]
+  },
+  "full_lab_transfers_validated": false,
+  "source_video": "C:\\Users\\Owner\\.codex\\visualizations\\2026\\09\\13\\01a09bd0-bb0b-7e32-bc05-42f089adee39\\Leica_CV5030_Project\\mechanical_qc_v2\\Leica-Workstation-Three-Minute-v3.mp4",
+  "machine_rack_trace": [],
+  "observed_coverslipped_counts": {},
+  "visual_custody": [
+    {
+      "time": 11.900000000000034,
+      "batch": "B01",
+      "event": "visual_groove_attach",
+      "source": "sorting"
+    }
+  ],
+  "equipment_facing_error_deg": 0.0,
+  "folders": [
+    {
+      "batch": "B01",
+      "slides_seated": 0,
+      "closed": false,
+      "location": "nori",
+      "slot": 0
+    },
+    {
+      "batch": "B02",
+      "slides_seated": 0,
+      "closed": false,
+      "location": "sorting",
+      "slot": 1
+    },
+    {
+      "batch": "B03",
+      "slides_seated": 0,
+      "closed": false,
+      "location": "sorting",
+      "slot": 0
+    },
+    {
+      "batch": "B04",
+      "slides_seated": 0,
+      "closed": false,
+      "location": "sorting",
+      "slot": 3
+    }
+  ]
+}

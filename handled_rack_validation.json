@@ -1,0 +1,112 @@
+{
+  "revision": "Corrected 100.51-mm top, copied 24-rack grip",
+  "source": "Leica Staining Rack v6",
+  "source_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "embedded_racks": [
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E25 - liftable:1/Slide rack E25",
+      "translation_m": [
+        0.4144150002977811,
+        -0.28399500239524056,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E26 - liftable:1/Slide rack E26",
+      "translation_m": [
+        0.47141500029778105,
+        -0.28399500239524056,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E27 - liftable:1/Slide rack E27",
+      "translation_m": [
+        0.528415000297781,
+        -0.28399500239524056,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E28 - liftable:1/Slide rack E28",
+      "translation_m": [
+        0.585415000297781,
+        -0.28399500239524056,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1/Slide rack L33",
+      "translation_m": [
+        0.8704300002977811,
+        -0.2839950023952406,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L34 - liftable:1/Slide rack L34",
+      "translation_m": [
+        0.927415000297781,
+        -0.2839950023952406,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L35 - liftable:1/Slide rack L35",
+      "translation_m": [
+        0.9844150002977808,
+        -0.2839950023952406,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    },
+    {
+      "rack": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L36 - liftable:1/Slide rack L36",
+      "translation_m": [
+        1.0414150002977811,
+        -0.2839950023952406,
+        0.13430000254465269
+      ],
+      "registration_error_m": 2.2360679775640892e-08
+    }
+  ],
+  "source_files_unchanged": true,
+  "limitations": [
+    "Seated visual assembly only; snap retention and coverslipper compatibility unvalidated."
+  ]
+}

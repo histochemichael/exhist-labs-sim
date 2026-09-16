@@ -1,0 +1,3329 @@
+{
+  "document": "Leica_ST5020_CV5030_Workstation_Mechanical_QC_v2 v2",
+  "joints": [
+    {
+      "name": "WS_RIGID_DATUMS_TO_CV5030",
+      "context": "root",
+      "one": "WS_MATING_DATUMS:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "SIM_WORKSTATION_PORT_TRAVEL_XZ",
+      "context": "root",
+      "one": "WS_PORT_FIT_RACK_REFERENCE:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.05,
+            0.0
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.5,
+            0.0
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WS_RIGID_ST5020_TO_CV5030",
+      "context": "root",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "EST_INPUT_DOOR",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+input_door:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        -0.035,
+        -0.297,
+        0.033
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            1.6580627893946132
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHOTO_FIXED_LEFT_FASCIA",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "EST_HOOD_REVOLUTE",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.14,
+        0.595
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -1.3962634015954636,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_INPUT",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+USER_INPUT_RACK_30_FROZEN_V4:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_DRAWER_SLIDER",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+drawer_fixed_guides:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.02,
+        -0.28,
+        0.055
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.23,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_BATH_TRANSPORT_SLIDER",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.06,
+        -0.168,
+        0.063
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.3395
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_GRIPPER_LIFT_Z",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_lift:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_index_carriage:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.061,
+        -0.11000000000000004,
+        0.35000000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.1,
+          "limits": [
+            -0.18,
+            0.11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_GRIPPER_TRANSFER_X",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_transfer_carriage:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_lift:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.061,
+        -0.11000000000000011,
+        0.43
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.005,
+            0.045
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_LEFT_FINGER_X",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+left_red_finger:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.06100000000000003,
+        -0.11000000000000007,
+        0.43500000000000016
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.004,
+            0.0015000000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_RIGHT_FINGER_X",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+right_red_finger:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.06100000000000003,
+        -0.11000000000000007,
+        0.43500000000000016
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.0015000000000000002,
+            0.004
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_FIXED_PICKUP_Y",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_index_carriage:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        -0.02,
+        -3.552713678800501e-17,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "EST_GRIPPER_ROTATION_X",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_transfer_carriage:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        -0.061,
+        -0.02149999999999993,
+        0.43700000000000006
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -1.6580627893946132,
+            1.6580627893946132
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_OUTFEED_SIDE_TRAVEL",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+slide_outfeed_carriage:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.05600000000000005,
+        -0.08000000000000007,
+        0.334
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -1.0000000000000002,
+            -2.220446049250313e-16,
+            0.0
+          ],
+          "value": 0.045,
+          "limits": [
+            0.0,
+            0.275
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_PUSHER_Z_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+QC_OUTFEED_RETRACTABLE_PUSHER:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+slide_outfeed_carriage:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.09200000000000003,
+        -0.08000000000000007,
+        0.33130000000000004
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": -0.004,
+          "limits": [
+            -0.004,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_DISPENSER_Y_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_Y_CARRIAGE:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_support:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.13699999999999998,
+        -0.08,
+        0.392
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.06,
+            0.02
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_DISPENSER_X_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_X_DATUM:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_Y_CARRIAGE:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.0009999999999999966,
+        -0.08,
+        0.392
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.06,
+          "limits": [
+            0.0,
+            0.06
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_DISPENSER_Z_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_X_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.0009999999999999966,
+        -0.08,
+        0.3371
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.0030000000000000005,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_PICK_PLACE_Y",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_carriage:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_guide:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.021999999999999992,
+        -0.195,
+        0.405
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.12200000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_PICK_PLACE_Z",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_carriage:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.021999999999999992,
+        -0.195,
+        0.39
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.033,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_OUTPUT_30_1",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        -8.881784197001253e-17,
+        -3.552713678800501e-17,
+        3.552713678800501e-17
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -9.860761315262646e-32,
+            4.8617306858290164e-63,
+            0.9999999999999999
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            8.628166150854818e-32
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            -4.930380657631324e-32,
+            1.0000000000000002,
+            1.915837744194085e-47
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_OUTPUT_30_2",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        -5.329070518200751e-17,
+        -3.552713678800501e-17,
+        1.2434497875801754e-16
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -9.860761315262646e-32,
+            4.8617306858290164e-63,
+            0.9999999999999999
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            8.628166150854818e-32
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            -4.930380657631324e-32,
+            1.0000000000000002,
+            1.915837744194085e-47
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_OUTPUT_20_1",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        -8.881784197001253e-17,
+        -5.329070518200751e-17,
+        -7.105427357601002e-17
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -9.860761315262646e-32,
+            4.8617306858290164e-63,
+            0.9999999999999999
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            8.628166150854818e-32
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            -4.930380657631324e-32,
+            1.0000000000000002,
+            1.915837744194085e-47
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_OUTPUT_20_2",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:2",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        -8.881784197001253e-17,
+        -3.552713678800501e-17,
+        7.105427357601002e-17
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -9.860761315262646e-32,
+            4.8617306858290164e-63,
+            0.9999999999999999
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            8.628166150854818e-32
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            -4.930380657631324e-32,
+            1.0000000000000002,
+            1.915837744194085e-47
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM_TRANSFER_OUTPUT_20_3",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:3",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "kind": 5,
+      "suppressed": false,
+      "origin": [
+        -7.105427357601002e-17,
+        -3.552713678800501e-17,
+        5.329070518200751e-17
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            -9.860761315262646e-32,
+            4.8617306858290164e-63,
+            0.9999999999999999
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            8.628166150854818e-32
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.35000000000000003
+          ]
+        },
+        {
+          "kind": "hinge",
+          "axis": [
+            -4.930380657631324e-32,
+            1.0000000000000002,
+            1.915837744194085e-47
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EST_OUTPUT_LIFT_Z",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_station:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        -0.17500000000000002,
+        -0.08000000000000011,
+        0.22299999999999998
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.228
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_EMPTY_RACK_SETTLE_deg",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1+QC_EMPTY_RACK_CONTACT_CARRIER:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1+QC_CHUTE_SETTLE_ANCHOR:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.226725,
+        0.2509458333333333
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.1308996938995747
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_CHUTE_TRAVEL_Y_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Y_CARRIAGE:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_GUIDE_ANCHOR:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.17,
+        0.23863183333333332
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.355,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_CHUTE_TRAVEL_Z_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Y_CARRIAGE:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.17,
+        0.23863183333333332
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.047,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TS5025_DRAWER_OPEN_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        -0.28500000000000003,
+        0.16
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.22,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TS5025_COVER_OPEN_deg",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.28500000000000003,
+        0.589
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -1.6580627890001685,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_TS_REAR_MOUNT_FIXED",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Y_CARRIAGE_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "TS5025_TRANSFER_X_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Y_CARRIAGE_EST:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.28600000000000003,
+        0.5
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.35000000000000003,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_TS_Z_HALF_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_Z_INTERMEDIATE_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.28600000000000003,
+        0.434
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.034,
+          "limits": [
+            -0.135,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TS5025_TRANSFER_Z_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Z_LIFT_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.28600000000000003,
+        0.46799999999999997
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.068,
+          "limits": [
+            -0.27,
+            0.08
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QC_TS_FORK_TO_Z",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Z_LIFT_EST:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.06799999999999998
+      ],
+      "dofs": []
+    },
+    {
+      "name": "QC_TS_CRADLE_RETRACT_mm",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_RACK_RECEIVING_CRADLE_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.28,
+        0.17,
+        0.25231400000000004
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.045
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TS5025_FIXED_TO_CV5030",
+      "context": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "one": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "two": "CV5030_WORKSTATION_COPY_FROM_V7:1+01_BASE_FRAME:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dofs": []
+    },
+    {
+      "name": "CYCLE_FILL_01_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_01:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.251286,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_02_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_02:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.24775134999999998,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_03_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_03:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.24421669999999998,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_04_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_04:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.24068205,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_05_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_05:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.2371474,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_06_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_06:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.23361275,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_07_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_07:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.2300781,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_08_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_08:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.22654345,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_09_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_09:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.2230088,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_10_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_10:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.21947415,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_11_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_11:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.2159395,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_12_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_12:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.21240485,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_13_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_13:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.2088702,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_14_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_14:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.20533555,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_17_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_17:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1947316,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_18_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_18:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.19119695,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_19_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_19:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1876623,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_20_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_20:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.18412765,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_21_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_21:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.180593,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_22_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_22:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.17705835,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_23_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_23:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1735237,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_24_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_24:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.16998905,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_25_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_25:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1664544,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_26_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_26:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.16291975,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_27_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_27:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1593851,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_28_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_28:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.15585045,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_29_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_29:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.1523158,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_FILL_30_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_30:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8889400000000001,
+        -0.14878115,
+        0.21731000000000003
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.13
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UNLOAD_DRAWER_OPEN_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.639075,
+        -0.292,
+        0.0687
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.23495000000000002,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E25_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E25 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.4331744204700274,
+        -0.14327499999999993,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E26_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E26 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.4901744204700274,
+        -0.14327499999999993,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E27_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E27 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.5471744204700274,
+        -0.14327499999999993,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E28_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E28 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.6041744204700275,
+        -0.14327499999999993,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LOAD_DRAWER_OPEN_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        1.095075,
+        -0.292,
+        0.0687
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "value": 0.0,
+          "limits": [
+            -0.23495000000000002,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "L34_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L34 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.9461744204700275,
+        -0.14327499999999999,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "L35_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L35 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        1.0031744204700275,
+        -0.14327499999999999,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "L36_RACK_LIFT_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L36 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        1.0601744204700274,
+        -0.14327499999999999,
+        0.13658270506185538
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.0,
+          "limits": [
+            0.0,
+            0.145
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ST_LCD_FIXED_TO_STAINER",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.35000000000000003,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    },
+    {
+      "name": "ST_POWER_SWITCH_FIXED_TO_STAINER",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.35000000000000014,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    },
+    {
+      "name": "ST_ARM_Z_mm",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+05 COSMETIC TRANSPORT ARM - fixed visual only:1",
+      "kind": 2,
+      "suppressed": false,
+      "origin": [
+        0.8599999999999999,
+        0.35999999999999993,
+        0.46099999999999997
+      ],
+      "dofs": [
+        {
+          "kind": "slide",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.033,
+          "limits": [
+            -0.12,
+            0.1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ST_ARM_SHOULDER_deg",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.8599999999999999,
+        0.36000000000000015,
+        0.473
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": -1.6370788703308103,
+          "limits": [
+            -3.141592653589793,
+            3.141592653589793
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ST_ARM_ELBOW_deg",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.46087835346680983,
+        0.38649360807128363,
+        0.46299999999999997
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 0.24505906227864582,
+          "limits": [
+            -3.141592653589793,
+            3.141592653589793
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ST_ARM_WRIST_deg",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1",
+      "kind": 1,
+      "suppressed": false,
+      "origin": [
+        0.5000000130576008,
+        0.1699999690172404,
+        0.435
+      ],
+      "dofs": [
+        {
+          "kind": "hinge",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "value": 1.3920198080521646,
+          "limits": [
+            0.0,
+            6.283185307179586
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CYCLE_HOLD_20_RACK_L33_-_liftable",
+      "context": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "one": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "two": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "kind": 0,
+      "suppressed": false,
+      "origin": [
+        0.853775,
+        -0.3,
+        0.05
+      ],
+      "dofs": []
+    }
+  ],
+  "groups": [
+    {
+      "name": "RIGID_BATH_AND_INPUT_RACK",
+      "occurrences": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+bath_insert_USER_RACK_30_EST:1"
+      ]
+    },
+    {
+      "name": "SIM_INPUT_RACK_AND_SLIDE_REFERENCES",
+      "occurrences": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+USER_INPUT_RACK_30_FROZEN_V4:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+input_slide_references_EST:1"
+      ]
+    },
+    {
+      "name": "RIGID_LIFT_AND_MAGAZINES",
+      "occurrences": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1"
+      ]
+    },
+    {
+      "name": "RIGID_PICK_PLACE_HEAD",
+      "occurrences": [
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_0_14047839701:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_1_14047839701:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+coverslip_sensor:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_0_14047839701:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_1_14047839701:1",
+        "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+coverslip_sensor:1"
+      ]
+    }
+  ],
+  "occurrences": [
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+01_BASE_FRAME:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+03_LEVELING_FEET:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_side_panel:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+right_side_panel:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+rear_panel:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+lower_front_base:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+left_fixed_front_fascia:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+front_control_structure:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+input_door:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1+transparent_hood:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+02_OUTER_ENCLOSURE:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+04_CONTROL_PANEL:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+00_DATUMS_AND_ENVELOPE:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1+PHOTO_process_head_shroud_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+14_INTERNAL_SUPPORT_STRUCTURE:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+drawer_fixed_guides:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+loading_drawer:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+loading_bath_deep_14047839657:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+bath_insert_USER_RACK_30_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+USER_INPUT_RACK_30_FROZEN_V4:1+Leica Staining Rack v4:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+USER_INPUT_RACK_30_FROZEN_V4:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1+input_slide_references_EST:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+bath_transport_carrier:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1+transport_chain_path_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+05_INPUT_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_linear_guides_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_index_carriage:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_lift:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_transfer_carriage:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+gripper_body:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+left_red_finger:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1+right_red_finger:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+06_SLIDE_GRIPPER_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+outfeed_fixed_rail:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+slide_outfeed_carriage:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1+QC_OUTFEED_RETRACTABLE_PUSHER:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+07_SPECIMEN_SLIDE_OUTFEED:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+mountant_bottle_250mL:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_support:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_needle_and_holder:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+dispenser_rest_and_cleaner:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+PHOTO_tubing_routes_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_Y_CARRIAGE:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_DISPENSER_X_DATUM:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1+QC_FLEXIBLE_MOUNTANT_HOSE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+08_DISPENSER_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_24_14047839749:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1+coverslip_magazine_22_14047839748:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+09_COVERSLIP_MAGAZINE:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_guide:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_carriage:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_0_14047839701:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+suction_cup_1_14047839701:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1+coverslip_sensor:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1+pick_place_head:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+10_PICK_AND_PLACE_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+12_COVERSLIP_CATCH_TRAY:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+13_EXHAUST_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+15_SIMPLIFIED_ELECTRONICS_AND_PNEUMATICS:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+16_ROBOT_INTERACTION_DATUMS:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_station:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1+CV5030_Output_Magazine_30:2",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_2x30_DEFAULT:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:2",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1+CV5030_Output_Magazine_20:3",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1+CONFIG_3x20_OPTIONAL:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1+output_lift:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+11_OUTPUT_SYSTEM:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+17_SLIDE_FLOW_DEMONSTRATION:1+DEMO_MOVING_SLIDE:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+17_SLIDE_FLOW_DEMONSTRATION:1+DEMO_COVERSLIP:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+17_SLIDE_FLOW_DEMONSTRATION:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+18_ROBOT_CLEARANCE_PROXIES:1",
+      "visible": false,
+      "grounded": true
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_FIXED_HOUSING_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+TS5025_EMPTY_RACK_SLIDER_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+TS5025_CHUTE_JOINT_DATUM:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_GUIDE_ANCHOR:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Y_CARRIAGE:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1+QC_EMPTY_RACK_CONTACT_CARRIER:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1+QC_CHUTE_SETTLE_ANCHOR:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1+QC_CHUTE_Z_CARRIAGE:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_DISCHARGE_DRAWER_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_CLEAR_COVER_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_RACK_RECEIVING_CRADLE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Y_CARRIAGE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_Z_LIFT_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+TS5025_TRANSFER_X_ARM_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_X_CARRIAGE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1+QC_TS_Z_INTERMEDIATE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+TS5025_TRANSFER_STATION_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_01:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_02:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_03:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_04:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_05:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_06:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_07:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_08:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_09:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_10:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_11:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_12:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_13:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_14:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_17:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_18:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_19:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_20:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_21:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_22:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_23:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_24:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_25:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_26:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_27:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_28:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_29:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1+CYCLE_COVERSLIP_30:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "CV5030_WORKSTATION_COPY_FROM_V7:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+00 SOURCE REFERENCES - hidden:1",
+      "visible": false,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+01 FIXED CHASSIS - grounded:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+02 FIXED LID - simplified closed collision surface:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 UNLOAD DRAWER - carrier and four vessels:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E25 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E26 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E27 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK E28 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+10 LOAD DRAWER - carrier and four vessels:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_01:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_02:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_03:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_04:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_05:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_06:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_07:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_08:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_09:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_10:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_11:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_12:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_13:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_14:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_17:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_18:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_19:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_20:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_21:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_22:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_23:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_24:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_25:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_26:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_27:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_28:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_29:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_SLIDE_30:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1+CYCLE_LEICA_RACK_FIXED_DATUM:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L33 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L34 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L35 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+20 RACK L36 - liftable:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+03 STATIONARY VESSELS - simplified reference:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:1",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+05 COSMETIC TRANSPORT ARM - fixed visual only:1",
+      "visible": false,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:2",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:3",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+04 LEVELING FOOT - 50 mm pad - provisional:4",
+      "visible": true,
+      "grounded": true
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_SCREEN_ON_STATIC:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST5020_MAINS_POWER_SWITCH:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_Z_LIFT_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_SHOULDER_LINK_400_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_ELBOW_LINK_220_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_ARM_WRIST_RACK_GRIPPER_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1+ST_QC_RELOCATED_COLUMN_BASE_EST:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "ST5020_WORKSTATION_COPY_FROM_V20:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "WS_MATING_DATUMS:1",
+      "visible": true,
+      "grounded": false
+    },
+    {
+      "path": "WS_PORT_FIT_RACK_REFERENCE:1",
+      "visible": false,
+      "grounded": false
+    }
+  ],
+  "motion_links": []
+}

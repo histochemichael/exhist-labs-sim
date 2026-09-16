@@ -1,0 +1,10 @@
+{
+  "file": "ExHist-Live-LeHisto-Rail-Loop.mp4",
+  "fps": 15,
+  "speed": 4,
+  "frames": 1205,
+  "duration_s": 80.33333333333333,
+  "physics_model_sha256": "cc4a9ca209a790975b38b00bb009b2fb732137650e610e1349deb06606aa5bba",
+  "trace_sha256": "727d47d689942178b7df6710cb6ad67e99ca26071c4baaecdca177fa759e0ff4",
+  "scope": "Recorded fresh physics in integrated scene, not an animation controller. Other equipment is held context."
+}

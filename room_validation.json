@@ -1,0 +1,7 @@
+{
+  "compiled": true,
+  "sampled_frames": 3390,
+  "completed_slides": 36,
+  "new_room_penetrations_m": {},
+  "scope": "Existing coarse robot colliders against new static room furniture; no human ergonomics, door swing or code validation."
+}
