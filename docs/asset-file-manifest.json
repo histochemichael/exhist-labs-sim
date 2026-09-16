@@ -95,6 +95,61 @@
     "sha256": "65ed1cfbd1c739735eface390074115a7f4cc5033bd340a010ccc28ba2610512"
   },
   {
+    "path": "cad/stl/Folder-Stand-45-Assembly.stl",
+    "bytes": 6084,
+    "sha256": "148cceac1a57b6c99c664b584203fd1dad4536ea5fede5c483edc7adeb059c5e"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-backing.stl",
+    "bytes": 684,
+    "sha256": "2ba3a962528aff9fbf08e926bacfc0418409c63d15d67c3c9733163441ee313b"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-foot_0.stl",
+    "bytes": 684,
+    "sha256": "ac324b0a9f23aaab1d083c87c77c3cce329d7c18d848b03e26eebc06a7509a63"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-foot_1.stl",
+    "bytes": 684,
+    "sha256": "e6f8238cd6b95b70fd4073bc5866248788275608f03c0067fe769c4c779df1fc"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-lower_stop.stl",
+    "bytes": 684,
+    "sha256": "6d15bcd751a4ebdacdebfb053791b052b1bd26a6f42e47aad35df092de8b932b"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-post_0.stl",
+    "bytes": 684,
+    "sha256": "925e0b39d210f202b16eb380b04c05c5feab57bb0c0d0ee965bd448cdc78f83d"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-post_1.stl",
+    "bytes": 684,
+    "sha256": "19232603318d237112fe73c1a484a88180efc90a94dd7b0c3a0350ce37d0ab37"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-stop_arm_-1.stl",
+    "bytes": 684,
+    "sha256": "eca545598ec0659f5a73308669966b47236ca19afca3eb2dc8e326d1f8560648"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-stop_arm_1.stl",
+    "bytes": 684,
+    "sha256": "c9bdafc2a636314988e5145415165b7da76ace351be03a56466afc36a01979d3"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-stop_link_-1.stl",
+    "bytes": 684,
+    "sha256": "38292b5a7c1610a6979f2edf1463b5878ea57ae5dd98ac5ae61f37213703cbd8"
+  },
+  {
+    "path": "cad/stl/Folder-Stand-45-stop_link_1.stl",
+    "bytes": 684,
+    "sha256": "839af2654a48e004db89b9a51874ab8d1d2a9a09d4cccdc9d4de53f4f9bc84f6"
+  },
+  {
     "path": "cad/stl/lehisto.stl",
     "bytes": 18818834,
     "sha256": "92f31858705578e3124c39c0a96e1f0357244e3f34718a25ebbd50e8746003b1"
@@ -668,6 +723,11 @@
     "path": "models/assets/pc.xml",
     "bytes": 2136,
     "sha256": "526444fcae4d07e07bf3f9040384b9407a39856ac6ace6177922db085cab7c87"
+  },
+  {
+    "path": "models/assets/qc_folder45.xml",
+    "bytes": 25858,
+    "sha256": "3e7236a420a325795b056841d6e2df59ff51cb5f580d30be76017f4df161642f"
   },
   {
     "path": "models/assets/quincy.xml",
@@ -6993,6 +7053,31 @@
     "path": "source/nori_description/meshes/visual/wrist_roll_mirrored.stl",
     "bytes": 263684,
     "sha256": "b49b980f95236cbf7e13b515343fea59c19deef9726b59a6ca8fb7a1fa92f7d4"
+  },
+  {
+    "path": "source/qc-folder45/folder45.py",
+    "bytes": 4814,
+    "sha256": "bd9b40f0709019263b54ad748e9aaf9bec9f30c31777abfa234835c74594fdb1"
+  },
+  {
+    "path": "source/qc-folder45/folder_slide_45.xml",
+    "bytes": 721424,
+    "sha256": "0a6c5755c8ed51bc9bdb4e3410d8f7a99828f089b472370762f8c785eede4424"
+  },
+  {
+    "path": "source/qc-folder45/folder_stand_45.json",
+    "bytes": 5722,
+    "sha256": "2a99a8f3ce1626972376c03f5d6a52aeebccfe41d92d6e27a99a82495e634a98"
+  },
+  {
+    "path": "source/qc-folder45/README.md",
+    "bytes": 1116,
+    "sha256": "e9bcf4360b136162b5abdcbf21675093e354a534b8ac789e10896223e2fbcb89"
+  },
+  {
+    "path": "source/qc-folder45/slide_folder.json",
+    "bytes": 61807,
+    "sha256": "264699cc7134d1ec584d88f3bab8a53f2444d6a6023e0c5e5547543e4ade9fdd"
   },
   {
     "path": "rail_loop_reference/build_scene.py",

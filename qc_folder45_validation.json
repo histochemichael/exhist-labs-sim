@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "checks": {
+    "compiles": true,
+    "only_added_fixed_context": true,
+    "unchanged_degrees_of_freedom": true,
+    "no_new_contacts": true,
+    "feet_on_bench": true,
+    "fixture_inside_bench": true,
+    "folder_above_bench": true,
+    "unchanged_joint_actuator_constraint_parameters": true,
+    "clear_of_named_neighbors_at_held_pose": true,
+    "side_access_volumes_unoccupied_at_held_pose": true
+  },
+  "engine": "3.4.0",
+  "model_sha256": "29254839fdb60c186080477f887cfb8b4f31024f1b9001072d27c0b47d612944",
+  "fixture_bounds_world_m": [
+    [
+      2.2029999637000004,
+      0.25744726967643866,
+      0.7999999970000002
+    ],
+    [
+      2.5769999637000005,
+      0.48096372952719635,
+      1.0396030716045488
+    ]
+  ],
+  "folder_bounds_world_m": [
+    [
+      2.219499960898582,
+      0.25744726967643866,
+      0.8171472634703838
+    ],
+    [
+      2.560499951600258,
+      0.47990307219583045,
+      1.0396030716045488
+    ]
+  ],
+  "feet_bounds_world_m": [
+    [
+      2.2429999637000004,
+      0.2787867996398402,
+      0.7999999970000002
+    ],
+    [
+      2.5369999637000005,
+      0.47878679963984033,
+      0.8079999970000002
+    ]
+  ],
+  "bench_bounds_world_m": [
+    [
+      1.8749999637000005,
+      0.05000000303984026,
+      0.7499999970000002
+    ],
+    [
+      3.8249999637000007,
+      1.0500000030398406,
+      0.7999999970000002
+    ]
+  ],
+  "neighbors": {
+    "sendout_lehisto_1": {
+      "bounds_m": [
+        [
+          2.071359202889712,
+          0.6383781770408249,
+          0.7999999952814908
+        ],
+        [
+          2.7086407469520166,
+          0.8016218307409434,
+          1.0689483141722287
+        ]
+      ],
+      "conservative_aabb_gap_m": 0.15741444751362854
+    },
+    "sendout_lehisto_2": {
+      "bounds_m": [
+        [
+          2.9913592028897122,
+          0.638378177040825,
+          0.7999999952814908
+        ],
+        [
+          3.6286407469520165,
+          0.8016218307409435,
+          1.0689483141722287
+        ]
+      ],
+      "conservative_aabb_gap_m": 0.44325262253922165
+    },
+    "qc_cassette_": {
+      "bounds_m": [
+        [
+          3.3159999628408707,
+          0.1300000039859594,
+          0.7999999969447267
+        ],
+        [
+          3.4089999643586903,
+          0.33500000301965616,
+          0.813049996251962
+        ]
+      ],
+      "conservative_aabb_gap_m": 0.7389999991408702
+    },
+    "imaging_a_s60_pc": {
+      "bounds_m": [
+        [
+          4.080999971031589,
+          0.33850001096725824,
+          0.7999999848463546
+        ],
+        [
+          5.518999967897373,
+          1.0215000311744067,
+          1.4999999972188374
+        ]
+      ],
+      "conservative_aabb_gap_m": 1.5040000073315882
+    }
+  },
+  "access": [
+    {
+      "side": "left",
+      "obstructions": []
+    },
+    {
+      "side": "right",
+      "obstructions": []
+    }
+  ],
+  "geometry": {
+    "stand_boxes": 10,
+    "folder_cad_visual_meshes": 3
+  },
+  "scope": "Static compiled geometry and conservative AABB clearances at held posture only. No swept motion, IK, docking, contact, stiffness, balance or grasp validation."
+}

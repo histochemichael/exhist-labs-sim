@@ -31,7 +31,7 @@ def selected(filename,names):
     return ast.Module(body=nodes,type_ignores=[])
 
 
-def controller():
+def controller(qc45=False):
     verify_snapshot()
     integration=json.loads((ROOT/'rail_loop_integration.json').read_text())
     for path,key in [(MODEL,'model_sha256'),(ROOT/'exhist_operational.xml','lab_sha256')]:
@@ -58,13 +58,17 @@ def controller():
     assert inserts==1,'Pinned controller logging hook changed'
     ast.fix_missing_locations(tree)
     exec(compile(tree,'pinned_rail_loop_with_log_yield','exec'),namespace)
-    return namespace['run'](hops=11,name='rail_loop_lab',scene_path=MODEL,
+    model=MODEL
+    if qc45:
+        from qc_folder_cradle import verify_variant
+        model=verify_variant()
+    return namespace['run'](hops=11,name='rail_loop_qc45' if qc45 else 'rail_loop_lab',scene_path=model,
                             layout_path=REFERENCE/'rail_loop_layout.json',route_ids=layout['route'],initial_fk_correction=True)
 
 
 class LiveLoop:
-    def __init__(self):
-        self.iterator=controller();self.current=next(self.iterator)
+    def __init__(self,qc45=False):
+        self.iterator=controller(qc45=qc45);self.current=next(self.iterator)
         self.m=self.current['m'];self.d=self.current['d'];self.result=None
         self.layout=json.loads((REFERENCE/'rail_loop_layout.json').read_text())
 
@@ -156,9 +160,9 @@ def recover_report(expected_model_sha256):
     return write_validation(m,d,result,rows,'restored measured final state after report-export error; separate 2 s live hold')
 
 
-def view(speed=1.,autostart=False):
+def view(speed=1.,autostart=False,qc45=False):
     import mujoco.viewer
-    loop=LiveLoop();keys=deque();paused=not autostart;layout=json.loads((ROOT/'layout.json').read_text())
+    loop=LiveLoop(qc45=qc45);keys=deque();paused=not autostart;layout=json.loads((ROOT/'layout.json').read_text())
     from rail_loop_visuals import apply as apply_visuals
     apply_visuals(loop.m)
     with mujoco.viewer.launch_passive(loop.m,loop.d,key_callback=keys.append) as viewer:
@@ -188,7 +192,9 @@ def view(speed=1.,autostart=False):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--validate',action='store_true');p.add_argument('--recover-report',metavar='KNOWN_MODEL_SHA256');p.add_argument('--autostart',action='store_true');p.add_argument('--speed',type=float,default=1.)
+    p.add_argument('--qc45',action='store_true',help='Add fixed 45-degree QC cradle; handling is not validated')
     a=p.parse_args()
+    if a.qc45 and (a.validate or a.recover_report):p.error('--qc45 is a layout/view option; use qc_folder_cradle.py --check for its scoped checks')
     if a.recover_report:raise SystemExit(0 if recover_report(a.recover_report) else 1)
     if a.validate:raise SystemExit(0 if validate() else 1)
-    view(a.speed,a.autostart)
+    view(a.speed,a.autostart,a.qc45)

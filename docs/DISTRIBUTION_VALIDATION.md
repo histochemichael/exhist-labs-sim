@@ -2,6 +2,10 @@
 
 The distribution is a separate copy; it does not replace the author's working lab.
 
+## Optional QC layout addition — 2026-09-16
+
+The selectable `exhist_rail_loop_qc45.xml` adds a pinned, fixed 45-degree folder cradle. The base model and evidence below remain byte-for-byte unchanged. Five additional QC tests and all eight existing loop tests pass. The optional composition compiled and initialized the live special-stain controller for 0.080 s; its eleven-transfer route was not rerun. See [QC_FOLDER45.md](QC_FOLDER45.md) for static clearances, source-candidate status, and explicitly unvalidated Nori/slide-placement handling. The new cradle's STL/XML do not imply a matching finalized native STEP yet.
+
 ## Fresh packaged contact route
 
 A fresh live run using Python 3.10 / MuJoCo 3.4.0 / PlaCo 0.9.20 completed **11/11** transfers in 313.249 simulated seconds, then kept physics running for a continuous two-second released-rack hold.

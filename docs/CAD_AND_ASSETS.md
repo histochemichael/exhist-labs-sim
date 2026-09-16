@@ -47,3 +47,7 @@ The portable package rewrites only XML asset locations and author-specific sourc
 Older authoring/export/rebuild scripts and historical reports are retained for provenance. Some retain author-local paths, and are not supported clone-and-run entry points. They do not run during the documented launch sequence. An original report is not silently relabeled as a new test; the distribution's fresh loop run has its own current model hash.
 
 Read [LICENSE-NOTICE.md](../LICENSE-NOTICE.md) before redistribution or reuse.
+
+## Optional 45-degree QC folder cradle
+
+The new pinned fixture includes ten component STLs plus an assembly STL in `cad/stl/Folder-Stand-45-*.stl`, a metre-scale standalone XML, and a separate whole-lab composition. It does not modify the previously validated base model. Native cradle STEP availability and the explicit handling/validation limits are documented in [QC_FOLDER45.md](QC_FOLDER45.md). The source experiment is evolving; only the local pinned geometry is used at runtime.

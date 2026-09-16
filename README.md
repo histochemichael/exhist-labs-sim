@@ -136,6 +136,25 @@ Live eleven-bath route: 1 → 2 → … → 11 → 1, original gripper, one-inch
 
 Two LeHisto arms, folder workspace and cassette-block QC. Folder loading/closing/carrying is not yet physically validated.
 
+#### New: 45-degree QC folder cradle (selectable layout)
+
+![QC folder cradle in the lab](docs/images/qc-folder45.png)
+
+![Folder pockets viewed from the LeHisto side](docs/images/qc-folder45-detail.png)
+
+The pinned concept places a 20-pocket folder on a fixed, 45-degree presentation cradle in front of the left QC LeHisto. Its cover flaps are held behind the tray; the feet sit on the 800 mm bench. Empty side-access volumes are reserved for Nori's left arm, but are **not certified gripper envelopes**. No second Nori has been added. Nori need not continuously hold the folder in this fixture concept.
+
+```powershell
+python qc_folder_cradle.py                    # held whole-lab QC inspection
+python lab_rail_loop.py --qc45                # live special-stain loop + held QC layout
+python qc_folder_cradle.py --check            # scoped static layout checks
+python -m unittest test_qc_folder_cradle -v
+```
+
+Press **6** in the live-loop viewer for QC. This optional composition preserves the existing tested base XML and historical evidence. The new 45-degree slide-placement controller is still being tested separately and is **not imported or claimed passed**. Passive folder docking, Nori reach/grasp/transfer, fasteners, stiffness, stability, flap closing and loaded retention remain unvalidated.
+
+[Layout and assumptions](docs/QC_FOLDER45.md) · [stand STL, mm](cad/stl/Folder-Stand-45-Assembly.stl) · [standalone folder/cradle XML, m](models/assets/qc_folder45.xml) · [scoped check results](qc_folder45_validation.json)
+
 ### Imaging 1
 
 ![Imaging 1 station](docs/images/station-imaging_a.png)
