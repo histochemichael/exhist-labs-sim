@@ -6,9 +6,9 @@ __pycache__/
 *.log
 MUJOCO_LOG.TXT
 # Generated unpacked large files (compressed originals are tracked):
-/cad/step/leica-workstation.stp
-/rail_loop_lab_trace.json
-/rail_loop_reference/rail_loop_trace.json
-/rail_loop_lab_revalidation_trace.json
-/rail_loop_qc45_trace.json
-/promo_v4/special-stain-trace.json
+/simulation/cad/step/leica-workstation.stp
+/simulation/rail_loop_lab_trace.json
+/simulation/rail_loop_reference/rail_loop_trace.json
+/simulation/rail_loop_lab_revalidation_trace.json
+/simulation/rail_loop_qc45_trace.json
+/simulation/promo_v4/special-stain-trace.json
