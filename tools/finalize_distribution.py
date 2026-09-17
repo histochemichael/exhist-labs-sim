@@ -2,7 +2,7 @@
 import gzip,hashlib,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-TARGETS=('cad/step/leica-workstation.stp','rail_loop_lab_trace.json','rail_loop_reference/rail_loop_trace.json')
+TARGETS=('cad/step/leica-workstation.stp','rail_loop_lab_trace.json','rail_loop_reference/rail_loop_trace.json','promo_v4/special-stain-trace.json')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
     rows=[]

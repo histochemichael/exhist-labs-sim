@@ -1,10 +1,7 @@
-# Pinned QC folder concept inputs
+# Pinned Final QC Inputs
 
-Read-only copies from the LeHisto task, `LeHisto/simulation`, captured 2026-09-16 from the coherent candidate with folder center `[0.026, -0.300, 0.090]` m and tabletop z `-0.0697` m. This is not necessarily the source task's latest candidate.
+Copies from LeHisto commit d6da8e09789b35e5a1595b4da6a9ddd3871c7cfe (2026-09-16). Final folder center [0.026, -0.240, 0.075] m, 45-degree tray, covers held 100 degrees behind. Source holder [0.240, -0.100, 0.0127] m at 67.38-degree yaw.
 
-- `folder45.py`: source builder for provenance only; its imports are not bundled as a runnable experiment here.
-- `folder_stand_45.json`: ten-part cradle specification in metres.
-- `folder_slide_45.xml`: source experiment snapshot. Only the fixed folder CAD and stand geometry are imported by `qc_folder_cradle.py`; source robot paths/controller assumptions are not used.
-- `slide_folder.json`: original 20-place folder CAD tessellation from `simulation/source/cad/slide_folder.json`.
+`folder45.py` is builder provenance only; imports are not packaged to run here. `folder_slide_45.xml` contributes only the fixed folder, stand and source-holder geometry. `folder_stand_45.json` defines the ten-body stand. `slide_folder.json` is the original CAD tessellation.
 
-SHA-256 dependencies are recorded in `../../qc_folder45_layout.json`. The exported stand STL files are generated directly from this pinned JSON, not copied from a changing source candidate. No matching native cradle STEP was available at snapshot time. Placement/contact success is not asserted. Do not run the source builder to mutate another task.
+Matching stand STEP, Fusion archive and millimeter STL are in `../../cad`. Hashes are recorded in `../../qc_folder45_layout.json`. LeHisto's standalone one-pocket dynamics passed; this lab integration is static context only, not Nori or lab slide-placement validation. Do not run the source builder to mutate another task.

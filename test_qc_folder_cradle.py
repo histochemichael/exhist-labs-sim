@@ -12,13 +12,22 @@ class QCCradleTests(unittest.TestCase):
         np.testing.assert_allclose(np.fromstring(f.get('pos'),sep=' '),s['folder_center_m'],atol=1e-8)
         self.assertEqual(s['tilt_from_table_deg'],45)
         self.assertEqual(len(s['parts']),10)
+        self.assertEqual(s['cover_flaps_held_deg'],100)
+        np.testing.assert_allclose(s['source_xyz'],[.240,-.100,.0127])
+        model=ET.parse(qc.MODEL).getroot()
+        for source_geom in r.findall('worldbody/geom'):
+            if source_geom.get('name','').startswith('source_holder_'):
+                placed=model.find(".//geom[@name='"+qc.PREFIX+source_geom.get('name')+"']")
+                self.assertIsNotNone(placed)
+                for attr in ('pos','size','quat'):
+                    self.assertEqual(source_geom.get(attr),placed.get(attr))
 
     def test_integrity_and_only_fixed_additions(self):
         qc.verify_variant()
         r=ET.parse(qc.MODEL).getroot();f=r.find("worldbody/body[@name='full_lab_context']/body[@name='"+qc.PREFIX+"fixture']")
         self.assertIsNotNone(f)
         self.assertFalse(f.findall('.//joint'));self.assertFalse(f.findall('.//freejoint'))
-        self.assertEqual(len(f.findall('.//geom')),13)
+        self.assertEqual(len(f.findall('.//geom')),16)
         for g in f.iter('geom'):
             self.assertEqual(g.get('contype'),'0');self.assertEqual(g.get('conaffinity'),'0')
 
@@ -28,7 +37,7 @@ class QCCradleTests(unittest.TestCase):
 
     def test_standalone_asset(self):
         m=mujoco.MjModel.from_xml_path(str(qc.ROOT/'models/assets/qc_folder45.xml'))
-        self.assertEqual(m.nq,0);self.assertEqual(m.ngeom,13)
+        self.assertEqual(m.nq,0);self.assertEqual(m.ngeom,16)
 
     def test_scoped_layout_report_matches_model(self):
         r=json.loads((qc.ROOT/'qc_folder45_validation.json').read_text())
@@ -37,3 +46,5 @@ class QCCradleTests(unittest.TestCase):
         self.assertTrue(all(not c['obstructions'] for c in r['access']))
 
 if __name__=='__main__':unittest.main(verbosity=2)
+
+

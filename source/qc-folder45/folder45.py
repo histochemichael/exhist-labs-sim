@@ -9,7 +9,7 @@ import folder_slide as base
 from build_scene import ROOT, box, vec
 
 FLOOR = -.0697
-CENTER = np.array([.026, -.300, .090])
+CENTER = np.array([.026, -.240, .075])
 ANGLE = 45.
 a = np.radians(ANGLE)
 L = np.array([0., -np.sin(a), np.cos(a)])
@@ -21,10 +21,16 @@ SCENE = ROOT / 'folder_slide_45.xml'
 
 def configure():
     base.ANGLE = ANGLE
-    base.SOURCE = np.array([.010, -.210, .0027])
+    base.SOURCE = np.array([.240, -.100, .0127])
     base.GRIP_BELOW_TOP_M = .014
     base.TRANSFER_SECONDS = 12.
-    base.SUPPORT_ROTATION = False
+    base.RAIL_POSITION = -.06
+    base.SOURCE_RAIL = 0.
+    base.SOURCE_YAW = float(np.degrees(np.arctan2(.240,.100)))
+    base.PLACEMENT_TILT = 8.
+    base.FLAP_ANGLE = 100.
+    base.COLUMN = 1
+    base.GRAVITY_FEEDFORWARD = True
     base.L, base.W, base.N, base.F, base.CENTER = L, W, N, F, CENTER
     base.SCENE = SCENE
 
@@ -59,11 +65,16 @@ def build():
     for node in list(world):
         if node.get('name','').startswith('source_holder_'):
             world.remove(node)
-    world.find("body[@name='loose_slide']").set('pos',vec(base.SOURCE))
+    t=np.radians(base.SOURCE_YAW)
+    rz=np.array([[np.cos(t),-np.sin(t),0],[np.sin(t),np.cos(t),0],[0,0,1]])
+    quat=np.zeros(4);mujoco.mju_mat2Quat(quat,rz.ravel())
+    slide=world.find("body[@name='loose_slide']")
+    slide.set('pos',vec(base.SOURCE));slide.set('quat',vec(quat))
     bottom=base.SOURCE[2]-.0375
-    box(world,'source_holder_base',[*base.SOURCE[:2],(FLOOR+bottom)/2],[.020,.012,(bottom-FLOOR)/2],rgba='.30 .42 .55 1')
+    box(world,'source_holder_base',[*base.SOURCE[:2],(FLOOR+bottom)/2],[.020,.012,(bottom-FLOOR)/2],quat=vec(quat),rgba='.30 .42 .55 1')
     for sign in (-1,1):
-        box(world,f'source_holder_cheek_{sign}',[base.SOURCE[0],base.SOURCE[1]+sign*.00215,bottom+.004],[.0175,.0015,.004],rgba='.30 .42 .55 1',friction='.3 .005 .0001')
+        pos=base.SOURCE+rz@np.array([0,sign*.00215,-.0375+.004])
+        box(world,f'source_holder_cheek_{sign}',pos,[.0175,.0015,.004],quat=vec(quat),rgba='.30 .42 .55 1',friction='.3 .005 .0001')
     folder = world.find("body[@name='folder_fixture']")
     folder.remove(folder.find("geom[@name='folder_backing']"))
     for node in list(world):
@@ -78,6 +89,9 @@ def build():
     ET.ElementTree(root).write(SCENE, encoding='utf-8', xml_declaration=True)
     spec = dict(units='m', tilt_from_table_deg=45, bench_z_m=FLOOR,
                 folder_center_m=CENTER.tolist(), folder_rotation=F.tolist(),
+                source_xyz=base.SOURCE.tolist(),source_yaw_deg=base.SOURCE_YAW,
+                source_rail_m=base.SOURCE_RAIL,placement_rail_m=base.RAIL_POSITION,
+                cover_flaps_held_deg=base.FLAP_ANGLE,
                 parts=stand_parts(), mount='Fixed bench fixture; posts and stop require fasteners',
                 nori_handling='Side-edge access reserved; Nori loading/unloading not validated',
                 scope='Concept CAD; folder held fixed during slide placement, not a passive folder docking test')
@@ -109,11 +123,3 @@ if __name__ == '__main__':
     configure()
     if args.build: build()
     else: base.run(args.name,not args.no_close,args.row,args.offset_mm,args.dt)
-
-
-
-
-
-
-
-

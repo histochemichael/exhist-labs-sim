@@ -51,7 +51,7 @@ def build():
     center_world=translation+np.array(spec['folder_center_m'])
     fixture=ET.SubElement(world,'body',name=PREFIX+'fixture',pos=vec(translation));fixture.append(folder)
     for g in source.findall('worldbody/geom'):
-        if g.get('name','').startswith('stand45_'):fixture.append(copy.deepcopy(g))
+        if g.get('name','').startswith(('stand45_','source_holder_')):fixture.append(copy.deepcopy(g))
     for e in fixture.iter():
         if e is fixture:continue
         for k in ('name','mesh'):
@@ -76,8 +76,8 @@ def build():
     wb=ET.SubElement(standalone,'worldbody');f=copy.deepcopy(fixture);f.set('pos',vec([0,0,-spec['bench_z_m']]));wb.append(f)
     out=ROOT/'models/assets';out.mkdir(parents=True,exist_ok=True)
     ET.indent(standalone);ET.ElementTree(standalone).write(out/'qc_folder45.xml',encoding='utf-8',xml_declaration=True)
-    paths=[BASE,MODEL,SOURCE/'folder_slide_45.xml',SOURCE/'folder_stand_45.json',SOURCE/'slide_folder.json']
-    record=dict(model=MODEL.name,base_model=BASE.name,units='m',bench_top_m=.8,folder_center_world_m=center_world.tolist(),source_to_lab_translation_m=translation.tolist(),tilt_above_table_deg=45,cover_flaps='Held 90 degrees behind tray',proposed_handler='Existing Nori left arm; no second Nori added',reserved_access=corridors,status='Fixed layout only. No Nori grip, reach, passive docking, slide placement, flap closing or loaded transport validation.',sha256={p.relative_to(ROOT).as_posix():sha(p) for p in paths})
+    paths=[BASE,MODEL,SOURCE/'folder_slide_45.xml',SOURCE/'folder_stand_45.json',SOURCE/'slide_folder.json',ROOT/'cad/step/Folder-Stand-45-Concept.step',ROOT/'cad/Folder-Stand-45-Concept.f3d']
+    record=dict(model=MODEL.name,base_model=BASE.name,units='m',bench_top_m=.8,folder_center_world_m=center_world.tolist(),source_to_lab_translation_m=translation.tolist(),tilt_above_table_deg=45,cover_flaps=f'Held {spec["cover_flaps_held_deg"]} degrees behind tray',source_holder_center_world_m=(translation+np.array(spec['source_xyz'])).tolist(),source_holder_yaw_deg=spec['source_yaw_deg'],proposed_handler='Existing Nori left arm; no second Nori added',reserved_access=corridors,status='Fixed layout only. No Nori grip, reach, passive docking, slide placement, flap closing or loaded transport validation.',sha256={p.relative_to(ROOT).as_posix():sha(p) for p in paths})
     MANIFEST.write_text(json.dumps(record,indent=2)+'\n');verify_variant();return record
 
 def export_stl():
@@ -140,7 +140,7 @@ def check():
         access.append(dict(side=c['side'],obstructions=hits))
     checks['side_access_volumes_unoccupied_at_held_pose']=all(not c['obstructions'] for c in access)
     checks={key:bool(value) for key,value in checks.items()}
-    result=dict(passed=all(checks.values()),checks=checks,engine=mujoco.__version__,model_sha256=sha(MODEL),fixture_bounds_world_m=b.tolist(),folder_bounds_world_m=folder.tolist(),feet_bounds_world_m=feet.tolist(),bench_bounds_world_m=bench.tolist(),neighbors=neighbors,access=access,geometry=dict(stand_boxes=10,folder_cad_visual_meshes=3),scope='Static compiled geometry and conservative AABB clearances at held posture only. No swept motion, IK, docking, contact, stiffness, balance or grasp validation.')
+    result=dict(passed=all(checks.values()),checks=checks,engine=mujoco.__version__,model_sha256=sha(MODEL),fixture_bounds_world_m=b.tolist(),folder_bounds_world_m=folder.tolist(),feet_bounds_world_m=feet.tolist(),bench_bounds_world_m=bench.tolist(),neighbors=neighbors,access=access,geometry=dict(stand_boxes=10,source_holder_boxes=3,folder_cad_visual_meshes=3),scope='Static compiled geometry and conservative AABB clearances at held posture only. No swept motion, IK, docking, contact, stiffness, balance or grasp validation.')
     (ROOT/'qc_folder45_validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2),flush=True)
     if not result['passed']:raise RuntimeError('QC layout checks failed')
     return m,d,R,t
@@ -174,3 +174,4 @@ if __name__=='__main__':
     if a.render:render()
     elif a.check:check()
     elif not a.build:view()
+

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Modified promo oven - static inspection, not fabrication CAD">
+  <compiler angle="radian" />
+  <asset>
+    <mesh name="oven" file="../../cad/stl/quincy-promo-tall-concept.stl" scale=".001 .001 .001" inertia="shell" />
+  </asset>
+  <worldbody>
+    <light pos="0 -1 2" />
+    <geom type="mesh" mesh="oven" rgba=".65 .65 .67 1" />
+  </worldbody>
+</mujoco>

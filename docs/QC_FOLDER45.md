@@ -1,41 +1,48 @@
-# QC folder cradle: layout integration
+# QC folder cradle: final 45-degree layout
 
-This is a **fixed concept fixture**, not a physically validated folder transfer. It is added only to the selectable `exhist_rail_loop_qc45.xml` composition. The existing three main XMLs and eleven-bath validation evidence are preserved.
+This is a **fixed concept fixture**, added only to selectable `exhist_rail_loop_qc45.xml`. Existing base XMLs and the eleven-bath validation evidence are preserved. No hardware is operated.
 
-## Geometry and coordinates
+## Geometry and Coordinates
 
-The snapshot comes from the LeHisto 45-degree experiment. Its pinned JSON, geometry XML, CAD tessellation and builder are in `source/qc-folder45/`; the builder is provenance, not a standalone lab entry point. Read [the layout manifest](../qc_folder45_layout.json) for current coordinates and SHA-256 dependencies.
+The pinned source is [LeHisto commit d6da8e0](https://github.com/histochemichael/LeHisto/tree/d6da8e09789b35e5a1595b4da6a9ddd3871c7cfe), not a live reference to changing experiments. See [the layout manifest](../qc_folder45_layout.json) for dependency hashes.
 
-- The source tabletop is z = -0.0697 m; the lab QC tabletop is z = 0.800 m.
-- The source-to-lab translation is [2.364, 0.700, 0.8697] m, without rotation.
-- The current pinned candidate has source folder center [0.026, -0.300, 0.090] m; the lab center is [2.390, 0.400, 0.9597] m. Later source experiments may differ: this is a coherent pinned candidate, not a live reference to changing files.
-- The folder tray is 45 degrees above horizontal, facing the QC LeHisto. Both flaps are held 90 degrees behind it. All 20 CAD pockets are retained.
-- The stand has ten solid primitives: backing, lower stop, two stop links, two stop arms, two posts and two feet. Fasteners, strength, materials and manufacturing tolerances are unspecified.
-- STL exports are millimetres with the tabletop at z=0; the standalone asset XML uses the same origin in metres. The placed lab scene uses the lab transform above.
+- Source tabletop z=-0.0697 m maps to lab tabletop z=0.800 m by translation [2.364, 0.700, 0.8697] m.
+- Folder center [0.026, -0.240, 0.075] m maps to [2.390, 0.460, 0.9447] m.
+- Tray is 45 degrees above horizontal; covers are held 100 degrees behind it. All 20 CAD pockets remain present.
+- Ten stand solids: backing, lower stop, two stop links, two stop arms, two posts and two feet. Fasteners, materials, strength and flap clips still need engineering.
+- Three source-holder boxes are included, centered at lab [2.604, 0.600, 0.8824] m, yaw 67.38 degrees. This is a fixture concept, not a manufactured holder design.
+- CAD STL uses millimeters with the tabletop at z=0. Standalone XML uses meters at that same tabletop datum.
 
-## Handling provision
+## Handling Provision
 
-Two reserved side volumes are 80 x 340 x 150 mm. They are bookkeeping/visual sites, hidden in normal rendering, not obstacles or gripper models. The existing Nori left arm is the proposed folder handler; no extra Nori or replacement gripper was added. The cradle is intended to support the folder while LeHisto places slides. Loading/unloading into it, keeping it seated, and closing/removing a full folder require separate contact-driven tests.
+Two 80 x 340 x 150 mm side-access volumes are reserved. They are hidden bookkeeping sites, not robot grippers or obstacles. The existing Nori left arm is the proposed handler; a future two-arm Nori remains an option, not an added or tested robot. The cradle supports the folder during LeHisto placement in the concept, so Nori need not hold it continuously.
 
-The source LeHisto task is still tuning its 45-degree pose/controller. No source control script is executed by this integration. The lab LeHisto geometry remains at its original held pose; matching reach and robot-frame calibration are not established by a collision-free layout.
+The folder is fixed in this layout. Nori reach, grasping, loaded exchange, passive retention and flap closing have **not** been validated. Lab LeHisto geometry remains at its original held pose; alignment of its robot frame and swept motion still need work.
 
-## Checks completed
+## Checks
 
-See [qc_folder45_validation.json](../qc_folder45_validation.json). The current snapshot compiles; the feet meet the tabletop, the fixture footprint stays inside the bench, and the folded-back covers clear the table by approximately 17.1 mm. Conservative bounding-box separation from the nearest held LeHisto is approximately 157.4 mm. The blocks and scanner remain untouched. Both reserved side volumes are empty at the held pose.
+[Ten static layout checks](../qc_folder45_validation.json) pass: model compilation, unchanged robot degrees of freedom and dynamics, bench support, fixture footprint, cover clearance and conservative neighbor/access checks. The folder clears the tabletop by 15.7 mm. The nearest held LeHisto has a conservative bounding-box gap of 15.3 mm including the new source holder. This small static gap is not a certified moving-robot clearance.
 
-The integrity check removes only the named QC additions and requires the remaining XML to equal the original room model. Degrees of freedom, actuator settings, joint parameters and equality constraints are unchanged. New QC geometry is fixed and non-contact in this visual-context composition; it is not silently welded to a hand. A 0.080 s live special-stain-controller initialization passed; the full eleven transfers were not rerun for this optional composition. Thirteen regression tests (five QC plus eight existing loop tests) pass.
+Thirteen regression tests (five QC, eight existing loop tests) cover the layout and preserved model. The integrity check strips only named QC additions and requires the remainder to equal the base room model. New QC elements are fixed, non-contact context; they do not establish in-lab contact dynamics.
 
-These are **static layout/startup checks**, not swept robot clearance, Nori IK, passive docking, support/contact physics, glass breakage, slide placement or hardware validation. The new 45-degree placement controller must not be labelled passed based on them.
+Separately, the source LeHisto simulation passed one upper pocket (zero-based row 4, column 1) at nominal and half timesteps, with open-gripper and 3 mm misalignment controls rejected. [Source video, CAD and evidence](https://github.com/histochemichael/LeHisto/blob/d6da8e09789b35e5a1595b4da6a9ddd3871c7cfe/docs/FOLDER45.md). Those results do not prove Nori handling, all 20 pockets, or full-lab slide-placement success. Rigid contacts omit glass fracture and cardboard compliance.
 
-## Refresh and files
+## View and Refresh
 
-`python qc_folder_cradle.py --build --render` regenerates the optional composition, standalone XML, eleven stand STL files, scoped report and images **from the pinned local snapshot**, without consulting the other task or changing the validated base XML. A deliberate source refresh must first copy a coherent XML/JSON/CAD set and then rerun all checks.
+```powershell
+python qc_folder_cradle.py
+python lab_rail_loop.py --qc45
+```
 
-The native cradle STEP in the other task was still an earlier candidate at this integration point. It is deliberately not bundled as matching the newer STL/XML. The original folder STEP is already supplied as [slide-folder-20.stp](../cad/step/slide-folder-20.stp). A matching cradle STEP can be added after the source candidate is finalized.
+In the live lab viewer, select station 6 for QC. The optional composition retains the existing special-stain controller; this update does not rerun or replace its full eleven-transfer evidence.
 
-- [Whole QC station image](images/qc-folder45.png)
-- [Robot-side folder detail](images/qc-folder45-detail.png)
-- [Stand STL](../cad/stl/Folder-Stand-45-Assembly.stl)
-- [Folder/cradle inspection XML](../models/assets/qc_folder45.xml)
+`python qc_folder_cradle.py --build --render` regenerates the composition, standalone XML, stand STL, report and images from the pinned snapshot. The source builder in `source/qc-folder45` is provenance only, not a runnable lab experiment.
 
-No physical hardware was operated. No Nori handling result or full-lab completion is claimed.
+- [Whole QC station](images/qc-folder45.png)
+- [Folder detail](images/qc-folder45-detail.png)
+- [Matching stand STEP](../cad/step/Folder-Stand-45-Concept.step)
+- [Stand Fusion archive](../cad/Folder-Stand-45-Concept.f3d)
+- [Stand assembly STL](../cad/stl/Folder-Stand-45-Assembly.stl)
+- [Standalone inspection XML](../models/assets/qc_folder45.xml)
+
+This fixed QC fixture is included in the public ExHist simulation snapshot; it remains distinct from the staged Nori promo and the separately tested LeHisto pocket experiment.

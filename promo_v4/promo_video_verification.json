@@ -1,0 +1,13 @@
+{
+  "decoded_frames": 1800,
+  "duration_s": 60.0,
+  "fps": 30.0,
+  "size": [
+    1280,
+    720
+  ],
+  "logo_mean_absolute_pixel_error": 0.44810619212962965,
+  "video_sha256": "78b0ff5749b6b267dc2f19d493fc0988cc73fa8031cdbebfcd7c421308edcadc",
+  "source_states_sha256": "d6d6b6475b501f714efce97aa335555e0ed3fa55d50196b229bc79416aa30044",
+  "scene_sha256": "bbe5b18fb128173f60beca2606196f96f7836b43c488cd4fc66adb33d82a7748"
+}

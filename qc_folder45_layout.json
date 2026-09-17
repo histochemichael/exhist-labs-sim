@@ -5,8 +5,8 @@
   "bench_top_m": 0.8,
   "folder_center_world_m": [
     2.3899999999999997,
-    0.39999999999999997,
-    0.9597
+    0.45999999999999996,
+    0.9447
   ],
   "source_to_lab_translation_m": [
     2.364,
@@ -14,15 +14,21 @@
     0.8697
   ],
   "tilt_above_table_deg": 45,
-  "cover_flaps": "Held 90 degrees behind tray",
+  "cover_flaps": "Held 100.0 degrees behind tray",
+  "source_holder_center_world_m": [
+    2.604,
+    0.6,
+    0.8824000000000001
+  ],
+  "source_holder_yaw_deg": 67.38013505195957,
   "proposed_handler": "Existing Nori left arm; no second Nori added",
   "reserved_access": [
     {
       "side": "left",
       "center_m": [
         2.1649999999999996,
-        0.33999999999999997,
-        0.9447
+        0.39999999999999997,
+        0.9297
       ],
       "half_size_m": [
         0.04,
@@ -35,8 +41,8 @@
       "side": "right",
       "center_m": [
         2.6149999999999998,
-        0.33999999999999997,
-        0.9447
+        0.39999999999999997,
+        0.9297
       ],
       "half_size_m": [
         0.04,
@@ -49,9 +55,11 @@
   "status": "Fixed layout only. No Nori grip, reach, passive docking, slide placement, flap closing or loaded transport validation.",
   "sha256": {
     "exhist_rail_loop.xml": "86539e0e41ca4219cbf6ef47d76f7f8d4e57048b6b66da9d31b32428eba2994d",
-    "exhist_rail_loop_qc45.xml": "29254839fdb60c186080477f887cfb8b4f31024f1b9001072d27c0b47d612944",
-    "source/qc-folder45/folder_slide_45.xml": "0a6c5755c8ed51bc9bdb4e3410d8f7a99828f089b472370762f8c785eede4424",
-    "source/qc-folder45/folder_stand_45.json": "2a99a8f3ce1626972376c03f5d6a52aeebccfe41d92d6e27a99a82495e634a98",
-    "source/qc-folder45/slide_folder.json": "264699cc7134d1ec584d88f3bab8a53f2444d6a6023e0c5e5547543e4ade9fdd"
+    "exhist_rail_loop_qc45.xml": "87802a6e19a97243ba889b929caae20fb83e9df6cbad83c5950de20e4f78fb3b",
+    "source/qc-folder45/folder_slide_45.xml": "866c3c0689a87c4dcc14e326659de78304928c20b91049493d62b31360df4c82",
+    "source/qc-folder45/folder_stand_45.json": "1445280c16fc3d5a36a99bc073e4b92c4438d593c5deaabead417fc238dadc37",
+    "source/qc-folder45/slide_folder.json": "264699cc7134d1ec584d88f3bab8a53f2444d6a6023e0c5e5547543e4ade9fdd",
+    "cad/step/Folder-Stand-45-Concept.step": "2f0d1d121038488a0b4e9a1b5bf6fb7982c6b657ff48737a04962434864cd6ab",
+    "cad/Folder-Stand-45-Concept.f3d": "f3267c08864f99bbb79025cc4f6cac6b3237ce1c19fbd97ea7afb7d2a5b1b370"
   }
 }

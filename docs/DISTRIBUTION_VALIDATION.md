@@ -2,6 +2,14 @@
 
 The distribution is a separate copy; it does not replace the author's working lab.
 
+## Public snapshot update — 2026-09-17 UTC
+
+The current package adds the upright-rack 60-second promo and final pinned QC fixture assets. Fresh checks on this copy passed: all three base models compiled and the live controller initialized; all 13 existing loop/QC regressions passed; the promo's 1,800-frame CAD-solid audit reported zero unintended intersections in scope; postflight confirmed maximum rack tilt 0.0174 degrees, minimum container clearance 0.612 mm, closed oven and correct rear-vessel seating. The full 60-second MP4 was re-rendered here, decoded to 1,800 frames and checked against its source hashes and ending logo. This does not add a full-lab physical success claim.
+
+All 430 promo resources match the author's bytes, and only XML resource paths were relocated. Original reports are retained separately under promo_v4/author-evidence. [Current promo guide](PROMO.md) and [portability record](promo-portability.json).
+
+The final 45-degree QC concept now includes matching native Fusion/STEP alongside STL/XML; earlier snapshot notes below are historical. The taller promo oven has STL/XML only, explicitly distinct from the original Quincy STEP. Common token/private-key patterns, oversized Git files and documentation links were checked without printing candidate secrets; see [publication check](publication-check.json).
+
 ## Optional QC layout addition — 2026-09-16
 
 The selectable `exhist_rail_loop_qc45.xml` adds a pinned, fixed 45-degree folder cradle. The base model and evidence below remain byte-for-byte unchanged. Five additional QC tests and all eight existing loop tests pass. The optional composition compiled and initialized the live special-stain controller for 0.080 s; its eleven-transfer route was not rerun. See [QC_FOLDER45.md](QC_FOLDER45.md) for static clearances, source-candidate status, and explicitly unvalidated Nori/slide-placement handling. The new cradle's STL/XML do not imply a matching finalized native STEP yet.

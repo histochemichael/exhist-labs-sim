@@ -1,0 +1,417 @@
+{
+  "duration_s": 60.0,
+  "fps": 30,
+  "frames": 1800,
+  "source_states_sha256": "d6d6b6475b501f714efce97aa335555e0ed3fa55d50196b229bc79416aa30044",
+  "scene_sha256": "bbe5b18fb128173f60beca2606196f96f7836b43c488cd4fc66adb33d82a7748",
+  "logo_sha256": "974b464fa0c0d400543573df0a2957ae153dd8d6b7f7420b4aa09f62bb034dfd",
+  "action_seconds": 54.5,
+  "ending_seconds": 5.5,
+  "physical_success": false,
+  "scope": "Staged Cartesian IK and rigid grip-frame playback. Separate postflight reports check video-rate CAD geometry in the oven/stainer interaction corridor, container clearance, grasp alignment and placement. Individual slide sorting and native stainer-fork transfer are choreographed. Not contact-force, slip, balance, continuous-time or hardware validation.",
+  "historical_access_source_mismatches": {
+    "quincy": [
+      "equipment_access.py"
+    ],
+    "st_load": [
+      "equipment_access.py"
+    ]
+  },
+  "events": [
+    {
+      "start": 0.0,
+      "end": 0.9494773519164129,
+      "label": "LAB FLY-THROUGH"
+    },
+    {
+      "start": 0.9494773519164129,
+      "end": 4.747386759582065,
+      "label": "TRAVEL TO BAKING"
+    },
+    {
+      "start": 4.747386759582065,
+      "end": 5.222125435540279,
+      "label": "FACE THE OVEN"
+    },
+    {
+      "start": 5.222125435540279,
+      "end": 6.171602787456705,
+      "label": "OVEN DOCK"
+    },
+    {
+      "start": 6.171602787456705,
+      "end": 6.6463414634149185,
+      "label": "RAISE CHEST FOR CLEARANCE"
+    },
+    {
+      "start": 6.6463414634149185,
+      "end": 7.595818815331344,
+      "label": "LEFT ARM APPROACH"
+    },
+    {
+      "start": 7.595818815331344,
+      "end": 8.070557491289557,
+      "label": "SEAT LEFT CLAW ON PULL"
+    },
+    {
+      "start": 8.070557491289557,
+      "end": 8.307926829268663,
+      "label": "GRASP OVEN PULL"
+    },
+    {
+      "start": 8.307926829268663,
+      "end": 11.631097560976155,
+      "label": "OPEN OVEN / LEFT ARM"
+    },
+    {
+      "start": 11.631097560976155,
+      "end": 11.963414634146904,
+      "label": "RELEASE OVEN HANDLE"
+    },
+    {
+      "start": 11.963414634146904,
+      "end": 12.438153310105116,
+      "label": "LEFT ARM CLEAR"
+    },
+    {
+      "start": 12.438153310105116,
+      "end": 13.055313588850794,
+      "label": "LEFT ARM DOWN"
+    },
+    {
+      "start": 13.055313588850794,
+      "end": 13.340156794425722,
+      "label": "PICKUP REPOSITION"
+    },
+    {
+      "start": 13.340156794425722,
+      "end": 13.577526132404829,
+      "label": "PICKUP TURN"
+    },
+    {
+      "start": 13.577526132404829,
+      "end": 13.862369337979757,
+      "label": "PICKUP ALIGN"
+    },
+    {
+      "start": 13.862369337979757,
+      "end": 14.09973867595886,
+      "label": "FACE OVEN"
+    },
+    {
+      "start": 14.09973867595886,
+      "end": 14.811846689896182,
+      "label": "RIGHT GRIPPER DOCK"
+    },
+    {
+      "start": 14.811846689896182,
+      "end": 15.761324041812568,
+      "label": "RIGHT GRIPPER APPROACH"
+    },
+    {
+      "start": 15.761324041812568,
+      "end": 16.473432055749836,
+      "label": "ALIGN RACK HANDLE"
+    },
+    {
+      "start": 16.473432055749836,
+      "end": 16.948170731708014,
+      "label": "SEAT HANDLE GROOVES"
+    },
+    {
+      "start": 16.948170731708014,
+      "end": 17.327961672474558,
+      "label": "GRASP LEICA RACK"
+    },
+    {
+      "start": 17.327961672474558,
+      "end": 17.7077526132411,
+      "label": "LIFT FROM OVEN SHELF"
+    },
+    {
+      "start": 17.7077526132411,
+      "end": 18.657229965157462,
+      "label": "EXTRACT LEICA RACK"
+    },
+    {
+      "start": 18.657229965157462,
+      "end": 19.36933797909473,
+      "label": "CARRY RACK"
+    },
+    {
+      "start": 19.36933797909473,
+      "end": 20.081445993032,
+      "label": "BACK INTO AISLE"
+    },
+    {
+      "start": 20.081445993032,
+      "end": 20.366289198606907,
+      "label": "TURN FOR OVEN CLOSING"
+    },
+    {
+      "start": 20.366289198606907,
+      "end": 20.841027874565086,
+      "label": "OVEN CLOSE ALIGN"
+    },
+    {
+      "start": 20.841027874565086,
+      "end": 21.125871080139994,
+      "label": "FACE OVEN TO CLOSE"
+    },
+    {
+      "start": 21.125871080139994,
+      "end": 21.600609756098173,
+      "label": "OVEN CLOSE DOCK"
+    },
+    {
+      "start": 21.600609756098173,
+      "end": 22.550087108014534,
+      "label": "LEFT ARM / OVEN REGRASP"
+    },
+    {
+      "start": 22.550087108014534,
+      "end": 23.024825783972712,
+      "label": "SEAT LEFT CLAW TO CLOSE"
+    },
+    {
+      "start": 23.024825783972712,
+      "end": 23.2621951219518,
+      "label": "REGRASP OVEN HANDLE"
+    },
+    {
+      "start": 23.2621951219518,
+      "end": 25.635888501742695,
+      "label": "CLOSE OVEN / LEFT ARM"
+    },
+    {
+      "start": 25.635888501742695,
+      "end": 25.873257839721784,
+      "label": "RELEASE CLOSED OVEN"
+    },
+    {
+      "start": 25.873257839721784,
+      "end": 26.25304878048833,
+      "label": "CLEAR CLOSED OVEN"
+    },
+    {
+      "start": 26.25304878048833,
+      "end": 26.87020905923396,
+      "label": "LEFT ARM DOWN"
+    },
+    {
+      "start": 26.87020905923396,
+      "end": 27.34494773519214,
+      "label": "OVEN DEPART"
+    },
+    {
+      "start": 27.34494773519214,
+      "end": 27.62979094076705,
+      "label": "TURN TOWARD STAINER"
+    },
+    {
+      "start": 27.62979094076705,
+      "end": 29.054006968641588,
+      "label": "TRAVEL TO STAINER"
+    },
+    {
+      "start": 29.054006968641588,
+      "end": 29.43379790940813,
+      "label": "FACE STAINER"
+    },
+    {
+      "start": 29.43379790940813,
+      "end": 30.1459059233454,
+      "label": "STAINER DOCK"
+    },
+    {
+      "start": 30.1459059233454,
+      "end": 31.09538327526176,
+      "label": "LEFT ARM / DRAWER HANDLE"
+    },
+    {
+      "start": 31.09538327526176,
+      "end": 33.94381533101084,
+      "label": "OPEN STAINER DRAWER"
+    },
+    {
+      "start": 33.94381533101084,
+      "end": 34.27613240418156,
+      "label": "RELEASE DRAWER HANDLE"
+    },
+    {
+      "start": 34.27613240418156,
+      "end": 34.75087108013974,
+      "label": "LEFT CLAW CLEAR"
+    },
+    {
+      "start": 34.75087108013974,
+      "end": 35.22560975609792,
+      "label": "LEFT ARM REST"
+    },
+    {
+      "start": 35.22560975609792,
+      "end": 35.7003484320561,
+      "label": "LOAD REPOSITION"
+    },
+    {
+      "start": 35.7003484320561,
+      "end": 35.98519163763101,
+      "label": "LOAD TURN"
+    },
+    {
+      "start": 35.98519163763101,
+      "end": 36.45993031358919,
+      "label": "LOAD ALIGN"
+    },
+    {
+      "start": 36.45993031358919,
+      "end": 36.7447735191641,
+      "label": "FACE CONTAINER"
+    },
+    {
+      "start": 36.7447735191641,
+      "end": 37.45688153310137,
+      "label": "PREALIGN RACK ABOVE VESSELS"
+    },
+    {
+      "start": 37.45688153310137,
+      "end": 37.93162020905954,
+      "label": "CONTAINER DOCK"
+    },
+    {
+      "start": 37.93162020905954,
+      "end": 38.074041811846996,
+      "label": "ALIGN ABOVE STAINER CONTAINER"
+    },
+    {
+      "start": 38.074041811846996,
+      "end": 39.02351916376335,
+      "label": "LOWER INTO STAINER CONTAINER"
+    },
+    {
+      "start": 39.02351916376335,
+      "end": 39.4033101045299,
+      "label": "RELEASE RACK IN CONTAINER"
+    },
+    {
+      "start": 39.4033101045299,
+      "end": 40.11541811846717,
+      "label": "RIGHT GRIPPER CLEAR"
+    },
+    {
+      "start": 40.11541811846717,
+      "end": 40.35278745644626,
+      "label": "OPEN JAWS ABOVE CONTAINER"
+    },
+    {
+      "start": 40.35278745644626,
+      "end": 40.82752613240444,
+      "label": "DRAWER CLOSE REPOSITION"
+    },
+    {
+      "start": 40.82752613240444,
+      "end": 41.44468641115007,
+      "label": "RIGHT ARM DOWN"
+    },
+    {
+      "start": 41.44468641115007,
+      "end": 41.729529616724975,
+      "label": "DRAWER CLOSE TURN"
+    },
+    {
+      "start": 41.729529616724975,
+      "end": 42.20426829268316,
+      "label": "DRAWER CLOSE ALIGN"
+    },
+    {
+      "start": 42.20426829268316,
+      "end": 42.48911149825807,
+      "label": "FACE DRAWER"
+    },
+    {
+      "start": 42.48911149825807,
+      "end": 42.96385017421624,
+      "label": "DRAWER CLOSE DOCK"
+    },
+    {
+      "start": 42.96385017421624,
+      "end": 43.913327526132605,
+      "label": "LEFT HAND REGRASP DRAWER"
+    },
+    {
+      "start": 43.913327526132605,
+      "end": 46.76175958188168,
+      "label": "CLOSE STAINER / LEFT ARM"
+    },
+    {
+      "start": 46.76175958188168,
+      "end": 47.33144599303149,
+      "label": "LEFT ARM DOWN"
+    },
+    {
+      "start": 47.33144599303149,
+      "end": 48.28092334494786,
+      "label": "STAINING RUN STARTS"
+    },
+    {
+      "start": 48.28092334494786,
+      "end": 48.56576655052276,
+      "label": "STAINER LOW APPROACH"
+    },
+    {
+      "start": 48.56576655052276,
+      "end": 48.85060975609767,
+      "label": "STAINER ALIGNS FOR PICKUP"
+    },
+    {
+      "start": 48.85060975609767,
+      "end": 49.562717770034936,
+      "label": "STAINER ENGAGES RACK"
+    },
+    {
+      "start": 49.562717770034936,
+      "end": 50.60714285714293,
+      "label": "STAINER LIFTS RACK"
+    },
+    {
+      "start": 50.60714285714293,
+      "end": 50.89198606271784,
+      "label": "STAINER CLEARS FRONT LID"
+    },
+    {
+      "start": 50.89198606271784,
+      "end": 51.17682926829274,
+      "label": "STAINER CLEARS VESSEL RIMS"
+    },
+    {
+      "start": 51.17682926829274,
+      "end": 54.02526132404182,
+      "label": "NORI DEPARTS / STAINER PLACES RACK"
+    },
+    {
+      "start": 54.02526132404182,
+      "end": 54.500000000000014,
+      "label": "REAR CONTAINER / STAINING DWELL"
+    },
+    {
+      "start": 54.500000000000014,
+      "end": 55.49999999999996,
+      "label": "FADE TO WHITE"
+    },
+    {
+      "start": 55.49999999999996,
+      "end": 55.9999999999999,
+      "label": "WHITE"
+    },
+    {
+      "start": 55.9999999999999,
+      "end": 56.999999999999844,
+      "label": "LOGO FADE"
+    },
+    {
+      "start": 56.999999999999844,
+      "end": 59.99999999999967,
+      "label": "LOGO"
+    }
+  ]
+}

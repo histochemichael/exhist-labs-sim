@@ -1,0 +1,51 @@
+{
+  "video_frames_checked": 1800,
+  "min_head_or_first_oven_clearance_m": [
+    0.006681458616487132,
+    0.006036732260791558
+  ],
+  "minimum_handle_face_gap_m": [
+    1.5083121750568204e-05,
+    1.5000718580737728e-05
+  ],
+  "maximum_handle_face_gap_m": [
+    1.5161468994011659e-05,
+    1.5079065411079908e-05
+  ],
+  "max_held_grasp_frame_error_m": 2.220446049250313e-16,
+  "stainer_rack_lift_m": 0.10983212809917342,
+  "sorted_slide_displacements_m": [
+    [
+      0.1900000000000004,
+      0.0,
+      0.0
+    ],
+    [
+      0.1900000000000004,
+      0.0,
+      0.0
+    ],
+    [
+      0.1900000000000004,
+      0.0,
+      0.0
+    ],
+    [
+      0.1900000000000004,
+      0.0,
+      0.0
+    ]
+  ],
+  "joint_limit_violations": [],
+  "physical_success": false,
+  "scope": "1800 video-frame geometric checks of the oven/stainer interaction corridor; CAD solids plus conservative hulls for non-manifold robot links. Intentional claw/handle and fork/rack contacts excluded. Staged playback, not force, slip, balance, continuous-time or hardware certification.",
+  "max_loaded_arm_joint_step_rad": 0.14044293162398813,
+  "maximum_rack_tilt_deg": 0.017398736413575536,
+  "gripper_tilt_deg": 0.0,
+  "min_container_clearance_m": 0.0006119410865942882,
+  "oven_closed_error_rad": 0.0,
+  "final_rear_container_position_error_m": 2.798317133567707e-12,
+  "handles": "one black pull per oven; original handles removed",
+  "full_frame_solid_intersections": 0,
+  "scoped_geometry_checks_passed": true
+}

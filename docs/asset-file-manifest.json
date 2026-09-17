@@ -1,5 +1,10 @@
 [
   {
+    "path": "cad/Folder-Stand-45-Concept.f3d",
+    "bytes": 105031,
+    "sha256": "f3267c08864f99bbb79025cc4f6cac6b3237ce1c19fbd97ea7afb7d2a5b1b370"
+  },
+  {
     "path": "cad/step/cv5030-output-magazine-30.step",
     "bytes": 340539,
     "sha256": "51a5870520c0e71fe694930c8f7ed8e1ffe328bbc0f34fe85d5fbb07a5895b50"
@@ -13,6 +18,11 @@
     "path": "cad/step/embedded-cassette-block.step",
     "bytes": 155297,
     "sha256": "a22a6a7f0f5bc2377f8c100aa2738cc5647c5a62acccbb77b6ab87cc1d0ae2aa"
+  },
+  {
+    "path": "cad/step/Folder-Stand-45-Concept.step",
+    "bytes": 70230,
+    "sha256": "2f0d1d121038488a0b4e9a1b5bf6fb7982c6b657ff48737a04962434864cd6ab"
   },
   {
     "path": "cad/step/lehisto-v38.stp",
@@ -97,57 +107,57 @@
   {
     "path": "cad/stl/Folder-Stand-45-Assembly.stl",
     "bytes": 6084,
-    "sha256": "148cceac1a57b6c99c664b584203fd1dad4536ea5fede5c483edc7adeb059c5e"
+    "sha256": "c2c10337349dbbd26d45fafb7ccbeb60a402614aa1d658a054965ec4a969a1a4"
   },
   {
     "path": "cad/stl/Folder-Stand-45-backing.stl",
     "bytes": 684,
-    "sha256": "2ba3a962528aff9fbf08e926bacfc0418409c63d15d67c3c9733163441ee313b"
+    "sha256": "77160989d9ab0fd500c6486854fa75e32a2b730a38b64a7b1ff0f495bd182c61"
   },
   {
     "path": "cad/stl/Folder-Stand-45-foot_0.stl",
     "bytes": 684,
-    "sha256": "ac324b0a9f23aaab1d083c87c77c3cce329d7c18d848b03e26eebc06a7509a63"
+    "sha256": "dd7414c64e4e7826f810fc0adb960901a37abd2585a872d61f6297a7c16809e6"
   },
   {
     "path": "cad/stl/Folder-Stand-45-foot_1.stl",
     "bytes": 684,
-    "sha256": "e6f8238cd6b95b70fd4073bc5866248788275608f03c0067fe769c4c779df1fc"
+    "sha256": "169464a6023d6cb4243a977100d16ff6ff3ebfdd25ffbfffb701dde0868d65cf"
   },
   {
     "path": "cad/stl/Folder-Stand-45-lower_stop.stl",
     "bytes": 684,
-    "sha256": "6d15bcd751a4ebdacdebfb053791b052b1bd26a6f42e47aad35df092de8b932b"
+    "sha256": "aa60dad43a06abb752945b78636ab5019f76856d5300ec0baa504ece11f3e63a"
   },
   {
     "path": "cad/stl/Folder-Stand-45-post_0.stl",
     "bytes": 684,
-    "sha256": "925e0b39d210f202b16eb380b04c05c5feab57bb0c0d0ee965bd448cdc78f83d"
+    "sha256": "3b6c85965548f8b683c9bd215527569c8f992ec034b8a0f7fa30835b3699883c"
   },
   {
     "path": "cad/stl/Folder-Stand-45-post_1.stl",
     "bytes": 684,
-    "sha256": "19232603318d237112fe73c1a484a88180efc90a94dd7b0c3a0350ce37d0ab37"
+    "sha256": "3f505ed3e9a52bcb515c03a16c9911810ee8daedf81db868ee5f36b6ce289032"
   },
   {
     "path": "cad/stl/Folder-Stand-45-stop_arm_-1.stl",
     "bytes": 684,
-    "sha256": "eca545598ec0659f5a73308669966b47236ca19afca3eb2dc8e326d1f8560648"
+    "sha256": "cc7ae6d39de886656637e50dbb728942d4dd859214c8e9337262457a9aeea23a"
   },
   {
     "path": "cad/stl/Folder-Stand-45-stop_arm_1.stl",
     "bytes": 684,
-    "sha256": "c9bdafc2a636314988e5145415165b7da76ace351be03a56466afc36a01979d3"
+    "sha256": "85c73b69ab850c00f61f239f561ab4840fd70042e795a11d2cff3272132ef1fb"
   },
   {
     "path": "cad/stl/Folder-Stand-45-stop_link_-1.stl",
     "bytes": 684,
-    "sha256": "38292b5a7c1610a6979f2edf1463b5878ea57ae5dd98ac5ae61f37213703cbd8"
+    "sha256": "b4f4ed49f0ba7886f9d9908d34bcaa610ca7621aaad799ccd2e2fe2768e3c686"
   },
   {
     "path": "cad/stl/Folder-Stand-45-stop_link_1.stl",
     "bytes": 684,
-    "sha256": "839af2654a48e004db89b9a51874ab8d1d2a9a09d4cccdc9d4de53f4f9bc84f6"
+    "sha256": "a5a052f5c85e8037de4c753f28f00566db2638b9975584abb16e986fcdd775a6"
   },
   {
     "path": "cad/stl/lehisto.stl",
@@ -173,6 +183,11 @@
     "path": "cad/stl/pc.stl",
     "bytes": 6684,
     "sha256": "047608e6337621f0d659322d21e0f12dbee7459635262f4091f183ebe3930869"
+  },
+  {
+    "path": "cad/stl/quincy-promo-tall-concept.stl",
+    "bytes": 82884,
+    "sha256": "cd0b8707512b031f1345f7cb7c46dd74904f2ee5e591f9106818d0998c85f590"
   },
   {
     "path": "cad/stl/quincy.stl",
@@ -726,8 +741,13 @@
   },
   {
     "path": "models/assets/qc_folder45.xml",
-    "bytes": 25858,
-    "sha256": "3e7236a420a325795b056841d6e2df59ff51cb5f580d30be76017f4df161642f"
+    "bytes": 26673,
+    "sha256": "6c17ffe02f4b5114a2bf8fca98e8d0a80f0785f95acd29b1ecd4c7a6149209d7"
+  },
+  {
+    "path": "models/assets/quincy-promo-tall.xml",
+    "bytes": 416,
+    "sha256": "6c18605ccffaa5d4971df831d710d3ae77cd1a69779ef4812617e1469112894f"
   },
   {
     "path": "models/assets/quincy.xml",
@@ -7056,23 +7076,23 @@
   },
   {
     "path": "source/qc-folder45/folder45.py",
-    "bytes": 4814,
-    "sha256": "bd9b40f0709019263b54ad748e9aaf9bec9f30c31777abfa234835c74594fdb1"
+    "bytes": 5467,
+    "sha256": "83dfc5277b586b0c79dc945bc4c629f85a750ea666b53056242966bf382f28ff"
   },
   {
     "path": "source/qc-folder45/folder_slide_45.xml",
-    "bytes": 721424,
-    "sha256": "0a6c5755c8ed51bc9bdb4e3410d8f7a99828f089b472370762f8c785eede4424"
+    "bytes": 721925,
+    "sha256": "866c3c0689a87c4dcc14e326659de78304928c20b91049493d62b31360df4c82"
   },
   {
     "path": "source/qc-folder45/folder_stand_45.json",
-    "bytes": 5722,
-    "sha256": "2a99a8f3ce1626972376c03f5d6a52aeebccfe41d92d6e27a99a82495e634a98"
+    "bytes": 5919,
+    "sha256": "1445280c16fc3d5a36a99bc073e4b92c4438d593c5deaabead417fc238dadc37"
   },
   {
     "path": "source/qc-folder45/README.md",
-    "bytes": 1116,
-    "sha256": "e9bcf4360b136162b5abdcbf21675093e354a534b8ac789e10896223e2fbcb89"
+    "bytes": 865,
+    "sha256": "f3344fbc8bf36375b893785397a6b00d025cefa4a6ec85d784657b338d9d79dd"
   },
   {
     "path": "source/qc-folder45/slide_folder.json",

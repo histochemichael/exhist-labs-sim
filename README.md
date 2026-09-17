@@ -17,6 +17,18 @@ A CAD-based histology laboratory in MuJoCo: LeHisto sorting and special staining
 
 ## Install and run
 
+### Latest: 60-second upright-rack promo
+
+[![Watch the latest ExHist Labs promo](promo_v4/video-check-upright-oven-pickup.jpg)](promo_v4/ExHist-Labs-Promo-60s.mp4)
+
+[Watch/download the 60-second MP4](promo_v4/ExHist-Labs-Promo-60s.mp4) · [Demo instructions and evidence](docs/PROMO.md)
+
+Nori opens the oven with its left claw, carries an upright rack with its straight parallel gripper, closes the oven, and loads the stainer. The stainer places the rack in the first rear vessel as Nori leaves. Background LeHisto sorting and the logo ending are included. The promo ovens have **120 mm extra upper clearance** as a modified concept, not stock Quincy dimensions.
+
+The authored cut kept rack tilt below **0.018 degrees** and passed scoped geometric checks at all **1,800 frames**. This is **staged kinematic playback**, not a full-lab contact-physics result or proof of real slide retention. Fresh packaged checks and preserved author evidence are linked in the guide.
+
+### Live laboratory scene
+
 Windows 64-bit is the tested platform. Use **Python 3.10, MuJoCo 3.4.0 and PlaCo 0.9.20** for the live LeHisto loop. A desktop OpenGL-capable display/driver is needed for the viewer and screenshot rendering. Fusion is **not** required to run the simulation. No ROS, robot, camera or hardware connection is required.
 
 Clone this repository (or download and extract its ZIP), then open a terminal in its root:

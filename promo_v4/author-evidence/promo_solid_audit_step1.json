@@ -1,0 +1,88 @@
+{
+  "frame_step": 1,
+  "frames_checked": 1800,
+  "boolean_tests": 90180,
+  "intersections": [],
+  "solid_count": 240,
+  "robot_visual_hull_fallbacks": [
+    {
+      "geom": "41",
+      "body": "left_shoulder_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "43",
+      "body": "left_shoulder_roll_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "45",
+      "body": "left_bicep_yaw_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "47",
+      "body": "left_elbow_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "49",
+      "body": "left_forearm_yaw_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "51",
+      "body": "left_wrist_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "53",
+      "body": "left_wrist_roll_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "57",
+      "body": "left_gripper_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "59",
+      "body": "left_gripper_idler_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "61",
+      "body": "right_shoulder_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "63",
+      "body": "right_shoulder_roll_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "65",
+      "body": "right_bicep_yaw_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "67",
+      "body": "right_elbow_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "69",
+      "body": "right_forearm_yaw_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    },
+    {
+      "geom": "71",
+      "body": "right_wrist_pitch_link",
+      "method": "conservative convex hull of non-manifold robot visual mesh"
+    }
+  ],
+  "scope": "Tessellated CAD solids in the oven/stainer corridor: Nori arm/gripper versus equipment, head and three worktops; rack versus equipment except intentional wrist fork; stainer horizontal arms/fork versus fixed workstation. Intentional left-claw/handle contacts excluded. Not forces or continuous-time certification. Also checks left versus right arm/gripper and rack versus head/left arm.",
+  "physical_success": false,
+  "scene_sha256": "06297b2f58a688df4caf898a325d6a90b5478afe456dbb479b5859b928f25200",
+  "states_sha256": "d6d6b6475b501f714efce97aa335555e0ed3fa55d50196b229bc79416aa30044"
+}

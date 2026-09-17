@@ -19,5 +19,12 @@
     "sha256": "e1fd4467bd44f05a02d350ff7e9e65c95faa140abe620ee6d95b46049ed4a791",
     "bytes": 62542553,
     "archive_bytes": 19503037
+  },
+  {
+    "file": "promo_v4/special-stain-trace.json",
+    "archive": "promo_v4/special-stain-trace.json.gz",
+    "sha256": "727d47d689942178b7df6710cb6ad67e99ca26071c4baaecdca177fa759e0ff4",
+    "bytes": 62645009,
+    "archive_bytes": 19500085
   }
 ]
