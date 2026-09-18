@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "decoded_frames": 1800,
+  "video_duration_s": 60,
+  "gif_duration_ms": 60000,
+  "gif_infinite_loop": true,
+  "frame_mean_absolute_rgb_errors": {
+    "0": 1.3616511140046297,
+    "675": 1.504488208912037,
+    "1245": 1.5282526765046296,
+    "1650": 1.2717350260416667,
+    "1770": 0.5771140769675925
+  },
+  "scene_sha256": "58ac24bea3af27e49018047de79b555644b68e088332e749248d481795859f5a",
+  "playback_sha256": "25154499cd63ab9deacc0c980d866df5dc64d6e4f1805c3cc0b7b4103e9a5883",
+  "gif_sha256": "ba977d7a17a933a72f8abddc30b650ef0be7715b298e7c06110ab5367b931358",
+  "scope": "Packaged replay pixel comparison at scanner, rack pickup, stainer drop-off, departure/fade and logo; encoding differences allowed. Not a new physics validation."
+}

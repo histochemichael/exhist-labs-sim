@@ -1,0 +1,1811 @@
+{
+  "passed": true,
+  "frames": 1800,
+  "fps": 30,
+  "duration_s": 60,
+  "resources": [
+    {
+      "file": "../assets/nori/00_base_shell.stl",
+      "sha256": "4c261e2d756fdaa02345f6ce67f448430e0956cac1f752e7e0786026eefe979a"
+    },
+    {
+      "file": "../assets/nori/01_shoulder_pitch_mirrored.stl",
+      "sha256": "56190d27102a4c58f442058209f984622f56e54a71204bffff8c485af2635627"
+    },
+    {
+      "file": "../assets/nori/02_shoulder_roll_mirrored.stl",
+      "sha256": "0b16878da78276d3b3d7b125f27e337179873831839d717ac56ec4bde2a68efb"
+    },
+    {
+      "file": "../assets/nori/03_bicep_yaw_mirrored.stl",
+      "sha256": "366e6de01c4dce34cea54c59d10224d890f790bd9c1b33a8a5fe3d727af0cd55"
+    },
+    {
+      "file": "../assets/nori/04_elbow_pitch_mirrored.stl",
+      "sha256": "16c00f35978aa42e83b5a22d1f53d3f4e11ace817ee19c15a1aeadface1bac40"
+    },
+    {
+      "file": "../assets/nori/05_forearm_yaw_mirrored.stl",
+      "sha256": "6f1e72f0d381895fd9375e5d6fc038653f8e22a5772ced6f82454d2661af3789"
+    },
+    {
+      "file": "../assets/nori/06_wrist_pitch_mirrored.stl",
+      "sha256": "a74271485a967b25dcd346c66f8326411b38d3b6c5284c465fd0f772a4c1e11b"
+    },
+    {
+      "file": "../assets/nori/07_wrist_roll_mirrored.stl",
+      "sha256": "b49b980f95236cbf7e13b515343fea59c19deef9726b59a6ca8fb7a1fa92f7d4"
+    },
+    {
+      "file": "../assets/nori/08_gripper_r_mirrored.stl",
+      "sha256": "cbe82a8d7b05d8dc2a2f3bb772bb17cd96dc63f9755cf520f2f8db2f08c19a7e"
+    },
+    {
+      "file": "../assets/nori/09_left_camera_mount_mirrored.stl",
+      "sha256": "c4cd45f207fcc27796592c5307ce63f8e0d7eca2032644e49cdbb30faaf37be3"
+    },
+    {
+      "file": "../assets/nori/10_gripper_l_mirrored.stl",
+      "sha256": "a7e0d7aa7b2a2d05df8f21a54e2af1df91aeb8b9813f733b0874ee674f63a73e"
+    },
+    {
+      "file": "../assets/nori/11_shoulder_pitch.stl",
+      "sha256": "8441eed051f2abb865c7d8d7c09cb2263df5eaefe16c9fdded59f03bbc6a9229"
+    },
+    {
+      "file": "../assets/nori/12_shoulder_roll.stl",
+      "sha256": "14d9192d0afe4b0d008e27b88cae679ac5bec66216f89e8144342e83bfea70c2"
+    },
+    {
+      "file": "../assets/nori/13_bicep_yaw.stl",
+      "sha256": "ce81d5bd40c5161c9497dd3cbc448842ef53fdc1db68dfb38cde83dd890c95d8"
+    },
+    {
+      "file": "../assets/nori/14_elbow_pitch.stl",
+      "sha256": "1cc2b42c20a1d312264a4fbbd6848c1b4edc3a77e2d75608ccf368684f12c2b8"
+    },
+    {
+      "file": "../assets/nori/15_forearm_yaw.stl",
+      "sha256": "0da099f2b99313d55e5e57d1f73b015c77664ed19726b79e6274e31e4d130c3b"
+    },
+    {
+      "file": "../assets/nori/16_wrist_pitch.stl",
+      "sha256": "3c96321a428ab86d87bb1eb38b6610ff63f83125bfcd29c9624484d1a46d9176"
+    },
+    {
+      "file": "../assets/nori/17_wrist_roll.stl",
+      "sha256": "bf55e5d938775a639bcb4980dc1c5703a1197fffc00279d527485db8ad3be085"
+    },
+    {
+      "file": "../assets/nori/18_gripper_r.stl",
+      "sha256": "422c62629a0b16ed28a254d62179d4995b48ca45a82519890c8c88bb2af60b78"
+    },
+    {
+      "file": "../assets/nori/19_right_camera_mount_mirrored.stl",
+      "sha256": "33ff82d4b2d82b8ca56bf6db683286d4e736699924cb0c65b541c8c9ab016fd8"
+    },
+    {
+      "file": "../assets/nori/20_gripper_l.stl",
+      "sha256": "bcded566020e7621cb07cc0a29c6bb71a48054557e1b7510b25ae16c7e5e8f4a"
+    },
+    {
+      "file": "../assets/nori/21_RPLiDarC1.stl",
+      "sha256": "1cd6fd221dbceea9713492a76515b428317a91abd247f6bb9547efbf5eac1081"
+    },
+    {
+      "file": "../assets/nori/22_lehisto_part_00.stl",
+      "sha256": "f9272b0a00a0d74d43c79f82b94f4cc75e4dd6b6c9ff5092830f677999cc9e4c"
+    },
+    {
+      "file": "../assets/nori/23_lehisto_part_01.stl",
+      "sha256": "7e2c350f0568b240bdc06c2fa80a9ed5ad31c0ebc421077c8010caf6b72edf9f"
+    },
+    {
+      "file": "../assets/nori/24_lehisto_part_02.stl",
+      "sha256": "84c7eadd9bbe32147195926994492647705b77908ecee06295b821adcf96c615"
+    },
+    {
+      "file": "../assets/nori/25_lehisto_part_03.stl",
+      "sha256": "549f4add3626f1577a66373243850d66413b03492ddb8251fe06c46725faf449"
+    },
+    {
+      "file": "../assets/nori/26_lehisto_part_04.stl",
+      "sha256": "fe071a0b4e2ffa8b50d00bcc9f72fcec1e8745aeaebe5d2de5ea7c9f7ed6cf39"
+    },
+    {
+      "file": "../assets/nori/27_lehisto_part_05.stl",
+      "sha256": "20f356100bf7e52ae1c81399bc5ae898b876cc2ab77058919b2c6960a95c835b"
+    },
+    {
+      "file": "../assets/nori/28_lehisto_part_06.stl",
+      "sha256": "68e6a42e3d091dbd08ee718618f986004e2c2aa4033018a62aa4b9eec68ec43c"
+    },
+    {
+      "file": "../assets/nori/29_lehisto_part_07.stl",
+      "sha256": "166d89f0647f5fd6220698f884b6667570659f8d27c7017596f1f22f2d6112f5"
+    },
+    {
+      "file": "../assets/nori/30_lehisto_part_08.stl",
+      "sha256": "752211eacea1a52a1b434078d63b4cd33c39c716fcb6261b60195117a699b066"
+    },
+    {
+      "file": "../assets/nori/31_lehisto_part_09.stl",
+      "sha256": "892d91c464151e32f6e6347ed477bca4eb28d08ff64b76cfcfeb6f1e22a73a4e"
+    },
+    {
+      "file": "../assets/nori/32_lehisto_part_10.stl",
+      "sha256": "8e65d028502bc70e19a9436038d544da1287acb45d9f93464f6e9fef6754c376"
+    },
+    {
+      "file": "../assets/nori/33_lehisto_part_11.stl",
+      "sha256": "a57e923e4ea22220bb0875d1ef37c0dda3b442705e4d1ee4c086a9cd82b1fe78"
+    },
+    {
+      "file": "../assets/nori/34_lehisto_part_12.stl",
+      "sha256": "8eee9594aa346b1c1132ce38a7672caa36bf4a48f88e7773e8607b8341c5f143"
+    },
+    {
+      "file": "../assets/nori/35_lehisto_part_13.stl",
+      "sha256": "a3dfd41a0e8c3d7873cefd3715b6b4a468d120baa983405ce2d287320653ea16"
+    },
+    {
+      "file": "../assets/nori/36_lehisto_part_14.stl",
+      "sha256": "0a2c95ec6225d72e1112593f0d6b294c3160576f91e0f41f30d1588751d12253"
+    },
+    {
+      "file": "../assets/nori/37_lehisto_part_15.stl",
+      "sha256": "083d4e1f69d89cbc023d8c84dcdc62d2a44530a98fccf0ef205cba4d7c341da7"
+    },
+    {
+      "file": "../assets/nori/38_lehisto_part_16.stl",
+      "sha256": "379fdc66977021ecb7745567b5794b5774f6b816b1c1d55e88e0b8e5d0d09844"
+    },
+    {
+      "file": "../assets/nori/39_lehisto_part_17.stl",
+      "sha256": "d1174c23b6ec17be955dae160cc80b1cf8107c7123c1a72875e2536ee87c97d9"
+    },
+    {
+      "file": "../assets/nori/40_lehisto_part_18.stl",
+      "sha256": "f85698b3260f3b3d81d1b66600a7b8df6ece29fb6a91ac516c5b310c353871e0"
+    },
+    {
+      "file": "../assets/nori/41_lehisto_part_19.stl",
+      "sha256": "d7e3d597290e714af07cabc2dcbba6c7d72e17e536603c4c447e9577d477beb7"
+    },
+    {
+      "file": "../assets/nori/42_lehisto_part_20.stl",
+      "sha256": "b9e6d4331b7213979f52298784ce84e12e76746d7e7607ddd8c516b83c62236d"
+    },
+    {
+      "file": "../assets/nori/43_lehisto_part_21.stl",
+      "sha256": "93439c12acff7d71d0c3143a00c2f4365ef1066a5f8d3bb71ac5810129a980b5"
+    },
+    {
+      "file": "../assets/nori/44_lehisto_part_22.stl",
+      "sha256": "2feb1a777c35d9e90c944c251296c1e8b8b14e7c1645ad0fd6574a4fa3fecb09"
+    },
+    {
+      "file": "../assets/nori/45_lehisto_part_23.stl",
+      "sha256": "23886e57735e9c10381be9c8286feaed7b9272f811c3b6ccf454a4b21d2bc171"
+    },
+    {
+      "file": "../assets/nori/46_lehisto_part_24.stl",
+      "sha256": "b5de48b589732b3c5dac5d32b41b0c03fdf7e3ded206c2625c5f8b873a2749d0"
+    },
+    {
+      "file": "../assets/nori/47_lehisto_part_25.stl",
+      "sha256": "4da82fc530c136915a5a213b11034935eded99296c47b8587088fd8409f401f4"
+    },
+    {
+      "file": "../assets/nori/48_lehisto_part_26.stl",
+      "sha256": "de5a94919859a0eceed91730c504ccd541ea5561259b46988cf4137d0725aec4"
+    },
+    {
+      "file": "../assets/nori/49_lehisto_part_27.stl",
+      "sha256": "3e7b60a9e841c01805768d1a26fcd4fa2b377812a04d91b6f145d6572b7375ab"
+    },
+    {
+      "file": "../assets/nori/50_lehisto_part_28.stl",
+      "sha256": "64b5b1b16abebfa6b3d22bcfa4b9df8ecf2088678b27f3639826a329490fa615"
+    },
+    {
+      "file": "../assets/nori/51_lehisto_part_29.stl",
+      "sha256": "0a48eac9da031f692c4593736f7d02e7863f37cf3cade9b82ab6979ca7e11d23"
+    },
+    {
+      "file": "../assets/nori/52_lehisto_part_30.stl",
+      "sha256": "d1327c73e7426d159cefbdf95a74c07b1d5ecc344fedbb63005d3d6c0260bc18"
+    },
+    {
+      "file": "../assets/nori/53_lehisto_part_31.stl",
+      "sha256": "857992160257e591ee0c5a83c6c1227665a9386956ab2fbddffe7f26d1c9ab4b"
+    },
+    {
+      "file": "../assets/nori/54_lehisto_part_32.stl",
+      "sha256": "91edfb3d8b1f86281cfadd8d47da47d5ad375faf1a6d7c0ee824c2a8c673f184"
+    },
+    {
+      "file": "../assets/nori/55_lehisto_part_33.stl",
+      "sha256": "c7ddae075fb15cd15e0a56dac1cb91341dc143bcfa08fad67f5d50f93e81a6e7"
+    },
+    {
+      "file": "../assets/nori/56_lehisto_part_34.stl",
+      "sha256": "900a89f037423c5f811ab6ba5b52da0b29f06e5eed51d2e3593fab8bb9e8960a"
+    },
+    {
+      "file": "../assets/nori/57_lehisto_part_35.stl",
+      "sha256": "4ad7b0c80cd996d6436ee0e2398a265cbfcc67b9d138182de8f6f722d44ff730"
+    },
+    {
+      "file": "../assets/nori/58_lehisto_part_36.stl",
+      "sha256": "ad0519d5760e9205356e591ec245a4b2714add8380c309291bc3673ac946c71c"
+    },
+    {
+      "file": "../assets/nori/59_lehisto_part_37.stl",
+      "sha256": "a311309b924c04de60e3124972cbbfe02c88ec87a850fa5029584df48ba14b55"
+    },
+    {
+      "file": "../assets/nori/60_lehisto_part_38.stl",
+      "sha256": "2977c98bba9c065a6b31beb33862611db4f8c91970b6b32645ce6062d76945f8"
+    },
+    {
+      "file": "../assets/nori/61_lehisto_part_39.stl",
+      "sha256": "1939979997df4af6fefca6bc199264c034734e6c213337aef85076f5bde04eb6"
+    },
+    {
+      "file": "../assets/nori/62_lehisto_part_40.stl",
+      "sha256": "ead33d43bfbc271e9bc43fbe65d80fc2737930e88da0b1e00664fa3d59ce8316"
+    },
+    {
+      "file": "../assets/nori/63_lehisto_part_41.stl",
+      "sha256": "554f4d2bddd802b90bda7d0c6fe5d12150eaaf12966727bb61da405cefc28547"
+    },
+    {
+      "file": "../assets/nori/64_lehisto_part_42.stl",
+      "sha256": "ba0f287690df6a90086f83b9cc05b144abcba075a595f6c855dd835fd7b56d61"
+    },
+    {
+      "file": "../assets/nori/65_lehisto_part_43.stl",
+      "sha256": "0c4390410c9f63b586f6ec78ccda91b4c3729a75e705ae6475bab4857b072105"
+    },
+    {
+      "file": "../assets/nori/66_lehisto_part_44.stl",
+      "sha256": "add501170c84af035aeecb094b1368e1e1520d732dcf9754ff9034e22bde83ac"
+    },
+    {
+      "file": "../assets/lehisto_0.obj",
+      "sha256": "aa594e9da6708d27ef5953113db5c248e4758bb7ce571198fa342aecc339361f"
+    },
+    {
+      "file": "../assets/lehisto_1.obj",
+      "sha256": "5f8c3f53331a4654137aaa779cdebf9c3e20d5e1e1983b20845ff369e64706c8"
+    },
+    {
+      "file": "../assets/lehisto_2.obj",
+      "sha256": "de748a71183e964576ff637697ad27cc1bd41a43ca647234212161d98fea1951"
+    },
+    {
+      "file": "../assets/lehisto_3.obj",
+      "sha256": "f453bebbd30bc4c066e26c5a59909dfd1ecb1946e9c7eeb345199d52a9561bd9"
+    },
+    {
+      "file": "../assets/lehisto_4.obj",
+      "sha256": "f8186013800e0b8c647131862e53e36534ad3ad1539eecbe53bb0e31adeed013"
+    },
+    {
+      "file": "../assets/lehisto_5.obj",
+      "sha256": "367fe529cade252a1ea9ab6e1747869ee544c883d60a1451ea0ba3e9da93df5d"
+    },
+    {
+      "file": "../assets/lehisto_6.obj",
+      "sha256": "e203f303764e353868862cb9eb3c5a680823ff73b05ab4144dcc20b38d5c1d77"
+    },
+    {
+      "file": "../assets/lehisto_7.obj",
+      "sha256": "7b5955cd461b26268ff771e05a862f35ef12f6c946cf2ffd34b7151217b0086f"
+    },
+    {
+      "file": "../assets/lehisto_8.obj",
+      "sha256": "c636651b0ca3c5fc7166f301b12d29e4e6404e3027226f89596934e35fa4a2a9"
+    },
+    {
+      "file": "../assets/lehisto_9.obj",
+      "sha256": "329822952068e39ebcb2301ddf94ff76d1f206327ef35891f706f856222c9c19"
+    },
+    {
+      "file": "../assets/lehisto_10.obj",
+      "sha256": "76b5a27f4b1f4afa9ae91a2f4c7b001e117b28e5be5d8d42d790a2fdac17e543"
+    },
+    {
+      "file": "../assets/lehisto_11.obj",
+      "sha256": "0d87f1aaacbc492f4a69d47a2b23a78b37a58f78992407ca3ee1fcd0a4102b6f"
+    },
+    {
+      "file": "../assets/lehisto_12.obj",
+      "sha256": "4585e8c34bb8ba1f838cb409d4c67d7b50cebbc6274554c02a0b525beb4c181c"
+    },
+    {
+      "file": "../assets/lehisto_13.obj",
+      "sha256": "a4d5bcb2f1b5a157b0a30e2f55552691e41fd54fc3ac1336b9da9e8a20e3b44e"
+    },
+    {
+      "file": "../assets/lehisto_14.obj",
+      "sha256": "7a94e755097f5320ab5bf084ec7b7703776455ac7aae4ca2f8dc1e8195f92232"
+    },
+    {
+      "file": "../assets/lehisto_15.obj",
+      "sha256": "26e648b5a56d459dfc221ebb9797f9e53cd9772850df19d7120bcf7b1d80e6a3"
+    },
+    {
+      "file": "../assets/lehisto_16.obj",
+      "sha256": "2f0348b9888a60de65348f0d36c78f3076f01f489ab84e9346a2cbe0e0016e2f"
+    },
+    {
+      "file": "../assets/lehisto_17.obj",
+      "sha256": "a3e9ffa2fa9cf320d3b5155112fea59f0290d467617b684a369fb59a19ea2ff8"
+    },
+    {
+      "file": "../assets/lehisto_18.obj",
+      "sha256": "d9daa7d72401b0e0bd6e06b658b3b42985e1e47f94cf3b5978e2ddee27550c9f"
+    },
+    {
+      "file": "../assets/lehisto_19.obj",
+      "sha256": "06a31d2ccd19b2deb3bb0764c032f981aae1c04e6726bb15b754d2a7a6ff2f04"
+    },
+    {
+      "file": "../assets/lehisto_20.obj",
+      "sha256": "08d0fae037941530c27634f20c00fe42f3f579ed1cf59a6104076eb4971e196a"
+    },
+    {
+      "file": "../assets/lehisto_21.obj",
+      "sha256": "41e47a7f9de388b41fc517c6aaa216dc7e433412887f34793a9815eb35b4a71a"
+    },
+    {
+      "file": "../assets/lehisto_22.obj",
+      "sha256": "419cb31b22c1ff23c56458008cbb99466fcaf226d7fdf197b531281891f62191"
+    },
+    {
+      "file": "../assets/lehisto_23.obj",
+      "sha256": "bae3753936fce42ff49f92d68686903499036e8f1e219829564be8a6670cf177"
+    },
+    {
+      "file": "../assets/lehisto_24.obj",
+      "sha256": "e376026d62d9142653fa27eb089d58a3cffd14993cfa3a63c71d210b8d54bec0"
+    },
+    {
+      "file": "../assets/lehisto_25.obj",
+      "sha256": "0e71213db31583b29b23b08d9f23cac9c89a66f8ddd7ef55a0b8d80541b5238a"
+    },
+    {
+      "file": "../assets/lehisto_26.obj",
+      "sha256": "189da9604d027339f59ff2bf6aaae7e9adb72a122841b6efbff05fee3adaed3a"
+    },
+    {
+      "file": "../assets/lehisto_27.obj",
+      "sha256": "8a36f0058bc9a72abfff1407d9a7ed6b8a3b94e48a2ea64ed0fedcdc735c7a4a"
+    },
+    {
+      "file": "../assets/lehisto_28.obj",
+      "sha256": "1569b1cd49797d18fba87849d53c64639845531a75f6c3d9f95993d901c8aea8"
+    },
+    {
+      "file": "../assets/lehisto_29.obj",
+      "sha256": "04eff6d1c0aa28bb73508a38b522e8b35db095c9b409802f56c4da72e99a3ab1"
+    },
+    {
+      "file": "../assets/lehisto_30.obj",
+      "sha256": "d078f346637978ae1fd7abeac6448d0b336c2b1c727e2ebc30516d05aaecfb51"
+    },
+    {
+      "file": "../assets/lehisto_31.obj",
+      "sha256": "fd0c5da39dfd805d81439303c79cf24b3d5e539f676431a0ed86beafff88cb01"
+    },
+    {
+      "file": "../assets/lehisto_32.obj",
+      "sha256": "8626ad8e9a1e90c13c5df4b098f4d075e93e305640589ff61817e8af4fe987f5"
+    },
+    {
+      "file": "../assets/lehisto_33.obj",
+      "sha256": "d06ebe50d8bcbe0d581249db98177b00c57bebef6d0b3715e42c0cd30c4d9c1d"
+    },
+    {
+      "file": "../assets/lehisto_34.obj",
+      "sha256": "1ac0d60d1d8fb05fb4ceecaa46d4c90f650431130f6950f8c3260900800a556d"
+    },
+    {
+      "file": "../assets/lehisto_35.obj",
+      "sha256": "587e31597f4c57ede17b7701ad378c9c51db2160044955da39e1bd7f178d51f1"
+    },
+    {
+      "file": "../assets/quincy_0.obj",
+      "sha256": "7bf683d1db0fd522e2781314e76016812da4e84520e8d5bbe99cda3e4e450e4f"
+    },
+    {
+      "file": "../assets/quincy_1.obj",
+      "sha256": "8c9999d30ffe5ae53111ebdd4c3cae94ff365ea0a251a22b2335622eac6186c7"
+    },
+    {
+      "file": "../assets/quincy_2.obj",
+      "sha256": "ea39a5d46248c26b4c875f451175b566cdc7394b17beb3745b639f97efc2289d"
+    },
+    {
+      "file": "../assets/quincy_3.obj",
+      "sha256": "0f0dba194608db7ade3238df8ad1f29a737f2ee7a643b8e28e664b2c71d2507b"
+    },
+    {
+      "file": "../assets/quincy_4.obj",
+      "sha256": "3aa27b70dcfb8fdf7fa3f6ad240d9747b70d0eaf516e28d0ce888985801be093"
+    },
+    {
+      "file": "../assets/quincy_5.obj",
+      "sha256": "114696f8d5107707c7f8f14a7ee0689e4bb041c2ce1a3eb4ea7c4fa959d5f8f5"
+    },
+    {
+      "file": "../assets/quincy_6.obj",
+      "sha256": "3f574462ee7557354281478515f9e81d149e2c3d786eb7e3dca711b24c96daa6"
+    },
+    {
+      "file": "../assets/leica_workstation_0.obj",
+      "sha256": "7f6286aee9fdffc60e8659c1fe79452293fa145bc407e6ae662ef3dc3456af24"
+    },
+    {
+      "file": "../assets/leica_workstation_1.obj",
+      "sha256": "2bb8db8beb1ce96ea6d2ce9749fc1e7abed1ccc7a5e20290881290e814699faa"
+    },
+    {
+      "file": "../assets/leica_workstation_2.obj",
+      "sha256": "f20aa9a3feea26b790108ce991b6a2e9db754f162f1fcffbbeecc576fefbbf41"
+    },
+    {
+      "file": "../assets/leica_workstation_3.obj",
+      "sha256": "f19bd932f10fa6a5f276d8d626e3e77ae6c18b79dabaa2acbbedb85e5fb967c0"
+    },
+    {
+      "file": "../assets/leica_workstation_4.obj",
+      "sha256": "b12303ecebd549b899fae819320b534abe44438d23d6c8523943b723eeac147c"
+    },
+    {
+      "file": "../assets/leica_workstation_5.obj",
+      "sha256": "d787278775539316c70d75048efa52cdee915e5d9f09b5c62ec0d0e66d5a7966"
+    },
+    {
+      "file": "../assets/leica_workstation_6.obj",
+      "sha256": "bd77c28ea0bd10960b658306cd3420df80ddd950a68b4ac94ff9893b32b71d8e"
+    },
+    {
+      "file": "../assets/leica_workstation_7.obj",
+      "sha256": "757c618b0c0f9f7eb4b89b3b36974da95f07521618acc98a797e7c32dc6a3319"
+    },
+    {
+      "file": "../assets/leica_workstation_8.obj",
+      "sha256": "836a86b9a57ba69e4544519a2c78d2f1602b3b5023cf8c43fb4b324d0ce97d26"
+    },
+    {
+      "file": "../assets/leica_workstation_9.obj",
+      "sha256": "05b4a64379c74ba0b9a710215bea5bfd7ea4ba7def11b0a132bcd9c8a919ca40"
+    },
+    {
+      "file": "../assets/leica_workstation_10.obj",
+      "sha256": "894aa95660def216304ba037e0be53b5655f6e55c523537eda8c2b8e31256e69"
+    },
+    {
+      "file": "../assets/leica_workstation_11.obj",
+      "sha256": "9bc5fd2b2f5447bbf8fdb527aaa01e858c5bc5698b133630962215e5bfd95006"
+    },
+    {
+      "file": "../assets/leica_workstation_12.obj",
+      "sha256": "cf65c86a55f249303dacf69aab971e90aca412e9d8dd5360a7436fc838f99954"
+    },
+    {
+      "file": "../assets/leica_workstation_13.obj",
+      "sha256": "b9cbcc29164b99dae68eb3631acfb75d69c81cec7fbdfa212c33f63a7e5d678f"
+    },
+    {
+      "file": "../assets/leica_workstation_14.obj",
+      "sha256": "172cac8801fb2dddb35585aba501d682ee271793f6c46f8aa017e468986ffa48"
+    },
+    {
+      "file": "../assets/leica_workstation_15.obj",
+      "sha256": "c3987ff2021a640b6b6d0c1a11d3df0bf3402fd3d7b5c6be340a60950630324c"
+    },
+    {
+      "file": "../assets/leica_workstation_16.obj",
+      "sha256": "25fbcfefff0fcb1c47bc86513fb27359980dd9ee2ab9929938241e635c308ad7"
+    },
+    {
+      "file": "../assets/leica_workstation_17.obj",
+      "sha256": "114ae03c1afa790a46d2cde1deda5f90831d2c110ab901067731a5649dc84186"
+    },
+    {
+      "file": "../assets/leica_workstation_18.obj",
+      "sha256": "c71a080c4dec8be3e0c5bc1ee21f4319c60e21d36fc3e7c9693a5ed75146b5ff"
+    },
+    {
+      "file": "../assets/leica_workstation_19.obj",
+      "sha256": "96bb858c2e012ab08a481ed4fa908c2c00cf4b3ff803d05bcaac77f8ba3c267b"
+    },
+    {
+      "file": "../assets/leica_workstation_20.obj",
+      "sha256": "3e71f1069eacf33f4cdb7f82cb5b024beecf2cb61742aea1fe80ec5a115684b0"
+    },
+    {
+      "file": "../assets/leica_workstation_21.obj",
+      "sha256": "27e0dc897fb1dd2b08719a598b7a71625cd46eac73d8342b4c847b8f825e202a"
+    },
+    {
+      "file": "../assets/leica_workstation_22.obj",
+      "sha256": "241ecc994890d272076a1c6ffb55f1bb5bceeb53bd15aed0bf3b801e5fa65f17"
+    },
+    {
+      "file": "../assets/leica_workstation_23.obj",
+      "sha256": "531455219e8b4175de57a4a69cc5c8d0750a871731b52226812a9faa5e8357cc"
+    },
+    {
+      "file": "../assets/s60_0.obj",
+      "sha256": "12d60ba881597d4deca0dd800590c6b3d34ea6af2a6618e42bc9891e43788b69"
+    },
+    {
+      "file": "../assets/s60_1.obj",
+      "sha256": "b2bda5d1c18297d1fb7aeab75a3400602d971c39fb85a136aa6a30d646df1c76"
+    },
+    {
+      "file": "../assets/s60_2.obj",
+      "sha256": "eb2a6eb3731eb223f123e335445a5515aada3949361cf87d66523cccb4c93c64"
+    },
+    {
+      "file": "../assets/s60_3.obj",
+      "sha256": "96644d3802e1ff70523786eb80e5b2c890a9b59754fd896c97062ca977e51aaf"
+    },
+    {
+      "file": "../assets/s60_4.obj",
+      "sha256": "fb4656b91de939c728bd81ccf3dc92586af0628a0cae7584e423e4af565164a3"
+    },
+    {
+      "file": "../assets/s60_5.obj",
+      "sha256": "185ee9c87389cdf4f95a33c15cde9992bfc63dc90257b3bdb528a3bcaa5595bb"
+    },
+    {
+      "file": "../assets/s60_6.obj",
+      "sha256": "f2cda5ec6c14992327f09e9dfdc52494f2f651150d7c7b8001a1bd1fa2068452"
+    },
+    {
+      "file": "../assets/s60_7.obj",
+      "sha256": "40efe6aae6827d7d0c2be8174d78023abbf703d22944a18664c3e509e5c30681"
+    },
+    {
+      "file": "../assets/s60_8.obj",
+      "sha256": "535de9641e72ab99a4d5e8fffdd55b248e8d3d604c0246cfbb6c960479d6f072"
+    },
+    {
+      "file": "../assets/s60_9.obj",
+      "sha256": "40fcd61f1c160e718e8ac5e6d5133a496bf8ae611f9d912fea5a3a9dbc010183"
+    },
+    {
+      "file": "../assets/slide_folder_0.obj",
+      "sha256": "a88edb4ab4876d85e9d012248278ef5e08131f2361bbe3bce29a038fe9e5d240"
+    },
+    {
+      "file": "../assets/rack24_0.obj",
+      "sha256": "c95085adbf3b02201630760d55a04900a6e92a17b1e049ed57e415e740fb918f"
+    },
+    {
+      "file": "../assets/leica_rack_0.obj",
+      "sha256": "00d7c6c5d124e6282ed92d178d96e315bd73fe7c47a91e07c7de6dbbc9cf48b6"
+    },
+    {
+      "file": "../assets/leica_rack_1.obj",
+      "sha256": "712d549aedd0ea52a20cda112f32f699681dfa527bdcdbed4d7375d04a856b0b"
+    },
+    {
+      "file": "../assets/cassette_block_0.obj",
+      "sha256": "1664322da637669bd5c6ab263f900a3c1425040b51577b55e6b8ef0591a5e175"
+    },
+    {
+      "file": "../assets/cassette_block_1.obj",
+      "sha256": "6ab4ab1455c4609b2f35e68e620dc3b3f944066723c4856ffe8e2d5a92c2e13a"
+    },
+    {
+      "file": "../assets/cassette_block_2.obj",
+      "sha256": "5648bb7d110f6281e9aa80084d7676aad5128ca70999115df7e3d542814a42bd"
+    },
+    {
+      "file": "../assets/sorting_label.png",
+      "sha256": "81bc9c9b125348cde0a4331f79fabec48e0ccae66ccdaee92790c01aa4819e44"
+    },
+    {
+      "file": "../assets/baking_label.png",
+      "sha256": "670ee7d76ab5a25d38d1622dbb6ad84df8f8cd89084461e165934174399a7d8e"
+    },
+    {
+      "file": "../assets/routine_a_label.png",
+      "sha256": "c1a51ebe17e6b041d281bdaebad25d3ea757fdc31b600a00f0e78e8aae187694"
+    },
+    {
+      "file": "../assets/routine_b_label.png",
+      "sha256": "cfe65a198653f5f9c7a72ecc622edfaf57470e9910bbe82a4c45ec9e1a90a1d0"
+    },
+    {
+      "file": "../assets/special_label.png",
+      "sha256": "1086467a4dcc494d3a406b4a9f490c40aac583a788c09ef2c9723a4c2615946b"
+    },
+    {
+      "file": "../assets/sendout_label.png",
+      "sha256": "90588e971fe7812c89029feacb58ad4f82240c9d73af64d5f482acb889297bc3"
+    },
+    {
+      "file": "../assets/imaging_a_label.png",
+      "sha256": "bad4a54b34bc7e6f606fa8c0bab8a0f3c0cc6e77c46cfab67dbb99cc112a04b5"
+    },
+    {
+      "file": "../assets/imaging_b_label.png",
+      "sha256": "2f17bb09f0729b03da21d33959f422e77de4d01da2dc047c185d8a724fc6ef62"
+    },
+    {
+      "file": "../assets/stainer_canopy.obj",
+      "sha256": "11c917ff6b9fed6ef5474a5f8327b89714481c9b5ca2697c8bbf5214f8d700bc"
+    },
+    {
+      "file": "../assets/lab_entry.png",
+      "sha256": "1e4822a1d6ecacb63644940a8222eb8374b86e80d054389b2f9fcfd2109cf152"
+    },
+    {
+      "file": "../assets/lab_bay_0.png",
+      "sha256": "c512514da340a9be8884d6aca8360df8de7b83b8ea10a6112a7b26b3cf928804"
+    },
+    {
+      "file": "../assets/lab_bay_1.png",
+      "sha256": "bc9983d1b0d376f062c258aeb5754b2f52dd05af89c3504fc9cf298d07aa368b"
+    },
+    {
+      "file": "../assets/lab_bay_2.png",
+      "sha256": "ca91c20ec879c636f0550a741db1808b4c2f6ee82dad78aa586c15c6c356e01d"
+    },
+    {
+      "file": "../assets/lab_bay_3.png",
+      "sha256": "5a47aea686bc1ccffa0e23eabc45258319532d099b7c5de13374145ab40539a6"
+    },
+    {
+      "file": "../assets/lab_zone_0.png",
+      "sha256": "7f446c09854d0a1ca6dc9f9b00f504f78a762b9cb44ce49e572fc860fdd6b9b3"
+    },
+    {
+      "file": "../assets/lab_zone_1.png",
+      "sha256": "1b795011dfbf5389fe6aefbf702bf53698b49b3264eed221496cc83cace6a5f8"
+    },
+    {
+      "file": "../assets/lab_zone_2.png",
+      "sha256": "ea4efab368883b9c10a91c4200ea7aee10b1d019c8101cafa53c6f4b75eee6ab"
+    },
+    {
+      "file": "../assets/lab_zone_3.png",
+      "sha256": "ee3e24d21c2bb44fbc179211bddc201b4ce7a43be3c7b392dd0157384f6c9d8a"
+    },
+    {
+      "file": "../assets/output_magazine_0.obj",
+      "sha256": "363c80d1c044bd94b62018b8aef5620f3f34604e953a7cb38a7912994a5a6066"
+    },
+    {
+      "file": "../assets/scanner_cassette_0.obj",
+      "sha256": "6c35cd487497aebd76a285701caa414afe01cc9b8cc4e2d02f2b18a13472a18e"
+    },
+    {
+      "file": "../assets/scanner_cassette_1.obj",
+      "sha256": "fb662f84a392040ee5496a6da7578607897f067da3e0183439fcde05f5d7ec50"
+    },
+    {
+      "file": "../assets/scanner_cassette_2.obj",
+      "sha256": "39f4f0e94b286562ecbe7825b7e02281dd7a1e5df6e3883b1b59f6c46631fe75"
+    },
+    {
+      "file": "../assets/art_lehisto_0.obj",
+      "sha256": "b4bc8a0a79fb12d94ddc1a24ffbe1f43e3d1bd3ddb4e68db87b9d5447a5657ca"
+    },
+    {
+      "file": "../assets/art_lehisto_1.obj",
+      "sha256": "784c5ce56b90a629c02362d0521dbaee0dba4fe2d69c0f6fe552f79529ae14a7"
+    },
+    {
+      "file": "../assets/art_lehisto_2.obj",
+      "sha256": "7c202402da71e5f515bbb22c4690ed31fdb85ea6b3f2388bbc62796393093981"
+    },
+    {
+      "file": "../assets/art_lehisto_3.obj",
+      "sha256": "0941318b9c9c0c23e103b24d2c2a72f058b7a8b4cc51d82385a8d6ffd47112a6"
+    },
+    {
+      "file": "../assets/art_lehisto_4.obj",
+      "sha256": "0b3bb8ac9a35e9cfbc45c127e7f8040a51e6825c2e803827bde752f6baecf9b2"
+    },
+    {
+      "file": "../assets/art_lehisto_5.obj",
+      "sha256": "b5e2d481f9c26faffa1299deb09c3853c5f74b1a821ec2da93c8d06c36d0b04f"
+    },
+    {
+      "file": "../assets/art_lehisto_6.obj",
+      "sha256": "4bae2072b95087aa6ef2a412d6a1b9e5a21baf80c06edae549ce1667ae6d69e3"
+    },
+    {
+      "file": "../assets/art_lehisto_7.obj",
+      "sha256": "f9e7e782b72425d5519030dd41729c71d1e60bb7735b627b1ad35fb20d7676a6"
+    },
+    {
+      "file": "../assets/art_lehisto_8.obj",
+      "sha256": "0c7d1182faea02283847f758617d4899cbbe8962e984c31d76164397c48bf3db"
+    },
+    {
+      "file": "../assets/art_lehisto_9.obj",
+      "sha256": "86d7a71052ba76c4d4c4a4e9a8cf9221bdd85105f76fffe2c97a8a59cc78c49b"
+    },
+    {
+      "file": "../assets/art_lehisto_10.obj",
+      "sha256": "a018ef3fdd312d81c9a0ac8211aec83a97d6687fecfcc6172ed23b743d483d99"
+    },
+    {
+      "file": "../assets/art_lehisto_11.obj",
+      "sha256": "1bfa8155495aa919afa292895d815e9d35b61c66ab21fc587d45aa5a25578813"
+    },
+    {
+      "file": "../assets/art_lehisto_12.obj",
+      "sha256": "0ac3fef78e9b69e642a9c074ecf73670d16afb7b22dcfb9754c470da4bd129eb"
+    },
+    {
+      "file": "../assets/art_lehisto_13.obj",
+      "sha256": "1094977b52b327e62ebe63a20034b26b0d1d524d42fbe65666332f5083f66936"
+    },
+    {
+      "file": "../assets/art_lehisto_14.obj",
+      "sha256": "edbe0e17c7f63a8b7d7caea3f098cad242bd689ec886ca7811def63411165958"
+    },
+    {
+      "file": "../assets/art_lehisto_15.obj",
+      "sha256": "74750cdab13fcd8fb58cfb7f5632f7afdb37d05e80512d38127b8aeec1f3bff1"
+    },
+    {
+      "file": "../assets/art_lehisto_16.obj",
+      "sha256": "b346b1b63774a58d10a990c8e4032ed0721d8a9e2108566bc028b783f3e7c424"
+    },
+    {
+      "file": "../assets/art_lehisto_17.obj",
+      "sha256": "2bb61a85b847c4abd12a8955c0b7bfc71303c148b56421079e85f01b3deb32f3"
+    },
+    {
+      "file": "../assets/art_lehisto_18.obj",
+      "sha256": "8c28db6e3f48a9f9dd3ce90b6daf3ba8b3d5a447307e2c8b28f61fefeedbf3c4"
+    },
+    {
+      "file": "../assets/art_lehisto_19.obj",
+      "sha256": "a31f24acbe98b0b1752d802b0cce3fb847955239ee7f9cd615f75f463d32df28"
+    },
+    {
+      "file": "../assets/art_lehisto_20.obj",
+      "sha256": "88c664ec52af701bb229dee5953f3daf4f5526a8e5783dce0a75c0d860227a23"
+    },
+    {
+      "file": "../assets/art_lehisto_21.obj",
+      "sha256": "e2eeee3554275cd586af4eb59df0b4dd253ce5ed50f3bceb3da4bc2ceecc5b71"
+    },
+    {
+      "file": "../assets/art_lehisto_22.obj",
+      "sha256": "26cff8429d473fa67b867e63125d778910ce1a12f87f5caaf6eb49a0d589915f"
+    },
+    {
+      "file": "../assets/art_lehisto_23.obj",
+      "sha256": "d4714edf1dcf6caefd002e9c31af31f8d28cafea5b44f91cb37f25b01e45fee4"
+    },
+    {
+      "file": "../assets/art_lehisto_24.obj",
+      "sha256": "b449a2fa1ca700b835bab447bbc16b747c1a45d0e8b092b21fc6007f3f457fcd"
+    },
+    {
+      "file": "../assets/art_lehisto_25.obj",
+      "sha256": "56ea6ca72d3067ef5b2f5ab916dac243dba113a3538730c4e2ffeade4bcde6a8"
+    },
+    {
+      "file": "../assets/art_lehisto_26.obj",
+      "sha256": "daad466c85e2a49ee1a2f8a69b2d5ea8a91dd788e7336243e0a80f0c69110844"
+    },
+    {
+      "file": "../assets/art_lehisto_27.obj",
+      "sha256": "35751f37aefc20d7b2c40d32ec94a00b3ea9a63f2fa7c8c0a2b4214ebefedb93"
+    },
+    {
+      "file": "../assets/art_lehisto_28.obj",
+      "sha256": "9c7107bf819172dfa19a6d8994bbd6cd39db7fd78e6b8f5c46899fb1f21dc91a"
+    },
+    {
+      "file": "../assets/art_lehisto_29.obj",
+      "sha256": "4c0a744e4dd260ea30ec1ac7ff11fec365dd175f47e49171cd9a59bc1c58fd88"
+    },
+    {
+      "file": "../assets/art_lehisto_30.obj",
+      "sha256": "da77b934e48262755b897aebb7b1c0ce7583da53c274fca43f1f402ee07bd895"
+    },
+    {
+      "file": "../assets/art_lehisto_31.obj",
+      "sha256": "b35e7dfd59ab5e16c7d9135fad733395d0fa962308e52dc466b03c49baba33b5"
+    },
+    {
+      "file": "../assets/art_lehisto_32.obj",
+      "sha256": "5942aa53bf9908b2b4b3527eacfbdb78c3dc5c48b14ee8f6bea7995224974003"
+    },
+    {
+      "file": "../assets/art_lehisto_33.obj",
+      "sha256": "2efa00f18c9f40a239765f4ceba50ee845c1ceef639482b87e4ae88a9175c72b"
+    },
+    {
+      "file": "../assets/art_lehisto_34.obj",
+      "sha256": "7581a65fe8ef3ad26ce91ac84c23d2ef97d5577f71de1a70b19d0259c6f90588"
+    },
+    {
+      "file": "../assets/art_lehisto_35.obj",
+      "sha256": "5fdc11696d3bb0362b8c8cf61f07996bfbc2953704dafe31a96d6bf009af60a2"
+    },
+    {
+      "file": "../assets/art_lehisto_36.obj",
+      "sha256": "52acf1b3b3bedb0a0f786d5ead4ae81452562e94dbb88ba4991807ecc8c29756"
+    },
+    {
+      "file": "../assets/art_lehisto_37.obj",
+      "sha256": "149ed54d2ceeaeec5f00924311a8b183028578a883981db5c3de1cc6dafb4c67"
+    },
+    {
+      "file": "../assets/art_lehisto_38.obj",
+      "sha256": "f81dedc1bc53fce2ff4344d2ec1c01899dbda3f59e38adf7ac23d19e2ca31a40"
+    },
+    {
+      "file": "../assets/art_lehisto_39.obj",
+      "sha256": "a60456ae0452fb06fe89c6df04968fa923489f488b0164c7102723af3bbfc9fa"
+    },
+    {
+      "file": "../assets/art_lehisto_40.obj",
+      "sha256": "d50f2be11ccea979e1be289ea53116a3e296416d9ec902bd4d2b210330b72db9"
+    },
+    {
+      "file": "../assets/art_lehisto_41.obj",
+      "sha256": "6b5c8eb746b89144ee3aad8b231cca0643d857015756140683a339fda4b89307"
+    },
+    {
+      "file": "../assets/art_lehisto_42.obj",
+      "sha256": "405def2c7365c14b9d5ff9f52c4e927822037af8b31a5b3f0ba5c477a7c0097e"
+    },
+    {
+      "file": "../assets/art_lehisto_43.obj",
+      "sha256": "ac81381ab68d29de46ec08c398a19ee03a4292fcc3ece84c03af06801e633cdd"
+    },
+    {
+      "file": "../assets/art_lehisto_44.obj",
+      "sha256": "e376026d62d9142653fa27eb089d58a3cffd14993cfa3a63c71d210b8d54bec0"
+    },
+    {
+      "file": "../assets/art_lehisto_45.obj",
+      "sha256": "0e71213db31583b29b23b08d9f23cac9c89a66f8ddd7ef55a0b8d80541b5238a"
+    },
+    {
+      "file": "../assets/art_lehisto_46.obj",
+      "sha256": "96ab5512ca195eead8d1f46b2c7a07ac35faf0af0379bba17206577e8da74f61"
+    },
+    {
+      "file": "../assets/art_lehisto_47.obj",
+      "sha256": "8a36f0058bc9a72abfff1407d9a7ed6b8a3b94e48a2ea64ed0fedcdc735c7a4a"
+    },
+    {
+      "file": "../assets/art_lehisto_48.obj",
+      "sha256": "2777fbadabcd9f9616baaee9e96b40987400d360564c4500c0777974383d479a"
+    },
+    {
+      "file": "../assets/art_lehisto_49.obj",
+      "sha256": "7dbbe08384358dfad7d46a1c4f18df953ee99e5d1d5fa1b3eb20381c18a46c63"
+    },
+    {
+      "file": "../assets/art_lehisto_50.obj",
+      "sha256": "a6e2bfcba98499300687e73e06dec9648995464eb62f606df7d0754bb861e04b"
+    },
+    {
+      "file": "../assets/art_lehisto_51.obj",
+      "sha256": "b0fefe5ce5bc21147015c88e1b968f2add86dcd7ed749a3c8899154834d375e2"
+    },
+    {
+      "file": "../assets/art_lehisto_52.obj",
+      "sha256": "67c160f3fdf7782cd43dc3af03ab6f76b8da8352feadab458d9f9d560e46a5ca"
+    },
+    {
+      "file": "../assets/art_lehisto_53.obj",
+      "sha256": "e0e45f2a440f30f21bd24b79923d5b11d046d4d5e7a00a95ba0fad00cfe337a9"
+    },
+    {
+      "file": "../assets/art_lehisto_54.obj",
+      "sha256": "1f592cc5b244cb8b658174cf5c1e3795ee5f12b056e966ca2f27a650ed94aa17"
+    },
+    {
+      "file": "../assets/art_lehisto_55.obj",
+      "sha256": "3f0497bfb6ca1889b8f23ee34c3ede473b88938b14961c52b972a3acbd1a4386"
+    },
+    {
+      "file": "../assets/art_lehisto_56.obj",
+      "sha256": "2390453dc6710615ab8cf80b9f4ee1c9b56b435a1bef7ce3130d30951ea95792"
+    },
+    {
+      "file": "../assets/art_lehisto_57.obj",
+      "sha256": "2f6dd16cd0a74c13758043e80b0fdf855f3d2489cbb03339caf688b2ab5ae20a"
+    },
+    {
+      "file": "../assets/art_lehisto_58.obj",
+      "sha256": "d3724c34a8fc256d028529bdd8771d4d6e064a6a0004f04ebfc1604506825677"
+    },
+    {
+      "file": "../assets/art_lehisto_59.obj",
+      "sha256": "173d9e306af9048e663f61f012ca2bcae4acc614fe5fdfdf5a865943ff356913"
+    },
+    {
+      "file": "../assets/art_lehisto_60.obj",
+      "sha256": "6e61424ac4f3d48c053f029a15a012e0865f73d961ad39ebbdf6bc5ab5a26aae"
+    },
+    {
+      "file": "../assets/art_lehisto_61.obj",
+      "sha256": "5c7c84fa9db7966d8652a7d7d7b60a88578046ec9a083be16a1f3cce9f64170a"
+    },
+    {
+      "file": "../assets/art_lehisto_62.obj",
+      "sha256": "e4a3c99be875c07fa395e9e4d1f3d17df57273655da16296a349b469fa642414"
+    },
+    {
+      "file": "../assets/art_lehisto_63.obj",
+      "sha256": "6ed2f7c94f159fd9fe7622eca97bab8d6fa81e3ea655c4e562a854f384b25c55"
+    },
+    {
+      "file": "../assets/art_leica_0.obj",
+      "sha256": "7e18090806ab34b3eec9648ab26ed7c41e3d8545b53ad6b184aea318f5a342c7"
+    },
+    {
+      "file": "../assets/art_leica_1.obj",
+      "sha256": "e3b9df758dade2d8db73c11b2395e9eeeef2110bdf97cb890edbbe6659673ce4"
+    },
+    {
+      "file": "../assets/art_leica_2.obj",
+      "sha256": "212ea624a4decb8789f747d6cfb3bd180684aff05becc0f8e2dbcc5c2b957905"
+    },
+    {
+      "file": "../assets/art_leica_3.obj",
+      "sha256": "be33d3bf1cdcaa375016cb630fadb61277103fb69e348da561d14ba05c1583ab"
+    },
+    {
+      "file": "../assets/art_leica_4.obj",
+      "sha256": "ce6c27eec266d46f548cacd7d8abd493929268af6524dedfdd9082ac1c48c78f"
+    },
+    {
+      "file": "../assets/art_leica_5.obj",
+      "sha256": "b195f117096697a84582bb9262bc6c5792e37ebef2f03e798b9065c05406e7bf"
+    },
+    {
+      "file": "../assets/art_leica_6.obj",
+      "sha256": "333312c23e5ebc6efbd9abb2691050e549d1ba18a5a1543999512abbb519b3ca"
+    },
+    {
+      "file": "../assets/art_leica_7.obj",
+      "sha256": "738593536ad3be869eb4487c1e7bbd3522faff0e42d3999c9f7a27dade5b7183"
+    },
+    {
+      "file": "../assets/art_leica_8.obj",
+      "sha256": "4146f61e3f7a12e33988ee0280fb3197e8951f774c4917b5b9b555267566cc55"
+    },
+    {
+      "file": "../assets/art_leica_9.obj",
+      "sha256": "eeba63abfc967d52a3f7d1dcfcac1a996ca44fe39257f1102eb9d3be9c97d276"
+    },
+    {
+      "file": "../assets/art_leica_10.obj",
+      "sha256": "770e187e571b87300546743e0b8478735274f3d4c0c0b5a05684491b801fbda5"
+    },
+    {
+      "file": "../assets/art_leica_11.obj",
+      "sha256": "c991abe6a144a8fef45408b3313a2bb4f521d8d8575e495fcb4b9423b8c60190"
+    },
+    {
+      "file": "../assets/art_leica_12.obj",
+      "sha256": "c9d35649a3f6a870c684bb49fbcd1a4d8f67f41fe4df4dd6768554c6e87c6443"
+    },
+    {
+      "file": "../assets/art_leica_13.obj",
+      "sha256": "4914c22ddd12f6942922aadd3a69cde51166118f85a128f12a56dd0ebff8e21e"
+    },
+    {
+      "file": "../assets/art_leica_14.obj",
+      "sha256": "42bf5171a891614d5956209f0592c3579daafb4c0a3f89e3b3d1f16a392e43bf"
+    },
+    {
+      "file": "../assets/art_leica_15.obj",
+      "sha256": "05b4a64379c74ba0b9a710215bea5bfd7ea4ba7def11b0a132bcd9c8a919ca40"
+    },
+    {
+      "file": "../assets/art_leica_16.obj",
+      "sha256": "894aa95660def216304ba037e0be53b5655f6e55c523537eda8c2b8e31256e69"
+    },
+    {
+      "file": "../assets/art_leica_17.obj",
+      "sha256": "66ed3e750ca61af00a45bcd3f16059ce4cf18a8062723333c8271164cc181ccd"
+    },
+    {
+      "file": "../assets/art_leica_18.obj",
+      "sha256": "0752891ef38bd410800990e7cd315d88abcec2af44e6603f9531051239bbf08c"
+    },
+    {
+      "file": "../assets/art_leica_19.obj",
+      "sha256": "cf65c86a55f249303dacf69aab971e90aca412e9d8dd5360a7436fc838f99954"
+    },
+    {
+      "file": "../assets/art_leica_20.obj",
+      "sha256": "29f25fef461cf35bf5896e1076ea8356f74b556459638b41b8acb821a51efcf6"
+    },
+    {
+      "file": "../assets/art_leica_21.obj",
+      "sha256": "f6edb3413f37e506da84ed84532629ce9ce189d5e8324e730a984ff479dba670"
+    },
+    {
+      "file": "../assets/art_leica_22.obj",
+      "sha256": "9ccb5929100820137942eaade5ef7e97bfb082ec5396481bd4e43f12afc38abe"
+    },
+    {
+      "file": "../assets/art_leica_23.obj",
+      "sha256": "eb23c347cd64d5cb54bb7c5ec8e41c30a0334da070a1bc7203966f183d05aa9c"
+    },
+    {
+      "file": "../assets/art_leica_24.obj",
+      "sha256": "8be7caf726fa576b0924f33c10e9239db87126e62faf66b5d60690248839144c"
+    },
+    {
+      "file": "../assets/art_leica_25.obj",
+      "sha256": "be377d403d02f5e44d2ce483777557d8e61fe6d0402987f75db7f87a25a2ec41"
+    },
+    {
+      "file": "../assets/art_leica_26.obj",
+      "sha256": "0c8012a0dc0f17af18d7fccc6179ce846bbf54a0fd632a40978aeedaa0145804"
+    },
+    {
+      "file": "../assets/art_leica_27.obj",
+      "sha256": "6592bf833ecbb34a35881bc290b6de64733457646cdee4774151daf31e4be394"
+    },
+    {
+      "file": "../assets/art_leica_28.obj",
+      "sha256": "b0bc128096bec97423203da24c57dad6fb3347ae539038fc9e3443d36d90caae"
+    },
+    {
+      "file": "../assets/art_leica_29.obj",
+      "sha256": "68756c0cf85ec1b5c1a8a0871fcef3cfce23bc2c2f66f5a082a91fa9b2690468"
+    },
+    {
+      "file": "../assets/art_leica_30.obj",
+      "sha256": "cd5cf5fd18dc3058eec68cda29ec5c6dd197d6843c1fb0673066b57ac9256be7"
+    },
+    {
+      "file": "../assets/art_leica_31.obj",
+      "sha256": "bf8100d5ee1ad0ed6a9c1e6878106782607a3a7637d4bc7f9c0b4fd0ce3ac4c8"
+    },
+    {
+      "file": "../assets/art_leica_32.obj",
+      "sha256": "153af2e9abb293e344e1f2dcb10491fda959cdc4c6b82ecda461ffbf3f085c6b"
+    },
+    {
+      "file": "../assets/art_leica_33.obj",
+      "sha256": "5b8d17f2834734fcc4c02c2808ad0e1f53c2389ddf467231cfcd887e6ad6c642"
+    },
+    {
+      "file": "../assets/art_leica_34.obj",
+      "sha256": "ea31eabb2b18547f13c669958b10008fef8bb793f0c79df1e9f6638c820523d5"
+    },
+    {
+      "file": "../assets/art_leica_35.obj",
+      "sha256": "7327bde100cf8f314c231782ba2c67f00674e27f4cd0134cf6487cbba7c7f0cd"
+    },
+    {
+      "file": "../assets/art_leica_36.obj",
+      "sha256": "2399ab34b99f98f998f09f0eb203551cfd41652d1bef878bb4789ff843f9f32c"
+    },
+    {
+      "file": "../assets/art_leica_37.obj",
+      "sha256": "e45632a2faaae6e393e16c6895a3ba1c39a788123e27e8f0a542b3b50efe8452"
+    },
+    {
+      "file": "../assets/art_leica_38.obj",
+      "sha256": "d7dc5442e72dc8a0b625afbd1434669db32e30630c8b5ee803512e03005048d7"
+    },
+    {
+      "file": "../assets/art_leica_39.obj",
+      "sha256": "cd1fdc2c019a2a542bb69e35b64069da4630382b7d4a7eb8a8f61047385c4208"
+    },
+    {
+      "file": "../assets/art_leica_40.obj",
+      "sha256": "86b6c1e846d5ab0b1e8f902aaedbf29c6a06612aacb2acfef093549da6d85f5a"
+    },
+    {
+      "file": "../assets/art_leica_41.obj",
+      "sha256": "8c551ba05988e87f350d8bac34335f9e1ed174068f47be7acbe14ad2f28cc449"
+    },
+    {
+      "file": "../assets/art_leica_42.obj",
+      "sha256": "7d694534d55ba71f4aa8571fb0e15424e6878a85a5161d45fe969e84b64a561d"
+    },
+    {
+      "file": "../assets/art_leica_43.obj",
+      "sha256": "6a0ee3f2c984c6ed06e5bedac80a9d65f9788dc3dbf5430d6ff569badea521a5"
+    },
+    {
+      "file": "../assets/art_leica_44.obj",
+      "sha256": "0ed0fa3fb71dc1445736606db7342f7da2a34288e3c0567977c638e9d98e5ef7"
+    },
+    {
+      "file": "../assets/art_leica_45.obj",
+      "sha256": "0546b27e2be542d34c914d6b2722d7df9df65e01127499ad85068c78c23b7b90"
+    },
+    {
+      "file": "../assets/art_leica_46.obj",
+      "sha256": "6c639a7376f474c7a6e907a044eab416919ca85000ea0b4619eef0f60480982f"
+    },
+    {
+      "file": "../assets/art_leica_47.obj",
+      "sha256": "44628924df9703e4dcdabfc06bd607493241faadbbfcf8daa4b3200d562d78ed"
+    },
+    {
+      "file": "../assets/art_leica_48.obj",
+      "sha256": "e5c46d713959eeecf0cd9b99dfe8c639c73f51e825f3f5f1812de4c1422698fe"
+    },
+    {
+      "file": "../assets/art_leica_49.obj",
+      "sha256": "60e9dc02b7b86fb9ec33a26c9c404813f494f3f6fcbf0adba3674987495617ef"
+    },
+    {
+      "file": "../assets/art_leica_50.obj",
+      "sha256": "9d12c5625df3a77a5ce043d3ef32d521d5da9f68e902c87e5e4ead70d52c5c3f"
+    },
+    {
+      "file": "../assets/art_leica_51.obj",
+      "sha256": "b01f490bb2de9f8e1cd3afc1ab8230400945b36b7445c20ba31359b27fc597a6"
+    },
+    {
+      "file": "../assets/art_leica_52.obj",
+      "sha256": "d0753fffa0b3b497542cb15ba7f00658602898326fcd6438101c125948188141"
+    },
+    {
+      "file": "../assets/art_leica_53.obj",
+      "sha256": "e0ded321a0601a2627f7ac25ea988f25bb169f317bd287311e758e1f259c3417"
+    },
+    {
+      "file": "../assets/art_leica_54.obj",
+      "sha256": "2a16df5e765c1179a69cd882586d435fe3e987a0fd384022062f2edc3c7b3d0a"
+    },
+    {
+      "file": "../assets/art_leica_55.obj",
+      "sha256": "ad4424f6c984a02762fb68283fdceaf09aa225cf4c4af74d46f224c1c8445695"
+    },
+    {
+      "file": "../assets/art_leica_56.obj",
+      "sha256": "e54154f18aff9764aed720ea71e8067f3f4dd43b4b5d58452408366c0e1dbee3"
+    },
+    {
+      "file": "../assets/art_leica_57.obj",
+      "sha256": "1de05f1840a89e2d138db0bd901ab2a6149ebd412a4e19ce984954f2c9d78244"
+    },
+    {
+      "file": "../assets/art_leica_58.obj",
+      "sha256": "3309d5e1a7846a7a9013ade358b7ffba91bfdb8ab0a60c8a0d68c75ed19104a5"
+    },
+    {
+      "file": "../assets/art_leica_59.obj",
+      "sha256": "c53cec90b848e92b5b0c58c61f39f83ec57656e1f84e475722d8963f9f291842"
+    },
+    {
+      "file": "../assets/art_leica_60.obj",
+      "sha256": "00636036a645ba4d6e7d36d795ea225f5c22421e48fcd25ed8df705cac3e5701"
+    },
+    {
+      "file": "../assets/art_leica_61.obj",
+      "sha256": "8b6ae402ccd6572446643fc134fb618050a85387492911e71327c39a6a147b68"
+    },
+    {
+      "file": "../assets/art_leica_62.obj",
+      "sha256": "25fbcfefff0fcb1c47bc86513fb27359980dd9ee2ab9929938241e635c308ad7"
+    },
+    {
+      "file": "../assets/art_leica_63.obj",
+      "sha256": "e98d99d74f555359b2205152bcf2d664e3931b32a97d7bc64971bf94b887137c"
+    },
+    {
+      "file": "../assets/art_leica_64.obj",
+      "sha256": "b5753d0e89d2b9931f71108849b34ff62ef09c63ddbeef3bfb21831232ed9469"
+    },
+    {
+      "file": "../assets/art_leica_65.obj",
+      "sha256": "6875b86406b0c5746e1a22344f1ed8cd9685602b81d571db10704b04f3c68667"
+    },
+    {
+      "file": "../assets/art_leica_66.obj",
+      "sha256": "3ac4bb4d87482f192cb3d816af063b17e9ce9a1770fff7123db1d68a4cfbe78c"
+    },
+    {
+      "file": "../assets/art_leica_67.obj",
+      "sha256": "e458de1c0d6f07b697b19b4910ef8964a16cbf5ee6ab617755be36c172cbe9ea"
+    },
+    {
+      "file": "../assets/art_leica_68.obj",
+      "sha256": "fa3698091cafb3fdc8266be92619e02f480058d5bde2a640624478b794866c83"
+    },
+    {
+      "file": "../assets/art_leica_69.obj",
+      "sha256": "d0a2c3a9be320d56ff5201b7a9e02985f89f37149a5e0b76ad854c1a5ec66726"
+    },
+    {
+      "file": "../assets/art_leica_70.obj",
+      "sha256": "e4acd3a880db0a1bd410eabcbb21d4fae82ee957db3ef75a5b0badf8a0386556"
+    },
+    {
+      "file": "../assets/art_leica_71.obj",
+      "sha256": "5362244da138364d1f445029c28d7e5e5eb06deeb2ff72e26eec8fec432f917d"
+    },
+    {
+      "file": "../assets/art_leica_72.obj",
+      "sha256": "0313478debc287d47183628822aa77e70318a94bc1f5a61797aaf608d0ea79b2"
+    },
+    {
+      "file": "../assets/art_leica_73.obj",
+      "sha256": "ab8de261ad454bf9ab7b5aadd0521397f87188406f874a5b5a2901cbedf6ebc7"
+    },
+    {
+      "file": "../assets/art_leica_74.obj",
+      "sha256": "03a030fe02721af69bd2e5ccda0268ada6b93719f7343e612a4f76d7b641e0b1"
+    },
+    {
+      "file": "../assets/art_leica_75.obj",
+      "sha256": "09a72119b9bd91b9d6938f711ffc319c62e78b59ffc0853f5a03ced5ff1068f0"
+    },
+    {
+      "file": "../assets/art_leica_76.obj",
+      "sha256": "b3af2ee1f10ae215e0558ce849f2e8ce79d5f8e2923fb95e22d38e2b54a6e83b"
+    },
+    {
+      "file": "../assets/art_leica_77.obj",
+      "sha256": "52e3c0b933ef872a27280196799f00a5bcb0ec547552968eaaef3f5cfbd587a3"
+    },
+    {
+      "file": "../assets/art_leica_78.obj",
+      "sha256": "3cefad5dc250396fa97e91db3ee95a60add3279446959942dd304d0d1f128a59"
+    },
+    {
+      "file": "../assets/art_leica_79.obj",
+      "sha256": "30377256ccecd9298bd5cbe7ef5b40c61bcad05fb9a4917a593a6ed925e70bdb"
+    },
+    {
+      "file": "../assets/art_leica_80.obj",
+      "sha256": "e847165b982f94511c7065dc40275387673dd930d8d4f58286f377b0ee7e62b0"
+    },
+    {
+      "file": "../assets/art_leica_81.obj",
+      "sha256": "285cfe4b22860cae3c5f9f9044c4247fb81f4b1b4068df387a8962b06c559fcd"
+    },
+    {
+      "file": "../assets/art_leica_82.obj",
+      "sha256": "30835b0853479bb44d2972652ce67fc862ea93b0940d3f0b2ad1c3e49c5860b5"
+    },
+    {
+      "file": "../assets/art_leica_83.obj",
+      "sha256": "a5d711e22025a7d51a2a32f3e6be42d353f6dccf52bb372847da293ff1c2e1f4"
+    },
+    {
+      "file": "../assets/art_leica_84.obj",
+      "sha256": "5970e42251ade2fee9737d24fc1a325441d49c8faa2f3942cc6c643d1f8272e0"
+    },
+    {
+      "file": "../assets/art_leica_85.obj",
+      "sha256": "f656bd6e9762e2656e8d6d33527ceced46f51de626f3358e10771b0741f3e0f5"
+    },
+    {
+      "file": "../assets/art_leica_86.obj",
+      "sha256": "91a33617d92e9f8d88f4f8211401941b54a0f9439ed9b2c220b75f25a85112f2"
+    },
+    {
+      "file": "../assets/art_leica_87.obj",
+      "sha256": "863bfe816984638e3a62de1e6ca627d29b3d80ec2737ea01aefb9777135c6a40"
+    },
+    {
+      "file": "../assets/art_leica_88.obj",
+      "sha256": "82be82deb1661dc07870deeb91e0eba8f16d879e9611681c8f64f6441f87ef48"
+    },
+    {
+      "file": "../assets/art_leica_89.obj",
+      "sha256": "a0881fc76216cb15e61e83858f633cbaaf1972dbcd0a5ae4e5b1efcdaa180e3c"
+    },
+    {
+      "file": "../assets/art_leica_90.obj",
+      "sha256": "a095c213e7a3ea478a16634e9181cc765a2531c2fa3b2d30ca29e63beca7211d"
+    },
+    {
+      "file": "../assets/art_leica_91.obj",
+      "sha256": "a8c2ccf74aefc2f1f8815e446c5b37013745df5c45c9f194e4425978818ee36d"
+    },
+    {
+      "file": "../assets/art_leica_92.obj",
+      "sha256": "e1506c596ba5f7e51f12e5dea3bffda45cb07429e42f508296abacd34656d85b"
+    },
+    {
+      "file": "../assets/art_leica_93.obj",
+      "sha256": "5ebc24e7efb3b95db4a8158f234893891750dafc75f86b66520c2aeda8aa70ae"
+    },
+    {
+      "file": "../assets/art_leica_94.obj",
+      "sha256": "a728d5c81c3f6d9e9c71bf1a38b64960265193e620cef03a44e74282398c2996"
+    },
+    {
+      "file": "../assets/art_leica_95.obj",
+      "sha256": "acf34bddba55446e7402827024f253df2ecdf063b6a28f932f77e6d9933dd09b"
+    },
+    {
+      "file": "../assets/art_leica_96.obj",
+      "sha256": "d0ca05276257f15dd821b8b80923512cacbda33bd0a5484cbe7d7400a09ddf4a"
+    },
+    {
+      "file": "../assets/art_leica_97.obj",
+      "sha256": "aec537bfc74c8c42271589fcaa91b707147219e381ff25c6126b84d3f15f1a9d"
+    },
+    {
+      "file": "../assets/art_leica_98.obj",
+      "sha256": "cf89d1fed742fdf3ceae0e8427fb283772411e9d49ba08b16b0d0dd67cbed2c9"
+    },
+    {
+      "file": "../assets/art_leica_99.obj",
+      "sha256": "928888fa360240e2df15f5e4a086887945202e7c777a83b2854a44c69c4871ab"
+    },
+    {
+      "file": "../assets/art_leica_100.obj",
+      "sha256": "c8f083260464ccf6fe4ac5fa7e3c7d72b62b7a9da2aa5a5f102d8c1c785be78c"
+    },
+    {
+      "file": "../assets/art_leica_101.obj",
+      "sha256": "37c2ae121ad6d4f9f04bf5230d034f10688f7f4d5f1233e414b64f30a25a9a86"
+    },
+    {
+      "file": "../assets/art_leica_102.obj",
+      "sha256": "dd08d1ab36e6a0bb86cb0ab0376d194dffcd8730cb40edc9350fdaf4ccde6f3a"
+    },
+    {
+      "file": "../assets/art_leica_103.obj",
+      "sha256": "e817d1adb5ce52a3f335e2e2aa5b8cfbcfeb3049421c8600c76c6de99b4dcfa2"
+    },
+    {
+      "file": "../assets/art_leica_104.obj",
+      "sha256": "0615e624cd69aea792e100936bb1dbc2dbd3e811dd426c2af86076ecad3d36ea"
+    },
+    {
+      "file": "../assets/art_leica_105.obj",
+      "sha256": "85017d05f42004489cc784ded71950133bcbd792799ad305eda5a6514ddcfa3a"
+    },
+    {
+      "file": "../assets/art_leica_106.obj",
+      "sha256": "1c5622dbc7452e9f67663fb0641afd406684252a059703203ca1fdd0e7eea782"
+    },
+    {
+      "file": "../assets/art_leica_107.obj",
+      "sha256": "a455b02bdcd76d2c9205510bd61716476307175b70e58ba22fcf4d02ed9162fb"
+    },
+    {
+      "file": "../assets/art_leica_108.obj",
+      "sha256": "0dda49ebe06f0e302837eaa7ef23fdbae1f0a92fffe122d2ed6b30dd15440947"
+    },
+    {
+      "file": "../assets/art_leica_109.obj",
+      "sha256": "1cb83c44ea1b97f6d83b96fe0815a748a8b3a6dbe5cb6b1a64f2f5ae9e8b4c5f"
+    },
+    {
+      "file": "../assets/art_leica_110.obj",
+      "sha256": "b0338e711be582fb5bcb179061c337af30bb19f7aadba4cd10efa7bea3aaaf3d"
+    },
+    {
+      "file": "../assets/art_leica_111.obj",
+      "sha256": "833229dc72e3aa9a3c0ba53eafc9fabd4ff4fa7b737f53ca661366b9c40c464d"
+    },
+    {
+      "file": "../assets/art_leica_112.obj",
+      "sha256": "5576ea4c870fed39c2614afc03dd075d2a2e5db842753a454740e57583ca3b4c"
+    },
+    {
+      "file": "../assets/art_leica_113.obj",
+      "sha256": "e31300c93f1f94e04b92d469c9534e1298f2c466244a1e79ece5d59356e5c5f7"
+    },
+    {
+      "file": "../assets/art_leica_114.obj",
+      "sha256": "21cb9b9bd88b638430845fe5b55d79ef519255f6f77f872afff9ba0303c1ec9e"
+    },
+    {
+      "file": "../assets/art_leica_115.obj",
+      "sha256": "37c5d11bbfe810cd895f059b1214564c13771af72bc660c12f829f782392d835"
+    },
+    {
+      "file": "../assets/art_leica_116.obj",
+      "sha256": "bb5bda02713dce79135e54994a85eeb967613ab1c6a4d403fddae038e11b3669"
+    },
+    {
+      "file": "../assets/art_leica_117.obj",
+      "sha256": "02b70fe3218eacc6cda1afc11777da9acde154f1292c420a6bececfab9b3d52f"
+    },
+    {
+      "file": "../assets/art_leica_118.obj",
+      "sha256": "dcc80174be57e89d5213c009aaeb2e1ead39f8318e0eadcd0808db3c4e78bbcd"
+    },
+    {
+      "file": "../assets/art_leica_119.obj",
+      "sha256": "fd52ec119e960239f68a6304af30b09173d0272b89cb7061ce26990c17f69e8c"
+    },
+    {
+      "file": "../assets/art_leica_120.obj",
+      "sha256": "523ce5ec440ae12800400a9dafb22906322e93ae1ccd7ae58617029c9e620db5"
+    },
+    {
+      "file": "../assets/art_leica_121.obj",
+      "sha256": "4fbb02ebcee79d8889ced69083e4aa38324ae305a15010d1ab984314e41a7d3c"
+    },
+    {
+      "file": "../assets/art_leica_122.obj",
+      "sha256": "cdb64e2445058e675daf9a8c87816dcf61d24eb27d0509a302cc40b9f22e4f38"
+    },
+    {
+      "file": "../assets/art_leica_123.obj",
+      "sha256": "0fe0779830fb8b999da0105b834def5bd7c91ecd65e68ddb137c382130466c02"
+    },
+    {
+      "file": "../assets/art_leica_124.obj",
+      "sha256": "ac4184593d5f60dc2082aa7c97c3b0925a808e3c3ae8ae16ea16ae9c7b64f93c"
+    },
+    {
+      "file": "../assets/art_leica_125.obj",
+      "sha256": "0a73ceea74f1cc12326a55b471978de194c0b7aa31899b80e6c35791233178da"
+    },
+    {
+      "file": "../assets/art_leica_126.obj",
+      "sha256": "40540e02d880bc259e0b0dc2844b1e895bfbf8ab6a7d44ff44653028fb495395"
+    },
+    {
+      "file": "../assets/art_leica_127.obj",
+      "sha256": "789296b524fba2d5f122921e3fd730e0d6d72a04d50c1c12e8a29f4b46c4a6ed"
+    },
+    {
+      "file": "../assets/art_leica_128.obj",
+      "sha256": "9d520864035af4612f6febd9380e43c656841359d4c9a57dc2db9fe00fdbedc4"
+    },
+    {
+      "file": "../assets/art_leica_129.obj",
+      "sha256": "d6671649f707edceb970f7dc05ce03d2328f117f7eb1f5b56e5596a4305010a9"
+    },
+    {
+      "file": "../assets/art_leica_130.obj",
+      "sha256": "06daade219375e0616e95258c5fbf8359fd3c738d421695b62e3f0c8c70107b3"
+    },
+    {
+      "file": "../assets/art_leica_131.obj",
+      "sha256": "63531834c5095f2ff71f693a6ef09f0ada4ebb35d5faa9176622eadd88d9caea"
+    },
+    {
+      "file": "../assets/art_leica_132.obj",
+      "sha256": "e8915f8d641125efb0f7b3a5f03760766fef27248e068f6bf9af96a1b206ebca"
+    },
+    {
+      "file": "../assets/art_leica_133.obj",
+      "sha256": "a52cb9cab38c9c3cdd9caaf19b4bc8b669d52cf330c40a640dcc0733952b2cf4"
+    },
+    {
+      "file": "../assets/art_leica_134.obj",
+      "sha256": "07d32e6ca17fd7ca47474c1c2fd10322f7201e8889b0b42f7ff33d43bd8ff87e"
+    },
+    {
+      "file": "../assets/art_leica_135.obj",
+      "sha256": "c71a080c4dec8be3e0c5bc1ee21f4319c60e21d36fc3e7c9693a5ed75146b5ff"
+    },
+    {
+      "file": "../assets/art_leica_136.obj",
+      "sha256": "96bb858c2e012ab08a481ed4fa908c2c00cf4b3ff803d05bcaac77f8ba3c267b"
+    },
+    {
+      "file": "../assets/art_leica_137.obj",
+      "sha256": "3e71f1069eacf33f4cdb7f82cb5b024beecf2cb61742aea1fe80ec5a115684b0"
+    },
+    {
+      "file": "../assets/art_leica_138.obj",
+      "sha256": "27e0dc897fb1dd2b08719a598b7a71625cd46eac73d8342b4c847b8f825e202a"
+    },
+    {
+      "file": "../assets/art_leica_139.obj",
+      "sha256": "241ecc994890d272076a1c6ffb55f1bb5bceeb53bd15aed0bf3b801e5fa65f17"
+    },
+    {
+      "file": "../assets/art_leica_140.obj",
+      "sha256": "531455219e8b4175de57a4a69cc5c8d0750a871731b52226812a9faa5e8357cc"
+    },
+    {
+      "file": "../assets/art_leica_141.obj",
+      "sha256": "04f6d626a9b2be1c005ed73be104d9850fa9c25caf024f54c1cdd8e88e8221b5"
+    },
+    {
+      "file": "../assets/art_leica_142.obj",
+      "sha256": "2d32526c8eed8afb65872eae7ccc8efbf21e6699cd945877d2dc2606ab9f6148"
+    },
+    {
+      "file": "../assets/art_leica_143.obj",
+      "sha256": "feb4abaa5f3660132f804dfacf39523bf800c02cc0459eb7c9cad143f2b155e9"
+    },
+    {
+      "file": "../assets/art_leica_144.obj",
+      "sha256": "88ddf3a09cd732f8fff3ace4e07cd04b2cea1c495c16ca25402cd4fbaf042d3e"
+    },
+    {
+      "file": "../assets/art_leica_145.obj",
+      "sha256": "4287d34afc60ac2fff109bedc13575793ad113b174fbde56b2601ba1a1ef0ff4"
+    },
+    {
+      "file": "../assets/art_leica_146.obj",
+      "sha256": "2391f58e7263fba55db528a70dcda75ee1415736ec95d568c19a80cc76bd80ed"
+    },
+    {
+      "file": "../assets/art_leica_147.obj",
+      "sha256": "ea6f6b95cc6966fbde0678e6e98db58249447f12a3c3bcf2bb7d7e4dcc0afb7a"
+    },
+    {
+      "file": "../assets/art_leica_148.obj",
+      "sha256": "b4f509a6a8f22778294ba4287b59e4063023351b5eedd46f4d6fecfcfcc3bacc"
+    },
+    {
+      "file": "../assets/art_leica_149.obj",
+      "sha256": "875cafa08e0caa602369a7722aa474cd13cf4bd46a4f6fe4211819b0d7efdee9"
+    },
+    {
+      "file": "../assets/art_leica_150.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_151.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_152.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_153.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_154.obj",
+      "sha256": "8559cec79987f8b065624692d0bfec66a9b523c57eb788f9cc5f6d57f883264c"
+    },
+    {
+      "file": "../assets/art_leica_155.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_156.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/art_leica_157.obj",
+      "sha256": "c67ab5030cb442359e30e586463f1b6e251da7fdfdec9f10fbf48dd201b874cc"
+    },
+    {
+      "file": "../assets/passive_quincy_1.obj",
+      "sha256": "840cb436347fe251ca528c2eba1e996002cbc131d0299911920c7ed0fb6676de"
+    },
+    {
+      "file": "../assets/passive_quincy_3.obj",
+      "sha256": "0f0dba194608db7ade3238df8ad1f29a737f2ee7a643b8e28e664b2c71d2507b"
+    },
+    {
+      "file": "../assets/passive_quincy_4.obj",
+      "sha256": "b26eaec4c8382389be0d50b0e13852c06211a73dd96e631a00eee54039574635"
+    },
+    {
+      "file": "../assets/passive_quincy_9.obj",
+      "sha256": "2c65863efc87590d4827f402035ff3573d42f540e91eec1b5f8f45493f683c79"
+    },
+    {
+      "file": "../assets/passive_quincy_11.obj",
+      "sha256": "3f574462ee7557354281478515f9e81d149e2c3d786eb7e3dca711b24c96daa6"
+    },
+    {
+      "file": "../assets/passive_s60_0.obj",
+      "sha256": "12d60ba881597d4deca0dd800590c6b3d34ea6af2a6618e42bc9891e43788b69"
+    },
+    {
+      "file": "../assets/passive_s60_1.obj",
+      "sha256": "17d6f7cbe606d81297fd63f79baec4085f46e3024669fb9759b1bb46fa065c82"
+    },
+    {
+      "file": "../assets/passive_s60_2.obj",
+      "sha256": "eb2a6eb3731eb223f123e335445a5515aada3949361cf87d66523cccb4c93c64"
+    },
+    {
+      "file": "../assets/passive_s60_3.obj",
+      "sha256": "96644d3802e1ff70523786eb80e5b2c890a9b59754fd896c97062ca977e51aaf"
+    },
+    {
+      "file": "../assets/passive_s60_4.obj",
+      "sha256": "4916e411208b6dc91190c3b3f3497d4d35d4991c285f52eb421b57042ec778cb"
+    },
+    {
+      "file": "../assets/passive_s60_5.obj",
+      "sha256": "185ee9c87389cdf4f95a33c15cde9992bfc63dc90257b3bdb528a3bcaa5595bb"
+    },
+    {
+      "file": "../assets/passive_s60_6.obj",
+      "sha256": "f2cda5ec6c14992327f09e9dfdc52494f2f651150d7c7b8001a1bd1fa2068452"
+    },
+    {
+      "file": "../assets/passive_s60_7.obj",
+      "sha256": "29e33ea7330b861fda5e2b7ac53996ceb2b08e5e88cd6127b288ec3e8e315c90"
+    },
+    {
+      "file": "../assets/passive_s60_8.obj",
+      "sha256": "e01a65bc9759a167752c5074bd4b6ed03b2cdad39088f5006105ab7d7d4e7101"
+    },
+    {
+      "file": "../assets/passive_s60_9.obj",
+      "sha256": "40efe6aae6827d7d0c2be8174d78023abbf703d22944a18664c3e509e5c30681"
+    },
+    {
+      "file": "../assets/passive_s60_10.obj",
+      "sha256": "535de9641e72ab99a4d5e8fffdd55b248e8d3d604c0246cfbb6c960479d6f072"
+    },
+    {
+      "file": "../assets/passive_s60_11.obj",
+      "sha256": "40fcd61f1c160e718e8ac5e6d5133a496bf8ae611f9d912fea5a3a9dbc010183"
+    },
+    {
+      "file": "../assets/art_leica_6_opaque.obj",
+      "sha256": "13933f05ffc619d7013b162c52756464ae6b444f1c7d0c77c975be36994fce39"
+    },
+    {
+      "file": "../assets/art_leica_6_glazing.obj",
+      "sha256": "4f9146218ad0bd91025ef79582f153d7682ac30d6f8e7ac99c17a528907237e5"
+    },
+    {
+      "file": "../assets/art_leica_62_opaque.obj",
+      "sha256": "fccddf1418cbfaae7e052d12053e9e5436490a29cec894734c0d6c0f4b377257"
+    },
+    {
+      "file": "../assets/art_leica_62_glazing.obj",
+      "sha256": "303a525728411263622e8a1c968aef7bbfcf7477258f774b0fd4f5fc66f51c7f"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/base.stl",
+      "sha256": "a9cf3ffa78cb70266877659f6173d087ab90d967e12d4f0e8bef7aede15ec60c"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/jaw_right.stl",
+      "sha256": "880108acc067fc834e898682cbaf05391a6450df6ee550b16040c3be367b179e"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/jaw_left.stl",
+      "sha256": "7cbf83623704aee8a18d28e0a81dbfc273c78f02a30d4ec95859343b6b974041"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/pinion.stl",
+      "sha256": "6cf0de3bbc459a1cb8537fff4fda9ce0ac69015ec4831aa1b53e7320437203d7"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/base_link.stl",
+      "sha256": "1210cbf788bfd044ac2d7ac44e3f08177ddd6b03da0bcbb16f735a25df80d3d5"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/link1_1.stl",
+      "sha256": "69cf197f51ea55e1ef48257765f4cabc2c85cfe79080112aa117e69100592c0c"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/link2_1.stl",
+      "sha256": "0828c52b0cda7256ea65015d593b8405e18e9cf77296bccf13b99b49b77d062a"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/link3_1.stl",
+      "sha256": "a0709e754ae3c9543f191432a982eec781480a57526ddd08b746f48d67e1917b"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/link4_1.stl",
+      "sha256": "d6c4746012aed28d936443f550269a5c92433fbdac98242ef76d5492509dc775"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/arm/link5_1.stl",
+      "sha256": "86c298ec7d649ccece4e2da43f04f7d3f59f8605ed033a17b632a5e11a3b95c7"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/rig/rail.stl",
+      "sha256": "fd3c548027a4a6c0a4baa70866f63ff13476ace7c4898cb772616c1b0ac005a4"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/rig/carriage.stl",
+      "sha256": "4443065f5e8265e5de26cd2b51c587290a89df15d351e13795c696bdd0f90e2d"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/rig/leadscrew.stl",
+      "sha256": "0dfae40e8f4a680c839e022087d9955901c206209e65651781a9b271efab7fcc"
+    },
+    {
+      "file": "../rail_loop_reference/source/robot/meshes/rig/campitch.stl",
+      "sha256": "4cac0b7e650881176c07afe5df5c2b5ab0942284573188753fdf3f5ee7fe8d00"
+    },
+    {
+      "file": "../assets/textures/scanner-ui-user-reference.png",
+      "sha256": "98531657a3681a1dec350c96d209863a33149fe4259537846fba6d2fa4900dcc"
+    },
+    {
+      "file": "background-assets/base.stl",
+      "sha256": "a9cf3ffa78cb70266877659f6173d087ab90d967e12d4f0e8bef7aede15ec60c"
+    },
+    {
+      "file": "background-assets/jaw_right.stl",
+      "sha256": "880108acc067fc834e898682cbaf05391a6450df6ee550b16040c3be367b179e"
+    },
+    {
+      "file": "background-assets/jaw_left.stl",
+      "sha256": "7cbf83623704aee8a18d28e0a81dbfc273c78f02a30d4ec95859343b6b974041"
+    },
+    {
+      "file": "background-assets/pinion.stl",
+      "sha256": "6cf0de3bbc459a1cb8537fff4fda9ce0ac69015ec4831aa1b53e7320437203d7"
+    },
+    {
+      "file": "background-assets/base_link.stl",
+      "sha256": "1210cbf788bfd044ac2d7ac44e3f08177ddd6b03da0bcbb16f735a25df80d3d5"
+    },
+    {
+      "file": "background-assets/link1_1.stl",
+      "sha256": "69cf197f51ea55e1ef48257765f4cabc2c85cfe79080112aa117e69100592c0c"
+    },
+    {
+      "file": "background-assets/link2_1.stl",
+      "sha256": "0828c52b0cda7256ea65015d593b8405e18e9cf77296bccf13b99b49b77d062a"
+    },
+    {
+      "file": "background-assets/link3_1.stl",
+      "sha256": "a0709e754ae3c9543f191432a982eec781480a57526ddd08b746f48d67e1917b"
+    },
+    {
+      "file": "background-assets/link4_1.stl",
+      "sha256": "d6c4746012aed28d936443f550269a5c92433fbdac98242ef76d5492509dc775"
+    },
+    {
+      "file": "background-assets/rail.stl",
+      "sha256": "fd3c548027a4a6c0a4baa70866f63ff13476ace7c4898cb772616c1b0ac005a4"
+    },
+    {
+      "file": "background-assets/carriage.stl",
+      "sha256": "4443065f5e8265e5de26cd2b51c587290a89df15d351e13795c696bdd0f90e2d"
+    },
+    {
+      "file": "background-assets/leadscrew.stl",
+      "sha256": "0dfae40e8f4a680c839e022087d9955901c206209e65651781a9b271efab7fcc"
+    },
+    {
+      "file": "background-assets/campitch.stl",
+      "sha256": "4cac0b7e650881176c07afe5df5c2b5ab0942284573188753fdf3f5ee7fe8d00"
+    }
+  ],
+  "compiled_model_arrays_equal": [
+    "body_pos",
+    "body_quat",
+    "body_mass",
+    "body_inertia",
+    "body_parentid",
+    "jnt_type",
+    "jnt_pos",
+    "jnt_axis",
+    "jnt_range",
+    "geom_type",
+    "geom_pos",
+    "geom_quat",
+    "geom_size",
+    "geom_rgba",
+    "geom_dataid",
+    "mesh_vert",
+    "mesh_face",
+    "site_pos",
+    "site_quat",
+    "eq_data"
+  ],
+  "author_scene_sha256": "a3cb21d0fabbde1b940ad89bde89f9e998894ab0c595cf963d4c0d93e06fb0cf",
+  "packaged_scene_sha256": "58ac24bea3af27e49018047de79b555644b68e088332e749248d481795859f5a",
+  "playback_sha256": "25154499cd63ab9deacc0c980d866df5dc64d6e4f1805c3cc0b7b4103e9a5883",
+  "video_sha256": "e9bf31c5c8c0eaec81bd5d4eba66d5f20fc6c365741a604615dc339e95f810f3",
+  "scope": "Only resource paths rewritten. Compiled geometry, joints and inertia arrays match author model exactly. All backgrounds and cameras sampled from accepted playback at original output times. No new physical-validation claim."
+}

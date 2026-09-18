@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "frames": 1800,
+  "duration_s": 60.0,
+  "fps": 30.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "video_sha256": "e9bf31c5c8c0eaec81bd5d4eba66d5f20fc6c365741a604615dc339e95f810f3",
+  "final_logo_mean_absolute_rgb_error": 0.5772117332175926,
+  "source_joint_constraints": {
+    "joint_limit_error": 2.220446049250313e-16,
+    "coupling_error": 1.7763568394002505e-15,
+    "frames": 2908
+  },
+  "travel_m": 26.199954071133437,
+  "total_absolute_yaw_rad": 19.824152037012432,
+  "manipulation_dock_segments": 6,
+  "camera_max_per_frame_component_delta": [
+    0.08377446073133221,
+    0.08627826234567973,
+    0.0018616546829185454,
+    0.06470869675925872,
+    0.3905526680651974,
+    0.6470869675925996
+  ],
+  "final_access_joint_positions": {
+    "imaging_a_s60_pc_door_joint": -0.0,
+    "quincy_1_door_joint": 0.0,
+    "routine_a_j66_LOAD_DRAWER_OPEN_mm_0": -0.0
+  },
+  "primary_sequence_cad_passed": true,
+  "background_source_transform_passed": true,
+  "qc_sheets": [
+    "final-gripper-closeups-rollaway-qc-sheet-1.jpg",
+    "final-gripper-closeups-rollaway-qc-sheet-2.jpg",
+    "final-gripper-closeups-rollaway-qc-sheet-3.jpg",
+    "final-gripper-closeups-rollaway-qc-sheet-4.jpg"
+  ],
+  "source_script_sha256": {
+    "promo_revision.py": "a678bf527c3c1d30e65ec9773cc74bf5abf4016625fc8b9ce795f58cf9df3400",
+    "promo_sequence_revision.py": "cab2ec5a4969fd03248721ffe2f7c06b0b71b6f55a7519afa11fbf7ccb319769",
+    "promo_timing.py": "d718a078d5a58f2b5300a409bdbfaac74033c9fa4c8a01a4956447a80381a967",
+    "promo_background.py": "ad299590730c7d8ac60449026d0b4557420c57c1e3e2723d8959b4063c527c2d",
+    "render_promo_revision.py": "2fb4efe23857fc1d8b86109be2863f028c98e3c09f645611acdfd331b2556bae",
+    "promo_oven_headroom.py": "304ffe3fd21a62653287dbf71e61bc6da569e6abbfd66300373a2ef0d093b0ea",
+    "scanner_display.py": "ca537ce5e4c62cee5e0432e6ca7c284f31b994a13df8b8cd37db9a40af4d25b0",
+    "verify_promo_output.py": "8e1a4eab9345c7e7497cff4b5a5eb4c20c40570b8cdea8d8c5e96a0fcdb6c251",
+    "promo_gripper_inset.py": "185a8d886b4a7d2cb4a725c2110090eb5d94c6998c707196857340f4c5c0b07f",
+    "promo_rollaway.py": "399f9f54f02ace39634a9c84d52af62484cadf22e91b2527255eec2a6be10791"
+  },
+  "physical_success": false,
+  "scope": "Decoded complete video and checked sampled kinematics, camera continuity, delivery and evidence freshness. Not hardware safety, actuator speed/torque, force, slip, dynamics or whole-room collision certification."
+}

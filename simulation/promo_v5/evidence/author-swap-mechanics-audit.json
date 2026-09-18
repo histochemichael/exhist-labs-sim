@@ -1,0 +1,38 @@
+{
+  "source_faithful_swap_passed": true,
+  "arm_joints_checked": 14,
+  "arm_joint_limits_widened": false,
+  "arm_mount_frames_changed": false,
+  "parallel_tool_reflected": false,
+  "parallel_grooves_changed": false,
+  "parallel_tool_mass_kg": 0.2566282043347374,
+  "mass_is_estimate": true,
+  "right_stock_wrist_and_claw_preserved": true,
+  "parallel_actuator_and_couplings_preserved": true,
+  "right_gripper_mimic_restored": true,
+  "pinion_sweep": {
+    "joint_limit_error": 0.0,
+    "coupling_error": 0.0,
+    "frames": 101
+  },
+  "trajectory_constraints": {
+    "scanner-close-candidate.npz": {
+      "joint_limit_error": 0.0,
+      "coupling_error": 0.0,
+      "frames": 121,
+      "sha256": "3f629ce4d31de8fe55229be459eb11ed825933d7da5001d500f8f57f2c563fdf"
+    },
+    "oven-left-candidate.npz": {
+      "joint_limit_error": 0.0,
+      "coupling_error": 0.0,
+      "frames": 292,
+      "sha256": "fd7a07be33fde98df8905a8b65d877f709d07db045e2ab383d17e6e74a1e57fe"
+    }
+  },
+  "scene_sha256": "a1771c7f1932570555f423dbf48cf1eb9ad659a9ce0eb6e9abb40261c2e4d78d",
+  "source_scene_sha256": "06297b2f58a688df4caf898a325d6a90b5478afe456dbb479b5859b928f25200",
+  "stock_source_sha256": "8950c7dce2f8ea6e1d2c5b06fad1e3653ac93e3f147b5a19068c42d4bc8a0fbe",
+  "physical_success": false,
+  "full_collision_free": false,
+  "scope": "Source geometry, mount frames, joints, inertia, actuator and coupling preservation plus recorded scalar joint/constraint checks. Does not validate manufacturing interface, actuator torque under load, grasp friction/slip, dynamic stability, passive doors or wheel-driven navigation. The promo still uses staged qpos/mocap playback; arm, chassis and access forces are not dynamically simulated."
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "samples": 1073,
+  "max_body_position_error_m": 8.881784197001252e-16,
+  "max_body_rotation_matrix_error": 0.0,
+  "folder_position_error_m": 0.0,
+  "folder_rotation_matrix_error": 0.0,
+  "source_support_vertical_N": 0.045984738402208236,
+  "source_inside_pocket": true,
+  "source_slide_folder_force_peak_N": 1.4427495450167727,
+  "source_robot_folder_force_peak_N": 0.0,
+  "scene_sha256": "a3cb21d0fabbde1b940ad89bde89f9e998894ab0c595cf963d4c0d93e06fb0cf",
+  "scope": "Exact rigid translation of a previously force-tested one-pocket folder recording and its fixed fixture. Source forces are historical evidence, not a new full-lab dynamic run. Remaining full-room interactions are not certified."
+}

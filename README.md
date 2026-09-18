@@ -1,8 +1,13 @@
 # ExHist Labs Simulation
 
-A CAD-based histology laboratory in MuJoCo, with LeHisto stations, Nori A3, incubators, staining/coverslipping, scanning, and slide send-out/QC.
+[![ExHist Labs — looping 60-second lab promo](simulation/promo_v5/preview.gif)](simulation/promo_v5/ExHist-Labs-Promo-60s.mp4)
 
-![ExHist Labs](simulation/docs/images/lab-overview.png)
+[Watch/download the full-quality video](simulation/promo_v5/ExHist-Labs-Promo-60s.mp4) · [Replay and QC details](simulation/promo_v5/README.md)
+
+The preview loops through the full 60-second promo. If it is paused, check your
+[GitHub animated-image settings](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings#managing-motion).
+
+A CAD-based histology laboratory in MuJoCo, with LeHisto stations, Nori A3, incubators, staining/coverslipping, scanning, and slide send-out/QC.
 
 **Research simulation / development snapshot.** The live demo validates a bounded LeHisto rack loop. The promo is staged kinematic playback, not a physically validated autonomous lab.
 
@@ -11,7 +16,7 @@ A CAD-based histology laboratory in MuJoCo, with LeHisto stations, Nori A3, incu
 | Looking for | Open |
 | --- | --- |
 | Install, run, and tour every station | [Full illustrated guide](simulation/README.md) |
-| Latest 60-second video | [Watch/download promo](simulation/promo_v4/ExHist-Labs-Promo-60s.mp4) |
+| Latest 60-second video and portable playback | [Revision 5: close-ups and continuous departure](simulation/promo_v5/) |
 | Promo instructions and limitations | [Promo guide](simulation/docs/PROMO.md) |
 | CAD STEP/STP and STL files | [CAD folder](simulation/cad/) |
 | Static asset XMLs | [Asset models](simulation/models/assets/) |
@@ -37,4 +42,9 @@ python lab_rail_loop.py
 
 After setup, `./launch.ps1` from the repository root starts the live demo. The viewer starts paused; press Space to run. See the full guide for controls and the separate Nori equipment-access environment.
 
-The historical simulation bundle is kept together under `simulation/` so its CAD/XML references, Python imports, and evidence hashes retain their meaning. This organization-only update does not change robot motions, grippers, camera cuts, or the promo logo; those requested changes remain separate work.
+The simulation bundle stays under `simulation/`, with the latest promo, portable
+scene/playback, looping preview and scoped evidence grouped in `simulation/promo_v5/`.
+Revision 5 includes the left parallel/right stock-claw swap, upright rack
+transfers, gripper close-ups, smooth camera, supplied scanner screen and logo,
+and Nori continuing away through the ending. The previous v4 bundle remains
+available as history; the separate contact-tested live LeHisto demo is unchanged.

@@ -1,0 +1,55 @@
+{
+  "duration_s": 60,
+  "frames": 1800,
+  "fps": 30,
+  "gripper_inset_windows": [
+    {
+      "start": 20.183496332518352,
+      "end": 24.608679706601478,
+      "label": "RACK PICKUP"
+    },
+    {
+      "start": 39.08958060288336,
+      "end": 42.70596330275229,
+      "label": "STAINER DROP-OFF"
+    }
+  ],
+  "scene_sha256": "a3cb21d0fabbde1b940ad89bde89f9e998894ab0c595cf963d4c0d93e06fb0cf",
+  "states_sha256": "96576077f7394713abcbd79c17314b5b3438f01b8dbe1a52a5e533499c031919",
+  "timing_knots": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      7.0,
+      6.499999999999985
+    ],
+    [
+      14.0,
+      31.000000000000306
+    ],
+    [
+      31.0,
+      71.89999999999806
+    ],
+    [
+      35.0,
+      85.84999999999727
+    ],
+    [
+      47.0,
+      123.9999999999951
+    ],
+    [
+      54.5,
+      139.89999999999756
+    ],
+    [
+      60.0,
+      145.39999999999756
+    ]
+  ],
+  "physical_success": false,
+  "scope": "Staged kinematic film, sampled CAD collision review and recorded background actions; not hardware/contact-force validation."
+}

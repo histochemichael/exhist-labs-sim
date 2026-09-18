@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "frames": 1800,
+  "intersections": [],
+  "maximum_loaded_rack_tilt_deg": 0.008286590321347306,
+  "physical_success": false,
+  "scene_sha256": "a1771c7f1932570555f423dbf48cf1eb9ad659a9ce0eb6e9abb40261c2e4d78d",
+  "states_sha256": "96576077f7394713abcbd79c17314b5b3438f01b8dbe1a52a5e533499c031919",
+  "scope": "Video-rate Nori solids and payload versus six equipment stations and worktops; opposing arms, head and own payload/tool. Original claw/pull-bar contact excluded. Not force/slip/continuous-time or complete room/self-collision certification."
+}

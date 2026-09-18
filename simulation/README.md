@@ -17,13 +17,13 @@ A CAD-based histology laboratory in MuJoCo: LeHisto sorting and special staining
 
 ## Install and run
 
-### Latest: 60-second upright-rack promo
+### Latest: 60-second promo with gripper close-ups
 
-[![Watch the latest ExHist Labs promo](promo_v4/video-check-upright-oven-pickup.jpg)](promo_v4/ExHist-Labs-Promo-60s.mp4)
+[![Watch the latest ExHist Labs promo](promo_v5/preview.gif)](promo_v5/ExHist-Labs-Promo-60s.mp4)
 
-[Watch/download the 60-second MP4](promo_v4/ExHist-Labs-Promo-60s.mp4) · [Demo instructions and evidence](docs/PROMO.md)
+[Watch/download the 60-second MP4](promo_v5/ExHist-Labs-Promo-60s.mp4) · [Replay instructions and evidence](promo_v5/README.md)
 
-Nori opens the oven with its left claw, carries an upright rack with its straight parallel gripper, closes the oven, and loads the stainer. The stainer places the rack in the first rear vessel as Nori leaves. Background LeHisto sorting and the logo ending are included. The promo ovens have **120 mm extra upper clearance** as a modified concept, not stock Quincy dimensions.
+In revision 5, Nori uses the original **right claw** for equipment access and the **left parallel gripper** for the upright rack. The loaded scanner, supplied PC screenshot, recorded LeHisto folder/sorting/staining work, top-right rack-handling close-ups and exact logo ending are included. Nori continues rolling away through the fade. The promo ovens have **120 mm extra upper clearance** as a modified concept, not stock Quincy dimensions. This is staged kinematic playback; see the scoped evidence and limitations in the promo guide.
 
 The authored cut kept rack tilt below **0.018 degrees** and passed scoped geometric checks at all **1,800 frames**. This is **staged kinematic playback**, not a full-lab contact-physics result or proof of real slide retention. Fresh packaged checks and preserved author evidence are linked in the guide.
 
@@ -183,7 +183,7 @@ Second scanner and PC with the same development limitations.
 
 ![Nori A3 in the current laboratory stance](docs/images/asset-nori.png)
 
-Nori retains the stock left claw and the parallel histology gripper on the other arm. Its raised inspection posture keeps the shoulders above the 800 mm benches. Gripper grooves are user-tested hardware geometry; the complete simulated grasp/transfer chain still needs validation. Nori’s source model is [bundled here](source/nori/Nori%20with%20parallel%20histo%20gripper.xml), with [mesh files](assets/nori) and [license/limitations](licenses/nori/NOTICE). **No Nori STEP manufacturing CAD was supplied; none is fabricated from these meshes.**
+The historical base environments retain the stock left claw and parallel histology gripper on the other arm. **The latest [v5 promo scene](promo_v5/scene.xml) swaps these: left parallel tool, right stock claw.** Its raised inspection posture keeps the shoulders above the 800 mm benches. Gripper grooves are user-tested hardware geometry; complete contact-force grasp/transfer validation remains separate. Nori’s original source model is [bundled here](source/nori/Nori%20with%20parallel%20histo%20gripper.xml), with [mesh files](assets/nori) and [license/limitations](licenses/nori/NOTICE). **No Nori STEP manufacturing CAD was supplied; none is fabricated from these meshes.**
 
 ![Cabinets, shelves, work bays, chairs, doors, windows and PCs](docs/images/asset-room.png)
 

@@ -14,7 +14,11 @@ simulation/            Self-contained simulation and historical evidence
   source/              Pinned source models and component provenance
   licenses/            Upstream license notices
   docs/                Station images, asset catalog, validation guides
-  promo_v4/            Current published promo, playback and scoped evidence
+  promo_v5/            Latest MP4, looping GIF, portable scene/playback and evidence
+    background-assets/ Recorded folder-rig meshes
+    evidence/          Author provenance and packaged replay verification
+    images/            A few selected review frames
+  promo_v4/            Historical promo, playback and scoped evidence
   rail_loop_reference/ Pinned LeHisto loop implementation and data
   tools/               Installation, unpacking and publication utilities
 ```

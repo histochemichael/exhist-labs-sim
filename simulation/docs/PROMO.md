@@ -1,4 +1,21 @@
-# Upright-rack 60-second promo
+# ExHist Labs 60-second promo
+
+## Current revision: v5
+
+[![Looping latest promo](../promo_v5/preview.gif)](../promo_v5/ExHist-Labs-Promo-60s.mp4)
+
+[Full-quality video](../promo_v5/ExHist-Labs-Promo-60s.mp4) ·
+[Portable playback, run instructions and scoped evidence](../promo_v5/README.md)
+
+The current film has the left parallel gripper/right stock claw, scanner slides
+and supplied display image, background folder placement, upright rack transfer,
+fading gripper close-ups, smooth camera, native stainer fork placement, and Nori
+rolling away through the logo fade. It remains a staged simulation concept.
+
+## Historical revision: v4
+
+The remaining instructions and reports below describe the preserved v4 film,
+not the current v5 motion or tool configuration.
 
 [Play/download the video](../promo_v4/ExHist-Labs-Promo-60s.mp4)
 

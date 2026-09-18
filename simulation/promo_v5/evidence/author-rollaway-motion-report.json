@@ -1,0 +1,15 @@
+{
+  "start_source_s": 137.99999999999713,
+  "start_video_s": 53.603773584905596,
+  "constant_video_speed_m_s": 0.5,
+  "acceleration_duration_video_s": 0.65,
+  "additional_travel_from_start_m": 3.0356132075472018,
+  "wheel_radius_m": 0.075,
+  "earlier_sequence_unchanged": true,
+  "arms_and_equipment_unchanged": true,
+  "rack_and_slide_states_unchanged": true,
+  "logo_timing_unchanged": true,
+  "source_sha256": "8b9107ba26b341fa3e769c4683ab0f2bee3d9f4840c4ebaf230dda8f405dc8c1",
+  "states_sha256": "96576077f7394713abcbd79c17314b5b3438f01b8dbe1a52a5e533499c031919",
+  "scope": "Prescribed chassis/wheel kinematics, not wheel contact-force dynamics. Extended trajectory requires a fresh CAD audit."
+}

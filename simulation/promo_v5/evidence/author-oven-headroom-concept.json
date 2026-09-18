@@ -1,0 +1,16 @@
+{
+  "changed_meshes": [
+    "passive_quincy_0",
+    "passive_quincy_2",
+    "passive_quincy_5",
+    "passive_quincy_6",
+    "passive_quincy_7",
+    "passive_quincy_8",
+    "passive_quincy_10"
+  ],
+  "upper_height_added_m": 0.12,
+  "unchanged_below_local_z_m": 0.18,
+  "shelf_and_rack_seat_unchanged": true,
+  "handle_sites_unchanged": true,
+  "scope": "Taller simulation oven concept authorized by user; not manufacturer-certified Quincy geometry or a manufacturing STEP update."
+}
